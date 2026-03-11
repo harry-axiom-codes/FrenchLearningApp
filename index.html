@@ -1867,6 +1867,12 @@
 <body>
     <div class="app">
         <div class="main-content">
+            <!-- Install Banner -->
+            <div id="installBanner" style="display:none; background:var(--bleu); color:var(--blanc); padding:0.75rem 1rem; border-radius:var(--radius); margin-bottom:1rem; align-items:center; justify-content:space-between;">
+                <span style="font-size:0.9rem;">Install Mon Fran&ccedil;ais as an app for quick access</span>
+                <button id="installBtn" onclick="installApp()" style="background:var(--blanc); color:var(--bleu); border:none; padding:0.5rem 1.25rem; border-radius:8px; font-weight:600; cursor:pointer; font-family:inherit; font-size:0.9rem;">Install</button>
+            </div>
+
             <!-- Header -->
             <header class="header">
             <h1>Mon <span>Français</span></h1>
@@ -4115,6 +4121,24 @@
         renderVerbs();
         initGrammar();
         updatePathwayCards();
+
+        // PWA Install
+        var deferredPrompt = null;
+        window.addEventListener('beforeinstallprompt', function(e) {
+            e.preventDefault();
+            deferredPrompt = e;
+            document.getElementById('installBanner').style.display = 'flex';
+        });
+        window.addEventListener('appinstalled', function() {
+            document.getElementById('installBanner').style.display = 'none';
+            deferredPrompt = null;
+        });
+        window.installApp = function() {
+            if (deferredPrompt) {
+                deferredPrompt.prompt();
+                deferredPrompt.userChoice.then(function() { deferredPrompt = null; });
+            }
+        };
     </script>
 
     <!-- Grammar Practice Mode -->
