@@ -2471,11 +2471,12 @@
             document.getElementById('wodExampleEn').textContent = word[3] || '';
             document.getElementById('wodProgress').textContent = `Word ${wordIdx + 1} of ${french2000.length}`;
 
-            // Always show action buttons so user can cycle through words
-            document.querySelector('.wod-actions').innerHTML = `
-                <button class="wod-btn knew" onclick="rateWord(true)">Knew it</button>
-                <button class="wod-btn didnt" onclick="rateWord(false)">Didn't know</button>
-            `;
+            var wodActions = document.querySelector('.wod-actions');
+            if (wodActions) {
+                wodActions.innerHTML =
+                    '<button class="wod-btn knew" onclick="rateWord(true)">Knew it</button>' +
+                    '<button class="wod-btn didnt" onclick="rateWord(false)">Didn\'t know</button>';
+            }
         }
 
         function advanceToNextWord() {
@@ -4122,7 +4123,10 @@
         initGrammar();
         updatePathwayCards();
 
-        // PWA Install
+        // PWA
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js').catch(function() {});
+        }
         var deferredPrompt = null;
         window.addEventListener('beforeinstallprompt', function(e) {
             e.preventDefault();
