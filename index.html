@@ -4002,7 +4002,16 @@
             document.getElementById('pathwayGrid').style.display = 'grid';
             document.querySelector('.quote-card').style.display = 'block';
             document.getElementById('sectionView').style.display = 'none';
+            document.getElementById('sectionTabs').style.display = 'none';
             document.querySelectorAll('.panel').forEach(function(p) { p.classList.remove('active'); });
+            // Reset grammar chapter view if open
+            document.getElementById('grammarChapterView').style.display = 'none';
+            document.getElementById('grammarMap').style.display = 'block';
+            document.getElementById('grammarLogCard').style.display = 'block';
+            document.getElementById('grammarProgressCard').style.display = 'block';
+            // Re-render pathway cards with latest data
+            updateGrammarDashboard();
+            updatePathwayCards();
         }
 
         function updatePathwayCards() {
