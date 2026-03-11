@@ -1805,9 +1805,62 @@
         .grammar-log-score.medium { color: var(--bleu); background: rgba(59, 130, 246, 0.1); }
         .grammar-log-score.low { color: var(--accent); background: rgba(244, 114, 182, 0.1); }
 
+        /* Pathway Cards */
+        .pathway-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .pathway-card {
+            background: var(--blanc);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: var(--shadow);
+            cursor: pointer;
+            transition: all 0.2s;
+            border-left: 4px solid var(--gris-200);
+        }
+
+        .pathway-card:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-2px);
+        }
+
+        .pathway-grammar { border-left-color: var(--bleu); }
+        .pathway-vocab { border-left-color: var(--success); }
+        .pathway-lessons { border-left-color: var(--accent); }
+        .pathway-resources { border-left-color: var(--gris-600); }
+
+        .pathway-icon {
+            font-size: 1.75rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .pathway-title {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--marine);
+            margin-bottom: 0.25rem;
+        }
+
+        .pathway-subtitle {
+            font-size: 0.85rem;
+            color: var(--gris-600);
+            line-height: 1.4;
+        }
+
+        .pathway-detail {
+            font-size: 0.75rem;
+            color: var(--bleu);
+            margin-top: 0.5rem;
+        }
+
         @media (max-width: 900px) {
             .grammar-chapter-meta { display: none; }
             .practice-exercise-prompt { font-size: 1.15rem; }
+            .pathway-grid { grid-template-columns: 1fr; }
         }
     </style>
 </head>
@@ -1820,126 +1873,84 @@
             <p class="date" id="todayDate"></p>
         </header>
 
-        <!-- Daily Quote -->
-        <div class="quote-card">
-            <div class="quote-french" id="quoteFrench"></div>
-            <div class="quote-english" id="quoteEnglish"></div>
-            <div class="quote-source" id="quoteSource"></div>
+        <!-- Daily Quote (small, tasteful) -->
+        <div class="quote-card" style="padding:1rem; margin-bottom:1.5rem;">
+            <div class="quote-french" id="quoteFrench" style="font-size:1rem;"></div>
+            <div class="quote-english" id="quoteEnglish" style="font-size:0.8rem; margin-top:0.25rem;"></div>
+            <div class="quote-source" id="quoteSource" style="font-size:0.75rem;"></div>
         </div>
 
-        <!-- Word of the Day -->
-        <div class="word-of-day" id="wordOfDay">
-            <div class="wod-header">
-                <span class="wod-label">Mot du Jour</span>
-                <span style="display: flex; align-items: center; gap: 1rem;">
-                    <a href="file:///Users/harrysteinberg/Google%20Drive/My%20Drive/02_Learning/French/French2000/French2000.pdf" target="_blank" style="font-size: 0.75rem; color: var(--bleu); text-decoration: none;">View Full List</a>
-                    <span class="wod-progress" id="wodProgress">Word 1 of 1949</span>
-                </span>
-            </div>
-            <div class="wod-word" id="wodWord">Loading...</div>
-            <div class="wod-meaning" id="wodMeaning"></div>
-            <div class="wod-example">
-                <div class="wod-example-fr" id="wodExampleFr"></div>
-                <div class="wod-example-en" id="wodExampleEn"></div>
-            </div>
-            <div class="wod-actions">
-                <button class="wod-btn knew" onclick="rateWord(true)">Knew it</button>
-                <button class="wod-btn didnt" onclick="rateWord(false)">Didn't know</button>
-            </div>
-        </div>
-
-        <!-- Review Section -->
-        <div class="review-section" id="reviewSection" style="display: none;">
-            <div class="review-header">
-                <span class="review-label">Words to Review</span>
-                <span class="review-count" id="reviewCount">0</span>
-            </div>
-            <div id="reviewList"></div>
-        </div>
-
-        <!-- B2 Progress -->
-        <div class="b2-progress">
-            <div class="b2-header">
-                <h2>Journey to B2</h2>
-                <span class="b2-level">Current estimate: <strong id="currentLevel">A2/B1</strong></span>
-            </div>
-            <div class="b2-bar">
-                <div class="b2-fill" id="b2Fill" style="width: 45%"></div>
-            </div>
-            <div class="b2-stats">
-                <span>🔥 <span id="streakDays">0</span> day streak</span>
-                <span>📚 <span id="totalLessons">0</span> lessons</span>
-                <span>📝 <span id="totalVocab">0</span> words</span>
-                <span>⏱️ <span id="totalHours">0</span>h studied</span>
-            </div>
-        </div>
-
-        <!-- Family Speaking Reminder -->
-        <div class="family-reminder" id="familyReminder">
-            <div class="family-content">
-                <span class="family-icon">💬</span>
-                <span class="family-text"><em>Parle français avec ta famille</em></span>
-            </div>
-            <div class="family-stats" id="familyStats"></div>
-            <button class="family-btn" id="familyBtn" onclick="toggleFamilySpeaking()">
-                <span id="familyCheck">○</span> Today
-            </button>
-        </div>
-
-        <!-- Today's Focus -->
-        <div class="todays-focus">
-            <div class="focus-label">Today's study suggestion</div>
-            <div class="focus-title" id="focusTitle">Listen to RFI Journal</div>
-            <div class="focus-subtitle" id="focusSubtitle">Today's news in easy French — perfect for the commute or while making coffee</div>
-            <div class="focus-time">
-                <span>⏱️</span>
-                <span id="focusDuration">~10 minutes</span>
-            </div>
-            <button class="focus-action" id="focusAction" onclick="doFocusAction()">
-                <span id="focusIcon">▶️</span>
-                <span id="focusActionText">Start Listening</span>
-            </button>
-            <button class="focus-skip" onclick="skipToday()">Not feeling it? Show me something else →</button>
-        </div>
-
-        <!-- Quick Stats -->
-        <div class="stats-row">
-            <div class="stat-card">
-                <div class="stat-number" id="weekStudy">0</div>
-                <div class="stat-label">hours this week</div>
-                <div class="stat-sub" id="weekGoal"></div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number" id="monthLessons">0</div>
-                <div class="stat-label">lessons this month</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number" id="totalVocabStat">0</div>
-                <div class="stat-label">vocabulary words</div>
-            </div>
-            <div class="stat-card lesson-start" onclick="startLessonMode()">
-                <div class="stat-number">🎓</div>
-                <div class="stat-label">Start Lesson</div>
-            </div>
-        </div>
-
-        <!-- Grammar Progress Card -->
-        <div class="card grammar-dashboard-card" id="grammarDashboardCard" onclick="showPanel('grammar')" style="cursor:pointer; margin-bottom: 1rem;">
-            <div style="display:flex; align-items:center; justify-content:space-between;">
-                <div>
-                    <div style="font-size:0.8rem; color:var(--gris-600); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:0.25rem;">Grammar Progress</div>
-                    <div style="font-size:1.1rem; font-weight:600; color:var(--marine);" id="grammarDashCurrentChapter">Loading...</div>
-                    <div style="font-size:0.85rem; color:var(--gris-600); margin-top:0.25rem;" id="grammarDashNextChapter"></div>
+        <!-- Pathway Cards -->
+        <div class="pathway-grid" id="pathwayGrid">
+            <div class="pathway-card pathway-grammar" onclick="showSection('grammar')">
+                <div class="pathway-icon">📖</div>
+                <div class="pathway-title">Grammar</div>
+                <div class="pathway-subtitle" id="grammarDashCurrentChapter">Loading...</div>
+                <div class="grammar-progress-bar" style="margin-top:0.75rem;">
+                    <div class="grammar-progress-fill" id="grammarDashProgressFill"></div>
                 </div>
-                <button class="btn-primary" onclick="event.stopPropagation(); continueGrammar()" style="white-space:nowrap;">Continue Grammar</button>
             </div>
-            <div class="grammar-progress-bar" style="margin-top:0.75rem;">
-                <div class="grammar-progress-fill" id="grammarDashProgressFill"></div>
+
+            <div class="pathway-card pathway-vocab" onclick="showSection('vocabulary')">
+                <div class="pathway-icon">💬</div>
+                <div class="pathway-title">Vocabulary</div>
+                <div class="pathway-subtitle"><span id="wodWord">Loading...</span> <span style="color:var(--gris-400);">&#8212;</span> <span id="wodMeaning"></span></div>
+                <div class="pathway-detail" id="vocabReviewBadge"></div>
+            </div>
+
+            <div class="pathway-card pathway-lessons" onclick="showSection('lessons')">
+                <div class="pathway-icon">👩‍🏫</div>
+                <div class="pathway-title">Lessons</div>
+                <div class="pathway-subtitle" id="nextLessonSummary">Marjorie &amp; Florence</div>
+                <div class="pathway-detail" id="lessonStatSummary"></div>
+            </div>
+
+            <div class="pathway-card pathway-resources" onclick="showSection('resources')">
+                <div class="pathway-icon">🎧</div>
+                <div class="pathway-title">Listen, Watch &amp; Study</div>
+                <div class="pathway-subtitle">Podcasts, shows, courses</div>
             </div>
         </div>
 
-        <!-- Tabs -->
-        <div class="tabs">
+        <!-- Hidden elements that existing JS needs -->
+        <div style="display:none;">
+            <span id="wodProgress"></span>
+            <span id="wodExampleFr"></span>
+            <span id="wodExampleEn"></span>
+            <span id="grammarDashNextChapter"></span>
+            <span id="currentLevel"></span>
+            <span id="streakDays"></span>
+            <span id="totalLessons"></span>
+            <span id="totalVocab"></span>
+            <span id="totalHours"></span>
+            <span id="weekStudy"></span>
+            <span id="weekGoal"></span>
+            <span id="monthLessons"></span>
+            <span id="totalVocabStat"></span>
+            <span id="familyStats"></span>
+            <span id="familyCheck"></span>
+            <span id="focusTitle"></span>
+            <span id="focusSubtitle"></span>
+            <span id="focusDuration"></span>
+            <span id="focusIcon"></span>
+            <span id="focusActionText"></span>
+            <div id="reviewSection" style="display:none;"><span id="reviewCount"></span><div id="reviewList"></div></div>
+            <div id="familyReminder"><button id="familyBtn"></button></div>
+            <div id="b2Fill"></div>
+            <div id="focusAction"></div>
+            <div id="wordOfDay"></div>
+        </div>
+
+        <!-- Section View (hidden until a pathway is clicked) -->
+        <div id="sectionView" style="display:none;">
+            <button class="grammar-back-btn" onclick="showHome()" style="margin-bottom:1rem;">&#8592; Back to home</button>
+
+            <!-- Tabs for active section -->
+            <div class="tabs" id="sectionTabs" style="display:none;"></div>
+        </div>
+
+        <!-- Tabs (hidden by default, shown inside sections) -->
+        <div class="tabs" id="mainTabs" style="display:none;">
             <button class="tab active" data-panel="lessons" onclick="showPanel('lessons')">Lessons</button>
             <button class="tab" data-panel="listen" onclick="showPanel('listen')">Listen</button>
             <button class="tab" data-panel="watch" onclick="showPanel('watch')">Watch</button>
@@ -3950,6 +3961,100 @@
             updateGrammarDashboard();
         }
 
+        // ============ HOME / SECTION NAVIGATION ============
+        function showSection(section) {
+            // Hide pathway grid and quote
+            document.getElementById('pathwayGrid').style.display = 'none';
+            document.querySelector('.quote-card').style.display = 'none';
+
+            // Show section view with back button
+            document.getElementById('sectionView').style.display = 'block';
+
+            // Hide all panels first
+            document.querySelectorAll('.panel').forEach(function(p) { p.classList.remove('active'); });
+
+            var sectionTabs = document.getElementById('sectionTabs');
+
+            if (section === 'grammar') {
+                sectionTabs.style.display = 'none';
+                document.getElementById('grammar').classList.add('active');
+            } else if (section === 'vocabulary') {
+                sectionTabs.style.display = 'flex';
+                sectionTabs.innerHTML =
+                    '<button class="tab active" onclick="showPanel(\'vocabulary\')">Words</button>' +
+                    '<button class="tab" onclick="showPanel(\'verbs\')">Verbs</button>';
+                document.getElementById('vocabulary').classList.add('active');
+                renderVocab();
+            } else if (section === 'lessons') {
+                sectionTabs.style.display = 'none';
+                document.getElementById('lessons').classList.add('active');
+            } else if (section === 'resources') {
+                sectionTabs.style.display = 'flex';
+                sectionTabs.innerHTML =
+                    '<button class="tab active" onclick="showPanel(\'listen\')">Listen</button>' +
+                    '<button class="tab" onclick="showPanel(\'watch\')">Watch</button>' +
+                    '<button class="tab" onclick="showPanel(\'study\')">Study</button>';
+                document.getElementById('listen').classList.add('active');
+            }
+        }
+
+        function showHome() {
+            document.getElementById('pathwayGrid').style.display = 'grid';
+            document.querySelector('.quote-card').style.display = 'block';
+            document.getElementById('sectionView').style.display = 'none';
+            document.querySelectorAll('.panel').forEach(function(p) { p.classList.remove('active'); });
+        }
+
+        function updatePathwayCards() {
+            // Vocab review badge
+            var dueCount = 0;
+            var today = getTodayStr();
+            Object.keys(data.srs.reviews).forEach(function(idx) {
+                var r = data.srs.reviews[idx];
+                if (r.nextReview <= today) dueCount++;
+            });
+            var badge = document.getElementById('vocabReviewBadge');
+            badge.textContent = dueCount > 0 ? dueCount + ' word' + (dueCount !== 1 ? 's' : '') + ' to review' : '';
+
+            // Lesson stat
+            var lessonStat = document.getElementById('lessonStatSummary');
+            var thisMonth = data.lessons.filter(function(l) {
+                return l.date && l.date.substring(0, 7) === today.substring(0, 7);
+            }).length;
+            lessonStat.textContent = thisMonth > 0 ? thisMonth + ' lesson' + (thisMonth !== 1 ? 's' : '') + ' this month' : '';
+        }
+
+        // Override showPanel to work within sections
+        var _origShowPanel = showPanel;
+        showPanel = function(panelId) {
+            document.querySelectorAll('.panel').forEach(function(p) { p.classList.remove('active'); });
+            document.getElementById(panelId).classList.add('active');
+            // Update tab highlighting in section tabs
+            var tabs = document.getElementById('sectionTabs');
+            if (tabs) {
+                tabs.querySelectorAll('.tab').forEach(function(t) {
+                    t.classList.remove('active');
+                    if (t.textContent.toLowerCase().replace(/\s/g,'') === panelId ||
+                        (panelId === 'vocabulary' && t.textContent === 'Words') ||
+                        (panelId === 'verbs' && t.textContent === 'Verbs') ||
+                        (panelId === 'listen' && t.textContent === 'Listen') ||
+                        (panelId === 'watch' && t.textContent === 'Watch') ||
+                        (panelId === 'study' && t.textContent === 'Study'))
+                    {
+                        t.classList.add('active');
+                    }
+                });
+            }
+        };
+
+        // Override continueGrammar to use new nav
+        continueGrammar = function() {
+            showSection('grammar');
+            var currentCh = data.grammar.currentChapter;
+            var ch = GRAMMAR_CHAPTERS.find(function(c) { return c.id === currentCh; });
+            if (ch) openGrammarChapter(currentCh);
+        };
+
         // ============ DATA EXPORT/IMPORT ============
         function exportData() {
             const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
@@ -4000,6 +4105,7 @@
         renderVocab();
         renderVerbs();
         initGrammar();
+        updatePathwayCards();
     </script>
 
     <!-- Grammar Practice Mode -->
