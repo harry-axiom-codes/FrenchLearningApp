@@ -1,4 +1,4 @@
-const GRAMMAR_CHAPTERS = [
+var GRAMMAR_CHAPTERS = [
 {
   "id": 1,
   "section": "Les bases",
