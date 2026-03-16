@@ -2420,7 +2420,8 @@
         </div>
     </div>
 
-    <script src="grammar-data.js"></script>
+    <script>if(typeof GRAMMAR_CHAPTERS==="undefined")var GRAMMAR_CHAPTERS=[];</script>
+    <script src="grammar-data.js" onerror=""></script>
     <script>
         // ============ FRENCH 2000 WORDS ============
         // [french, english, frenchExample, englishExample]
