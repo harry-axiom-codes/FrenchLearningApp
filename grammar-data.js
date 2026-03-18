@@ -7,13 +7,13 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Vous ___ espagnol. Je ___ de Madrid.",
+      "prompt": "– Vous ___ espagnol ou portugais ? – Je ___ espagnol.",
       "answer": "êtes/suis",
       "hint": "p.9, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Vous ___ anglais. Je ___ de Londres.",
+      "prompt": "– Vous ___ anglais ? – Je ___ de Londres.",
       "answer": "êtes/suis",
       "hint": "p.9, ex.1"
     },
@@ -37,116 +37,116 @@ const GRAMMAR_CHAPTERS = [
     },
     {
       "id": 6,
-      "prompt": "Vous êtes espagnol ou portugais ? – Je suis ___",
-      "answer": "de Madrid. (ou : Je suis de Barcelone.)",
+      "prompt": "Vous êtes espagnol ou portugais ? Lui ? – Je suis ___",
+      "answer": "espagnol",
       "hint": "p.9, ex.2"
     },
     {
       "id": 7,
-      "prompt": "Vous êtes étudiant ou professeur ? – Je suis ___",
-      "answer": "étudiant. (ou : Je suis professeur.)",
+      "prompt": "Vous êtes de Madrid ou de Barcelone ? – Je suis ___",
+      "answer": "de Madrid",
       "hint": "p.9, ex.2"
     },
     {
       "id": 8,
-      "prompt": "Vous êtes marié ou célibataire ? – Je suis ___",
-      "answer": "marié. (ou : Je suis célibataire.)",
+      "prompt": "Vous êtes étudiant ou professeur ? – Je suis ___",
+      "answer": "étudiant",
       "hint": "p.9, ex.2"
     },
     {
       "id": 9,
-      "prompt": "Vous êtes fatigué ou en forme ? – Je suis ___",
-      "answer": "fatigué. (ou : Je suis en forme.)",
+      "prompt": "Vous êtes marié ou célibataire ? – Je suis ___",
+      "answer": "marié",
       "hint": "p.9, ex.2"
     },
     {
       "id": 10,
+      "prompt": "Vous êtes fatigué ou en forme ? – Je suis ___",
+      "answer": "fatigué",
+      "hint": "p.9, ex.2"
+    },
+    {
+      "id": 11,
       "prompt": "Paul : – Je suis en vacances ___ Nice. Et vous, vous êtes ___ l'hôtel ou ___ des amis ?",
       "answer": "à/à/chez",
       "hint": "p.9, ex.3"
     },
     {
-      "id": 11,
+      "id": 12,
       "prompt": "Aldo : – Non, je suis ___ un ami d'enfance, Philippe Letroux. Vous êtes ___ Nice pour travailler ?",
       "answer": "chez/à",
       "hint": "p.9, ex.3"
     },
     {
-      "id": 12,
-      "prompt": "Paul : – Moi, je suis souvent ___ Rome pour mon travail. Vous êtes ___ quelle ville, Aldo ?",
-      "answer": "à/de",
-      "hint": "p.9, ex.3"
-    },
-    {
       "id": 13,
-      "prompt": "Aldo : – Je suis ___ Naples. Mais je suis ___ Paris pour mes affaires.",
-      "answer": "de/à",
+      "prompt": "Paul : – Non, je suis ___ Lyon, mais je suis souvent ___ Rome pour mon travail. Vous êtes ___ quelle ville, Aldo ?",
+      "answer": "de/à/de",
       "hint": "p.9, ex.3"
     },
     {
       "id": 14,
-      "prompt": "Bruno Maggi, Italien, Florence, Londres (un ami). – Je m'appelle Bruno. Je suis ___. Je suis de ___. Actuellement, je suis chez ___ à ___.",
-      "answer": "italien/Florence/un ami/Londres",
-      "hint": "p.9, ex.4"
+      "prompt": "Aldo : – Je suis ___ Naples.",
+      "answer": "de",
+      "hint": "p.9, ex.3"
     },
     {
       "id": 15,
-      "prompt": "Anne Driand, Belge, Bruxelles, New York (hôtel Astoria). – Je m'appelle Anne. Je suis ___. Je suis de ___. Actuellement, je suis à ___, à ___.",
-      "answer": "belge/Bruxelles/l'hôtel Astoria/New York",
+      "prompt": "Présentez Bruno Maggi (italien, Bruxelles, New York – Astoria Hôtel) :\nJe m'appelle ___. Je suis ___. Je suis de ___. Actuellement, je suis ___ à ___.",
+      "answer": "Bruno/italien/Bruxelles/à l'hôtel Astoria/New York",
       "hint": "p.9, ex.4"
     },
     {
       "id": 16,
-      "prompt": "Clément Monier, Français, Avignon, Marseille (des cousins). – Je m'appelle Clément. Je suis ___. Je suis d'___. Actuellement, je suis chez ___, à ___.",
-      "answer": "français/Avignon/des cousins/Marseille",
+      "prompt": "Présentez Anne Girard (belge, Avignon, Paris pour mes affaires) :\nJe m'appelle ___. Je suis ___. Je suis d'___. Actuellement, je suis ___ à ___.",
+      "answer": "Anne/belge/Avignon/à Paris/pour mes affaires",
       "hint": "p.9, ex.4"
     },
     {
       "id": 17,
-      "prompt": "Vous êtes de Boston ? de Varsovie ? d'Athènes ?",
-      "answer": "Je suis de Francfort.",
-      "hint": "p.9, ex.5 - Réponse libre"
+      "prompt": "Présentez Clément Monier (français, Marseille, chez des cousins) :\nJe m'appelle ___. Je suis ___. Je suis de ___. Actuellement, je suis ___.",
+      "answer": "Clément/français/Marseille/chez des cousins à Marseille",
+      "hint": "p.9, ex.4"
     },
     {
       "id": 18,
-      "prompt": "Actuellement, vous êtes à Oslo ? à Londres ? à Vienne ?",
-      "answer": "Actuellement, je suis à Cologne.",
-      "hint": "p.9, ex.5 - Réponse libre"
+      "prompt": "1. – Vous êtes de Boston ? de Varsovie ? d'Athènes ?",
+      "answer": "Réponse libre",
+      "hint": "p.9, ex.5"
     },
     {
       "id": 19,
-      "prompt": "Vous êtes chez vous ? au bureau ? à l'université ? au lycée ?",
-      "answer": "Je suis à l'université.",
-      "hint": "p.9, ex.5 - Réponse libre"
+      "prompt": "2. – Actuellement, vous êtes à Oslo ? à Londres ? à Vienne ?",
+      "answer": "Réponse libre",
+      "hint": "p.9, ex.5"
     },
     {
       "id": 20,
-      "prompt": "Tu ___ célibataire ou tu ___ marié(e) ?",
+      "prompt": "3. – Vous êtes chez vous ? au bureau ? à l'université ? au lycée ?",
+      "answer": "Réponse libre",
+      "hint": "p.9, ex.5"
+    },
+    {
+      "id": 21,
+      "prompt": "– Tu ___ célibataire ou tu ___ marié(e) ?",
       "answer": "es/es",
       "hint": "p.11, ex.1"
     },
     {
-      "id": 21,
-      "prompt": "La femme ___ française ?",
-      "answer": "est",
-      "hint": "p.11, ex.1"
-    },
-    {
       "id": 22,
-      "prompt": "___ est espagnole comme moi.",
-      "answer": "Elle",
+      "prompt": "– La femme ___ française ? – Vous ___ suisse, mademoiselle ?",
+      "answer": "est/êtes",
       "hint": "p.11, ex.1"
     },
     {
       "id": 23,
-      "prompt": "– Vous ___ aussi espagnols ? De quelle ville ?",
-      "answer": "êtes",
+      "prompt": "– ___ est espagnole comme moi. – Nous ___ aussi espagnols. De Séville.",
+      "answer": "Elle/sommes",
       "hint": "p.11, ex.1"
     },
     {
       "id": 24,
-      "prompt": "– Nous ___ de Séville.",
-      "answer": "sommes",
+      "prompt": "– Vous ___ aussi espagnols ? De quelle ville ?",
+      "answer": "êtes",
       "hint": "p.11, ex.1"
     },
     {
@@ -157,19 +157,19 @@ const GRAMMAR_CHAPTERS = [
     },
     {
       "id": 26,
-      "prompt": "1. ___ ___ seule, mademoiselle ?",
+      "prompt": "1. ___ ___ seule, madame ?",
       "answer": "Vous êtes",
       "hint": "p.11, ex.2"
     },
     {
       "id": 27,
-      "prompt": "2. ___ ___ suisse, madame ?",
+      "prompt": "2. ___ ___ suisse ou d'Athènes ?",
       "answer": "Vous êtes",
       "hint": "p.11, ex.2"
     },
     {
       "id": 28,
-      "prompt": "3. ___ ___ française ?",
+      "prompt": "3. ___ ___ prêt, les enfants ?",
       "answer": "Tu es",
       "hint": "p.11, ex.2"
     },
@@ -181,86 +181,110 @@ const GRAMMAR_CHAPTERS = [
     },
     {
       "id": 30,
-      "prompt": "5. ___ ___ prêts, les enfants ?",
+      "prompt": "5. ___ ___ monsieur Dubois ?",
       "answer": "Vous êtes",
       "hint": "p.11, ex.2"
     },
     {
       "id": 31,
-      "prompt": "6. ___ ___ satisfait, monsieur ?",
+      "prompt": "6. ___ ___ de Prague, monsieur ?",
       "answer": "Vous êtes",
       "hint": "p.11, ex.2"
     },
     {
       "id": 32,
-      "prompt": "1. – Le professeur ___ là ? – Oui, il ___ là.",
+      "prompt": "– Le professeur ___ là ? – Oui, il ___ là.",
       "answer": "est/est",
       "hint": "p.11, ex.3"
     },
     {
       "id": 33,
-      "prompt": "2. – La taille ___ grande ? – Oui, elle ___ grande.",
+      "prompt": "– La table ___ grande ? – Oui, elle ___ grande.",
       "answer": "est/est",
       "hint": "p.11, ex.3"
     },
     {
       "id": 34,
-      "prompt": "3. – Les choses ___ en bois ? – Oui, elles ___ en bois.",
+      "prompt": "– Les choses ___ en bois ? – Oui, elles ___ en bois.",
       "answer": "sont/sont",
       "hint": "p.11, ex.3"
     },
     {
       "id": 35,
-      "prompt": "4. – Votre livre ___ bleu ? – Oui, il ___ bleu.",
+      "prompt": "– Votre livre ___ bleu ? – Oui, il ___ bleu.",
       "answer": "est/est",
       "hint": "p.11, ex.3"
     },
     {
       "id": 36,
-      "prompt": "5. – Nous ___ mardi ? – Oui, nous ___ mardi.",
+      "prompt": "– Nous ___ mardi ? – Oui, nous ___ mardi.",
       "answer": "sommes/sommes",
       "hint": "p.11, ex.3"
     },
     {
       "id": 37,
-      "prompt": "6. – On ___ le 4 ? – Oui, on ___ le 4.",
+      "prompt": "– On ___ le 4 ? – Oui, on ___ le 4.",
       "answer": "est/est",
       "hint": "p.11, ex.3"
     },
     {
       "id": 38,
-      "prompt": "7. – Les enfants ___ en forme ? – Oui, ils ___ en forme.",
+      "prompt": "– Les étudiants ___ en forme ? – Oui, ils ___ en forme.",
       "answer": "sont/sont",
       "hint": "p.11, ex.3"
     },
     {
       "id": 39,
-      "prompt": "Chère Marie, Jean et moi, ___ à Cannes, ___ bien sur la plage. Depuis le 15/09/12, ___ en pleine forme. Mais c'est normal quand ___ toujours en vacances. Grosses bises ! Léa",
-      "answer": "nous sommes/on est ... nous sommes/on est ... nous sommes/on est ... on est",
+      "prompt": "Depuis 10 heures, Jean et moi, ___ à Cannes.",
+      "answer": "nous sommes/on est",
       "hint": "p.11, ex.4"
     },
     {
       "id": 40,
-      "prompt": "1. – Danielle et Jean sont à Aix ? – Non, ___",
-      "answer": "ils sont à Paris.",
-      "hint": "p.11, ex.5"
+      "prompt": "Comme ___ bien, ___ sur la plage.",
+      "answer": "on est/on est",
+      "hint": "p.11, ex.4"
     },
     {
       "id": 41,
-      "prompt": "2. – Danielle est libre aujourd'hui ? – Non, ___",
-      "answer": "elle est occupée toute la journée aujourd'hui.",
-      "hint": "p.11, ex.5"
+      "prompt": "___ normal quand ___ en pleine forme.",
+      "answer": "C'est/on est",
+      "hint": "p.11, ex.4"
     },
     {
       "id": 42,
-      "prompt": "3. – Martine et Jean sont chez des amis ? – Non, ___",
-      "answer": "ils sont à l'hôtel.",
-      "hint": "p.11, ex.5"
+      "prompt": "___ toujours en forme quand ___ en vacances.",
+      "answer": "On est/on est",
+      "hint": "p.11, ex.4"
     },
     {
       "id": 43,
-      "prompt": "4. – Les filles sont au lycée ou en vacances ? – ___",
-      "answer": "Elles sont en vacances.",
+      "prompt": "Grosses bises ! Éva",
+      "answer": "Réponse libre",
+      "hint": "p.11, ex.4"
+    },
+    {
+      "id": 44,
+      "prompt": "Les étudiants sont à Marseille ? – Non, ___ à Paris.",
+      "answer": "ils sont",
+      "hint": "p.11, ex.5"
+    },
+    {
+      "id": 45,
+      "prompt": "Danielle est libre aujourd'hui ? – Non, ___ occupée toute la journée.",
+      "answer": "elle est",
+      "hint": "p.11, ex.5"
+    },
+    {
+      "id": 46,
+      "prompt": "Martine et Jean sont chez des amis ? – Non, ___ à l'hôtel.",
+      "answer": "ils sont",
+      "hint": "p.11, ex.5"
+    },
+    {
+      "id": 47,
+      "prompt": "Les filles sont au lycée ou en vacances ? – ___ en vacances.",
+      "answer": "Elles sont",
       "hint": "p.11, ex.5"
     }
   ]
@@ -273,410 +297,410 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "1. Franz est allemand. Petra est ___.",
+      "prompt": "Franz est allemand. Petra est ___.",
       "answer": "allemande",
       "hint": "p.13, ex.1"
     },
     {
       "id": 2,
-      "prompt": "2. Mon père est français. Ma mère est ___.",
-      "answer": "française",
+      "prompt": "Michael est anglais. Cathy est ___.",
+      "answer": "anglaise",
       "hint": "p.13, ex.1"
     },
     {
       "id": 3,
-      "prompt": "3. Mon frère est grand. Ma sœur est ___.",
+      "prompt": "Mon père est grand. Ma mère est ___.",
       "answer": "grande",
       "hint": "p.13, ex.1"
     },
     {
       "id": 4,
-      "prompt": "4. Monsieur Daudet est blond. Madame Daudet est ___.",
+      "prompt": "Mon frère est blond. Ma sœur est ___.",
       "answer": "blonde",
       "hint": "p.13, ex.1"
     },
     {
       "id": 5,
-      "prompt": "5. Le petit garçon est content. La petite fille est ___.",
+      "prompt": "Le petit garçon est content. La petite fille est ___.",
       "answer": "contente",
       "hint": "p.13, ex.1"
     },
     {
       "id": 6,
-      "prompt": "6. Monsieur Charles est élégant. Madame Charles est ___.",
+      "prompt": "Monsieur Charles est élégant. Madame Charles est ___.",
       "answer": "élégante",
       "hint": "p.13, ex.1"
     },
     {
       "id": 7,
-      "prompt": "7. Paul est intelligent. Alice est ___.",
+      "prompt": "Paul est intelligent. Alice est ___.",
       "answer": "intelligente",
       "hint": "p.13, ex.1"
     },
     {
       "id": 8,
-      "prompt": "8. Le mari de Zoé est sympathique. La femme de Max est ___.",
+      "prompt": "Le mari de Zoé est sympathique. La femme de Max est ___.",
       "answer": "sympathique",
       "hint": "p.13, ex.1"
     },
     {
       "id": 9,
-      "prompt": "Monsieur Daudet est agréable et charmant. Madame Daudet est ___ et ___.",
-      "answer": "agréable et charmante",
+      "prompt": "Axel est jeune et timide. Joanna est ___ et ___.",
+      "answer": "jeune/timide",
       "hint": "p.13, ex.2"
     },
     {
       "id": 10,
-      "prompt": "1. Joanna est jeune et timide. Le père de Kevin est ___ et ___.",
-      "answer": "jeune et timide",
+      "prompt": "Le père de Kevin est grand et bronzé. La mère de Kevin est ___ et ___.",
+      "answer": "grande/bronzée",
       "hint": "p.13, ex.2"
     },
     {
       "id": 11,
-      "prompt": "2. La mère de Kevin est blonde et frisée. L'infirmier est ___ et ___.",
-      "answer": "blond et frisé",
+      "prompt": "La sœur de Laure est gentille et compétente. Le frère de Laure est ___ et ___.",
+      "answer": "gentil/compétent",
       "hint": "p.13, ex.2"
     },
     {
       "id": 12,
-      "prompt": "3. La sœur de Laure est grande et bronzée. Le frère est ___ et ___.",
-      "answer": "grand et bronzé",
+      "prompt": "L'infirmière est souriante et bavarde. L'infirmier est ___ et ___.",
+      "answer": "souriant/bavard",
       "hint": "p.13, ex.2"
     },
     {
       "id": 13,
-      "prompt": "4. L'infirmière est gentille et compétente. Steve est ___ et ___.",
-      "answer": "gentil et compétent",
+      "prompt": "La boulangère est intelligente, créative, originale. Le boulanger est ___, ___, ___.",
+      "answer": "intelligent/créatif/original",
       "hint": "p.13, ex.2"
     },
     {
       "id": 14,
-      "prompt": "5. La boulangère est souriante et bavarde. Le serveur est ___ et ___.",
-      "answer": "souriant et bavard",
+      "prompt": "Nancy est mignonne et sympathique. Steve est ___ et ___.",
+      "answer": "mignon/sympathique",
       "hint": "p.13, ex.2"
     },
     {
       "id": 15,
-      "prompt": "6. Le concierge est intelligent, créatif et original. Nancy est ___, ___ et ___.",
-      "answer": "intelligente, créative et originale",
+      "prompt": "Le serveur est paresseux et agressif. La serveuse est ___ et ___.",
+      "answer": "paresseuse/agressive",
       "hint": "p.13, ex.2"
     },
     {
       "id": 16,
-      "prompt": "7. Le serveur est mignon et sympathique. La serveuse est ___ et ___.",
-      "answer": "mignonne et sympathique",
+      "prompt": "Le concierge est gentil et sympathique. La concierge est ___ et ___.",
+      "answer": "gentille/sympathique",
       "hint": "p.13, ex.2"
     },
     {
       "id": 17,
-      "prompt": "8. Le concierge est paresseux et agressif. La concierge est ___ et ___.",
-      "answer": "paresseuse et agressive",
-      "hint": "p.13, ex.2"
-    },
-    {
-      "id": 18,
-      "prompt": "1. Un sac neuf et une veste ___.",
-      "answer": "neuve",
-      "hint": "p.13, ex.3"
-    },
-    {
-      "id": 19,
-      "prompt": "2. Un pull bleu et une armoire ___.",
+      "prompt": "Un pull bleu et une robe ___.",
       "answer": "bleue",
       "hint": "p.13, ex.3"
     },
     {
-      "id": 20,
-      "prompt": "3. Un tapis ancien et une armoire ___.",
+      "id": 18,
+      "prompt": "Un tapis ancien et une armoire ___.",
       "answer": "ancienne",
       "hint": "p.13, ex.3"
     },
     {
-      "id": 21,
-      "prompt": "4. Un poisson frais et une viande ___.",
+      "id": 19,
+      "prompt": "Un poisson frais et une viande ___.",
       "answer": "fraîche",
       "hint": "p.13, ex.3"
     },
     {
+      "id": 20,
+      "prompt": "Un chapeau blanc et une robe ___.",
+      "answer": "blanche",
+      "hint": "p.13, ex.3"
+    },
+    {
+      "id": 21,
+      "prompt": "Un virage dangereux et une route ___.",
+      "answer": "dangereuse",
+      "hint": "p.13, ex.3"
+    },
+    {
       "id": 22,
-      "prompt": "5. Un projet fou et une idée ___.",
+      "prompt": "Un projet fou et une pièce ___.",
       "answer": "folle",
       "hint": "p.13, ex.3"
     },
     {
       "id": 23,
-      "prompt": "6. Un chapeau blanc et une robe ___.",
-      "answer": "blanche",
-      "hint": "p.13, ex.3"
-    },
-    {
-      "id": 24,
-      "prompt": "7. Un orage dangereux et une route ___.",
-      "answer": "dangereuse",
-      "hint": "p.13, ex.3"
-    },
-    {
-      "id": 25,
-      "prompt": "8. Un film génial et une pièce ___.",
+      "prompt": "Un film génial et une pièce ___.",
       "answer": "géniale",
       "hint": "p.13, ex.3"
     },
     {
+      "id": 24,
+      "prompt": "Classez : « bas » est masculin ou féminin ?",
+      "answer": "masculin",
+      "hint": "p.13, ex.4"
+    },
+    {
+      "id": 25,
+      "prompt": "Classez : « gentille » est masculin ou féminin ?",
+      "answer": "féminin",
+      "hint": "p.13, ex.4"
+    },
+    {
       "id": 26,
-      "prompt": "Classez selon le genre. Masculin : gentille, gros, folle, stupide, intéressant, chaude, longue, fatigué, bas. Quels sont les masculins ?",
-      "answer": "bas, gros, stupide, intéressant, fatigué",
+      "prompt": "Classez : « longue » est masculin ou féminin ?",
+      "answer": "féminin",
       "hint": "p.13, ex.4"
     },
     {
       "id": 27,
-      "prompt": "Classez selon le genre. Féminin : gentille, gros, folle, stupide, intéressant, chaude, longue, fatigué, bas. Quels sont les féminins ?",
-      "answer": "gentille, folle, stupide, longue, chaude",
+      "prompt": "Classez : « gros » est masculin ou féminin ?",
+      "answer": "masculin",
       "hint": "p.13, ex.4"
     },
     {
       "id": 28,
-      "prompt": "Monet est canadienne. Elle est grande, brune et sportive. Elle est belle (mais un peu superficielle). → Au masculin : Monet est ___.",
-      "answer": "canadien. Il est grand, brun et sportif. Il est beau (mais un peu superficiel).",
-      "hint": "p.13, ex.5"
+      "prompt": "Classez : « folle » est masculin ou féminin ?",
+      "answer": "féminin",
+      "hint": "p.13, ex.4"
     },
     {
       "id": 29,
-      "prompt": "1. Pierre est sympathique. Pierre et Alain sont ___.",
+      "prompt": "Monet est canadienne. Elle est grande, brune et sportive. Elle est belle (mais un peu superficielle).\nAu masculin : Il est ___. Il est ___, ___ et ___. Il est ___ (mais un peu ___).",
+      "answer": "canadien/grand/brun/sportif/beau/superficiel",
+      "hint": "p.13, ex.5"
+    },
+    {
+      "id": 30,
+      "prompt": "Pierre est sympathique. Pierre et Alain sont ___.",
       "answer": "sympathiques",
       "hint": "p.15, ex.1"
     },
     {
-      "id": 30,
-      "prompt": "2. Stephan est réservé et mince. Stephan et Arthur sont ___ et ___.",
-      "answer": "réservés et minces",
-      "hint": "p.15, ex.1"
-    },
-    {
       "id": 31,
-      "prompt": "3. Arthur est petit et roux. Les parents de Jim sont ___ et ___.",
-      "answer": "petits et roux",
+      "prompt": "Stephan est réservé. Stephan et William sont ___.",
+      "answer": "réservés",
       "hint": "p.15, ex.1"
     },
     {
       "id": 32,
-      "prompt": "4. Le père de Jim est jaloux. Marcello et Alberto sont ___ aussi.",
-      "answer": "jaloux",
+      "prompt": "Arthur est petit et mince. Arthur et Bruno sont ___ et ___.",
+      "answer": "petits/minces",
       "hint": "p.15, ex.1"
     },
     {
       "id": 33,
-      "prompt": "5. Marcello est sentimental. Marc et Alberto sont ___.",
-      "answer": "sentimentaux",
+      "prompt": "Le père de Jim est roux. Les parents de Jim sont ___.",
+      "answer": "roux",
       "hint": "p.15, ex.1"
     },
     {
       "id": 34,
-      "prompt": "– J'aime bien ce pull. Il est trop doux, mais il est trop court. Cette année, les pulls sont ___.",
+      "prompt": "Marcello est jaloux. Marcello et Alberto sont ___.",
+      "answer": "jaloux",
+      "hint": "p.15, ex.1"
+    },
+    {
+      "id": 35,
+      "prompt": "C'est la mode ! Cette année, les pulls sont ___ (court).",
       "answer": "courts",
       "hint": "p.15, ex.2"
     },
     {
-      "id": 35,
-      "prompt": "– C'est la mode. Et essayez ces pantalons, ils sont vraiment ___.",
-      "answer": "classiques",
+      "id": 36,
+      "prompt": "– Oui, j'aime bien ce modèle, mais il est très doux, mais les ___.",
+      "answer": "Réponse libre",
       "hint": "p.15, ex.2"
     },
     {
-      "id": 36,
-      "prompt": "Michel est intelligent et sa femme aussi. → Michel et Angie ___ aussi ___ et sa femme aussi.",
-      "answer": "sont/intelligents",
-      "hint": "p.15, ex.3"
-    },
-    {
       "id": 37,
-      "prompt": "Paul est roux et charmant. → Paul et Luca ___ ___ et ___.",
-      "answer": "sont/roux/charmants",
+      "prompt": "Michel est intelligent et sa femme aussi. – C'est vrai, ils sont ___, tous les deux.",
+      "answer": "intelligents",
       "hint": "p.15, ex.3"
     },
     {
       "id": 38,
-      "prompt": "David est beau, mais il n'est pas très malin. → David et Julie ___ ___, mais ils ne ___ pas très ___.",
-      "answer": "sont/beaux/sont/malins",
+      "prompt": "Soleil est enrhumé et Julie aussi. – C'est vrai, ils sont ___, tous les deux.",
+      "answer": "enrhumés",
       "hint": "p.15, ex.3"
     },
     {
       "id": 39,
-      "prompt": "Le poisson est frais. Et les crevettes ? – Elles sont aussi ___.",
+      "prompt": "Paul est original et Luca aussi. – C'est vrai, ils sont ___, tous les deux.",
+      "answer": "originaux",
+      "hint": "p.15, ex.3"
+    },
+    {
+      "id": 40,
+      "prompt": "David est triste et Marie aussi. – C'est vrai, ils sont ___, tous les deux.",
+      "answer": "tristes",
+      "hint": "p.15, ex.3"
+    },
+    {
+      "id": 41,
+      "prompt": "Le poisson est frais. Et les crevettes ? – Elles sont aussi très ___.",
       "answer": "fraîches",
       "hint": "p.15, ex.4"
     },
     {
-      "id": 40,
-      "prompt": "Le dessert est original. Et les entrées ? – Elles sont aussi ___.",
+      "id": 42,
+      "prompt": "Le dessert est original. Et les entrées ? – Elles sont aussi très ___.",
       "answer": "originales",
       "hint": "p.15, ex.4"
     },
     {
-      "id": 41,
-      "prompt": "La salade est salée. Et les frites ? – Elles sont aussi ___.",
-      "answer": "salées",
-      "hint": "p.15, ex.4"
-    },
-    {
-      "id": 42,
-      "prompt": "Le restaurant est cher. Et les pêches ? – Elles sont aussi ___.",
-      "answer": "chères",
-      "hint": "p.15, ex.4"
-    },
-    {
       "id": 43,
-      "prompt": "Un pull léger. → Des ___.",
-      "answer": "pulls légers",
-      "hint": "p.15, ex.5"
+      "prompt": "La melon est sucré. Et les pêches ? – Elles sont aussi très ___.",
+      "answer": "sucrées",
+      "hint": "p.15, ex.4"
     },
     {
       "id": 44,
-      "prompt": "Une robe légère. → Des ___.",
-      "answer": "robes légères",
+      "prompt": "Un plat léger. Des plats ___.",
+      "answer": "légers",
       "hint": "p.15, ex.5"
     },
     {
       "id": 45,
-      "prompt": "Un plat régional. → Des ___.",
-      "answer": "plats régionaux",
+      "prompt": "Une robe légère. Des robes ___.",
+      "answer": "légères",
       "hint": "p.15, ex.5"
     },
     {
       "id": 46,
-      "prompt": "Une viande grillée. → Des ___.",
-      "answer": "viandes grillées",
+      "prompt": "Un plat régional. Des plats ___.",
+      "answer": "régionaux",
       "hint": "p.15, ex.5"
     },
     {
       "id": 47,
-      "prompt": "Un poisson grillé. → Des ___.",
-      "answer": "poissons grillés",
+      "prompt": "Une spécialité régionale. Des spécialités ___.",
+      "answer": "régionales",
       "hint": "p.15, ex.5"
     },
     {
       "id": 48,
-      "prompt": "Un sac marron foncé. → Des ___.",
-      "answer": "sacs marron foncé",
-      "hint": "p.15, ex.6"
+      "prompt": "Un pull gris. Des pulls ___.",
+      "answer": "gris",
+      "hint": "p.15, ex.5"
     },
     {
       "id": 49,
-      "prompt": "Un gant vert foncé. → Des ___.",
-      "answer": "gants vert foncé",
-      "hint": "p.15, ex.6"
+      "prompt": "Une viande grillée. Des viandes ___.",
+      "answer": "grillées",
+      "hint": "p.15, ex.5"
     },
     {
       "id": 50,
-      "prompt": "1. – Tu es prêt___, ma chérie ? – Moi, je suis prêt___, mais mes frères ne sont pas prêt___.",
-      "answer": "e/e/s",
-      "hint": "p.17, ex.1"
+      "prompt": "Décrivez les vêtements qui sont dans votre armoire.",
+      "answer": "Réponse libre",
+      "hint": "p.15, ex.6"
     },
     {
       "id": 51,
-      "prompt": "2. – Vous êtes étudiant___, mademoiselle(s) ?",
-      "answer": "es",
+      "prompt": "Vous êtes prêt___, madame ?",
+      "answer": "e",
       "hint": "p.17, ex.1"
     },
     {
       "id": 52,
-      "prompt": "3. – Vous êtes seul___, madame ?",
+      "prompt": "Tu es prêt___, ma chérie ?",
       "answer": "e",
       "hint": "p.17, ex.1"
     },
     {
       "id": 53,
-      "prompt": "6. – Vous êtes seul___, madame ?",
-      "answer": "e",
-      "hint": "p.17, ex.1"
-    },
-    {
-      "id": 54,
-      "prompt": "7. – Mes frères et moi, on est tous blond___.",
-      "answer": "s",
-      "hint": "p.17, ex.1"
-    },
-    {
-      "id": 55,
-      "prompt": "8. – Vous êtes américain___?",
+      "prompt": "Vous êtes prêt___, mademoiselle(s) ?",
       "answer": "es",
       "hint": "p.17, ex.1"
     },
     {
+      "id": 54,
+      "prompt": "Vous êtes seul___, madame ?",
+      "answer": "e",
+      "hint": "p.17, ex.1"
+    },
+    {
+      "id": 55,
+      "prompt": "Mes frères et moi, on est tous blond___.",
+      "answer": "s",
+      "hint": "p.17, ex.1"
+    },
+    {
       "id": 56,
-      "prompt": "9. – Cathy, Linda et moi, on est tous irlandais___.",
+      "prompt": "Vous êtes américain___, mesdames ?",
       "answer": "es",
       "hint": "p.17, ex.1"
     },
     {
       "id": 57,
-      "prompt": "10. – Tu es fatigué___, maman ?",
-      "answer": "e",
+      "prompt": "Cathy, Linda et moi, on est irlandais___.",
+      "answer": "es",
       "hint": "p.17, ex.1"
     },
     {
       "id": 58,
-      "prompt": "1. – Et vous, Anne et Suzy, vous êtes étudiant___ ou marié___ ?",
-      "answer": "es/es",
-      "hint": "p.17, ex.2"
+      "prompt": "Tu es fatigué___, maman ?",
+      "answer": "e",
+      "hint": "p.17, ex.1"
     },
     {
       "id": 59,
-      "prompt": "2. – Et vous, Cathy, vous êtes célibataire ou marié___, Jean ? – Également___.",
-      "answer": "e/marié",
-      "hint": "p.17, ex.2"
+      "prompt": "Vous êtes satisfait___ ?",
+      "answer": "Réponse libre",
+      "hint": "p.17, ex.1"
     },
     {
       "id": 60,
-      "prompt": "3. – Vous, Julie et Nadia, vous êtes réservé___ ou bavard___, Martin ? – Également.",
-      "answer": "es/es",
+      "prompt": "1. – Vous êtes espagnol ou portugais ? – Et vous, Anne et Suzy, vous êtes ___ également ?",
+      "answer": "espagnoles",
       "hint": "p.17, ex.2"
     },
     {
       "id": 61,
-      "prompt": "4. – Vous êtes optimist___ ou pessimist___, Veronica ? – En général, je suis ___.",
-      "answer": "e/e/optimiste",
+      "prompt": "2. – Vous êtes étudiant(e) ou marié(e), Jean ? Et Marc ? – ___ également.",
+      "answer": "marié",
       "hint": "p.17, ex.2"
     },
     {
       "id": 62,
-      "prompt": "5. – Vous, Paul et Marie, vous êtes calme___ ou nerveu___ avant un examen, Léo ? – En général, on est ___.",
-      "answer": "s/x/calmes",
+      "prompt": "3. – Vous êtes fatigué(e) ou nerveux(-se), Martin ? – ___ également.",
+      "answer": "Réponse libre",
       "hint": "p.17, ex.2"
     },
     {
       "id": 63,
-      "prompt": "Quand on est jeune, on est ___.",
-      "answer": "impatient",
-      "hint": "p.17, ex.3 - Réponses possibles"
+      "prompt": "4. – Et vous, Anne et Cathy, vous êtes ___  ou ___ ?",
+      "answer": "Réponse libre",
+      "hint": "p.17, ex.2"
     },
     {
       "id": 64,
-      "prompt": "Quand on est amoureux, on est ___.",
-      "answer": "enthousiaste",
-      "hint": "p.17, ex.3 - Réponses possibles"
+      "prompt": "5. – Vous êtes satisfait___ ? – Et vous, Suzy, vous êtes ___ également ?",
+      "answer": "Réponse libre",
+      "hint": "p.17, ex.2"
     },
     {
       "id": 65,
-      "prompt": "Quand on est fatigué, on est ___.",
-      "answer": "prudent",
-      "hint": "p.17, ex.3 - Réponses possibles"
+      "prompt": "Quand on est jeune, on est ___.",
+      "answer": "impatient",
+      "hint": "p.17, ex.3"
     },
     {
       "id": 66,
-      "prompt": "Quand on est vieux, on est ___.",
-      "answer": "prudent",
-      "hint": "p.17, ex.3 - Réponses possibles"
+      "prompt": "Quand on est amoureux, on est ___.",
+      "answer": "Réponse libre",
+      "hint": "p.17, ex.3"
     },
     {
       "id": 67,
-      "prompt": "– Eh bien, ma grand-mère est anglais___, mes parents sont espagnol___.",
-      "answer": "e/s",
-      "hint": "p.17, ex.4"
+      "prompt": "Quand on est fatigué, on est ___.",
+      "answer": "Réponse libre",
+      "hint": "p.17, ex.3"
     },
     {
       "id": 68,
-      "prompt": "Dans ma famille, on est tous blond___, bavard___ et européen___.",
-      "answer": "s/s/s",
+      "prompt": "– Et bien, ma grand-mère est anglais___ et mon grand-père, je suis allemand___ et européen___.",
+      "answer": "e/Réponse libre/Réponse libre",
       "hint": "p.17, ex.4"
     }
   ]
@@ -689,85 +713,85 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "1. – Le matin, le Louvre n'est ___ fermé.",
-      "answer": "pas",
+      "prompt": "1. – Le matin, il fait jour et le soir, il ne fait ___.",
+      "answer": "pas jour",
       "hint": "p.19, ex.1"
     },
     {
       "id": 2,
-      "prompt": "2. – Ah, le dimanche, les magasins ne sont ___ ouverts.",
-      "answer": "pas",
+      "prompt": "2. – À huit heures, les magasins sont ouverts, mais à minuit, ils ne sont ___.",
+      "answer": "pas ouverts",
       "hint": "p.19, ex.1"
     },
     {
       "id": 3,
-      "prompt": "3. – En janvier, nous ne sommes ___ en vacances.",
-      "answer": "pas",
+      "prompt": "3. – En août, nous sommes en vacances, mais en janvier, nous ne sommes ___.",
+      "answer": "pas en vacances",
       "hint": "p.19, ex.1"
     },
     {
       "id": 4,
-      "prompt": "4. – En hiver, les jours ne sont ___ longs.",
-      "answer": "pas",
+      "prompt": "4. – Vous êtes en colère, monsieur Valois ? – Non, je ne suis ___.",
+      "answer": "pas en colère",
       "hint": "p.19, ex.1"
     },
     {
       "id": 5,
-      "prompt": "1. – Vous êtes fatigué(e) ? (Est-ce que vous êtes fatigué(e) ?) – Non, ___",
-      "answer": "je ne suis pas fatigué(e).",
+      "prompt": "– Vous êtes fatigué(e) ? (Est-ce que vous êtes fatigué(e) ?) – Non, ___.",
+      "answer": "je ne suis pas fatigué(e)",
       "hint": "p.19, ex.2"
     },
     {
       "id": 6,
-      "prompt": "2. – Vous êtes pressé(e) ? (Est-ce que vous êtes pressé(e) ?) – Non, ___",
-      "answer": "je ne suis pas pressé(e).",
+      "prompt": "– Vous êtes pressé(e) ? (Est-ce que vous êtes pressé(e) ?) – Non, ___.",
+      "answer": "je ne suis pas pressé(e)",
       "hint": "p.19, ex.2"
     },
     {
       "id": 7,
-      "prompt": "3. – Vous êtes triste ? (Est-ce que vous êtes triste ?) – Non, ___",
-      "answer": "je ne suis pas triste.",
+      "prompt": "– Vous êtes triste ? – Non, ___.",
+      "answer": "je ne suis pas triste",
       "hint": "p.19, ex.2"
     },
     {
       "id": 8,
-      "prompt": "4. – Vous êtes lâche(s) ? (Est-ce que vous êtes lâche(s) ?) – Non, ___",
-      "answer": "nous ne sommes pas lâches.",
+      "prompt": "– Vous êtes fâché(e) ? – Non, ___.",
+      "answer": "je ne suis pas fâché(e)",
       "hint": "p.19, ex.2"
     },
     {
       "id": 9,
-      "prompt": "– Je suis en vacances, et vous ? – ___",
-      "answer": "Moi aussi.",
+      "prompt": "– Je suis en vacances, et vous ? – ___ non plus.",
+      "answer": "Moi",
       "hint": "p.19, ex.3"
     },
     {
       "id": 10,
-      "prompt": "– Je ne suis pas fou de musique, et vous ? – ___",
-      "answer": "Moi non plus.",
+      "prompt": "– Je suis fou de musique, et vous ? – ___.",
+      "answer": "Moi aussi",
       "hint": "p.19, ex.3"
     },
     {
       "id": 11,
-      "prompt": "– Je suis très romantique, et vous ? – ___",
-      "answer": "Moi aussi.",
+      "prompt": "– Je ne suis pas très romantique, et vous ? – ___ non plus.",
+      "answer": "Moi",
       "hint": "p.19, ex.3"
     },
     {
       "id": 12,
-      "prompt": "– Je ne suis pas jaloux, et vous ? – ___",
-      "answer": "Moi non plus.",
+      "prompt": "– Je ne suis pas jaloux, et vous ? – ___ non plus.",
+      "answer": "Moi",
       "hint": "p.19, ex.3"
     },
     {
       "id": 13,
-      "prompt": "Repas de fête. – Le dîner est prêt ? – ___.",
+      "prompt": "– Le dîner est prêt ? – ___.",
       "answer": "Oui",
       "hint": "p.19, ex.4"
     },
     {
       "id": 14,
-      "prompt": "– Le pain n'est pas coupé ? – ___.",
+      "prompt": "– Le vin n'est pas bon ? – ___.",
       "answer": "Si",
       "hint": "p.19, ex.4"
     },
@@ -779,182 +803,242 @@ const GRAMMAR_CHAPTERS = [
     },
     {
       "id": 16,
+      "prompt": "– Le pain n'est pas coupé ? – ___.",
+      "answer": "Si",
+      "hint": "p.19, ex.4"
+    },
+    {
+      "id": 17,
       "prompt": "– Le champagne est au frais ? – ___.",
       "answer": "Oui",
       "hint": "p.19, ex.4"
     },
     {
-      "id": 17,
-      "prompt": "1. – Vous êtes belge ? – ___, je ne suis ___ français. – ___, je suis français.",
-      "answer": "Non/pas/Non",
-      "hint": "p.19, ex.5"
-    },
-    {
       "id": 18,
-      "prompt": "2. – Vous êtes de Paris ? – ___, ___ de Paris, de Lyon.",
-      "answer": "Non/pas",
-      "hint": "p.19, ex.5"
+      "prompt": "– Est-ce que Paul est là ? – Non, il ___ là. Il est sorti.",
+      "answer": "n'est pas",
+      "hint": "p.20, ex.1"
     },
     {
       "id": 19,
-      "prompt": "3. – Vous êtes à Bruxelles avec votre femme ? – ___, avec ma fille.",
-      "answer": "Non/pas",
-      "hint": "p.19, ex.5"
+      "prompt": "– Je suis bien au 01 40 30 50 ? – Non, vous ___ au bon numéro. C'est une erreur.",
+      "answer": "n'êtes pas",
+      "hint": "p.20, ex.1"
     },
     {
       "id": 20,
-      "prompt": "5. – Vous êtes libre ce soir ? – ___, je suis occupé.",
-      "answer": "Non/pas",
-      "hint": "p.19, ex.5"
+      "prompt": "– Est-ce que c'est bien ici le 25 ? – Non, c'___ le 25. Je suis ici.",
+      "answer": "n'est pas",
+      "hint": "p.20, ex.1"
     },
     {
       "id": 21,
-      "prompt": "1. – Le directeur est là ? – Pardon ? → ___ ? – Oui, il est là.",
-      "answer": "Le directeur est-il là",
-      "hint": "p.19, ex.6"
+      "prompt": "– ___ ? – Non, elle est en Italie. (la Sicile)",
+      "answer": "Est-ce que la Sicile est en France",
+      "hint": "p.20, ex.2"
     },
     {
       "id": 22,
-      "prompt": "2. – La salle est prête ? – Pardon ? → ___ ?",
-      "answer": "La salle est-elle prête",
-      "hint": "p.19, ex.6"
+      "prompt": "– ___ ? – Oui, il est sorti. (Paul)",
+      "answer": "Est-ce que Paul est sorti",
+      "hint": "p.20, ex.2"
     },
     {
       "id": 23,
-      "prompt": "3. – Les clients sont arrivés ? – Pardon ? → ___ ?",
-      "answer": "Les clients sont-ils arrivés",
-      "hint": "p.19, ex.6"
+      "prompt": "– ___ ? – Non, elle est fermée. (la porte)",
+      "answer": "Est-ce que la porte est ouverte",
+      "hint": "p.20, ex.2"
     },
     {
       "id": 24,
-      "prompt": "4. – Le chauffage est allumé ? – Pardon ? → ___ ?",
-      "answer": "Le chauffage est-il allumé",
-      "hint": "p.19, ex.6"
+      "prompt": "– ___ ? – Non, il est en panne ! (le chauffage)",
+      "answer": "Est-ce que le chauffage est allumé",
+      "hint": "p.20, ex.2"
     },
     {
       "id": 25,
-      "prompt": "1. – Vous êtes professeur de français ?",
-      "answer": "Non, je ne suis pas professeur de français.",
-      "hint": "p.19, ex.7 - Réponse libre"
+      "prompt": "Les pâtes sont cuites, mais la viande ___ cuite.",
+      "answer": "n'est pas",
+      "hint": "p.20, ex.3"
     },
     {
       "id": 26,
-      "prompt": "2. – Nous sommes en hiver ?",
-      "answer": "Non, nous ne sommes pas en hiver.",
-      "hint": "p.19, ex.7 - Réponse libre"
+      "prompt": "La salade est prête, mais le repas ___ prêt.",
+      "answer": "n'est pas",
+      "hint": "p.20, ex.3"
     },
     {
       "id": 27,
-      "prompt": "3. – Vous êtes à Paris, actuellement ?",
-      "answer": "Non, je ne suis pas à Paris actuellement.",
-      "hint": "p.19, ex.7 - Réponse libre"
+      "prompt": "Le restaurant est cher, mais la pizzeria ___ chère.",
+      "answer": "n'est pas",
+      "hint": "p.20, ex.3"
     },
     {
       "id": 28,
-      "prompt": "4. – Les exercices sont difficiles ?",
-      "answer": "Non, les exercices ne sont pas difficiles.",
-      "hint": "p.19, ex.7 - Réponse libre"
+      "prompt": "Paul est grand, mais sa mère ___ grande.",
+      "answer": "n'est pas",
+      "hint": "p.20, ex.3"
     },
     {
       "id": 29,
-      "prompt": "1. – Est-ce que Paul est là ? – Non, ___, il est sorti.",
-      "answer": "il n'est pas là",
-      "hint": "p.21, ex.1"
+      "prompt": "Nous sommes le 25 ? – Non, nous ___ le 25.",
+      "answer": "ne sommes pas",
+      "hint": "p.20, ex.3"
     },
     {
       "id": 30,
-      "prompt": "2. – Je suis bien au 01 40 35 50 ? – Non, ___ au bon numéro. C'est une erreur.",
-      "answer": "vous n'êtes pas",
-      "hint": "p.21, ex.1"
+      "prompt": "Ils sont à Paris ? – Non, ils ___ à Paris.",
+      "answer": "ne sont pas",
+      "hint": "p.20, ex.3"
     },
     {
       "id": 31,
-      "prompt": "3. – Vous êtes en colère, monsieur Valois ? – Non, je ___ en colère.",
-      "answer": "ne suis pas",
-      "hint": "p.21, ex.1"
+      "prompt": "Je suis surpris par le coût de la vie. Et vous, vous ___ surpris(e) ? – Si, je suis surpris(e) moi aussi.",
+      "answer": "n'êtes pas",
+      "hint": "p.20, ex.4"
     },
     {
       "id": 32,
-      "prompt": "4. – Nous sommes en retard, maman ? – Non, nous ___ en retard. On est juste à l'heure.",
-      "answer": "ne sommes pas",
-      "hint": "p.21, ex.1"
+      "prompt": "Je suis déçu par le gouvernement. Et vous, vous ___ déçu(e) ?",
+      "answer": "n'êtes pas",
+      "hint": "p.20, ex.4"
     },
     {
       "id": 33,
-      "prompt": "– ___ ? – Oui, je suis de Chicago.",
-      "answer": "Est-ce que vous êtes de Chicago ?",
-      "hint": "p.21, ex.2"
+      "prompt": "Je suis inquiet pour l'avenir. Et vous, vous ___ inquiet(-ète) ?",
+      "answer": "n'êtes pas",
+      "hint": "p.20, ex.4"
     },
     {
       "id": 34,
-      "prompt": "– ___ ? – Non, elle est fermée.",
-      "answer": "Est-ce qu'elle est ouverte ?",
-      "hint": "p.21, ex.2"
+      "prompt": "– Je suis trop grosse. Paul. – Mais non, tu ___ trop grosse.",
+      "answer": "n'es pas",
+      "hint": "p.20, ex.5"
     },
     {
       "id": 35,
-      "prompt": "– ___ ? – Si, elle est en panne !",
-      "answer": "Elle n'est pas en panne ?",
-      "hint": "p.21, ex.2"
+      "prompt": "– Mon nez est trop long. – Mais non, il ___ trop long.",
+      "answer": "n'est pas",
+      "hint": "p.20, ex.5"
     },
     {
       "id": 36,
-      "prompt": "– ___ ? – Non, ils ne sont pas à Paris.",
-      "answer": "Est-ce qu'ils sont à Paris ?",
-      "hint": "p.21, ex.2"
+      "prompt": "– Mes cheveux sont horribles. – Mais non, ils ___ horribles.",
+      "answer": "ne sont pas",
+      "hint": "p.20, ex.5"
     },
     {
       "id": 37,
-      "prompt": "1. Les pâtes sont cuites, mais la viande ___ cuite.",
-      "answer": "n'est pas",
-      "hint": "p.21, ex.3"
+      "prompt": "– Je suis trop petite. – Mais non, tu ___ trop petite.",
+      "answer": "n'es pas",
+      "hint": "p.20, ex.5"
     },
     {
       "id": 38,
-      "prompt": "2. La salade est prête, mais le repas ___ prêt.",
-      "answer": "n'est pas",
-      "hint": "p.21, ex.3"
+      "prompt": "– Vous êtes belge ? – ___, je suis française.",
+      "answer": "Non",
+      "hint": "p.19, ex.5"
     },
     {
       "id": 39,
-      "prompt": "3. Le restaurant est cher, mais sa pizzeria ___ chère.",
-      "answer": "n'est pas",
-      "hint": "p.21, ex.3"
+      "prompt": "– Vous êtes de Paris ? – ___ de Paris, de Lyon.",
+      "answer": "Pas",
+      "hint": "p.19, ex.5"
     },
     {
       "id": 40,
-      "prompt": "1. – Je suis surpris par le coût de la vie. Et vous, vous ___ surpris ? – Si, je suis aussi surpris.",
-      "answer": "n'êtes pas",
-      "hint": "p.21, ex.4"
+      "prompt": "– Vous êtes à Bruxelles avec votre femme ? – ___ avec ma femme, avec ma fille.",
+      "answer": "Pas",
+      "hint": "p.19, ex.5"
     },
     {
       "id": 41,
-      "prompt": "2. – Je suis déçu par le gouvernement. Et vous, vous ___ déçu ?",
-      "answer": "n'êtes pas",
-      "hint": "p.21, ex.4"
+      "prompt": "– Vous êtes libre ce soir ? – ___, je suis occupée.",
+      "answer": "Non",
+      "hint": "p.19, ex.5"
     },
     {
       "id": 42,
-      "prompt": "3. – Je suis agacé par les médias. Et vous, vous ___ agacé ?",
-      "answer": "n'êtes pas",
-      "hint": "p.21, ex.4"
+      "prompt": "– Le directeur est là ? – Oui, ___. / Non, ___.",
+      "answer": "il est là/il n'est pas là",
+      "hint": "p.19, ex.6"
     },
     {
       "id": 43,
-      "prompt": "4. – Je suis inquiet pour l'avenir. Et vous, vous ___ inquiet ?",
-      "answer": "n'êtes pas",
-      "hint": "p.21, ex.4"
+      "prompt": "– La salle est prête ? – Pardon ? – ___",
+      "answer": "Est-ce que la salle est prête",
+      "hint": "p.19, ex.6"
     },
     {
       "id": 44,
-      "prompt": "1. – Je suis trop grosse, Paul, tu ___ trop gros.",
-      "answer": "es",
-      "hint": "p.21, ex.5"
+      "prompt": "– Les clients sont arrivés ? – Pardon ? – ___",
+      "answer": "Est-ce que les clients sont arrivés",
+      "hint": "p.19, ex.6"
     },
     {
       "id": 45,
-      "prompt": "2. – Mon nez ___ trop long.",
-      "answer": "est",
+      "prompt": "– Le chauffage est allumé ? – Pardon ? – ___",
+      "answer": "Est-ce que le chauffage est allumé",
+      "hint": "p.19, ex.6"
+    },
+    {
+      "id": 46,
+      "prompt": "1. – Vous êtes professeur de français ?",
+      "answer": "Réponse libre",
+      "hint": "p.19, ex.7"
+    },
+    {
+      "id": 47,
+      "prompt": "2. – Nous sommes en hiver ?",
+      "answer": "Réponse libre",
+      "hint": "p.19, ex.7"
+    },
+    {
+      "id": 48,
+      "prompt": "3. – Vous êtes à Paris, actuellement ?",
+      "answer": "Réponse libre",
+      "hint": "p.19, ex.7"
+    },
+    {
+      "id": 49,
+      "prompt": "4. – Les exercices sont difficiles ?",
+      "answer": "Réponse libre",
+      "hint": "p.19, ex.7"
+    },
+    {
+      "id": 50,
+      "prompt": "Un film : Le méchant : il est brun et entièrement tatoué. Il est violent, cruel et insensible. Il est menteur, jaloux, manipulateur, asocial et pervers. Il est fou.\nLa méchante : elle est ___.",
+      "answer": "Réponse libre",
+      "hint": "p.21, ex.1"
+    },
+    {
+      "id": 51,
+      "prompt": "Bélier (21/3-21/4) : ___",
+      "answer": "Réponse libre",
+      "hint": "p.21, ex.2"
+    },
+    {
+      "id": 52,
+      "prompt": "Balance (22-9/21-10) : ___",
+      "answer": "Réponse libre",
+      "hint": "p.21, ex.2"
+    },
+    {
+      "id": 53,
+      "prompt": "Les hommes et les femmes « Bélier » sont ___ et ___, mais ils sont ___.",
+      "answer": "dynamiques/indépendants/têtus",
+      "hint": "p.21, ex.3"
+    },
+    {
+      "id": 54,
+      "prompt": "Je suis français(e), je suis célibataire, je ne suis pas ___.",
+      "answer": "Réponse libre",
+      "hint": "p.21, ex.4"
+    },
+    {
+      "id": 55,
+      "prompt": "L'homme (ou la femme) idéal(e) : ___",
+      "answer": "Réponse libre",
       "hint": "p.21, ex.5"
     }
   ]
@@ -967,663 +1051,345 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Un homme seul et ___ étudiante chinoise.",
-      "answer": "une",
+      "prompt": "Un homme intelligent et une femme ___.",
+      "answer": "intelligente",
       "hint": "p.23, ex.1"
     },
     {
       "id": 2,
-      "prompt": "1. Un homme seul et ___.",
-      "answer": "une femme seule",
+      "prompt": "Un étudiant chinois et une étudiante ___.",
+      "answer": "chinoise",
       "hint": "p.23, ex.1"
     },
     {
       "id": 3,
-      "prompt": "2. Un homme élancé et ___.",
-      "answer": "une femme élancée",
+      "prompt": "Un chanteur sportif et une chanteuse ___.",
+      "answer": "sportive",
       "hint": "p.23, ex.1"
     },
     {
       "id": 4,
-      "prompt": "3. Un garçon sportif et ___.",
-      "answer": "une fille sportive",
+      "prompt": "Un garçon grec et une fille ___.",
+      "answer": "grecque",
       "hint": "p.23, ex.1"
     },
     {
       "id": 5,
-      "prompt": "4. Un garçon grec et ___.",
-      "answer": "une fille grecque",
+      "prompt": "Un joli garçon et une ___ fille.",
+      "answer": "jolie",
       "hint": "p.23, ex.1"
     },
     {
       "id": 6,
-      "prompt": "5. Un joli garçon et ___.",
-      "answer": "une jolie fille",
+      "prompt": "Un chat roux et une chatte ___.",
+      "answer": "rousse",
       "hint": "p.23, ex.1"
     },
     {
       "id": 7,
-      "prompt": "6. Un chat roux et ___.",
-      "answer": "une chatte rousse",
+      "prompt": "Un mari jaloux et une femme ___.",
+      "answer": "jalouse",
       "hint": "p.23, ex.1"
     },
     {
       "id": 8,
-      "prompt": "7. Un mari jaloux et ___.",
-      "answer": "une femme jalouse",
+      "prompt": "Un serveur rêveur et une serveuse ___.",
+      "answer": "rêveuse",
       "hint": "p.23, ex.1"
     },
     {
       "id": 9,
-      "prompt": "8. Un serveur rêveur et ___.",
-      "answer": "une serveuse rêveuse",
-      "hint": "p.23, ex.1"
+      "prompt": "Monsieur Yan est un acteur français. Sophie est une ___ ___.",
+      "answer": "actrice française",
+      "hint": "p.23, ex.2"
     },
     {
       "id": 10,
-      "prompt": "1. Monsieur Yamamoto est un client important. Michèle ___ une directrice compétente.",
-      "answer": "est",
+      "prompt": "Gérard est un champion de ski italien. Anna est une ___ de ski ___.",
+      "answer": "championne/italienne",
       "hint": "p.23, ex.2"
     },
     {
       "id": 11,
-      "prompt": "2. Gérard est un champion de ski italien. Sophie ___.",
-      "answer": "est une championne de ski italienne",
+      "prompt": "Daniel est un sportif émotif. Suzy est une ___ ___.",
+      "answer": "sportive émotive",
       "hint": "p.23, ex.2"
     },
     {
       "id": 12,
-      "prompt": "3. Paolo est un acteur français. Anna ___.",
-      "answer": "est une actrice française",
+      "prompt": "Yannick est un sportif canadien. Aïssa est une ___ ___.",
+      "answer": "sportive canadienne",
       "hint": "p.23, ex.2"
     },
     {
       "id": 13,
-      "prompt": "4. Marc est un directeur compétent. Madame Lauder ___.",
-      "answer": "est une directrice compétente",
+      "prompt": "Monsieur Leroy est un effecteur conservateur. Sophie est une ___ ___.",
+      "answer": "effectrice conservatrice",
       "hint": "p.23, ex.2"
     },
     {
       "id": 14,
-      "prompt": "J'ai un fils adolescent. → J'ai une ___ adolescente.",
-      "answer": "fille",
-      "hint": "p.23, ex.3"
+      "prompt": "Léonard est un créatif imaginatif. Sonia est une ___ ___.",
+      "answer": "créative imaginative",
+      "hint": "p.23, ex.2"
     },
     {
       "id": 15,
-      "prompt": "un ami toujours absent → une ___ toujours absente",
-      "answer": "amie",
-      "hint": "p.23, ex.3"
+      "prompt": "Marc est un directeur compétent. Michèle est une ___ ___.",
+      "answer": "directrice compétente",
+      "hint": "p.23, ex.2"
     },
     {
       "id": 16,
-      "prompt": "un voisin américain → une ___ américaine",
-      "answer": "voisine",
+      "prompt": "J'ai un fils adolescent. C'est ma vie.\nAu féminin : J'ai une ___ ___. C'est ma vie.",
+      "answer": "fille adolescente",
       "hint": "p.23, ex.3"
     },
     {
       "id": 17,
-      "prompt": "un chien envahissant → une ___ envahissante",
-      "answer": "chienne",
-      "hint": "p.23, ex.3"
+      "prompt": "séducteur → séduct___",
+      "answer": "rice",
+      "hint": "p.23, ex.4"
     },
     {
       "id": 18,
-      "prompt": "un arrière-grand-père allemand → une ___ allemande",
-      "answer": "arrière-grand-mère",
-      "hint": "p.23, ex.3"
+      "prompt": "bavard → bavard___",
+      "answer": "e",
+      "hint": "p.23, ex.4"
     },
     {
       "id": 19,
-      "prompt": "un cousin germanique → une ___ germanique",
-      "answer": "cousine",
-      "hint": "p.23, ex.3"
+      "prompt": "discret → discrèt___",
+      "answer": "e",
+      "hint": "p.23, ex.4"
     },
     {
       "id": 20,
-      "prompt": "Léonard est un créatif imaginatif, conservateur. → Léa est une ___ imaginative, conservatrice.",
-      "answer": "créative",
-      "hint": "p.23, ex.3"
+      "prompt": "agressif → agress___",
+      "answer": "ive",
+      "hint": "p.23, ex.4"
     },
     {
       "id": 21,
-      "prompt": "séduc___ (teur/trice)",
-      "answer": "séducteur/séductrice",
+      "prompt": "lecteur → lect___",
+      "answer": "rice",
       "hint": "p.23, ex.4"
     },
     {
       "id": 22,
-      "prompt": "étudi___ (ant/ante)",
-      "answer": "étudiant/étudiante",
-      "hint": "p.23, ex.4"
+      "prompt": "___ voiture performante.",
+      "answer": "une",
+      "hint": "p.25, ex.1"
     },
     {
       "id": 23,
-      "prompt": "lec___ (teur/trice)",
-      "answer": "lecteur/lectrice",
-      "hint": "p.23, ex.4"
+      "prompt": "___ situation générale.",
+      "answer": "une",
+      "hint": "p.25, ex.1"
     },
     {
       "id": 24,
-      "prompt": "bavard___ (e)",
-      "answer": "bavard/bavarde",
-      "hint": "p.23, ex.4"
+      "prompt": "___ événement important.",
+      "answer": "un",
+      "hint": "p.25, ex.1"
     },
     {
       "id": 25,
-      "prompt": "1. ___ voiture performante.",
+      "prompt": "___ attitude prudente.",
       "answer": "une",
       "hint": "p.25, ex.1"
     },
     {
       "id": 26,
-      "prompt": "2. ___ situation gênante.",
-      "answer": "une",
+      "prompt": "___ dosage précis.",
+      "answer": "un",
       "hint": "p.25, ex.1"
     },
     {
       "id": 27,
-      "prompt": "3. ___ événement important.",
+      "prompt": "___ médicament dangereux.",
       "answer": "un",
       "hint": "p.25, ex.1"
     },
     {
       "id": 28,
-      "prompt": "4. ___ attitude prudente.",
+      "prompt": "___ sculpture originale.",
       "answer": "une",
       "hint": "p.25, ex.1"
     },
     {
       "id": 29,
-      "prompt": "5. ___ dosage précis.",
+      "prompt": "___ fromage piquant.",
       "answer": "un",
       "hint": "p.25, ex.1"
     },
     {
       "id": 30,
-      "prompt": "6. ___ médicament dangereux.",
-      "answer": "un",
-      "hint": "p.25, ex.1"
-    },
-    {
-      "id": 31,
-      "prompt": "7. ___ sculpture originale.",
+      "prompt": "___ beauté éclatante.",
       "answer": "une",
       "hint": "p.25, ex.1"
     },
     {
+      "id": 31,
+      "prompt": "___ voyage intéressant.",
+      "answer": "un",
+      "hint": "p.25, ex.1"
+    },
+    {
       "id": 32,
-      "prompt": "8. ___ fromage piquant.",
+      "prompt": "___ équipement complet.",
       "answer": "un",
       "hint": "p.25, ex.1"
     },
     {
       "id": 33,
-      "prompt": "9. ___ beauté éclatante.",
+      "prompt": "___ tradition précise.",
       "answer": "une",
       "hint": "p.25, ex.1"
     },
     {
       "id": 34,
-      "prompt": "10. ___ voyage intéressant.",
-      "answer": "un",
+      "prompt": "___ société importante.",
+      "answer": "une",
       "hint": "p.25, ex.1"
     },
     {
       "id": 35,
-      "prompt": "11. ___ émotion forte.",
+      "prompt": "___ émotion forte.",
       "answer": "une",
       "hint": "p.25, ex.1"
     },
     {
       "id": 36,
-      "prompt": "12. ___ équipement complet.",
+      "prompt": "___ problème permanent.",
       "answer": "un",
       "hint": "p.25, ex.1"
     },
     {
       "id": 37,
-      "prompt": "13. ___ tradition précise.",
-      "answer": "une",
-      "hint": "p.25, ex.1"
-    },
-    {
-      "id": 38,
-      "prompt": "14. ___ société imparfaite.",
-      "answer": "une",
-      "hint": "p.25, ex.1"
-    },
-    {
-      "id": 39,
-      "prompt": "15. ___ problème permanent.",
-      "answer": "un",
-      "hint": "p.25, ex.1"
-    },
-    {
-      "id": 40,
-      "prompt": "___ garçon, ___ danse",
+      "prompt": "___ garçon, ___ dame.",
       "answer": "un/une",
       "hint": "p.25, ex.2"
     },
     {
-      "id": 41,
-      "prompt": "___ télévision, ___ ordinateur",
+      "id": 38,
+      "prompt": "___ télévision, ___ ordinateur.",
       "answer": "une/un",
       "hint": "p.25, ex.2"
     },
     {
-      "id": 42,
-      "prompt": "___ voyage, ___ aventure",
-      "answer": "un/une",
+      "id": 39,
+      "prompt": "___ voiture, ___ garage.",
+      "answer": "une/un",
       "hint": "p.25, ex.2"
     },
     {
-      "id": 43,
-      "prompt": "___ tablette, ___ voiture",
-      "answer": "une/une",
-      "hint": "p.25, ex.2"
-    },
-    {
-      "id": 44,
-      "prompt": "___ garage, ___ bateau",
+      "id": 40,
+      "prompt": "___ bateau, ___ voyage.",
       "answer": "un/un",
       "hint": "p.25, ex.2"
     },
     {
+      "id": 41,
+      "prompt": "___ aventure, ___ tablette.",
+      "answer": "une/une",
+      "hint": "p.25, ex.2"
+    },
+    {
+      "id": 42,
+      "prompt": "___ société, ___ solution.",
+      "answer": "la/la",
+      "hint": "p.25, ex.3"
+    },
+    {
+      "id": 43,
+      "prompt": "___ nature, ___ modèle.",
+      "answer": "la/le",
+      "hint": "p.25, ex.3"
+    },
+    {
+      "id": 44,
+      "prompt": "___ publicité, ___ sondage.",
+      "answer": "la/le",
+      "hint": "p.25, ex.3"
+    },
+    {
       "id": 45,
-      "prompt": "___ société, ___ solution, ___ santé.",
-      "answer": "la/la/la",
+      "prompt": "___ réalité, ___ santé.",
+      "answer": "la/la",
       "hint": "p.25, ex.3"
     },
     {
       "id": 46,
-      "prompt": "___ courage, ___ programme, ___ culture.",
-      "answer": "le/le/la",
+      "prompt": "___ courage, ___ confiance.",
+      "answer": "le/la",
       "hint": "p.25, ex.3"
     },
     {
       "id": 47,
-      "prompt": "___ confiance, ___ modèle, ___ publicité.",
-      "answer": "la/le/la",
-      "hint": "p.25, ex.3"
+      "prompt": "Où est ___ téléphone ?",
+      "answer": "le",
+      "hint": "p.25, ex.4"
     },
     {
       "id": 48,
-      "prompt": "___ nature, ___ réalité, ___ groupe.",
-      "answer": "la/la/le",
-      "hint": "p.25, ex.3"
+      "prompt": "Où est ___ commode ?",
+      "answer": "la",
+      "hint": "p.25, ex.4"
     },
     {
       "id": 49,
-      "prompt": "___ révolution, ___ sondage, ___ sculpture.",
-      "answer": "la/le/la",
-      "hint": "p.25, ex.3"
+      "prompt": "Où est ___ caméscope ?",
+      "answer": "le",
+      "hint": "p.25, ex.4"
     },
     {
       "id": 50,
-      "prompt": "Où est le/la téléphone ? ___ téléphone",
-      "answer": "le",
+      "prompt": "Où est ___ télévision ?",
+      "answer": "la",
       "hint": "p.25, ex.4"
     },
     {
       "id": 51,
-      "prompt": "___ commode",
-      "answer": "la",
-      "hint": "p.25, ex.4"
-    },
-    {
-      "id": 52,
-      "prompt": "___ chapeau",
+      "prompt": "Où est ___ chapeau ?",
       "answer": "le",
       "hint": "p.25, ex.4"
     },
     {
+      "id": 52,
+      "prompt": "___ maisonnette est à ___ plage, près de ___.",
+      "answer": "La/la/la",
+      "hint": "p.25, ex.5"
+    },
+    {
       "id": 53,
-      "prompt": "___ télévision",
-      "answer": "la",
-      "hint": "p.25, ex.4"
+      "prompt": "___ problème est à ___ page 8 et à ___.",
+      "answer": "Le/la/la",
+      "hint": "p.25, ex.5"
     },
     {
       "id": 54,
-      "prompt": "___ image",
-      "answer": "l'",
-      "hint": "p.25, ex.4"
+      "prompt": "___ fiction est souvent plus banale que ___ réalité.",
+      "answer": "La/la",
+      "hint": "p.25, ex.5"
     },
     {
       "id": 55,
-      "prompt": "1. La maison___ est à la plage près de ___.",
-      "answer": "la",
+      "prompt": "___ nourriture des bébés est importante pour ___ santé.",
+      "answer": "La/la",
       "hint": "p.25, ex.5"
     },
     {
       "id": 56,
-      "prompt": "2. La poussette est à ___.",
-      "answer": "la",
+      "prompt": "___ nature est bon pour ___ santé.",
+      "answer": "La/la",
       "hint": "p.25, ex.5"
     },
     {
       "id": 57,
-      "prompt": "3. La nourriture des bébés est dans ___.",
-      "answer": "la",
-      "hint": "p.25, ex.5"
-    },
-    {
-      "id": 58,
-      "prompt": "1. Un costume noir → Des ___.",
-      "answer": "costumes noirs",
-      "hint": "p.27, ex.1"
-    },
-    {
-      "id": 59,
-      "prompt": "2. Une rose rouge → Des ___.",
-      "answer": "roses rouges",
-      "hint": "p.27, ex.1"
-    },
-    {
-      "id": 60,
-      "prompt": "3. Un organisme international → Des ___.",
-      "answer": "organismes internationaux",
-      "hint": "p.27, ex.1"
-    },
-    {
-      "id": 61,
-      "prompt": "4. Un homme précis → Des ___.",
-      "answer": "hommes précis",
-      "hint": "p.27, ex.1"
-    },
-    {
-      "id": 62,
-      "prompt": "5. Un métal précieux → Des ___.",
-      "answer": "métaux précieux",
-      "hint": "p.27, ex.1"
-    },
-    {
-      "id": 63,
-      "prompt": "6. Un journal espagnol → Des ___.",
-      "answer": "journaux espagnols",
-      "hint": "p.27, ex.1"
-    },
-    {
-      "id": 64,
-      "prompt": "7. Un bas gris → Des ___.",
-      "answer": "bas gris",
-      "hint": "p.27, ex.1"
-    },
-    {
-      "id": 65,
-      "prompt": "8. Un comportement normal → Des ___.",
-      "answer": "comportements normaux",
-      "hint": "p.27, ex.1"
-    },
-    {
-      "id": 66,
-      "prompt": "9. Un jeu dangereux → Des ___.",
-      "answer": "jeux dangereux",
-      "hint": "p.27, ex.1"
-    },
-    {
-      "id": 67,
-      "prompt": "10. Un tableau original → Des ___.",
-      "answer": "tableaux originaux",
-      "hint": "p.27, ex.1"
-    },
-    {
-      "id": 68,
-      "prompt": "Brunch : 1 salade allongée et 2 cafés ___.",
-      "answer": "serrés",
-      "hint": "p.27, ex.2"
-    },
-    {
-      "id": 69,
-      "prompt": "1 jus d'orange et 2 ___ au chocolat.",
-      "answer": "gâteaux",
-      "hint": "p.27, ex.2"
-    },
-    {
-      "id": 70,
-      "prompt": "Et voilà 3 fourchette___, 3 cuillère___ et 3 couteau___.",
-      "answer": "s/s/x",
-      "hint": "p.27, ex.2"
-    },
-    {
-      "id": 71,
-      "prompt": "1. Un cheval blond → Des ___.",
-      "answer": "chevaux blonds",
-      "hint": "p.27, ex.3"
-    },
-    {
-      "id": 72,
-      "prompt": "2. Un caillou bleu → Des ___.",
-      "answer": "cailloux bleus",
-      "hint": "p.27, ex.3"
-    },
-    {
-      "id": 73,
-      "prompt": "3. Un bureau spacieux → Des ___.",
-      "answer": "bureaux spacieux",
-      "hint": "p.27, ex.3"
-    },
-    {
-      "id": 74,
-      "prompt": "4. Un couteau pointu → Des ___.",
-      "answer": "couteaux pointus",
-      "hint": "p.27, ex.3"
-    },
-    {
-      "id": 75,
-      "prompt": "6. Un œil noir → Des ___.",
-      "answer": "yeux noirs",
-      "hint": "p.27, ex.3"
-    },
-    {
-      "id": 76,
-      "prompt": "7. Un pneu crevé → Des ___.",
-      "answer": "pneus crevés",
-      "hint": "p.27, ex.3"
-    },
-    {
-      "id": 77,
-      "prompt": "8. Un bœuf normand → Des ___.",
-      "answer": "bœufs normands",
-      "hint": "p.27, ex.3"
-    },
-    {
-      "id": 78,
-      "prompt": "9. Un monsieur poli → Des ___.",
-      "answer": "messieurs polis",
-      "hint": "p.27, ex.3"
-    },
-    {
-      "id": 79,
-      "prompt": "10. Un animal domestique → Des ___.",
-      "answer": "animaux domestiques",
-      "hint": "p.27, ex.3"
-    },
-    {
-      "id": 80,
-      "prompt": "1. Le saphir est un bijou. → Les saphirs sont des ___.",
-      "answer": "bijoux",
-      "hint": "p.27, ex.4"
-    },
-    {
-      "id": 81,
-      "prompt": "2. La rose est une fleur. → Les roses sont des ___.",
-      "answer": "fleurs",
-      "hint": "p.27, ex.4"
-    },
-    {
-      "id": 82,
-      "prompt": "3. Le chien est un animal domestique. → Les chiens sont des ___.",
-      "answer": "animaux domestiques",
-      "hint": "p.27, ex.4"
-    },
-    {
-      "id": 83,
-      "prompt": "4. Le chou est un légume. → Les choux sont des ___.",
-      "answer": "légumes",
-      "hint": "p.27, ex.4"
-    },
-    {
-      "id": 84,
-      "prompt": "5. Le zèbre est un cheval sauvage. → Les zèbres sont des ___.",
-      "answer": "chevaux sauvages",
-      "hint": "p.27, ex.4"
-    },
-    {
-      "id": 85,
-      "prompt": "Je cherche ___ restaurant français, sur ___ place Abélard.",
-      "answer": "un/la",
-      "hint": "p.29, ex.1"
-    },
-    {
-      "id": 86,
-      "prompt": "« Ah oui, je vois : c'est ___ petite place avec ___ fontaine et ___ arbres, à côté de ___.",
-      "answer": "une/une/des/l'",
-      "hint": "p.29, ex.1"
-    },
-    {
-      "id": 87,
-      "prompt": "« Ah oui, je vois : c'est ___ restaurant grec, c'est ___ église. »",
-      "answer": "un/une",
-      "hint": "p.29, ex.1"
-    },
-    {
-      "id": 88,
-      "prompt": "Non, c'est ___ lampe. J'ai mis ___ lampe sur ___ table.",
-      "answer": "une/la/la",
-      "hint": "p.29, ex.2"
-    },
-    {
-      "id": 89,
-      "prompt": "1. Pour ___ restaurant, ___ téléphone est ___.",
-      "answer": "le/le/le",
-      "hint": "p.29, ex.3"
-    },
-    {
-      "id": 90,
-      "prompt": "2. Selon moi, ___ fruits et ___ légumes, et je déteste ___.",
-      "answer": "les/les/le",
-      "hint": "p.29, ex.3"
-    },
-    {
-      "id": 91,
-      "prompt": "3. ___ Paris, ___ tour Eiffel ? Quelle est ___.",
-      "answer": "À/la/la",
-      "hint": "p.29, ex.3"
-    },
-    {
-      "id": 92,
-      "prompt": "4. J'aime ___ art, ___ fromage et ___.",
-      "answer": "l'/le/le",
-      "hint": "p.29, ex.3"
-    },
-    {
-      "id": 93,
-      "prompt": "5. Quelle est ___ statue de ___ Liberté ?",
-      "answer": "la/la",
-      "hint": "p.29, ex.3"
-    },
-    {
-      "id": 94,
-      "prompt": "1. Pour prendre le train, je vais ___ gare.",
-      "answer": "à la",
-      "hint": "p.31, ex.1"
-    },
-    {
-      "id": 95,
-      "prompt": "2. Pour prendre le bateau, je vais ___ port.",
-      "answer": "au",
-      "hint": "p.31, ex.1"
-    },
-    {
-      "id": 96,
-      "prompt": "3. Pour prendre l'avion, je vais ___ aéroport.",
-      "answer": "à l'",
-      "hint": "p.31, ex.1"
-    },
-    {
-      "id": 97,
-      "prompt": "4. Pour prendre le bus, je vais ___ station de bus.",
-      "answer": "à la",
-      "hint": "p.31, ex.1"
-    },
-    {
-      "id": 98,
-      "prompt": "1. 12 h. C'est l'heure ___ déjeuner.",
-      "answer": "du",
-      "hint": "p.31, ex.2"
-    },
-    {
-      "id": 99,
-      "prompt": "2. 15 h. C'est l'heure ___ goûter.",
-      "answer": "du",
-      "hint": "p.31, ex.2"
-    },
-    {
-      "id": 100,
-      "prompt": "3. 19 h. C'est l'heure ___ dîner.",
-      "answer": "du",
-      "hint": "p.31, ex.2"
-    },
-    {
-      "id": 101,
-      "prompt": "4. 20 h. C'est l'heure de ___ apéritif.",
-      "answer": "l'",
-      "hint": "p.31, ex.2"
-    },
-    {
-      "id": 102,
-      "prompt": "Je suis ___ restaurant, près ___ bureau.",
-      "answer": "au/du",
-      "hint": "p.31, ex.3"
-    },
-    {
-      "id": 103,
-      "prompt": "Quiche est très légère : ___ fromage et un peu ___ gâteau.",
-      "answer": "du/de",
-      "hint": "p.31, ex.3"
-    },
-    {
-      "id": 104,
-      "prompt": "Amandes est une merveille : c'est une spécialité ___ chef.",
-      "answer": "du",
-      "hint": "p.31, ex.3"
-    },
-    {
-      "id": 105,
-      "prompt": "___ mode, ___ cinéma, ___ informatique.",
-      "answer": "la/le/l'",
-      "hint": "p.31, ex.4"
-    },
-    {
-      "id": 106,
-      "prompt": "Qu'est-ce qui vous intéresse ? ___ sciences, ___ sport.",
-      "answer": "les/le",
-      "hint": "p.31, ex.4"
-    },
-    {
-      "id": 107,
-      "prompt": "L'appartement de Chloé est vraiment extraordinaire : ___ couleur est vert fluorescent.",
-      "answer": "la",
-      "hint": "p.31, ex.5"
-    },
-    {
-      "id": 108,
-      "prompt": "___ salon, il y a ___ hamac est jaune d'or.",
-      "answer": "le/un",
-      "hint": "p.31, ex.5"
-    },
-    {
-      "id": 109,
-      "prompt": "Une pizza ___ champignons.",
-      "answer": "aux",
-      "hint": "p.31, ex.6"
-    },
-    {
-      "id": 110,
-      "prompt": "Un sandwich ___ fromage.",
-      "answer": "au",
-      "hint": "p.31, ex.6"
+      "prompt": "Décrivez le contenu de votre sac.",
+      "answer": "Réponse libre",
+      "hint": "p.25, ex.6"
     }
   ]
 },
