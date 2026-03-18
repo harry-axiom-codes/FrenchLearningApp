@@ -4099,351 +4099,189 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Vous téléphonez à votre mère le dimanche ? - Oui, je ___ téléphone le dimanche.",
-      "answer": "lui",
-      "hint": "Pronom indirect pour « à votre mère »"
+      "prompt": "Répondez aux questions, selon le modèle.\n1. – Vous regardez la télé tous les jours ?\n– Oui, je la regarde tous les jours.",
+      "answer": "la regarde tous les jours",
+      "hint": "p.125, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Vous parlez à votre professeur en français ? - Oui, je ___ parle en français.",
-      "answer": "lui",
-      "hint": "Pronom indirect pour « à votre professeur »"
+      "prompt": "2. – Vous regardez parfois la météo ?\n– ___",
+      "answer": "Oui, je la regarde parfois.",
+      "hint": "p.125, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Vous écrivez souvent à vos amis ? - Oui, je ___ écris souvent.",
-      "answer": "leur",
-      "hint": "Pronom indirect pluriel pour « à vos amis »"
+      "prompt": "3. – Vous consultez souvent le site de Google ?\n– ___",
+      "answer": "Oui, je le consulte souvent.",
+      "hint": "p.125, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Vous répondez rapidement à vos clients ? - Oui, je ___ réponds rapidement.",
-      "answer": "leur",
-      "hint": "Pronom indirect pluriel"
+      "prompt": "4. – Vous lisez les vieux journaux ?\n– ___",
+      "answer": "Oui, je les lis.",
+      "hint": "p.125, ex.1"
     },
     {
       "id": 5,
-      "prompt": "Vous offrez des fleurs à votre femme ? - Oui, je ___ offre des fleurs.",
-      "answer": "lui",
-      "hint": "Pronom indirect singulier"
+      "prompt": "5. – Vous gardez les vieux journaux ?\n– ___",
+      "answer": "Oui, je les garde.",
+      "hint": "p.125, ex.1"
     },
     {
       "id": 6,
-      "prompt": "Chaque année, Olivia me souhaite la Fête des mères. Elle m'offre un petit cadeau et elle m'écrit une jolie chose. Elle ___ dit de jolies choses et elle m'écrit une carte.",
-      "answer": "me",
-      "hint": "Pronom indirect pour la personne qui parle"
+      "prompt": "Répondez négativement à l'exercice précédent.\n1. – Non, je ne ___ regarde pas tous les jours.",
+      "answer": "la",
+      "hint": "p.125, ex.2"
     },
     {
       "id": 7,
-      "prompt": "Le maire de ma ville est très populaire : je ___ connais bien.",
-      "answer": "le",
-      "hint": "Pronom direct masculin"
+      "prompt": "Complétez, selon le modèle.\n1. – Vous connaissez Martine depuis longtemps ?\n– Non, je ___ connais depuis un an.",
+      "answer": "la",
+      "hint": "p.125, ex.3"
     },
     {
       "id": 8,
-      "prompt": "Les gens ___ écoutent.",
-      "answer": "l'",
-      "hint": "Pronom direct devant voyelle"
+      "prompt": "2. – Tu regardes le match de foot chez Éric ?\n– ___",
+      "answer": "Oui, je le regarde chez Éric.",
+      "hint": "p.125, ex.3"
     },
     {
       "id": 9,
-      "prompt": "Les gens ___ posent des questions, ils ___ racontent leurs problèmes.",
-      "answer": "lui/lui",
-      "hint": "Pronom indirect (poser des questions à / raconter à)"
+      "prompt": "3. – Vous arrosez les fleurs tous les jours ?\n– ___",
+      "answer": "Oui, je les arrose tous les jours.",
+      "hint": "p.125, ex.3"
     },
     {
       "id": 10,
-      "prompt": "Les gens ___ serrent la main.",
-      "answer": "lui",
-      "hint": "Pronom indirect (serrer la main à)"
+      "prompt": "4. – Tu emmènes ton fils au cinéma ?\n– ___",
+      "answer": "Oui, je l'emmène au cinéma.",
+      "hint": "p.125, ex.3"
     },
     {
       "id": 11,
-      "prompt": "Tu me renvoies le dossier par fax ? - Non, je ___ le renvoie par la poste.",
-      "answer": "te",
-      "hint": "Pronom indirect te"
+      "prompt": "5. – Vous laissez vos clés à l'hôtel ?\n– ___",
+      "answer": "Oui, je les laisse à l'hôtel.",
+      "hint": "p.125, ex.3"
     },
     {
       "id": 12,
-      "prompt": "Tu me prêtes ta moto, Frédéric ? - Non, je ___ la prête pas, tu es très prudente.",
-      "answer": "ne te",
-      "hint": "Forme négative avec pronom"
+      "prompt": "6. – Vous faites les exercices à l'école ?\n– ___",
+      "answer": "Oui, je les fais à l'école.",
+      "hint": "p.125, ex.3"
     },
     {
       "id": 13,
-      "prompt": "Votre mari vous offre des fleurs ? - Oui, il ___ en offre souvent.",
-      "answer": "m'",
-      "hint": "Pronom indirect + en"
+      "prompt": "Complétez avec les pronoms et les verbes manquants.\n1. – Alex emporte ses dossiers chez lui ? – Non, ___\n2. – Vous achetez vos chaussures à Paris ? – Non, ___\n3. – Marie nous attend dans la rue ? – Non, ___\n4. – Attention : vous oubliez vos clés ! – Ah oui, ___\n5. – Est-ce que vous connaissez bien cet homme ? – ___\n6. – Vous aimez le poulet au curry ? – ___",
+      "answer": "Non, il ne les emporte pas./Non, je ne les achète pas à Paris./Non, elle ne nous attend pas dans la rue./je les oublie./Oui, je le connais bien./Oui, je l'aime.",
+      "hint": "p.125, ex.4"
     },
     {
       "id": 14,
-      "prompt": "Les clients vous envoient des cartes de vœux ? - Oui, ils ___ en envoient chaque année.",
-      "answer": "nous",
-      "hint": "Pronom indirect + en"
+      "prompt": "Répondez aux questions, selon le modèle.\n1. – Vous téléphonez à votre mère le dimanche ?\n– Oui, je lui téléphone le dimanche.",
+      "answer": "lui téléphone le dimanche",
+      "hint": "p.127, ex.1"
     },
     {
       "id": 15,
-      "prompt": "Paul vous emprunte de l'argent ? - Oui, il ___ en emprunte régulièrement.",
-      "answer": "m'",
-      "hint": "Pronom indirect + en"
+      "prompt": "2. – Vous écrivez souvent à vos amis ?\n– Oui, je ___ écris souvent.",
+      "answer": "leur",
+      "hint": "p.127, ex.1"
     },
     {
       "id": 16,
-      "prompt": "Le professeur donne une dizaine d'exercices aux étudiants ? - Oui, il ___ en donne une dizaine.",
-      "answer": "leur",
-      "hint": "Pronom indirect pluriel + en"
+      "prompt": "3. – Vous répondez rapidement à votre professeur en français ?\n– Oui, je ___ réponds rapidement.",
+      "answer": "lui",
+      "hint": "p.127, ex.1"
     },
     {
       "id": 17,
-      "prompt": "Vous montrez vos photos à vos amis ? - Non, je ne ___ les ___ montre pas.",
-      "answer": "leur/y",
-      "hint": "Forme négative avec pronom indirect"
+      "prompt": "4. – Vous offrez des fleurs à votre femme ?\n– Oui, je ___ offre des fleurs.",
+      "answer": "lui",
+      "hint": "p.127, ex.1"
     },
     {
       "id": 18,
-      "prompt": "Vous parlez de votre vie privée à votre professeur ? - Non, je ne ___ en parle pas.",
+      "prompt": "5. – Vous dites bonjour au facteur ?\n– Oui, je ___ dis bonjour.",
       "answer": "lui",
-      "hint": "Pronom indirect + en négatif"
+      "hint": "p.127, ex.1"
     },
     {
       "id": 19,
-      "prompt": "Vous laissez vos clés à vos voisins ? - Non, je ne ___ les laisse pas.",
-      "answer": "leur",
-      "hint": "Pronom indirect pluriel + pronom direct négatif"
+      "prompt": "Lisez le texte et transformez-le, selon le modèle.\nChaque année, Olivia me souhaite la Fête des mères. Elle m'offre un petit cadeau et elle m'écrit une poésie. Elle ___ dit de jolies choses et elle ___ écrit une poésie.",
+      "answer": "me/m'",
+      "hint": "p.127, ex.2"
     },
     {
       "id": 20,
-      "prompt": "Vous prêtez votre voiture à votre petit(e) ami(e) ? - Non, je ne ___ la prête pas.",
-      "answer": "lui",
-      "hint": "Pronom indirect + pronom direct négatif"
+      "prompt": "Complétez avec « le », « la », « l' », « les » ou « lui », « leur ».\nLe maire de ma ville est très populaire : je ___ connais bien. Je ___ rencontre souvent au marché. Les gens ___ racontent leurs problèmes. Quand il y a des petits enfants, il ___ écoute, il ___ répond, il ___ embrasse ou il ___ prend dans ses bras.",
+      "answer": "le/le/lui/les/leur/les/les",
+      "hint": "p.127, ex.3"
     },
     {
       "id": 21,
-      "prompt": "Je ___ envoie. (le dossier à vous)",
-      "answer": "vous l'",
-      "hint": "Pronom indirect + pronom direct"
+      "prompt": "Mettez à la forme négative, selon le modèle.\nElle ne me prête pas ses livres.\nElle ne me raconte pas ses secrets.\nElle ne m'accompagne pas chez moi.",
+      "answer": "ne me prête pas/ne me raconte pas/ne m'accompagne pas",
+      "hint": "p.127, ex.4"
     },
     {
       "id": 22,
-      "prompt": "Elle ___ passe. (la lettre à me)",
-      "answer": "me la",
-      "hint": "Pronom indirect + pronom direct"
+      "prompt": "Répondez à la forme affirmative, selon le modèle.\n1. ... je vous ___ envoie. 2. ... elle me ___ passe. 3. ... il me ___ apporte. 4. ... je vous ___ la prête. 5. ... il nous ___ vend. 6. ... je ___ lui donne. 7. ... je les lui laisserons. 8. ... elle lui donne. 9. ... elle les leur présente. 10. ... je leur en donne.",
+      "answer": "l'envoie/le passe/l'apporte/la prête/la vend/la lui donne/les lui laissons/la lui donne/les leur présente/leur en donne",
+      "hint": "p.129, ex.1"
     },
     {
       "id": 23,
-      "prompt": "Il ___ apporte. (le café à me)",
-      "answer": "me l'",
-      "hint": "Pronom indirect + pronom direct devant voyelle"
+      "prompt": "1. Oui, il m'en offre souvent. 2. Oui, ils m'en envoient chaque année. 3. Oui, il lui en emprunte régulièrement. 4. Oui, il lui en donne une dizaine.",
+      "answer": "m'en offre/m'en envoient/lui en emprunte/lui en donne",
+      "hint": "p.129, ex.2"
     },
     {
       "id": 24,
-      "prompt": "Je ___ la donne. (à vous)",
-      "answer": "vous",
-      "hint": "Pronom indirect"
+      "prompt": "1. – Non, je ne les leur montre pas. 2. – Non, je ne lui en parle pas. 3. – Non, je ne les leur prête pas. 4. – Non, je ne leur en prête pas. 5. – Non, je ne leur en envoie pas. 6. – Non, je ne m'en mets pas. 7. – Non, je ne m'en mets pas.",
+      "answer": "ne les leur montre pas/ne lui en parle pas/ne les leur prête pas/ne leur en prête pas/ne leur en envoie pas/ne m'en mets pas/ne m'en mets pas",
+      "hint": "p.129, ex.3"
     },
     {
       "id": 25,
-      "prompt": "Il ___ la vend. (à nous)",
-      "answer": "nous",
-      "hint": "Pronom indirect"
+      "prompt": "1. Oui, quand je la rencontre, je lui dis bonjour. 2. Oui, quand je le vois, je lui pose des questions. 3. Oui, quand je les quitte, je leur dis au revoir. 4. Oui, quand je l'appelle, je lui parle en français. 5. Oui, quand je les invite, je leur offre à boire. 6. Oui, quand je la reçois, je lui raconte mes aventures. 7. Oui, quand je la revois, je lui rapporte toujours. 8. Oui, quand elle m'invite à dîner, je lui apporte des fleurs.",
+      "answer": "la/lui/le/lui/les/leur/l'/lui/les/leur/la/lui/la/lui/m'/lui",
+      "hint": "p.130, ex.1"
     },
     {
       "id": 26,
-      "prompt": "Je ___ la donne. (à lui)",
-      "answer": "la lui",
-      "hint": "Ordre des pronoms à la 3e personne"
+      "prompt": "2. Oui, il lui plaît beaucoup. 3. Oui, elle lui va bien. 4. Oui, elle leur convient. 5. Oui, il lui ressemble beaucoup.",
+      "answer": "lui plaît/lui va/leur convient/lui ressemble",
+      "hint": "p.130, ex.3"
     },
     {
       "id": 27,
-      "prompt": "Je ___ les laissons. (à eux)",
-      "answer": "les leur",
-      "hint": "Ordre des pronoms à la 3e personne pluriel"
+      "prompt": "2. Non, il ne lui plaît pas beaucoup. 3. Non, elle ne lui va pas. 4. Non, elle ne leur convient pas. 5. Non, il ne lui ressemble pas beaucoup.",
+      "answer": "ne lui plaît pas/ne lui va pas/ne leur convient pas/ne lui ressemble pas",
+      "hint": "p.130, ex.4"
     },
     {
       "id": 28,
-      "prompt": "Elle ___ en donne. (à lui)",
-      "answer": "lui",
-      "hint": "Pronom indirect + en"
+      "prompt": "1. ... je ___ utilise souvent. 2. ... j'y vais à quatre heures. 3. ... je n'en mets pas. 4. ... il n'y va pas. 5. ... je lui téléphone souvent. 6. ... elle ne lui va pas. 7. ... ils en boivent.",
+      "answer": "l'/y/n'en/n'y/lui/ne lui/en",
+      "hint": "p.131, ex.1"
     },
     {
       "id": 29,
-      "prompt": "Elle ___ les présente. (à eux)",
-      "answer": "les leur",
-      "hint": "Pronom direct + pronom indirect"
+      "prompt": "2. ... je ___ arrose. 3. ... je les arrose. 4. ... je termine. 5. ... je la lasse. 6. ... j'aime ça.",
+      "answer": "les/les/le/la",
+      "hint": "p.131, ex.2"
     },
     {
       "id": 30,
-      "prompt": "Je ___ en donne. (à eux)",
-      "answer": "leur",
-      "hint": "Pronom indirect + en"
+      "prompt": "1. ... il s'en empare. 2. ... elle nous attend. 3. ... je la connais. 4. ... je vous entends. 5. ... je les oublie. 6. ... j'aime ça.",
+      "answer": "s'en/nous/la/vous/les",
+      "hint": "p.131, ex.3"
     },
     {
       "id": 31,
-      "prompt": "Oui, il m'en offre souvent. (offrir un cadeau)",
-      "answer": "Oui, il m'en offre souvent.",
-      "hint": "Remplacer avec deux pronoms"
-    },
-    {
-      "id": 32,
-      "prompt": "Non, je ne ___ les ___ montre pas. (photos à eux)",
-      "answer": "leur",
-      "hint": "Forme négative avec deux pronoms"
-    },
-    {
-      "id": 33,
-      "prompt": "Non, je ne ___ en parle pas. (vie privée à lui)",
-      "answer": "lui",
-      "hint": "Forme négative avec pronom + en"
-    },
-    {
-      "id": 34,
-      "prompt": "Non, je ne ___ les ___ prête pas. (clés à eux)",
-      "answer": "leur",
-      "hint": "Forme négative avec deux pronoms"
-    },
-    {
-      "id": 35,
-      "prompt": "Non, je ne ___ la ___ envoie pas. (lettre à eux)",
-      "answer": "leur",
-      "hint": "Forme négative"
-    },
-    {
-      "id": 36,
-      "prompt": "Non, je ne m'en ___ pas. (servir)",
-      "answer": "sers",
-      "hint": "Verbe pronominal négatif + en"
-    },
-    {
-      "id": 37,
-      "prompt": "Oui, quand je ___ rencontre, je ___ dis bonjour.",
-      "answer": "le/lui",
-      "hint": "Pronom direct + pronom indirect"
-    },
-    {
-      "id": 38,
-      "prompt": "Oui, quand je ___ vois, je ___ pose des questions.",
-      "answer": "le/lui",
-      "hint": "Pronom direct + pronom indirect"
-    },
-    {
-      "id": 39,
-      "prompt": "Oui, quand je ___ quitte, je ___ dis au revoir.",
-      "answer": "les/leur",
-      "hint": "Pronoms directs et indirects pluriels"
-    },
-    {
-      "id": 40,
-      "prompt": "Oui, quand je ___ appelle, je ___ parle en français.",
-      "answer": "l'/lui",
-      "hint": "Pronom direct + pronom indirect"
-    },
-    {
-      "id": 41,
-      "prompt": "Oui, quand je ___ invite, je ___ offre à boire.",
-      "answer": "les/leur",
-      "hint": "Pronoms directs et indirects pluriels"
-    },
-    {
-      "id": 42,
-      "prompt": "Le maître et ses élèves : aider → il ___ aide, expliquer les règles → il ___ explique les règles.",
-      "answer": "les/leur",
-      "hint": "Aider qqn (direct) vs expliquer à qqn (indirect)"
-    },
-    {
-      "id": 43,
-      "prompt": "Est-ce que Patrick ressemble beaucoup à sa mère ? - Oui, il ___ ressemble beaucoup.",
-      "answer": "lui",
-      "hint": "Ressembler à → pronom indirect"
-    },
-    {
-      "id": 44,
-      "prompt": "Est-ce que Patrick Bruel plaît à votre grand-mère ? - Oui, il ___ plaît beaucoup.",
-      "answer": "lui",
-      "hint": "Plaire à → pronom indirect"
-    },
-    {
-      "id": 45,
-      "prompt": "Est-ce que cette robe va bien à Marie ? - Non, elle ne ___ va pas.",
-      "answer": "lui",
-      "hint": "Aller à → pronom indirect négatif"
-    },
-    {
-      "id": 46,
-      "prompt": "Est-ce que cette robe convient à Marie ? - Non, elle ne ___ convient pas.",
-      "answer": "lui",
-      "hint": "Convenir à → pronom indirect négatif"
-    },
-    {
-      "id": 47,
-      "prompt": "Est-ce que ce style ressemble à Marie ? - Non, il ne ___ ressemble pas beaucoup.",
-      "answer": "lui",
-      "hint": "Ressembler à → pronom indirect négatif"
-    },
-    {
-      "id": 48,
-      "prompt": "Je ___ utilise souvent. (l'ordinateur)",
-      "answer": "l'",
-      "hint": "Pronom direct devant voyelle"
-    },
-    {
-      "id": 49,
-      "prompt": "J'___ vais à quatre heures. (à la piscine)",
-      "answer": "y",
-      "hint": "Y remplace « à » + lieu"
-    },
-    {
-      "id": 50,
-      "prompt": "Je n'___ mets pas. (de sucre)",
-      "answer": "en",
-      "hint": "En remplace « de » + chose"
-    },
-    {
-      "id": 51,
-      "prompt": "Il n'___ va pas. (au cinéma)",
-      "answer": "y",
-      "hint": "Y remplace « à » + lieu"
-    },
-    {
-      "id": 52,
-      "prompt": "Je ___ téléphone souvent. (à mes parents)",
-      "answer": "leur",
-      "hint": "Pronom indirect pour personnes (pas y)"
-    },
-    {
-      "id": 53,
-      "prompt": "Elle ne ___ va pas. (à la fête)",
-      "answer": "y",
-      "hint": "Y remplace « à » + lieu/chose"
-    },
-    {
-      "id": 54,
-      "prompt": "Je m'___ intéresse. (à la politique)",
-      "answer": "y",
-      "hint": "Y remplace « à » + chose"
-    },
-    {
-      "id": 55,
-      "prompt": "Il ___ en a. (des bonbons)",
-      "answer": "y",
-      "hint": "Y + en : il y en a"
-    },
-    {
-      "id": 56,
-      "prompt": "Oui, j'en fais. ___ Non, je n'en fais pas. (du sport)",
-      "answer": "Oui, j'en fais. / Non, je n'en fais pas.",
-      "hint": "En remplace « du sport »"
-    },
-    {
-      "id": 57,
-      "prompt": "Oui, je le/la souhaite toujours. ___ Non, je ne le/la souhaite jamais. (la fête)",
-      "answer": "Oui, je la souhaite toujours. / Non, je ne la souhaite jamais.",
-      "hint": "Pronom direct"
-    },
-    {
-      "id": 58,
-      "prompt": "Elle ___ (le/la rencontrer) ... ___ (lui parler) ... ___ (les écouter) ... ___ (leur répondre) ... ___ (les prendre [les photos]) ... ___ (le/la féliciter).",
-      "answer": "le rencontre / lui parle / les écoute / leur répond / les prend / le félicite",
-      "hint": "Utiliser les pronoms directs et indirects selon la construction du verbe"
+      "prompt": "1. – Oui, j'en fais. (ou – Non, je n'en fais pas.) 2. – Oui, je la lui souhaite toujours. (ou – Non, je ne la lui souhaite jamais.) 3. – Oui, je leur parle pas en français. (ou – Non, je ne leur parle pas en français.) 4. – Oui, j'en mange souvent. (ou – Non, je n'en mange pas souvent.) 5. – Oui, je m'y intéresse. (ou – Non, je n'y m'intéresse pas.) 6. – Oui, j'y crois. (ou – Non, je n'y crois pas.)",
+      "answer": "en fais/la lui souhaite/leur parle/en mange/m'y intéresse/y crois",
+      "hint": "p.131, ex.4"
     }
   ]
 },
@@ -4455,135 +4293,57 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "C'est Pierre, là, sur la photo ? - Oui, c'est ___.",
+      "prompt": "Répondez avec un pronom tonique, selon le modèle.\n1. – C'est Pierre, là, sur la photo ?\n– Oui, c'est lui.",
       "answer": "lui",
-      "hint": "Pronom tonique masculin singulier"
+      "hint": "p.133, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Qui est responsable de l'agence, c'est vous ? - Non, c'est ___ lui.",
-      "answer": "pas",
-      "hint": "Ce n'est pas moi, c'est lui"
+      "prompt": "2. – Qui est le responsable de l'agence, c'est vous ?\n– ___",
+      "answer": "Oui, c'est moi.",
+      "hint": "p.133, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Qui est au téléphone, c'est ma fille ? - Oui, c'est ___.",
-      "answer": "elle",
-      "hint": "Pronom tonique féminin"
+      "prompt": "3. – Qui est-ce qui danse avec Madeleine ?\n– ___",
+      "answer": "Non, c'est lui (ou Non, c'est pas lui).",
+      "hint": "p.133, ex.1"
     },
     {
       "id": 4,
-      "prompt": "C'est Paul qui danse avec Madeleine, là-bas ? - Non, ce n'est pas ___.",
-      "answer": "lui",
-      "hint": "Pronom tonique masculin"
+      "prompt": "4. – C'est Paul qui danse avec Catherine, là-bas ?\n– ___",
+      "answer": "Oui.",
+      "hint": "p.133, ex.1"
     },
     {
       "id": 5,
-      "prompt": "Ce sont les parents de Catherine ? - Oui, c'est ___.",
-      "answer": "eux",
-      "hint": "Pronom tonique masculin pluriel"
+      "prompt": "Répondez avec un pronom tonique, selon le modèle.\n2. – Je ne travaille en juillet. – ___ aussi.\n– Et Paul ? – ___ non plus.\n– Et vos filles ? – ___ non plus.",
+      "answer": "Moi aussi/Lui non plus/Elles non plus",
+      "hint": "p.133, ex.2"
     },
     {
       "id": 6,
-      "prompt": "Je travaille en juillet. - ___ aussi.",
-      "answer": "Moi",
-      "hint": "Pronom tonique + aussi"
+      "prompt": "2. ... ce n'est pas moi. 3. ... c'est elle. 4. ... ce n'est pas lui. 5. ... ce sont eux.",
+      "answer": "ce n'est pas moi/c'est elle/ce n'est pas lui/ce sont eux",
+      "hint": "p.133, ex.1"
     },
     {
       "id": 7,
-      "prompt": "Et Paul ? - ___ aussi.",
-      "answer": "Lui",
-      "hint": "Pronom tonique masculin + aussi"
+      "prompt": "2. – Ah bon, vous déjeunez avec lui ! 3. – Ah bon, vous habitez chez eux ! 4. – Ah bon, vous sortez avec lui ! 5. – Ah bon, vous partez en vacances sans eux !",
+      "answer": "avec lui/chez eux/avec lui/sans eux",
+      "hint": "p.133, ex.3"
     },
     {
       "id": 8,
-      "prompt": "Je ne suis pas là en solo. - ___ non plus.",
-      "answer": "Moi",
-      "hint": "Pronom tonique + non plus"
+      "prompt": "2. ... lui, il habite ... 3. ... moi, je vais ... 4. ... elle, elle arrive ... 5. ... lui, il travaille ...",
+      "answer": "lui/moi/elle/lui",
+      "hint": "p.133, ex.4"
     },
     {
       "id": 9,
-      "prompt": "Et vos filles ? - ___ non plus.",
-      "answer": "Elles",
-      "hint": "Pronom tonique féminin pluriel + non plus"
-    },
-    {
-      "id": 10,
-      "prompt": "Et vos parents ? - ___ non plus.",
-      "answer": "Eux",
-      "hint": "Pronom tonique masculin pluriel + non plus"
-    },
-    {
-      "id": 11,
-      "prompt": "Ce soir, je dîne chez Jean et Michelle. - Ah bon, vous dînez chez ___ !",
-      "answer": "eux",
-      "hint": "Pronom tonique après chez"
-    },
-    {
-      "id": 12,
-      "prompt": "À midi, je déjeune avec Julien. - Non, ___, il est dans la campagne.",
-      "answer": "lui",
-      "hint": "Pronom tonique pour contraste"
-    },
-    {
-      "id": 13,
-      "prompt": "Ce soir, je suis avec Pierre et Anne. - Non, ___, ils sont en banlieue.",
-      "answer": "eux",
-      "hint": "Pronom tonique pour contraste"
-    },
-    {
-      "id": 14,
-      "prompt": "J'aime la ville. - ___ aussi ? - Non, ___ je préfère la campagne.",
-      "answer": "Toi/moi",
-      "hint": "Pronoms toniques en opposition"
-    },
-    {
-      "id": 15,
-      "prompt": "Jean habite dans le centre. - ___ aussi.",
-      "answer": "Lui",
-      "hint": "Pronom tonique + aussi"
-    },
-    {
-      "id": 16,
-      "prompt": "Marie va à la piscine à 9 h 30. - ___ aussi ?",
-      "answer": "Elle",
-      "hint": "Pronom tonique féminin"
-    },
-    {
-      "id": 17,
-      "prompt": "Le directeur arrive à 5 h. - ___ aussi ?",
-      "answer": "Lui",
-      "hint": "Pronom tonique masculin"
-    },
-    {
-      "id": 18,
-      "prompt": "Roberto travaille à Rome. - ___ aussi.",
-      "answer": "Lui",
-      "hint": "Pronom tonique masculin"
-    },
-    {
-      "id": 19,
-      "prompt": "Complétez : Alice parle avec son copain ; elle parle avec ___.",
-      "answer": "lui",
-      "hint": "Pronom tonique après avec"
-    },
-    {
-      "id": 20,
-      "prompt": "Ce parapluie est à vous ? - Oui, il est à ___.",
-      "answer": "moi",
-      "hint": "Pronom tonique après à"
-    },
-    {
-      "id": 21,
-      "prompt": "Vos enfants aussi ? - Oui, ___ aussi.",
-      "answer": "eux",
-      "hint": "Pronom tonique pluriel + aussi"
-    },
-    {
-      "id": 22,
-      "prompt": "Lucas, ce sont ___ garçon secret. (pronom tonique pour « Lucas »)",
-      "answer": "un",
-      "hint": "Compléter la phrase avec les éléments manquants"
+      "prompt": "1. ... lui. 2. ... eux. 3. ... moi. 4. ... lui. 5. ... soi.",
+      "answer": "lui/eux/moi/lui/soi",
+      "hint": "p.133, ex.5"
     }
   ]
 },
@@ -4595,213 +4355,45 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Boire de l'eau. (vous, impératif affirmatif)",
-      "answer": "Buvez de l'eau !",
-      "hint": "Impératif de boire avec vous"
+      "prompt": "Mettez à l'impératif, selon le modèle.\nBoire de l'eau. → Buvez de l'eau !\nDe bons conseils :\nManger des fruits. → ___\nFaire du sport. → ___\nRespirer. → ___\nÊtre positif. → ___\nAvoir confiance. → ___",
+      "answer": "Mangez des fruits !/Faites du sport !/Respirez !/Soyez positif !/Ayez confiance !",
+      "hint": "p.135, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Manger des fruits. (vous, impératif affirmatif)",
-      "answer": "Mangez des fruits !",
-      "hint": "Impératif de manger avec vous"
+      "prompt": "Ne buvez pas d'alcool ! → ___\nNe mangez pas de viande ! → ___\nNe fumez pas ! → ___\nNe prenez pas de poids ! → ___\nNe soyez pas négatif ! → ___\nN'ayez pas peur ! → ___",
+      "answer": "Ne buvez pas d'alcool !/Ne mangez pas de viande !/Ne fumez pas !/Ne prenez pas de poids !/Ne soyez pas négatif !/N'ayez pas peur !",
+      "hint": "p.135, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Faire du sport. (vous, impératif affirmatif)",
-      "answer": "Faites du sport !",
-      "hint": "Impératif de faire avec vous"
+      "prompt": "Refaites oralement l'exercice précédent à la 2e personne du singulier.\nMange des fruits ! / Bois de l'eau !",
+      "answer": "Mange des fruits !/Fais du sport !/Respire !/Sois positif !/Aie confiance !/Ne mange pas de viande !/Ne bois pas d'alcool !/Ne fume pas !/Ne prends pas de poids !/Ne sois pas négatif !/N'aie pas peur !",
+      "hint": "p.135, ex.2"
     },
     {
       "id": 4,
-      "prompt": "Respirer. (vous, impératif affirmatif)",
-      "answer": "Respirez !",
-      "hint": "Impératif de respirer avec vous"
+      "prompt": "Complétez avec les verbes et les pronoms.\n1. – J'ai besoin d'un dictionnaire. Donne-moi un dictionnaire, s'il te plaît.",
+      "answer": "Donne-moi un dictionnaire",
+      "hint": "p.135, ex.3"
     },
     {
       "id": 5,
-      "prompt": "Être positif. (vous, impératif affirmatif)",
-      "answer": "Soyez positif !",
-      "hint": "Impératif irrégulier de être"
+      "prompt": "2. Donne-lui un classeur. 3. Donne-lui un stylo. 4. Donne-leur un livre. 5. Donne-moi une feuille.",
+      "answer": "Donne-lui/Donne-lui/Donne-leur/Donne-moi",
+      "hint": "p.135, ex.3"
     },
     {
       "id": 6,
-      "prompt": "Avoir confiance. (vous, impératif affirmatif)",
-      "answer": "Ayez confiance !",
-      "hint": "Impératif irrégulier de avoir"
+      "prompt": "1. Concentre-toi. / Concentrez-vous. 2. Dépêche-toi. / Dépêchez-vous. 3. Défends-toi. / Défendez-vous. 4. Ne te décourage pas. / Ne vous découragez pas.",
+      "answer": "Concentre-toi/Concentrez-vous/Dépêche-toi/Dépêchez-vous/Défends-toi/Défendez-vous/Ne te décourage pas/Ne vous découragez pas",
+      "hint": "p.135, ex.4"
     },
     {
       "id": 7,
-      "prompt": "Fumer. (vous, impératif négatif)",
-      "answer": "Ne fumez pas !",
-      "hint": "Impératif négatif"
-    },
-    {
-      "id": 8,
-      "prompt": "Boire de l'alcool. (vous, impératif négatif)",
-      "answer": "Ne buvez pas d'alcool !",
-      "hint": "Impératif négatif"
-    },
-    {
-      "id": 9,
-      "prompt": "Prendre du poids. (vous, impératif négatif)",
-      "answer": "Ne prenez pas de poids !",
-      "hint": "Impératif négatif"
-    },
-    {
-      "id": 10,
-      "prompt": "Être négatif. (vous, impératif négatif)",
-      "answer": "Ne soyez pas négatif !",
-      "hint": "Impératif négatif de être"
-    },
-    {
-      "id": 11,
-      "prompt": "Avoir peur. (vous, impératif négatif)",
-      "answer": "N'ayez pas peur !",
-      "hint": "Impératif négatif de avoir"
-    },
-    {
-      "id": 12,
-      "prompt": "Manger des fruits. (tu, impératif affirmatif)",
-      "answer": "Mange des fruits !",
-      "hint": "Impératif de manger avec tu (pas de -s)"
-    },
-    {
-      "id": 13,
-      "prompt": "Respirer. (tu, impératif affirmatif)",
-      "answer": "Respire !",
-      "hint": "Impératif avec tu"
-    },
-    {
-      "id": 14,
-      "prompt": "Faire du sport. (tu, impératif affirmatif)",
-      "answer": "Fais du sport !",
-      "hint": "Impératif de faire avec tu"
-    },
-    {
-      "id": 15,
-      "prompt": "Être positif. (tu, impératif affirmatif)",
-      "answer": "Sois positif !",
-      "hint": "Impératif irrégulier de être avec tu"
-    },
-    {
-      "id": 16,
-      "prompt": "Avoir confiance. (tu, impératif affirmatif)",
-      "answer": "Aie confiance !",
-      "hint": "Impératif irrégulier de avoir avec tu"
-    },
-    {
-      "id": 17,
-      "prompt": "Ne pas fumer. (tu, impératif négatif)",
-      "answer": "Ne fume pas !",
-      "hint": "Impératif négatif avec tu"
-    },
-    {
-      "id": 18,
-      "prompt": "Ne pas manger de viande. (tu, impératif négatif)",
-      "answer": "Ne mange pas de viande !",
-      "hint": "Impératif négatif avec tu"
-    },
-    {
-      "id": 19,
-      "prompt": "Ne pas prendre de poids. (tu, impératif négatif)",
-      "answer": "Ne prends pas de poids !",
-      "hint": "Impératif négatif avec tu"
-    },
-    {
-      "id": 20,
-      "prompt": "Ne pas être négatif. (tu, impératif négatif)",
-      "answer": "Ne sois pas négatif !",
-      "hint": "Impératif négatif irrégulier"
-    },
-    {
-      "id": 21,
-      "prompt": "Ne pas avoir peur. (tu, impératif négatif)",
-      "answer": "N'aie pas peur !",
-      "hint": "Impératif négatif irrégulier"
-    },
-    {
-      "id": 22,
-      "prompt": "J'ai besoin d'un dictionnaire. Donnez-___ un dictionnaire, s'il vous plaît.",
-      "answer": "moi",
-      "hint": "Me → moi à l'impératif affirmatif"
-    },
-    {
-      "id": 23,
-      "prompt": "Marie a besoin d'un classeur. Donne-___ un classeur.",
-      "answer": "lui",
-      "hint": "Pronom indirect à l'impératif affirmatif"
-    },
-    {
-      "id": 24,
-      "prompt": "Les étudiants ont besoin d'un stylo. Donne-___ un stylo.",
-      "answer": "leur",
-      "hint": "Pronom indirect pluriel"
-    },
-    {
-      "id": 25,
-      "prompt": "J'ai besoin d'une feuille. Donne-___ une feuille.",
-      "answer": "moi",
-      "hint": "Me → moi à l'impératif affirmatif"
-    },
-    {
-      "id": 26,
-      "prompt": "Se concentrer. (tu / vous, impératif)",
-      "answer": "Concentre-toi. / Concentrez-vous.",
-      "hint": "Te → toi à l'impératif affirmatif"
-    },
-    {
-      "id": 27,
-      "prompt": "Se dépêcher. (tu / vous, impératif)",
-      "answer": "Dépêche-toi. / Dépêchez-vous.",
-      "hint": "Te → toi à l'impératif affirmatif"
-    },
-    {
-      "id": 28,
-      "prompt": "Se détendre. (tu / vous, impératif)",
-      "answer": "Détends-toi. / Détendez-vous.",
-      "hint": "Te → toi à l'impératif affirmatif"
-    },
-    {
-      "id": 29,
-      "prompt": "Ne pas se décourager. (tu / vous, impératif négatif)",
-      "answer": "Ne te décourage pas. / Ne vous découragez pas.",
-      "hint": "Pronom avant le verbe au négatif"
-    },
-    {
-      "id": 30,
-      "prompt": "Transformez « S'asseoir » à l'impératif (tu) :",
-      "answer": "Assieds-toi !",
-      "hint": "Impératif pronominal affirmatif"
-    },
-    {
-      "id": 31,
-      "prompt": "Transformez « S'asseoir » à l'impératif (vous) :",
-      "answer": "Asseyez-vous !",
-      "hint": "Impératif pronominal affirmatif"
-    },
-    {
-      "id": 32,
-      "prompt": "N'y va pas ! → Mais si, ___-y !",
-      "answer": "vas",
-      "hint": "Impératif affirmatif de aller + y"
-    },
-    {
-      "id": 33,
-      "prompt": "N'en prends pas ! → Mais si, prends-___ !",
-      "answer": "en",
-      "hint": "Impératif affirmatif + en"
-    },
-    {
-      "id": 34,
-      "prompt": "Ne leur écris pas ! → Mais si, écris-___ !",
-      "answer": "leur",
-      "hint": "Impératif affirmatif + pronom indirect"
-    },
-    {
-      "id": 35,
-      "prompt": "Ne les invite pas ! → Mais si, invite-___ !",
-      "answer": "les",
-      "hint": "Impératif affirmatif + pronom direct"
+      "prompt": "1. N'y va pas ! / Mais si, vas-y ! 2. N'en prends pas ! / Mais si, prends-en ! 3. Ne leur écris pas ! / Mais si, écris-leur ! 4. Ne les invite pas ! / Mais si, invite-les !",
+      "answer": "N'y va pas/vas-y/N'en prends pas/prends-en/Ne leur écris pas/écris-leur/Ne les invite pas/invite-les",
+      "hint": "p.135, ex.5"
     }
   ]
 },
@@ -4813,135 +4405,75 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Vous voulez un ou deux sucres ? (conditionnel de politesse) - Je ___ un sucre.",
-      "answer": "voudrais",
-      "hint": "Conditionnel de vouloir"
+      "prompt": "Répondez aux questions en utilisant une formule de politesse.\n1. – Vous voulez un ou deux sucres ?\n– Je voudrais un café.",
+      "answer": "Je voudrais un café.",
+      "hint": "p.137, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Vous voulez un thé ou un café ? - Je ___ un café.",
-      "answer": "voudrais",
-      "hint": "Conditionnel de vouloir"
+      "prompt": "2. – Vous voulez un thé ou un café ?\n– ___",
+      "answer": "Je voudrais un thé.",
+      "hint": "p.137, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Vous voulez une brioche ou un croissant ? - Je ___ une brioche.",
-      "answer": "voudrais",
-      "hint": "Conditionnel de vouloir"
+      "prompt": "3. – Vous voulez faire une pause ou continuer ?\n– ___",
+      "answer": "Je voudrais faire une pause (ou je voudrais continuer).",
+      "hint": "p.137, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Vous voulez faire une pause ou continuer ? - Je ___ faire une pause.",
-      "answer": "voudrais",
-      "hint": "Conditionnel de vouloir"
+      "prompt": "4. – Vous voulez écouter un CD ou voir une vidéo ?\n– ___",
+      "answer": "Je voudrais écouter un CD (ou je voudrais voir une vidéo).",
+      "hint": "p.137, ex.1"
     },
     {
       "id": 5,
-      "prompt": "Vous voulez écouter un CD ou voir une vidéo ? - Je ___ écouter un CD.",
-      "answer": "voudrais",
-      "hint": "Conditionnel de vouloir"
+      "prompt": "5. – Vous voulez sortir ou rester ici ?\n– ___",
+      "answer": "Je voudrais sortir (ou je voudrais rester ici).",
+      "hint": "p.137, ex.1"
     },
     {
       "id": 6,
-      "prompt": "Au restaurant : Est-ce que je ___ avoir une table près de la fenêtre ?",
-      "answer": "pourrais",
-      "hint": "Conditionnel de pouvoir"
+      "prompt": "Posez des questions en utilisant une formule de politesse.\nAu restaurant :\n– Est-ce que je pourrais avoir une table près de la fenêtre ?",
+      "answer": "Est-ce que je pourrais avoir une table près de la fenêtre ?",
+      "hint": "p.137, ex.2"
     },
     {
       "id": 7,
-      "prompt": "Au restaurant : Est-ce que je ___ avoir un peu de pain ?",
-      "answer": "pourrais",
-      "hint": "Conditionnel de pouvoir"
+      "prompt": "Donnez des conseils, selon le modèle.\nPour être en forme :\nDormir au moins 8 heures. → Vous devriez dormir au moins 8 heures.",
+      "answer": "Vous devriez dormir au moins 8 heures.",
+      "hint": "p.137, ex.3"
     },
     {
       "id": 8,
-      "prompt": "Au restaurant : Est-ce que je ___ avoir des haricots à la place des frites ?",
-      "answer": "pourrais",
-      "hint": "Conditionnel de pouvoir"
+      "prompt": "Partir un mois en vacances. → ___\nFaire 15 minutes de gym. → ___\nFaire de la marche à pied. → ___\nManger des légumes verts. → ___\nBoire beaucoup d'eau. → ___",
+      "answer": "Vous devriez partir un mois en vacances./Vous devriez faire 15 minutes de gym./Vous devriez faire de la marche à pied./Vous devriez manger des légumes verts./Vous devriez boire beaucoup d'eau.",
+      "hint": "p.137, ex.3"
     },
     {
       "id": 9,
-      "prompt": "Au restaurant : Est-ce que je ___ avoir une carafe d'eau ?",
-      "answer": "pourrais",
-      "hint": "Conditionnel de pouvoir"
+      "prompt": "J'aimerais avoir ... – J'aimerais faire ... – J'aimerais être ...",
+      "answer": "Réponses libres",
+      "hint": "p.137, ex.4"
     },
     {
       "id": 10,
-      "prompt": "Au restaurant : Est-ce que je ___ avoir le dessert ?",
-      "answer": "pourrais",
-      "hint": "Conditionnel de pouvoir"
+      "prompt": "Réponses possibles : Je prendrais bien un thé. – Je mangerais bien une orange. – J'irais bien ...",
+      "answer": "Réponses libres",
+      "hint": "p.137, ex.4"
     },
     {
       "id": 11,
-      "prompt": "Pour être en forme, vous ___ dormir au moins 8 heures.",
-      "answer": "devriez",
-      "hint": "Conditionnel de devoir pour un conseil"
+      "prompt": "Complétez avec les conditionnels manquants.\n1. ___ prendrais bien ... 2. ___ devrais ... 3. ___ pourrais ...\n4. ___ voudrais bien ... 5. ___ aimerais bien ...",
+      "answer": "prendrais/devrais/pourrais/voudrais/aimerais",
+      "hint": "p.137, ex.5"
     },
     {
       "id": 12,
-      "prompt": "Pour être en forme, vous ___ partir un mois en vacances.",
-      "answer": "devriez",
-      "hint": "Conditionnel de devoir"
-    },
-    {
-      "id": 13,
-      "prompt": "Pour être en forme, vous ___ faire 15 minutes de gym.",
-      "answer": "devriez",
-      "hint": "Conditionnel de devoir"
-    },
-    {
-      "id": 14,
-      "prompt": "Pour être en forme, vous ___ faire de la marche à pied.",
-      "answer": "devriez",
-      "hint": "Conditionnel de devoir"
-    },
-    {
-      "id": 15,
-      "prompt": "Pour être en forme, vous ___ boire beaucoup d'eau.",
-      "answer": "devriez",
-      "hint": "Conditionnel de devoir"
-    },
-    {
-      "id": 16,
-      "prompt": "Pour être en forme, vous ___ manger des légumes verts.",
-      "answer": "devriez",
-      "hint": "Conditionnel de devoir"
-    },
-    {
-      "id": 17,
-      "prompt": "Exprimez des désirs : je ___ bien parler couramment le français.",
-      "answer": "aimerais",
-      "hint": "Conditionnel de aimer"
-    },
-    {
-      "id": 18,
-      "prompt": "Exprimez des désirs : je ___ bien faire le tour du monde.",
-      "answer": "aimerais",
-      "hint": "Conditionnel de aimer"
-    },
-    {
-      "id": 19,
-      "prompt": "Bonjour, madame, je ___ (prendre) une brioche et un croissant.",
-      "answer": "prendrais",
-      "hint": "Conditionnel de prendre"
-    },
-    {
-      "id": 20,
-      "prompt": "Est-ce que je ___ (pouvoir) parler à Paul ?",
-      "answer": "pourrais",
-      "hint": "Conditionnel de pouvoir"
-    },
-    {
-      "id": 21,
-      "prompt": "Tu es trop fatigué : tu ___ (devoir) prendre quelques jours de congé.",
-      "answer": "devrais",
-      "hint": "Conditionnel de devoir"
-    },
-    {
-      "id": 22,
-      "prompt": "Plus tard, je ___ (vouloir) avoir des enfants.",
-      "answer": "voudrais",
-      "hint": "Conditionnel de vouloir"
+      "prompt": "1. – Bonjour, madame, je ___ une brioche et un croissant. 2. Tu es trop fatigué, tu ___ ... 3. Est-ce que je ___ parler à Paul ? 4. J'ai sommeil, je ___ ... 5. Plus tard, je ___",
+      "answer": "voudrais/devrais/pourrais/prendrais/aimerais bien",
+      "hint": "p.137, ex.6"
     }
   ]
 },
@@ -4953,327 +4485,159 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "J'attends un ami ___ est en retard.",
-      "answer": "qui",
-      "hint": "Sujet du verbe « est »"
+      "prompt": "Transformez avec « qui » ou « que », selon le modèle.\nJ'attends un ami. Il est en retard. → J'attends un ami qui est en retard.",
+      "answer": "qui est en retard",
+      "hint": "p.141, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Je lis un livre ___ est ennuyeux.",
-      "answer": "qui",
-      "hint": "Sujet du verbe « est »"
+      "prompt": "Je lis un livre. Il est ennuyeux. → ___",
+      "answer": "Je lis un livre qui est ennuyeux.",
+      "hint": "p.141, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Je mange des frites ___ sont froides.",
-      "answer": "qui",
-      "hint": "Sujet du verbe « sont »"
+      "prompt": "Je mange des frites. Elles sont froides. → ___",
+      "answer": "Je mange des frites qui sont froides.",
+      "hint": "p.141, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Je bois un Coca ___ est chaud.",
-      "answer": "qui",
-      "hint": "Sujet du verbe « est »"
+      "prompt": "Je bois un Coca. Il est chaud. → ___",
+      "answer": "Je bois un Coca qui est chaud.",
+      "hint": "p.141, ex.1"
     },
     {
       "id": 5,
-      "prompt": "J'écoute un musicien ___ joue mal.",
-      "answer": "qui",
-      "hint": "Sujet du verbe « joue »"
+      "prompt": "J'écoute un musicien. Il joue mal. → ___",
+      "answer": "J'écoute un musicien qui joue mal.",
+      "hint": "p.141, ex.1"
     },
     {
       "id": 6,
-      "prompt": "L'homme ___ a des moustaches rouges et ___ porte un chapeau bleu est mon oncle.",
-      "answer": "qui/qui",
-      "hint": "Sujet du verbe"
+      "prompt": "Choisissez des éléments pour compléter les descriptions, selon le modèle.\nL'homme qui a des moustaches rousses et qui fume la pipe est mon oncle.",
+      "answer": "qui a des moustaches rousses/qui fume la pipe",
+      "hint": "p.141, ex.2"
     },
     {
       "id": 7,
-      "prompt": "Le professeur ___ travaille à côté est italien.",
-      "answer": "qui",
-      "hint": "Sujet"
+      "prompt": "Complétez avec « qui » ou « que ».\n1. Le professeur ___ travaille à côté est italien ?\n2. Le pull ___ vous portez est en coton ?\n3. La personne ___ est sur le mur est de Manet ?\n4. La langue ___ vous étudiez ?\n5. Le livre ___ vous lisez est intéressant ?",
+      "answer": "qui/que/qui/que/que",
+      "hint": "p.141, ex.3"
     },
     {
       "id": 8,
-      "prompt": "Le pull ___ vous portez est en coton.",
-      "answer": "que",
-      "hint": "Complément d'objet"
+      "prompt": "Complétez avec « qui », « que », « où ».\n1. Comment s'appelle la pièce ___ on dort ?\n2. Comment s'appelle ___ il fait le plus chaud ?\n3. Comment s'appelle ___ vous étudiez ?\n4. Comment s'appelle ___ est devenu vous ?",
+      "answer": "où/où/que/qui",
+      "hint": "p.141, ex.4"
     },
     {
       "id": 9,
-      "prompt": "Le livre ___ est sur le mur est de Manet.",
-      "answer": "qui",
-      "hint": "Sujet"
+      "prompt": "Faites des phrases avec l'heure, le jour, le mois, la saison.\n1. Paul est content le mardi : c'est le jour où je fais des crêpes.\n2. Il fait beau en juillet : c'est ___\n3. Elle arrive en 1998 : c'est ___\n4. Il pleuvait le mardi : c'est ___",
+      "answer": "le mois où/l'année où/le jour où",
+      "hint": "p.141, ex.5"
     },
     {
       "id": 10,
-      "prompt": "La personne ___ vous attendez sort à 5 heures.",
-      "answer": "que",
-      "hint": "Complément d'objet"
+      "prompt": "Répondez avec « dont ».\n1. – Vous parlez souvent de politique ?\n– Oui, c'est un sujet dont je parle souvent.",
+      "answer": "dont je parle souvent",
+      "hint": "p.143, ex.1"
     },
     {
       "id": 11,
-      "prompt": "La langue ___ vous étudiez est le français.",
-      "answer": "que",
-      "hint": "Complément d'objet"
+      "prompt": "2. ... c'est un problème dont je parle parfois. 3. ... c'est un service dont je suis responsable. 4. ... c'est une machine dont je me sers. 5. ... c'est un document dont j'ai besoin.",
+      "answer": "dont je parle/dont je suis responsable/dont je me sers/dont j'ai besoin",
+      "hint": "p.143, ex.1"
     },
     {
       "id": 12,
-      "prompt": "Comment s'appelle la personne ___ fait le plus chaud ?",
-      "answer": "où il",
-      "hint": "Complément de lieu/temps"
+      "prompt": "Complétez en utilisant « dont » ou « que ».\n1. – Vous parlez parfois de la pollution ?\n– Oui, ___\n2. – Vous êtes responsable de la photocopieuse ?\n– Oui, ___\n3. – Vous vous servez du planning ?\n– Oui, ___\n4. – Vous avez besoin de la photocopieuse ?\n– Oui, ___",
+      "answer": "c'est un sujet dont je parle souvent./c'est une machine dont je suis responsable./c'est un document dont je me sers./c'est une machine dont j'ai besoin.",
+      "hint": "p.143, ex.2"
     },
     {
       "id": 13,
-      "prompt": "Comment s'appelle la ville ___ on soigne ?",
-      "answer": "où",
-      "hint": "Complément de lieu"
+      "prompt": "Répondez oralement avec « c'est... qui ».\n1. – Qui choisit la cuisine ? (Paul)\n– C'est Paul qui choisit la cuisine.",
+      "answer": "C'est Paul qui choisit la cuisine.",
+      "hint": "p.143, ex.3"
     },
     {
       "id": 14,
-      "prompt": "Il fait beau en juillet : c'est le mois ___ il fait beau.",
-      "answer": "où",
-      "hint": "Complément de temps"
+      "prompt": "2. – Qui choisit le vin ? (vous)\n3. – Qui s'occupe de la vidéo ? (moi)\n4. – Qui est le DJ ce soir ?\n– ___",
+      "answer": "C'est moi qui choisis le vin./C'est moi qui m'occupe de la vidéo./C'est moi qui suis le DJ.",
+      "hint": "p.143, ex.3"
     },
     {
       "id": 15,
-      "prompt": "Il est arrivé en 1998. C'est l'année ___ il est arrivé.",
-      "answer": "où",
-      "hint": "Complément de temps"
+      "prompt": "... ce que ... – ce qui ... – ce qui ... – ce que ...",
+      "answer": "ce que/ce qui/ce qui/ce que",
+      "hint": "p.143, ex.5"
     },
     {
       "id": 16,
-      "prompt": "Elle a sonné mardi. C'est le jour ___ elle a sonné.",
-      "answer": "où",
-      "hint": "Complément de temps"
+      "prompt": "Ce que ... c'est ... – Ce qui ... c'est ... – Ce que ... ce sont ... – Ce que ... c'est ...",
+      "answer": "Ce que/Ce qui/Ce que/Ce que",
+      "hint": "p.143, ex.6"
     },
     {
       "id": 17,
-      "prompt": "La France a gagné la Coupe du monde. C'est l'année ___ la France a gagné.",
-      "answer": "où",
-      "hint": "Complément de temps"
+      "prompt": "Complétez avec les relatifs composés manquants.\n1. ... lequel ... lesquels ... lequel ... laquelle ...",
+      "answer": "lequel/lesquels/lequel/laquelle",
+      "hint": "p.145, ex.1"
     },
     {
       "id": 18,
-      "prompt": "Vous parlez souvent de politique ? - Oui, c'est un sujet ___ je parle souvent.",
-      "answer": "dont",
-      "hint": "Dont remplace « de » + complément"
+      "prompt": "1. – Oui, la table sur laquelle je travaille est en verre. 2. – Oui, le stylo avec lequel j'écris est rechangeable. 3. – Oui, les étudiants avec lesquels je travaille sont anglais. 4. – Oui, le groupe / l'appartement est sympathique. 5. – Oui, les cours auxquels j'assiste sont intéressants.",
+      "answer": "laquelle/lequel/lesquels/auquel/auxquels",
+      "hint": "p.145, ex.2"
     },
     {
       "id": 19,
-      "prompt": "Vous êtes responsable de la photocopieuse ? - Oui, c'est une machine ___ je suis responsable.",
-      "answer": "dont",
-      "hint": "Être responsable de → dont"
+      "prompt": "... avec lesquels (ou avec qui) ... dans laquelle ... avec lesquels ... avec lequel (ou avec qui) ... auquel ... duquel.",
+      "answer": "avec lesquels/dans laquelle/avec lesquels/avec lequel/auquel/duquel",
+      "hint": "p.145, ex.3"
     },
     {
       "id": 20,
-      "prompt": "Vous vous servez du planning ? - Oui, c'est un document ___ je me sers.",
-      "answer": "dont",
-      "hint": "Se servir de → dont"
+      "prompt": "Complétez avec « qui », « que », « dont », « où ».\n1. ... qui ... 2. ... que ... 3. ... dont ... 4. ... qui ... 5. ... que ...",
+      "answer": "qui/que/dont/qui/que",
+      "hint": "p.146, ex.1"
     },
     {
       "id": 21,
-      "prompt": "Vous avez besoin de la photocopieuse ? - Oui, c'est une machine ___ j'ai besoin.",
-      "answer": "dont",
-      "hint": "Avoir besoin de → dont"
+      "prompt": "... que ... dont ... que ... qui ... ou ... que ...",
+      "answer": "que/dont/que/qui/où/que",
+      "hint": "p.146, ex.1"
     },
     {
       "id": 22,
-      "prompt": "C'est un problème ___ je parle parfois.",
-      "answer": "dont",
-      "hint": "Parler de → dont"
+      "prompt": "8. ... dont. 9. ... où. 10. ... dont. 11. ... dont.",
+      "answer": "dont/où/dont/dont",
+      "hint": "p.146, ex.2"
     },
     {
       "id": 23,
-      "prompt": "C'est un service ___ je suis responsable.",
-      "answer": "dont",
-      "hint": "Être responsable de → dont"
+      "prompt": "1. ... qui ... Le kangourou. 2. ... dont ... Un tire-bouchon. 3. ... où ... l'automne. 4. ... que ... Une torche dans la main droite et une tablette avec la date de l'indépendance américaine.\n5. ... où ... Le Louvre.",
+      "answer": "qui/dont/où/que/où",
+      "hint": "p.146, ex.3"
     },
     {
       "id": 24,
-      "prompt": "C'est une machine ___ je me sers.",
-      "answer": "dont",
-      "hint": "Se servir de → dont"
+      "prompt": "Complétez avec « ce qui », « ce que », « ce dont ».\n1. ... ce qui ... 2. ... ce qui ... 3. ... ce dont ... 4. ... ce qui ... 5. ... ce que ...\n... ce que ... 7. ... ce que ... 8. ... ce que ... 9. ... ce que ...\nce dont ... 10. Ce qui.",
+      "answer": "ce qui/ce qui/ce dont/ce qui/ce que/ce que/ce que/ce que/ce que/ce dont/Ce qui",
+      "hint": "p.147, ex.1"
     },
     {
       "id": 25,
-      "prompt": "C'est un document ___ j'ai besoin.",
-      "answer": "dont",
-      "hint": "Avoir besoin de → dont"
+      "prompt": "... ce que ... ce qui ... ce que ... ce qui' ... ce qui ... ce que ...\nce que ...",
+      "answer": "ce que/ce qui/ce que/ce qui/ce qui/ce que/ce que",
+      "hint": "p.147, ex.2"
     },
     {
       "id": 26,
-      "prompt": "Qui fait la cuisine ? (Paul) - C'est Paul ___ fait la cuisine.",
-      "answer": "qui",
-      "hint": "Mise en relief du sujet"
-    },
-    {
-      "id": 27,
-      "prompt": "Qui a choisi le vin ? (vous) - C'est vous ___ avez choisi le vin.",
-      "answer": "qui",
-      "hint": "Mise en relief du sujet"
-    },
-    {
-      "id": 28,
-      "prompt": "Qui s'occupe de la vidéo ? (moi) - C'est moi ___ m'occupe de la vidéo.",
-      "answer": "qui",
-      "hint": "Mise en relief du sujet"
-    },
-    {
-      "id": 29,
-      "prompt": "Qui est le DJ ce soir ? (toi) - C'est toi ___ es le DJ ce soir.",
-      "answer": "qui",
-      "hint": "Mise en relief du sujet"
-    },
-    {
-      "id": 30,
-      "prompt": "___ me choque, c'est le travail des enfants.",
-      "answer": "Ce qui",
-      "hint": "Ce qui = sujet"
-    },
-    {
-      "id": 31,
-      "prompt": "___ m'émeut particulièrement, c'est l'innocence.",
-      "answer": "Ce qui",
-      "hint": "Ce qui = sujet"
-    },
-    {
-      "id": 32,
-      "prompt": "___ m'amuse beaucoup, c'est l'humour anglais.",
-      "answer": "Ce qui",
-      "hint": "Ce qui = sujet"
-    },
-    {
-      "id": 33,
-      "prompt": "___ m'est insupportable, c'est la bêtise.",
-      "answer": "Ce qui",
-      "hint": "Ce qui = sujet"
-    },
-    {
-      "id": 34,
-      "prompt": "___ j'aime par-dessus tout, c'est la nature.",
-      "answer": "Ce que",
-      "hint": "Ce que = complément d'objet"
-    },
-    {
-      "id": 35,
-      "prompt": "___ j'aime particulièrement, c'est le fantastique.",
-      "answer": "Ce que",
-      "hint": "Ce que = complément d'objet"
-    },
-    {
-      "id": 36,
-      "prompt": "___ j'ai peur de manière irrationnelle, ce sont les araignées.",
-      "answer": "Ce dont",
-      "hint": "Ce dont = avoir peur de"
-    },
-    {
-      "id": 37,
-      "prompt": "Complétez avec le bon relatif composé : ___, lesquels, laquelle, lequel.",
-      "answer": "lesquelles",
-      "hint": "Relatifs composés : féminin pluriel"
-    },
-    {
-      "id": 38,
-      "prompt": "La table sur ___ je travaille est en verre.",
-      "answer": "laquelle",
-      "hint": "Relatif composé féminin singulier après « sur »"
-    },
-    {
-      "id": 39,
-      "prompt": "Le stylo avec ___ j'écris est rechargeable.",
-      "answer": "lequel",
-      "hint": "Relatif composé masculin singulier"
-    },
-    {
-      "id": 40,
-      "prompt": "Les étudiants avec ___ je travaille sont anglais.",
-      "answer": "lesquels",
-      "hint": "Relatif composé masculin pluriel"
-    },
-    {
-      "id": 41,
-      "prompt": "Le groupe ___ j'appartiens est sympathique.",
-      "answer": "auquel",
-      "hint": "Appartenir à → auquel"
-    },
-    {
-      "id": 42,
-      "prompt": "Les cours ___ j'assiste sont intéressants.",
-      "answer": "auxquels",
-      "hint": "Assister à → auxquels"
-    },
-    {
-      "id": 43,
-      "prompt": "Je ne comprends pas la raison pour ___ vous refusez mon invitation.",
-      "answer": "laquelle",
-      "hint": "Pour + relatif composé féminin"
-    },
-    {
-      "id": 44,
-      "prompt": "Est-ce que la société pour ___ vous travaillez est à Paris ?",
-      "answer": "laquelle",
-      "hint": "Pour + relatif composé féminin"
-    },
-    {
-      "id": 45,
-      "prompt": "Est-ce que le fauteuil dans ___ vous êtes assis est en cuir ?",
-      "answer": "lequel",
-      "hint": "Dans + relatif composé masculin"
-    },
-    {
-      "id": 46,
-      "prompt": "Quels sont les journaux ___ vous êtes abonné ?",
-      "answer": "auxquels",
-      "hint": "Être abonné à → auxquels"
-    },
-    {
-      "id": 47,
-      "prompt": "J'ai pas de mémoire : j'oublie tout. ___ est bien, et ___ est mal.",
-      "answer": "ce qui/ce qui",
-      "hint": "Ce qui = sujet"
-    },
-    {
-      "id": 48,
-      "prompt": "Vous avez besoin de la bibliothèque. C'est ___ vous avez besoin.",
-      "answer": "ce dont",
-      "hint": "Avoir besoin de → ce dont"
-    },
-    {
-      "id": 49,
-      "prompt": "Ils entendent et ils limitent. C'est ___ ils entendent et ___ ils limitent.",
-      "answer": "ce qu'/ce qu'",
-      "hint": "Ce que = complément d'objet"
-    },
-    {
-      "id": 50,
-      "prompt": "C'est un fruit ___ on tire du vin.",
-      "answer": "dont",
-      "hint": "Tirer de → dont"
-    },
-    {
-      "id": 51,
-      "prompt": "C'est une personne ___ on paie bien.",
-      "answer": "qu'",
-      "hint": "Payer qqn = complément d'objet"
-    },
-    {
-      "id": 52,
-      "prompt": "C'est une personne ___ a besoin quand on a des problèmes.",
-      "answer": "dont on",
-      "hint": "Avoir besoin de → dont"
-    },
-    {
-      "id": 53,
-      "prompt": "Bernard n'a pas écrit de lettre. Je ne connais pas le sujet ___ il dessine ma fille.",
-      "answer": "dont",
-      "hint": "Dessiner de → dont"
-    },
-    {
-      "id": 54,
-      "prompt": "Je trouve ___ c'est son portrait !",
-      "answer": "que",
-      "hint": "Trouver que = complément d'objet"
+      "prompt": "1. ... à laquelle ... 2. ... ce que ... 3. ... où ... 4. ... auxquels ... 5. ... Ce qui ... 10. ... duquel ...",
+      "answer": "à laquelle/ce que/où/auxquels/Ce qui/duquel",
+      "hint": "p.147, ex.3"
     }
   ]
 },
@@ -5285,255 +4649,123 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "___ travaillez-vous ? (lieu)",
-      "answer": "Où",
-      "hint": "Interrogatif de lieu"
+      "prompt": "Posez des questions avec « où », « quand », « comment », « combien », selon le modèle.\n1. – Vous ne travaillez pas en France ?\n– Mais alors, où habitez-vous ?",
+      "answer": "où habitez-vous",
+      "hint": "p.149, ex.1"
     },
     {
       "id": 2,
-      "prompt": "___ n'habitez pas à Paris ? (est-ce que)",
-      "answer": "Vous",
-      "hint": "Question avec intonation"
+      "prompt": "2. – Vous ne partez pas en vacances en août ?\n– ___",
+      "answer": "Mais alors, quand partez-vous ?",
+      "hint": "p.149, ex.1"
     },
     {
       "id": 3,
-      "prompt": "___ ne partez pas en vacances en août ?",
-      "answer": "Vous",
-      "hint": "Question sur une habitude"
+      "prompt": "3. – Vous n'allez pas en Italie ?\n– ___",
+      "answer": "Mais alors, où allez-vous ?",
+      "hint": "p.149, ex.1"
     },
     {
       "id": 4,
-      "prompt": "___ n'allez pas en Italie ?",
-      "answer": "Vous",
-      "hint": "Question sur une destination"
+      "prompt": "4. – Vous ne partez pas en avion ?\n– ___",
+      "answer": "Mais alors, comment partez-vous ?",
+      "hint": "p.149, ex.1"
     },
     {
       "id": 5,
-      "prompt": "___ ne rentrez pas en avion ?",
-      "answer": "Vous",
-      "hint": "Question sur le moyen de transport"
+      "prompt": "5. – Vous ne rentrez pas dimanche soir ?\n– ___",
+      "answer": "Mais alors, quand rentrez-vous ?",
+      "hint": "p.149, ex.1"
     },
     {
       "id": 6,
-      "prompt": "Il travaille à Rome. - ___ travaille-t-il ?",
-      "answer": "Où",
-      "hint": "Interrogatif de lieu"
+      "prompt": "Posez des questions, selon le modèle.\n1. – Il travaille à Rome.\n– Où travaille-t-il ? – Où est-ce qu'il travaille ?",
+      "answer": "Où travaille-t-il ?/Où est-ce qu'il travaille ?",
+      "hint": "p.149, ex.2"
     },
     {
       "id": 7,
-      "prompt": "Il habite à Oslo. - ___ habite-t-il ?",
-      "answer": "Où",
-      "hint": "Interrogatif de lieu"
+      "prompt": "2. – Il habite à Coste.\n– ___",
+      "answer": "Où habite-t-il ?/Où est-ce qu'il habite ?",
+      "hint": "p.149, ex.2"
     },
     {
       "id": 8,
-      "prompt": "Il arrive en train. - ___ arrive-t-il ?",
-      "answer": "Comment",
-      "hint": "Interrogatif de manière"
+      "prompt": "3. – Il arrive en train.\n– ___",
+      "answer": "Comment arrive-t-il ?/Comment est-ce qu'il arrive ?",
+      "hint": "p.149, ex.2"
     },
     {
       "id": 9,
-      "prompt": "Il voyage dimanche. - ___ voyage-t-il ?",
-      "answer": "Quand",
-      "hint": "Interrogatif de temps"
+      "prompt": "4. – Il voyage comment ?\n– ___",
+      "answer": "Comment voyage-t-il ?/Comment est-ce qu'il voyage ?",
+      "hint": "p.149, ex.2"
     },
     {
       "id": 10,
-      "prompt": "Il porte une valise. - ___ porte-t-il ?",
-      "answer": "Que",
-      "hint": "Interrogatif pour chose (COD)"
+      "prompt": "5. – Il porte quoi ?\n– ___",
+      "answer": "Que porte-t-il ?/Qu'est-ce qu'il porte ?",
+      "hint": "p.149, ex.2"
     },
     {
       "id": 11,
-      "prompt": "___ faites-vous le dimanche ?",
-      "answer": "Que",
-      "hint": "Interrogatif pour chose"
+      "prompt": "Complétez avec « que », « quoi », « qui ».\n2. ___. 3. ___. 4. ___. 5. ___. 6. ___.",
+      "answer": "Que/quoi/Que/Qui/Qui",
+      "hint": "p.149, ex.3"
     },
     {
       "id": 12,
-      "prompt": "Vous mangez ___ ?",
-      "answer": "quoi",
-      "hint": "Quoi en fin de phrase (langue familière)"
+      "prompt": "Complétez les questions.\n1. ___ vous appelez-vous ? (= Steve)\n2. ___ habitez-vous ? (= A Paris)\n3. ___ buvez-vous le matin ? (= Du thé)\n4. ___ payez-vous de loyer ? (= 1 200 €)\n5. ___ attendez-vous ? (= Mon professeur)",
+      "answer": "Comment/Où/Que/Combien/Qui",
+      "hint": "p.149, ex.4"
     },
     {
       "id": 13,
-      "prompt": "Vous écoutez ___ à la radio ?",
-      "answer": "quoi",
-      "hint": "Quoi en fin de phrase"
+      "prompt": "Complétez avec « quel(s) » ou « quelle(s) ».\n1. ___ jour sommes-nous ? ___ heure est-il ?",
+      "answer": "Quel/Quelle",
+      "hint": "p.151, ex.1"
     },
     {
       "id": 14,
-      "prompt": "___ voulez-vous boire ?",
-      "answer": "Que",
-      "hint": "Interrogatif pour chose"
+      "prompt": "2. ___ est votre adresse ? Vous habitez à ___ étage ?",
+      "answer": "Quelle/quel",
+      "hint": "p.151, ex.1"
     },
     {
       "id": 15,
-      "prompt": "Vous appelez-vous ___ ? (= Steve)",
-      "answer": "comment",
-      "hint": "Interrogatif de manière / nom"
+      "prompt": "3. ___ est votre numéro de téléphone ? Vous parlez ___ langues ?",
+      "answer": "Quel/quelles",
+      "hint": "p.151, ex.1"
     },
     {
       "id": 16,
-      "prompt": "Habitez-vous ___ ? (= à Lyon)",
-      "answer": "où",
-      "hint": "Interrogatif de lieu"
+      "prompt": "4. ___ sports ? Vous pratiquez ___ pays ? Vous travaillez à ___.",
+      "answer": "Quels/quel/quelle",
+      "hint": "p.151, ex.1"
     },
     {
       "id": 17,
-      "prompt": "Payez-vous de loyer ___ ? (= 1 200 €)",
-      "answer": "combien",
-      "hint": "Interrogatif de quantité"
+      "prompt": "Complétez les devinettes avec « quel(le) », « lequel » ou « laquelle ».\n1. Un port de Paris est construit avec des pierres de ___ ?",
+      "answer": "quelle",
+      "hint": "p.151, ex.2"
     },
     {
       "id": 18,
-      "prompt": "Partez-vous en vacances ___ ? (= en août)",
-      "answer": "quand",
-      "hint": "Interrogatif de temps"
+      "prompt": "2. La mozzarella est la spécialité d'une ville italienne. ___\n3. Dès astronaute américain ont été sur un marché du Nord ___\n4. ___\n5. Une chanson des Beatles porte le nom d'un pays français.",
+      "answer": "Laquelle/Lequel/Quel/Laquelle",
+      "hint": "p.151, ex.2"
     },
     {
       "id": 19,
-      "prompt": "Appelez-vous le matin ___ ? (= Du thé)",
-      "answer": "que buvez-vous",
-      "hint": "Interrogatif pour chose"
+      "prompt": "Posez les questions, puis répondez.\nJe m'appelle Patrice Delonde, je suis belge, je suis ingénieur...",
+      "answer": "Réponses libres",
+      "hint": "p.151, ex.3"
     },
     {
       "id": 20,
-      "prompt": "Qu'est-ce qui fait du bruit ? - C'est ___ qui chante à la radio.",
-      "answer": "mon voisin",
-      "hint": "Réponse libre. Qui est-ce qui = personne sujet"
-    },
-    {
-      "id": 21,
-      "prompt": "Qu'est-ce que c'est ? - C'est mon ___.",
-      "answer": "téléphone portable",
-      "hint": "Réponse libre. Qu'est-ce que = chose"
-    },
-    {
-      "id": 22,
-      "prompt": "___ jour sommes-nous ?",
-      "answer": "Quel",
-      "hint": "Quel + nom masculin singulier"
-    },
-    {
-      "id": 23,
-      "prompt": "___ heure est-il ?",
-      "answer": "Quelle",
-      "hint": "Quelle + nom féminin singulier"
-    },
-    {
-      "id": 24,
-      "prompt": "___ âge avez-vous ?",
-      "answer": "Quel",
-      "hint": "Quel + nom masculin singulier"
-    },
-    {
-      "id": 25,
-      "prompt": "___ est votre nationalité ?",
-      "answer": "Quelle",
-      "hint": "Quelle + nom féminin singulier"
-    },
-    {
-      "id": 26,
-      "prompt": "___ est votre adresse ?",
-      "answer": "Quelle",
-      "hint": "Quelle + nom féminin singulier"
-    },
-    {
-      "id": 27,
-      "prompt": "___ est votre numéro de téléphone ?",
-      "answer": "Quel",
-      "hint": "Quel + nom masculin singulier"
-    },
-    {
-      "id": 28,
-      "prompt": "___ sports pratiquez-vous ?",
-      "answer": "Quels",
-      "hint": "Quels + nom masculin pluriel"
-    },
-    {
-      "id": 29,
-      "prompt": "___ langues parlez-vous ?",
-      "answer": "Quelles",
-      "hint": "Quelles + nom féminin pluriel"
-    },
-    {
-      "id": 30,
-      "prompt": "___ sont vos jours de congé ?",
-      "answer": "Quels",
-      "hint": "Quels + nom masculin pluriel"
-    },
-    {
-      "id": 31,
-      "prompt": "___ journaux lisez-vous ?",
-      "answer": "Quels",
-      "hint": "Quels + nom masculin pluriel"
-    },
-    {
-      "id": 32,
-      "prompt": "___ couleurs préférez-vous ?",
-      "answer": "Quelles",
-      "hint": "Quelles + nom féminin pluriel"
-    },
-    {
-      "id": 33,
-      "prompt": "Un port de Paris est construit avec des pierres de la Bastille. ___ ? (masc.)",
-      "answer": "Lequel",
-      "hint": "Lequel pour masculin singulier"
-    },
-    {
-      "id": 34,
-      "prompt": "La mozzarella est la spécialité d'un pays. ___ ?",
-      "answer": "Lequel",
-      "hint": "Lequel pour masculin singulier"
-    },
-    {
-      "id": 35,
-      "prompt": "Posez la question : Il s'appelle Patrice Delonde. → Comment ___-t-il ?",
-      "answer": "s'appelle",
-      "hint": "Question sur le nom"
-    },
-    {
-      "id": 36,
-      "prompt": "Posez la question : Il est belge. → ___ est sa nationalité ?",
-      "answer": "Quelle",
-      "hint": "Quelle + nom féminin"
-    },
-    {
-      "id": 37,
-      "prompt": "Posez la question : Il a trente-quatre ans. → ___ âge a-t-il ?",
-      "answer": "Quel",
-      "hint": "Quel + nom masculin"
-    },
-    {
-      "id": 38,
-      "prompt": "Posez la question : Il est ingénieur. → ___ est sa profession ?",
-      "answer": "Quelle",
-      "hint": "Quelle + nom féminin"
-    },
-    {
-      "id": 39,
-      "prompt": "___ jolie petite fille !",
-      "answer": "Quelle",
-      "hint": "Exclamatif féminin singulier"
-    },
-    {
-      "id": 40,
-      "prompt": "___ film ennuyeux !",
-      "answer": "Quel",
-      "hint": "Exclamatif masculin singulier"
-    },
-    {
-      "id": 41,
-      "prompt": "___ fait chaud !",
-      "answer": "Qu'il",
-      "hint": "Exclamatif avec il fait"
-    },
-    {
-      "id": 42,
-      "prompt": "___ belle journée !",
-      "answer": "Quelle",
-      "hint": "Exclamatif féminin singulier"
+      "prompt": "Complétez des exclamatifs au choix.\n1. ___ jolie petite fille !\n2. ___ film ennuyeux !\n3. ___ il fait chaud !\n4. ___ il fait le week-end !",
+      "answer": "Quelle/Quel/Comme (ou Qu'est-ce qu')/Qu'est-ce qu'",
+      "hint": "p.151, ex.4"
     }
   ]
 },
@@ -5545,177 +4777,135 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Tu as encore ta vieille Alfa Romeo, Juliette ? - Non, je n'ai ___ ma vieille Alfa Romeo.",
-      "answer": "plus",
-      "hint": "Ne... plus = changement"
+      "prompt": "Répondez aux questions en utilisant « plus », « rien », « personne ».\n1. – Tu as encore ta vieille Alfa Roméo, Juliette ?\n– Non, je n'ai plus ma vieille Alfa Roméo.",
+      "answer": "n'ai plus",
+      "hint": "p.153, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Tu habites toujours à Vérone ? - Non, je n'habite ___ à Vérone.",
-      "answer": "plus",
-      "hint": "Ne... plus (contraire de toujours)"
+      "prompt": "2. – Tu habites toujours à Vérone ?\n– Non, ___",
+      "answer": "je n'habite plus à Vérone.",
+      "hint": "p.153, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Tu vois toujours William ? - Non, je ne ___ vois ___.",
-      "answer": "le/plus",
-      "hint": "Ne... plus avec pronom"
+      "prompt": "3. – Tu vois toujours William ?\n– Non, ___",
+      "answer": "je ne vois plus William.",
+      "hint": "p.153, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Tu fais quelque chose ce soir ? - Non, je ne fais ___ ce soir.",
-      "answer": "rien",
-      "hint": "Ne... rien = nothing"
+      "prompt": "4. – Tu fais quelque chose ce soir ?\n– Non, ___",
+      "answer": "je ne fais rien ce soir.",
+      "hint": "p.153, ex.1"
     },
     {
       "id": 5,
-      "prompt": "Tu attends quelqu'un ? - Non, je n'attends ___.",
-      "answer": "personne",
-      "hint": "Ne... personne = nobody"
+      "prompt": "5. – Tu attends quelqu'un ?\n– Non, ___",
+      "answer": "je n'attends personne.",
+      "hint": "p.153, ex.1"
     },
     {
       "id": 6,
-      "prompt": "Pierre est toujours content. Paul n'est ___ content.",
-      "answer": "jamais",
-      "hint": "Ne... jamais (contraire de toujours)"
+      "prompt": "Faites l'exercice, selon le modèle.\nPaul et les faux jumeaux.\nPierre est toujours content. → Paul n'est jamais content.\nPierre aime tout le monde. → ___\nPierre connaît tout. → ___\nPierre a beaucoup d'amis. → ___",
+      "answer": "Paul n'aime personne./Paul ne connaît rien./Paul n'a aucun ami.",
+      "hint": "p.153, ex.2"
     },
     {
       "id": 7,
-      "prompt": "Pierre aime tout le monde. Paul n'aime ___.",
-      "answer": "personne",
-      "hint": "Ne... personne (contraire de tout le monde)"
+      "prompt": "Répondez à la forme négative.\n1. – Vous fumez parfois le cigare ?\n– Non, ___",
+      "answer": "je ne fume jamais le cigare.",
+      "hint": "p.153, ex.3"
     },
     {
       "id": 8,
-      "prompt": "Pierre a beaucoup d'amis. Paul n'a ___ ami.",
-      "answer": "aucun",
-      "hint": "Ne... aucun = pas un seul"
+      "prompt": "2. – Vous habitez encore quelquefois chez vos parents ?\n– Non, ___",
+      "answer": "je n'habite plus chez mes parents.",
+      "hint": "p.153, ex.3"
     },
     {
       "id": 9,
-      "prompt": "Vous fumez parfois le cigare ? - Non, je ne fume ___ le cigare.",
-      "answer": "jamais",
-      "hint": "Ne... jamais (contraire de parfois)"
+      "prompt": "3. – Vous êtes toujours débutant(e) complet(e) ?\n– Non, ___",
+      "answer": "je ne suis plus débutant(e) complet(e).",
+      "hint": "p.153, ex.3"
     },
     {
       "id": 10,
-      "prompt": "Vous allez quelquefois chez vos parents ? - Non, je ne vais ___ chez eux.",
-      "answer": "jamais",
-      "hint": "Ne... jamais"
+      "prompt": "4. – Vous parlez déjà français couramment ?\n– Non, ___",
+      "answer": "je ne parle pas encore français couramment.",
+      "hint": "p.153, ex.3"
     },
     {
       "id": 11,
-      "prompt": "Vous habitez encore chez vos parents ? - Non, je n'habite ___ chez eux.",
-      "answer": "plus",
-      "hint": "Ne... plus"
+      "prompt": "5. – Vous priez des éléphants ?\n– Non, ___",
+      "answer": "je ne prie pas d'éléphants.",
+      "hint": "p.153, ex.3"
     },
     {
       "id": 12,
-      "prompt": "Vous êtes toujours débutant complet ? - Non, je ne suis ___ débutant complet.",
-      "answer": "plus",
-      "hint": "Ne... plus"
+      "prompt": "Mettez à la forme négative.\nJe rentre chez moi, je prépare quelque chose pour dîner. Quelqu'un me téléphone. Quelque chose brûle dans la cuisine. Je me dépêche. J'ai beaucoup de choses à faire. Je suis très fatigué(e). J'ai mal à la tête. Je me couche. Tout le monde me dérange. Je ne reste pas chez moi, je ___",
+      "answer": "ne reste pas/ne prépare rien/Personne ne me téléphone/Rien ne brûle",
+      "hint": "p.153, ex.4"
     },
     {
       "id": 13,
-      "prompt": "Vous parlez déjà français couramment ? - Non, je ne parle pas ___ français couramment.",
-      "answer": "encore",
-      "hint": "Ne... pas encore"
+      "prompt": "Répondez à la forme affirmative ou négative.\n1. – Il y a quelqu'un devant vous ? – ___\n2. – Il y a quelque chose dans le couloir ? – ___\n3. – Il y a quelque chose sur la table ? – ___\n4. – Il y a quelque chose dans le tiroir ? – ___",
+      "answer": "Réponses libres",
+      "hint": "p.153, ex.5"
     },
     {
       "id": 14,
-      "prompt": "Je rentre chez moi, je prépare quelque chose pour dîner. (négatif) → Je ne prépare ___ pour dîner.",
-      "answer": "rien",
-      "hint": "Ne... rien"
+      "prompt": "Répondez aux questions, selon le modèle.\n1. – Vous êtes libre le mardi et le jeudi ?\n– Oui, je suis libre le mardi et le jeudi.",
+      "answer": "Réponses libres",
+      "hint": "p.155, ex.1"
     },
     {
       "id": 15,
-      "prompt": "Quelqu'un me téléphone. (négatif) → ___ ne me téléphone.",
-      "answer": "Personne",
-      "hint": "Personne ne... (sujet)"
+      "prompt": "2. – Vous connaissez Simon et Gérald ? – ___\n3. – Vous ressemblez à votre père ou à votre mère ? – ___",
+      "answer": "Réponses libres",
+      "hint": "p.155, ex.1"
     },
     {
       "id": 16,
-      "prompt": "Non, je ne travaille ___ le samedi ___ le dimanche.",
-      "answer": "ni/ni",
-      "hint": "Ni... ni = neither... nor"
+      "prompt": "Transformez, selon le modèle.\nAvec un travail : un logement : de l'argent :\nAvec du thé ou du café, le matin ?\n→ Sans papiers, sans travail.",
+      "answer": "Sans papiers, sans travail.",
+      "hint": "p.155, ex.2"
     },
     {
       "id": 17,
-      "prompt": "Non, je ne connais ___ Simon ___ Gérald.",
-      "answer": "ni/ni",
-      "hint": "Ni... ni"
+      "prompt": "Répondez avec « ne... que », selon le modèle.\n1. – Vous travaillez seulement douze heures par semaine ?\n– Oui, je ne travaille que douze heures.",
+      "answer": "ne travaille que douze heures",
+      "hint": "p.155, ex.3"
     },
     {
       "id": 18,
-      "prompt": "Non, je ne ressemble ___ à mon père ___ à ma mère.",
-      "answer": "ni/ni",
-      "hint": "Ni... ni"
+      "prompt": "2. – Vous avez seulement deux rendez-vous ?\n– ___",
+      "answer": "Oui, je n'ai que deux rendez-vous.",
+      "hint": "p.155, ex.3"
     },
     {
       "id": 19,
-      "prompt": "Non, je ne bois ___ thé ___ café le matin.",
-      "answer": "ni/ni",
-      "hint": "Ni... ni (articles disparaissent)"
+      "prompt": "3. – Vous commencez seulement à onze heures ?\n– ___",
+      "answer": "Oui, je ne commence qu'à onze heures.",
+      "hint": "p.155, ex.3"
     },
     {
       "id": 20,
-      "prompt": "Transformez : Avec un travail → ___ travail.",
-      "answer": "Sans",
-      "hint": "Sans = négation de avec"
+      "prompt": "4. – Vous mangez seulement un sandwich à midi ?\n– ___",
+      "answer": "Oui, je ne mange qu'un sandwich à midi.",
+      "hint": "p.155, ex.3"
     },
     {
       "id": 21,
-      "prompt": "Transformez : Avec de l'argent → ___ argent.",
-      "answer": "Sans",
-      "hint": "L'article disparaît après sans"
+      "prompt": "5. – Vous buvez seulement un café par jour ?\n– ___",
+      "answer": "Oui, je ne bois qu'un café par jour.",
+      "hint": "p.155, ex.3"
     },
     {
       "id": 22,
-      "prompt": "Transformez : Avec un logement → ___ logement.",
-      "answer": "Sans",
-      "hint": "Sans + nom sans article"
-    },
-    {
-      "id": 23,
-      "prompt": "Transformez : Avec des papiers → ___ papiers.",
-      "answer": "Sans",
-      "hint": "Sans + nom sans article"
-    },
-    {
-      "id": 24,
-      "prompt": "Vous travaillez seulement douze heures par semaine ? - Oui, je ne travaille ___ douze heures par semaine.",
-      "answer": "que",
-      "hint": "Ne... que = seulement"
-    },
-    {
-      "id": 25,
-      "prompt": "Vous avez seulement deux rendez-vous lundi ? - Oui, je n'ai ___ deux rendez-vous.",
-      "answer": "que",
-      "hint": "Ne... que = seulement"
-    },
-    {
-      "id": 26,
-      "prompt": "Vous commencez seulement à onze heures ? - Oui, je ne commence ___ à onze heures.",
-      "answer": "qu'",
-      "hint": "Ne... qu' devant voyelle"
-    },
-    {
-      "id": 27,
-      "prompt": "Vous mangez seulement un sandwich à midi ? - Oui, je ne mange ___ un sandwich.",
-      "answer": "qu'",
-      "hint": "Ne... qu' devant voyelle"
-    },
-    {
-      "id": 28,
-      "prompt": "Vous buvez seulement un café par jour ? - Oui, je ne bois ___ un café par jour.",
-      "answer": "qu'",
-      "hint": "Ne... qu'"
-    },
-    {
-      "id": 29,
-      "prompt": "À cause de la grève des transports, nous ne pouvons pas aller à la piscine. On ne reçoit ___ lettre de rappel des Télécom.",
-      "answer": "que",
-      "hint": "Ne... que = seulement"
+      "prompt": "Complétez avec « ne... pas (de) », « ne... que », « sans », « ni ou ne... ni... ni ».\n1. À cause de la grève des transports, nous ne ___ pas aller à la piscine.\n2. ... je ne reçois ___ lettre de rappel des Télécom.\n3. L'eau est strictement végétarienne, elle ne ___ mardi.\n4. Ma cousine est strictement végétarienne, elle ___ mange.\n5. Ce pain est délicieux pour le petit déjeuner ; elle ___",
+      "answer": "pouvons/que/que le/ne mange ni.../ne mange que",
+      "hint": "p.155, ex.4"
     }
   ]
 },
@@ -5727,87 +4917,33 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "« Je suis en retard pour mon rendez-vous. » → Il dit ___'il est en retard pour son rendez-vous.",
-      "answer": "qu",
-      "hint": "Discours indirect : que + il"
+      "prompt": "Mettez au discours indirect, selon le modèle.\n1. « Je suis en retard pour mon rendez-vous. Je pars tout de suite. J'emporte les dossiers. »\n→ Il dit qu'il est en retard pour son rendez-vous, qu'il part tout de suite, qu'il emporte les dossiers.",
+      "answer": "qu'il est en retard/qu'il part tout de suite/qu'il emporte les dossiers",
+      "hint": "p.157, ex.1"
     },
     {
       "id": 2,
-      "prompt": "« Je pars tout de suite. » → Il dit qu'il ___ tout de suite.",
-      "answer": "part",
-      "hint": "Verbe au présent dans le discours indirect"
+      "prompt": "2. « Allô Sophie ? C'est Charlie. Tu es libre pour le déjeuner ? Qu'est-ce que tu fais cet après-midi ? »\n→ Charlie demande à Sophie ___",
+      "answer": "si elle est libre pour le déjeuner./ce qu'elle fait cet après-midi.",
+      "hint": "p.157, ex.1"
     },
     {
       "id": 3,
-      "prompt": "« J'emporte les dossiers. » → Il dit qu'il ___ les dossiers.",
-      "answer": "emporte",
-      "hint": "Discours indirect au présent"
+      "prompt": "3. « Mademoiselle Juliard, avez-vous une liste des hôtels du quartier ? Où se trouve le Bristol ? »\n→ Il demande à Mademoiselle Juliard ___",
+      "answer": "si elle a une liste des hôtels du quartier./où se trouve le Bristol.",
+      "hint": "p.157, ex.1"
     },
     {
       "id": 4,
-      "prompt": "« Qu'est-ce que tu fais cet après-midi ? » → Il demande ___ qu'elle fait cet après-midi.",
-      "answer": "ce",
-      "hint": "Qu'est-ce que → ce que"
+      "prompt": "Qu'est-ce qu'on dit ? Qui dit ?\nLe facteur : il y a un paquet.\nQu'est-ce qu'il dit ? → ___\nQui dit ? → ___",
+      "answer": "Il dit qu'il y a un paquet./C'est le facteur, il dit que...",
+      "hint": "p.157, ex.2"
     },
     {
       "id": 5,
-      "prompt": "« Est-ce que tu te rendras à ton rendez-vous ? » → Il demande ___ elle se rendra à son rendez-vous.",
-      "answer": "si",
-      "hint": "Question oui/non → si"
-    },
-    {
-      "id": 6,
-      "prompt": "Le facteur est à l'interphone. « C'est le facteur, il dit ___ ... »",
-      "answer": "qu'il a un paquet",
-      "hint": "Discours indirect avec que"
-    },
-    {
-      "id": 7,
-      "prompt": "« Je n'ai pas le code. » → Il dit ___'il n'a pas le code.",
-      "answer": "qu",
-      "hint": "Discours indirect négatif"
-    },
-    {
-      "id": 8,
-      "prompt": "« Vous pouvez ouvrir la porte ? » → Il demande ___ on peut ouvrir la porte.",
-      "answer": "si",
-      "hint": "Question oui/non → si"
-    },
-    {
-      "id": 9,
-      "prompt": "« L'ascenseur est en panne. » → Il dit ___ l'ascenseur est en panne.",
-      "answer": "que",
-      "hint": "Discours indirect avec que"
-    },
-    {
-      "id": 10,
-      "prompt": "« Quelqu'un peut descendre ? » → Il demande ___ quelqu'un peut descendre.",
-      "answer": "si",
-      "hint": "Question oui/non → si"
-    },
-    {
-      "id": 11,
-      "prompt": "« Vous êtes libre dimanche ? » → Max demande ___ Léa est libre dimanche.",
-      "answer": "si",
-      "hint": "Question oui/non → si"
-    },
-    {
-      "id": 12,
-      "prompt": "« Qu'est-ce que tu fais, samedi ? » → Léa demande ___ Max fait samedi.",
-      "answer": "ce que",
-      "hint": "Qu'est-ce que → ce que"
-    },
-    {
-      "id": 13,
-      "prompt": "« Je vais au cinéma avec Jules. » → Max dit ___'il va au cinéma avec Jules.",
-      "answer": "qu",
-      "hint": "Discours indirect : que"
-    },
-    {
-      "id": 14,
-      "prompt": "« Tu es libre dimanche ? » → Léa demande ___ Max est libre dimanche.",
-      "answer": "si",
-      "hint": "Question oui/non → si"
+      "prompt": "Vous êtes metteur en scène. Donnez des indications aux acteurs au style indirect.\nMax : Qu'est-ce que tu fais, samedi ?\nLéa : Je vais au cinéma avec Jules.\n→ Max demande à Léa ce qu'elle fait samedi.\n→ Elle lui répond qu'elle va au cinéma avec Jules.",
+      "answer": "Max demande à Léa ce qu'elle fait samedi./Elle lui répond qu'elle va au cinéma avec Jules.",
+      "hint": "p.157, ex.3"
     }
   ]
 },
@@ -5819,135 +4955,63 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Il téléphone et il marche en même temps. → Il téléphone en ___.",
-      "answer": "marchant",
-      "hint": "Gérondif de marcher"
+      "prompt": "Utilisez un gérondif, selon le modèle.\nIl téléphone et il marche en même temps. → Il téléphone en marchant.",
+      "answer": "en marchant",
+      "hint": "p.159, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Il parle et il mange en même temps. → Il parle en ___.",
-      "answer": "mangeant",
-      "hint": "Gérondif de manger"
+      "prompt": "2. Je parle et j'écoute du rock en même temps.\n→ ___",
+      "answer": "Je parle en écoutant du rock.",
+      "hint": "p.159, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Il écoute de la musique et il conduit. → Il écoute de la musique en ___.",
-      "answer": "conduisant",
-      "hint": "Gérondif de conduire"
+      "prompt": "3. Il dépense et il conduit en même temps.\n→ ___",
+      "answer": "Il dépense en conduisant.",
+      "hint": "p.159, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Il écrit des SMS et il boit son café. → Il écrit des SMS en ___ son café.",
-      "answer": "buvant",
-      "hint": "Gérondif de boire"
+      "prompt": "4. Il téléphone SMS et il boit son café en même temps.\n→ ___",
+      "answer": "Il téléphone en buvant son café.",
+      "hint": "p.159, ex.1"
     },
     {
       "id": 5,
-      "prompt": "On progresse : on fait des exercices. → On progresse en ___ des exercices.",
-      "answer": "faisant",
-      "hint": "Gérondif de faire"
+      "prompt": "5. Il écrit ses textes et il boit son café en même temps.\n→ ___",
+      "answer": "Il écrit en buvant son café.",
+      "hint": "p.159, ex.1"
     },
     {
       "id": 6,
-      "prompt": "On apprend : on lit des textes. → On apprend en ___ des textes.",
-      "answer": "lisant",
-      "hint": "Gérondif de lire"
+      "prompt": "Transformez en utilisant des gérondifs.\nOn progresse en faisant des exercices.\nfaire de la natation / lire des textes / écrire des textes / écouter des chansons / apprendre du vocabulaire",
+      "answer": "en faisant de la natation/en lisant des textes/en écrivant des textes/en écoutant des chansons/en apprenant du vocabulaire",
+      "hint": "p.159, ex.2"
     },
     {
       "id": 7,
-      "prompt": "On apprend : on écoute des chansons. → On apprend en ___ des chansons.",
-      "answer": "écoutant",
-      "hint": "Gérondif de écouter"
+      "prompt": "Donnez les contraires, selon le modèle.\nCaractères :\nIl parle sans pleurer. → Il parle en pleurant.\nIl dit au revoir sans sourire. → ___\nIl discute sans s'énerver. → ___\nIl part sans regarder derrière lui. → ___",
+      "answer": "en souriant/en s'énervant/en regardant derrière lui",
+      "hint": "p.159, ex.3"
     },
     {
       "id": 8,
-      "prompt": "On apprend : on écrit des textes. → On apprend en ___ des textes.",
-      "answer": "écrivant",
-      "hint": "Gérondif de écrire"
+      "prompt": "Complétez avec des gérondifs de cause, de circonstance, de manière, de condition, etc.\nmarcher : ___\nrecevoir : ___\nappeler : ___\nboire : ___\npartir : ___",
+      "answer": "en marchant/en recevant/en appelant/en buvant/en partant",
+      "hint": "p.159, ex.4"
     },
     {
       "id": 9,
-      "prompt": "Il parle sans pleurer. → Il parle en ___.",
-      "answer": "pleurant",
-      "hint": "Gérondif de pleurer"
+      "prompt": "Complétez avec les participes présents.\n1. L'a perdu mes clés en marchant dans la rue.\n2. Paul s'est cassé le bras en faisant du ski.\n3. ... à 8 h, on arrivera à 10 h.\n4. J'ai taché ma robe en ___ du café.\n5. Vous pouvez me joindre en ___ ce numéro.\n6. On peut monter en ___ ses billets de train très tôt.",
+      "answer": "en marchant/en faisant/en partant/en buvant/en composant/en achetant (ou en ayant)",
+      "hint": "p.159, ex.5"
     },
     {
       "id": 10,
-      "prompt": "Il discute sans s'énerver. → Il discute en ___.",
-      "answer": "s'énervant",
-      "hint": "Gérondif de s'énerver"
-    },
-    {
-      "id": 11,
-      "prompt": "Il dit au revoir en souriant. → Il dit au revoir sans ___.",
-      "answer": "sourire",
-      "hint": "Sans + infinitif"
-    },
-    {
-      "id": 12,
-      "prompt": "Il part sans se retourner. → Il part en ___.",
-      "answer": "se retournant",
-      "hint": "Gérondif de se retourner"
-    },
-    {
-      "id": 13,
-      "prompt": "Il part sans fermer la porte derrière lui. → Il part en ___ la porte.",
-      "answer": "fermant",
-      "hint": "Gérondif de fermer"
-    },
-    {
-      "id": 14,
-      "prompt": "Il s'est cassé le bras en ___ du ski.",
-      "answer": "faisant",
-      "hint": "Gérondif de faire (cause)"
-    },
-    {
-      "id": 15,
-      "prompt": "Paul s'est cassé le bras en ___ dans la rue.",
-      "answer": "marchant",
-      "hint": "Gérondif de marcher (circonstance)"
-    },
-    {
-      "id": 16,
-      "prompt": "J'ai taché ma robe en ___.",
-      "answer": "mangeant",
-      "hint": "Gérondif de manger (cause)"
-    },
-    {
-      "id": 17,
-      "prompt": "Vous pouvez me joindre en ___ ce numéro.",
-      "answer": "appelant",
-      "hint": "Gérondif de appeler (moyen)"
-    },
-    {
-      "id": 18,
-      "prompt": "On peut monter en ___ ses billets de train très tôt.",
-      "answer": "réservant",
-      "hint": "Gérondif de réserver (moyen)"
-    },
-    {
-      "id": 19,
-      "prompt": "Participe présent de faire :",
-      "answer": "faisant",
-      "hint": "Nous faisons → fais-ant"
-    },
-    {
-      "id": 20,
-      "prompt": "Participe présent de savoir :",
-      "answer": "sachant",
-      "hint": "Irrégulier : sachant"
-    },
-    {
-      "id": 21,
-      "prompt": "Participe présent de être :",
-      "answer": "étant",
-      "hint": "Irrégulier : étant"
-    },
-    {
-      "id": 22,
-      "prompt": "Participe présent de avoir :",
-      "answer": "ayant",
-      "hint": "Irrégulier : ayant"
+      "prompt": "Trouvez des activités que l'on fait souvent en téléphonant, en mangeant au restaurant, en faisant la queue au supermarché.",
+      "answer": "Réponses libres",
+      "hint": "p.159, ex.6"
     }
   ]
 },
@@ -5959,153 +5023,51 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "J'arrête ___ regarder la télé.",
-      "answer": "de",
-      "hint": "Arrêter de + infinitif"
+      "prompt": "Complétez avec « à » ou « de », selon le modèle.\n1. Arrêtez de regarder la télé.\n2. Je ___  finis ___ lire le courrier.\n3. Je ___ mets ___ travailler.\n4. Je ___ commence ___ ranger tes affaires !\n5. Marie apprend ___ conduire le samedi.",
+      "answer": "de/de/à/à/à",
+      "hint": "p.161, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Je commence ___ lire le courrier.",
-      "answer": "à",
-      "hint": "Commencer à + infinitif"
+      "prompt": "Faites des phrases, selon le modèle.\nJe suis content(e) d'être en vacances, je suis content(e) !\n1. Mon objectif est de trouver du travail.\n2. J'ai une contravention. Je suis désolé(e) ___.\n3. Je suis en voyage chez Bernd. Je suis heureux(se) ___.\n4. Je pars en vacances chez Lucia. Je suis ravi(e) ___.\n5. Je suis invité(e) chez Lucia. Je suis surpris(e) ___.",
+      "answer": "de trouver du travail/d'avoir une contravention/d'être chez Bernd/de partir en vacances/d'être invité(e)",
+      "hint": "p.161, ex.2"
     },
     {
       "id": 3,
-      "prompt": "Je finis ___ travailler.",
-      "answer": "de",
-      "hint": "Finir de + infinitif"
+      "prompt": "Transformez, selon le modèle.\nJ'espère réussir mon objectif.\n1. Mon objectif est de perfectionner mon français.\n2. Mon objectif est de vivre un an en France.\n3. Mon objectif est de trouver du travail.",
+      "answer": "de perfectionner/de vivre/de trouver",
+      "hint": "p.161, ex.3"
     },
     {
       "id": 4,
-      "prompt": "Je me mets ___ ranger tes affaires.",
-      "answer": "à",
-      "hint": "Se mettre à + infinitif"
+      "prompt": "Complétez avec « à » ou « de », si c'est nécessaire.\n1. La boulangère finit ___ travailler à 6 heures, la boulangerie commence ___\n2. Le boulanger commence ___ travailler ___\n3. ...",
+      "answer": "de/à/à",
+      "hint": "p.161, ex.4"
     },
     {
       "id": 5,
-      "prompt": "J'accepte ___ payer une amende.",
-      "answer": "de",
-      "hint": "Accepter de + infinitif"
+      "prompt": "Transformez selon le modèle.\nGuillaume apprend à jouer du violon.\n1. Il arrête le judo. (faire) → ___\n2. Il continue ses cours de russe. (suivre) → ___\n3. Il essaie le nouveau ordinateur. (se servir de) → ___\n4. Il essaie le jazz. (écouter) → ___\n5. Il aime le jazz. (écouter) → ___",
+      "answer": "Il arrête de faire du judo./Il continue à suivre ses cours de russe./Il essaie de se servir du nouveau ordinateur./Il essaie d'écouter le jazz./Il aime écouter le jazz.",
+      "hint": "p.163, ex.1"
     },
     {
       "id": 6,
-      "prompt": "Je continue ___ conduire.",
-      "answer": "à",
-      "hint": "Continuer à + infinitif"
+      "prompt": "Faites des phrases avec les verbes suivants.\ncommencer / finir : ___\naccepter / refuser : ___\nessayer / réussir : ___",
+      "answer": "Réponses libres",
+      "hint": "p.163, ex.2"
     },
     {
       "id": 7,
-      "prompt": "J'ai une contravention, je suis en retard. Je suis désolé(e) ___ être en retard.",
-      "answer": "d'",
-      "hint": "Être désolé de + infinitif"
+      "prompt": "Complétez avec les prépositions manquantes, si c'est nécessaire.\nStage d'informatique, maintenant je réussis ___ taper toit ce que je veux, ___ travailler seul avec un manuel et j'aime ___ apprendre ___ des choses nouvelles. L'informatique, c'est comme un ami et j'aime ___ regarder l'heure. Mais j'ai du mal ___ porter des lunettes.",
+      "answer": "à/à/de/de/à/à",
+      "hint": "p.163, ex.2"
     },
     {
       "id": 8,
-      "prompt": "Je suis en vacances, je suis content(e) ___ être en vacances.",
-      "answer": "d'",
-      "hint": "Être content de + infinitif"
-    },
-    {
-      "id": 9,
-      "prompt": "J'ai oublié ___ payer mes impôts.",
-      "answer": "de",
-      "hint": "Oublier de + infinitif"
-    },
-    {
-      "id": 10,
-      "prompt": "J'ai peur ___ vieillir.",
-      "answer": "de",
-      "hint": "Avoir peur de + infinitif"
-    },
-    {
-      "id": 11,
-      "prompt": "Mon objectif est de trouver du travail. J'espère ___ trouver du travail.",
-      "answer": "Ø",
-      "hint": "Espérer + infinitif direct (pas de préposition)"
-    },
-    {
-      "id": 12,
-      "prompt": "Mon objectif est de réussir mon examen. Je décide ___ réussir mon examen.",
-      "answer": "de",
-      "hint": "Décider de + infinitif"
-    },
-    {
-      "id": 13,
-      "prompt": "Mon objectif est de perfectionner mon français. J'essaie ___ perfectionner mon français.",
-      "answer": "de",
-      "hint": "Essayer de + infinitif"
-    },
-    {
-      "id": 14,
-      "prompt": "Mes rêves : aller en Chine et rester un an au Tibet. → Je rêve ___ aller en Chine.",
-      "answer": "d'",
-      "hint": "Rêver de + infinitif"
-    },
-    {
-      "id": 15,
-      "prompt": "Mes décisions : faire des économies et acheter un bateau. → Je décide ___ faire des économies.",
-      "answer": "de",
-      "hint": "Décider de + infinitif"
-    },
-    {
-      "id": 16,
-      "prompt": "Je suis très satisfait ___ mon stage d'informatique.",
-      "answer": "de",
-      "hint": "Être satisfait de"
-    },
-    {
-      "id": 17,
-      "prompt": "Je réussis ___ apprendre des choses nouvelles.",
-      "answer": "à",
-      "hint": "Réussir à + infinitif"
-    },
-    {
-      "id": 18,
-      "prompt": "Mon professeur m'accepte ___ taper sur le clavier.",
-      "answer": "de",
-      "hint": "Accepter de + infinitif"
-    },
-    {
-      "id": 19,
-      "prompt": "Je continue ___ travailler avec un moniteur.",
-      "answer": "à",
-      "hint": "Continuer à + infinitif"
-    },
-    {
-      "id": 20,
-      "prompt": "Changez d'emploi : Trouver un nouvel emploi, ce n'est pas nécessaire ___ changer.",
-      "answer": "de",
-      "hint": "C'est nécessaire de + infinitif"
-    },
-    {
-      "id": 21,
-      "prompt": "Il arrête le judo. → Il arrête ___ faire du judo.",
-      "answer": "de",
-      "hint": "Arrêter de + infinitif"
-    },
-    {
-      "id": 22,
-      "prompt": "Il finit ses devoirs. → Il finit ___ faire ses devoirs.",
-      "answer": "de",
-      "hint": "Finir de + infinitif"
-    },
-    {
-      "id": 23,
-      "prompt": "Il continue ses cours de russe. → Il continue ___ suivre ses cours.",
-      "answer": "à",
-      "hint": "Continuer à + infinitif"
-    },
-    {
-      "id": 24,
-      "prompt": "Il essaie le nouveau ordinateur. → Il essaie ___ se servir du nouvel ordinateur.",
-      "answer": "de",
-      "hint": "Essayer de + infinitif"
-    },
-    {
-      "id": 25,
-      "prompt": "Il aime le jazz. → Il aime ___ écouter du jazz.",
-      "answer": "Ø",
-      "hint": "Aimer + infinitif direct"
+      "prompt": "Complétez avec les éléments manquants.\nChanger de vie :\nDepuis quelque temps, j'ai du mal ___ trouver un équilibre, je refuse ___ rester dans cette situation. Alors, la musique, je joue ___ de d'autres choses, je fais ___ du parapente, je téléphone ___ mes amis et je les invite ___ dîner de temps en temps, je réussis ___ guitare et j'apprends ___ m'intéresser ___\nÊtre plus détendu.",
+      "answer": "à/de/de/de/à/à/à/à/à",
+      "hint": "p.163, ex.2"
     }
   ]
 },
@@ -6117,117 +5079,27 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "David et sa femme sont partis ___ en Bourgogne, chez des amis américains.",
-      "answer": "découvrir",
-      "hint": "Verbe de déplacement + infinitif"
+      "prompt": "Complétez avec « aller », « venir », « retourner », « rentrer ».\nDavid est parti en Bourgogne, chez des amis américains, qui viennent ___ la bas des amis de temps en temps, mais ils sont ___ définitivement chez eux, aux États-Unis, après leur ___ en Provence ou en Italie. David ___ vite dans leur petit village et il ignore leur ___ rentrée.",
+      "answer": "voir/venus/rentrés/retourne/retourne",
+      "hint": "p.165, ex.1"
     },
     {
       "id": 2,
-      "prompt": "David me ___ à Paris de temps en temps.",
-      "answer": "voit",
-      "hint": "Venir voir = rendre visite à une personne"
+      "prompt": "Complétez le dialogue avec « aller » ou « venir ».\n– Moi, je ___  ___ au cinéma.\n– Tu ___  avec moi ?\n– Marc et Laurent ? ___\n– Une pizza ! On ___ là, ___ puis je\nMoi, je ___ à la mer, puis je ___ chercher Bob et tous ___ mangé une pizza ! On ___ là, ___\navec vous !",
+      "answer": "vais/viens/viennent/va/viens/vais/vais/vient/allons/va/venez",
+      "hint": "p.165, ex.2"
     },
     {
       "id": 3,
-      "prompt": "Ils ne supportent plus les grandes villes. L'été, ils ___ en Provence ou en Italie.",
-      "answer": "vont",
-      "hint": "Aller = vers un autre lieu"
+      "prompt": "Complétez avec « venir », « aller » ou « revenir », « retourner », « rentrer ».\n1. Nous ___ aux sports d'hiver ; vous ___ chez toi le matin ou l'après-midi ?\n2. Les enfants français ___ à l'école le matin et ils y\n3. Le directeur est occupé ; ___-vous ___ dans une heure ?\n4. Zut ! J'ai oublié le lait ; je dois ___ à la banque à la troisième fois.\n5. Attendez-moi ici ; je ___ chercher et je\n6. Je suis encore mal aux dents ; je dois ___ jolie à la maison !\n7. ... il est tard, les enfants, il faut vite ___ à la maison !\n8. Les touristes ___",
+      "answer": "allons/venez/vont/revenez/retourner/reviens/retourner/rentrer/retournent",
+      "hint": "p.165, ex.3"
     },
     {
       "id": 4,
-      "prompt": "David ___ définitivement chez eux, aux États-Unis.",
-      "answer": "rentre",
-      "hint": "Rentrer = revenir chez soi"
-    },
-    {
-      "id": 5,
-      "prompt": "Moi, je ___ chercher Bob et tous.",
-      "answer": "vais",
-      "hint": "Aller + infinitif"
-    },
-    {
-      "id": 6,
-      "prompt": "Marc et Laurent ? Ils ___ avec moi au bowling.",
-      "answer": "viennent",
-      "hint": "Venir avec qqn"
-    },
-    {
-      "id": 7,
-      "prompt": "Tu ___ avec eux au cinéma ?",
-      "answer": "vas",
-      "hint": "Aller à un lieu"
-    },
-    {
-      "id": 8,
-      "prompt": "Les enfants français ___ aux sports d'hiver.",
-      "answer": "vont",
-      "hint": "Aller à un lieu"
-    },
-    {
-      "id": 9,
-      "prompt": "Les touristes ___ à l'école le matin et ils y ___.",
-      "answer": "vont/retournent",
-      "hint": "Aller / retourner"
-    },
-    {
-      "id": 10,
-      "prompt": "Le directeur est occupé : il doit ___ à la troisième fois.",
-      "answer": "revenir",
-      "hint": "Revenir = venir de nouveau"
-    },
-    {
-      "id": 11,
-      "prompt": "La femme de ménage ___ chez elle le soir.",
-      "answer": "rentre",
-      "hint": "Rentrer = revenir chez soi"
-    },
-    {
-      "id": 12,
-      "prompt": "Quand Jacques va à Versailles, il ___ le musée.",
-      "answer": "visite",
-      "hint": "Visiter = lieu touristique"
-    },
-    {
-      "id": 13,
-      "prompt": "Madeleine lui apporte des bonbons. Il ___ sa fille Zoé.",
-      "answer": "va voir",
-      "hint": "Aller voir = rendre visite à une personne"
-    },
-    {
-      "id": 14,
-      "prompt": "Venez, les enfants, on ___ les musées avec un guide.",
-      "answer": "visite",
-      "hint": "Visiter = lieu touristique"
-    },
-    {
-      "id": 15,
-      "prompt": "Lundi : musée du Louvre. → Lundi, nous ___ le musée du Louvre.",
-      "answer": "allons visiter",
-      "hint": "Aller + visiter un lieu"
-    },
-    {
-      "id": 16,
-      "prompt": "Mardi : tante Mimi. → Mardi, nous ___ tante Mimi.",
-      "answer": "allons voir",
-      "hint": "Aller voir = rendre visite"
-    },
-    {
-      "id": 17,
-      "prompt": "Mercredi : elle arrive, une nouvelle fiancée. → Mercredi, elle ___ nous voir.",
-      "answer": "vient",
-      "hint": "Venir voir"
-    },
-    {
-      "id": 18,
-      "prompt": "Vendredi : musée d'Orsay. → Vendredi, nous ___ le musée d'Orsay.",
-      "answer": "allons visiter",
-      "hint": "Aller + visiter un lieu"
-    },
-    {
-      "id": 19,
-      "prompt": "Samedi : cathédrale de Chartres. → Samedi, nous ___ la cathédrale de Chartres.",
-      "answer": "allons visiter",
-      "hint": "Aller + visiter un lieu"
+      "prompt": "Complétez avec « voir » ou « visiter ».\n1. Quand Jacques va ___ Madeleine, il lui apporte des bonbons.\n2. J'aime ___ les musées avec un guide.\n3. Nous allons ___ la Bretagne, emportons un parapluie.\n4. Venez, les enfants ___.\n5. ... vous ___ aller le musée ?\n6. Chaque fois que ma fille Zoé me ___",
+      "answer": "voir/visiter/visiter/voir/visiter/voir",
+      "hint": "p.165, ex.4"
     }
   ]
 },
@@ -6239,321 +5111,105 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "D'habitude, je pars du bureau à 19 heures. Ce soir, je ___ rentrer plus tôt.",
-      "answer": "vais",
-      "hint": "Futur proche : aller + infinitif"
+      "prompt": "Complétez le texte en utilisant le futur proche, selon le modèle.\nD'habitude, je pars du bureau à 19 heures. Ce soir, je vais rentrer plus tôt.\nEn général, je rentre assez tard le soir.\n1. D'habitude, je regarde un film.\n2. D'habitude, je dîne chez moi.\n3. En général, je mange des légumes touillis.\n4. D'habitude, je bois de l'eau.",
+      "answer": "je vais regarder un film/je vais dîner chez moi/je vais manger des légumes/je vais boire de l'eau",
+      "hint": "p.167, ex.1"
     },
     {
       "id": 2,
-      "prompt": "D'habitude, je regarde un film. Ce soir, je ___ regarder la finale de foot.",
-      "answer": "vais",
-      "hint": "Futur proche"
+      "prompt": "Complétez les phrases avec le futur proche.\nCe mois-ci, je travaille à Paris. Le mois prochain, je vais travailler à Lyon.\n1. Cette année, mes parents visitent Londres.\n2. Ce mois-ci, je travaille à Paris.\n3. En général, nous passons nos vacances en Corse.\n4. D'habitude, je bois de la bière.",
+      "answer": "vont visiter/vais travailler/allons passer/vais boire",
+      "hint": "p.167, ex.2"
     },
     {
       "id": 3,
-      "prompt": "D'habitude, je mange des légumes. Ce soir, je ___ manger une pizza surgelée.",
-      "answer": "vais",
-      "hint": "Futur proche"
+      "prompt": "Complétez avec les verbes manquants.\n1. Dépêche-toi ! Le train va partir !\n2. Prends un parapluie : il ___ pleuvoir.\n3. ... il ___ 12 h 25 : les magasins ___ fermer.\n4. Entrez vite, le spectacle ___",
+      "answer": "va/est/vont/va",
+      "hint": "p.167, ex.3"
     },
     {
       "id": 4,
-      "prompt": "En général, je dîne chez moi. Ce soir, je ___ dîner chez Jo.",
-      "answer": "vais",
-      "hint": "Futur proche"
+      "prompt": "5. Attachez vos ceintures, nous ___ décoller.\n6. Ne cours pas si vite ! Tu ___ tomber.\n7. Éteins le four, le gâteau ___ brûler.\n8. Tu manges trop, tu ___ grossir.",
+      "answer": "allons/vas/va/vas",
+      "hint": "p.167, ex.3"
     },
     {
       "id": 5,
-      "prompt": "D'habitude, je bois de l'eau. Ce soir, je ___ boire de la bière.",
-      "answer": "vais",
-      "hint": "Futur proche"
+      "prompt": "Répondez aux questions au futur proche en utilisant un pronom, selon le modèle.\n1. – Vous allez inviter les voisins, samedi prochain ?\n– Oui, je vais les inviter.",
+      "answer": "vais les inviter",
+      "hint": "p.171, ex.1"
     },
     {
       "id": 6,
-      "prompt": "Ce mois-ci, je travaille à Paris. Le mois prochain, je ___ travailler à Lyon.",
-      "answer": "vais",
-      "hint": "Futur proche"
+      "prompt": "2. – Vous allez regarder le match, samedi prochain ?\n– ___",
+      "answer": "Oui, je vais le regarder.",
+      "hint": "p.171, ex.1"
     },
     {
       "id": 7,
-      "prompt": "Cette année, nous passons nos vacances à Londres. L'année prochaine, nous ___ passer nos vacances en Corse.",
-      "answer": "allons",
-      "hint": "Futur proche avec nous"
+      "prompt": "3. – Vous allez ranger vos papiers ?\n– ___",
+      "answer": "Oui, je vais les ranger.",
+      "hint": "p.171, ex.1"
     },
     {
       "id": 8,
-      "prompt": "Cette année, mes parents visitent Amsterdam. L'année prochaine, ils ___ visiter la Croatie.",
-      "answer": "vont",
-      "hint": "Futur proche avec ils"
+      "prompt": "4. – Vous allez écrire à votre amie ?\n– ___",
+      "answer": "Oui, je vais lui écrire.",
+      "hint": "p.171, ex.1"
     },
     {
       "id": 9,
-      "prompt": "Dépêche-toi, le train ___ partir !",
-      "answer": "va",
-      "hint": "Futur proche : événement immédiat"
+      "prompt": "5. – Vous allez téléphoner à vos amis ?\n– ___",
+      "answer": "Oui, je vais leur téléphoner.",
+      "hint": "p.171, ex.1"
     },
     {
       "id": 10,
-      "prompt": "Prends un parapluie : il ___ pleuvoir.",
-      "answer": "va",
-      "hint": "Futur proche : prédiction"
+      "prompt": "Mettez à la forme négative, selon le modèle.\nReste ! → Je ne vais pas pleurer !\nJe vais crier ! → ___\nJe vais pleurer ! → ___\nJe vais tomber malade ! → ___\nJe vais craquer ! → ___\nJe vais tout casser ! → ___",
+      "answer": "Je ne vais pas crier !/Je ne vais pas pleurer !/Je ne vais pas tomber malade !/Je ne vais pas craquer !/Je ne vais pas tout casser !",
+      "hint": "p.173, ex.1"
     },
     {
       "id": 11,
-      "prompt": "C'est 7 h 25, les magasins ___ fermer.",
-      "answer": "vont",
-      "hint": "Futur proche avec ils"
+      "prompt": "Posez la question en utilisant la forme négative, selon le modèle.\n– Est-ce que vous allez rester à Paris cet été ?\n– Non, je ne vais pas rester à Paris, je vais aller en Italie.",
+      "answer": "ne vais pas rester/vais aller",
+      "hint": "p.173, ex.2"
     },
     {
       "id": 12,
-      "prompt": "Ce mois-ci, je vais au théâtre. Le mois prochain, je ___ aller à l'Opéra.",
-      "answer": "vais",
-      "hint": "Futur proche"
+      "prompt": "1. ... je vais partir en voiture.\n2. ... je vais passer par la Côte d'Azur.\n3. ... je vais dormir à Menton.\n4. ... je vais rentrer en septembre.\n5. ...",
+      "answer": "vais partir/vais passer/vais dormir/vais rentrer",
+      "hint": "p.173, ex.2"
     },
     {
       "id": 13,
-      "prompt": "Attachez vos ceintures : nous ___ décoller.",
-      "answer": "allons",
-      "hint": "Futur proche avec nous"
+      "prompt": "Complétez selon le modèle en utilisant des pronoms compléments.\n1. Le bus arrive ! Courez, sinon vous allez le rater !\n2. Arrête ton DVD aux enfants : ils ___\n3. Ne prête pas le chien, sinon ___ va le mordre.\n4. Attache ton écharpe : tu ___\n5. Tu as eu zéro à la dictée ! Tes parents ___",
+      "answer": "vont le casser/il/vas la perdre/ne vont pas être contents",
+      "hint": "p.173, ex.3"
     },
     {
       "id": 14,
-      "prompt": "Ne cours pas si vite ! Tu ___ tomber !",
-      "answer": "vas",
-      "hint": "Futur proche avec tu"
+      "prompt": "Répondez à la forme négative.\n1. – Vous allez reprendre votre appartement ?\n– Mais non, je ___\n2. – Vous pensez regarder le match de boxe ce soir ?\n– Mais non, je ___\n3. – Vous allez téléphoner à Paul ?\n– Mais non, je ___\n4. – Tu as eu un zéro à la dictée ?\n– Mais non, ils ___\n5. – Voulez-vous refaire les exercices ?\n– Mais non, je ___",
+      "answer": "ne vais pas le reprendre./ne vais pas le regarder./ne vais pas lui téléphoner./ne vont pas être contents./ne vais pas les refaire.",
+      "hint": "p.173, ex.4"
     },
     {
       "id": 15,
-      "prompt": "Éteins le four, le gâteau ___ brûler !",
-      "answer": "va",
-      "hint": "Futur proche : événement immédiat"
+      "prompt": "Faites des phrases, selon le modèle.\nFaire des courses/inviter des amis.\n→ Amie va faire des courses pour inviter des amis.\n1. Économiser de l'argent/partir six mois en Chine.\n2. Faire des cours/inviter des amis.\n3. ...",
+      "answer": "va économiser de l'argent pour partir/va faire des courses pour inviter",
+      "hint": "p.169, ex.1"
     },
     {
       "id": 16,
-      "prompt": "Tu manges trop, tu ___ grossir.",
-      "answer": "vas",
-      "hint": "Futur proche avec tu"
+      "prompt": "Transformez en utilisant le futur proche, selon le modèle.\nMon frère a soixante-deux ans, il va prendre sa retraite.\n1. Le temps est très nuageux, il ___\n2. Les enfants mangent trop de chocolat ; ils ___\n3. Marie est enceinte de 8 mois ; elle ___\n4. Maïté et André de 8 mois : elle ___\n5. Ton fils a déjà trois ans ! – Oui, il ___",
+      "answer": "va pleuvoir/vont être malades/va accoucher/va accoucher/va aller à l'école",
+      "hint": "p.169, ex.2"
     },
     {
       "id": 17,
-      "prompt": "Lundi 9 h/12 h : Préparation voyage Londres. → Lundi, M. Blanchot ___ préparer son voyage à Londres.",
-      "answer": "va",
-      "hint": "Futur proche"
-    },
-    {
-      "id": 18,
-      "prompt": "Mon frère a soixante-deux ans, il ___ prendre sa retraite.",
-      "answer": "va",
-      "hint": "Futur proche"
-    },
-    {
-      "id": 19,
-      "prompt": "Le temps est très nuageux, il ___ pleuvoir.",
-      "answer": "va",
-      "hint": "Futur proche"
-    },
-    {
-      "id": 20,
-      "prompt": "Les enfants mangent trop de chocolat, ils ___ avoir mal au ventre.",
-      "answer": "vont",
-      "hint": "Futur proche avec ils"
-    },
-    {
-      "id": 21,
-      "prompt": "Marie est enceinte de 8 mois, elle ___ avoir un bébé.",
-      "answer": "va",
-      "hint": "Futur proche"
-    },
-    {
-      "id": 22,
-      "prompt": "Mon fils a déjà trois ans. → Oui, il ___ bientôt commencer l'école.",
-      "answer": "va",
-      "hint": "Futur proche"
-    },
-    {
-      "id": 23,
-      "prompt": "Tu vas aller au cinéma ce soir ? Ton frère ___ acheter une Peugeot ?",
-      "answer": "va",
-      "hint": "Futur proche avec il"
-    },
-    {
-      "id": 24,
-      "prompt": "Leurs parents ___ acheter une Renault.",
-      "answer": "vont",
-      "hint": "Futur proche avec ils"
-    },
-    {
-      "id": 25,
-      "prompt": "Vous allez inviter les voisins, samedi prochain ? - Oui, je ___ les inviter.",
-      "answer": "vais",
-      "hint": "Pronom avant l'infinitif"
-    },
-    {
-      "id": 26,
-      "prompt": "Vous allez regarder le match à la télé ? - Oui, je ___ le regarder.",
-      "answer": "vais",
-      "hint": "Pronom avant l'infinitif"
-    },
-    {
-      "id": 27,
-      "prompt": "Vous allez ranger vos papiers ? - Oui, je ___ les ranger.",
-      "answer": "vais",
-      "hint": "Pronom avant l'infinitif"
-    },
-    {
-      "id": 28,
-      "prompt": "Vous allez arroser les fleurs ? - Oui, je ___ les arroser.",
-      "answer": "vais",
-      "hint": "Pronom avant l'infinitif"
-    },
-    {
-      "id": 29,
-      "prompt": "Vous allez écrire à votre mère ? - Oui, je ___ lui écrire.",
-      "answer": "vais",
-      "hint": "Pronom indirect avant l'infinitif"
-    },
-    {
-      "id": 30,
-      "prompt": "Vous allez téléphoner à vos amis ? - Oui, je ___ leur téléphoner.",
-      "answer": "vais",
-      "hint": "Pronom indirect avant l'infinitif"
-    },
-    {
-      "id": 31,
-      "prompt": "Demain, Ingrid ___ se lever à 7 heures.",
-      "answer": "va",
-      "hint": "Futur proche"
-    },
-    {
-      "id": 32,
-      "prompt": "Elle ___ aller au bureau en métro.",
-      "answer": "va",
-      "hint": "Futur proche"
-    },
-    {
-      "id": 33,
-      "prompt": "Elle ___ téléphoner aux clients l'après-midi.",
-      "answer": "va",
-      "hint": "Futur proche"
-    },
-    {
-      "id": 34,
-      "prompt": "Elle ___ retrouver une ou deux copines.",
-      "answer": "va",
-      "hint": "Futur proche"
-    },
-    {
-      "id": 35,
-      "prompt": "Elle ___ acheter deux baguettes.",
-      "answer": "va",
-      "hint": "Futur proche"
-    },
-    {
-      "id": 36,
-      "prompt": "Elle ___ se coucher tard.",
-      "answer": "va",
-      "hint": "Futur proche"
-    },
-    {
-      "id": 37,
-      "prompt": "Je ___ pas crier. (futur proche négatif)",
-      "answer": "ne vais",
-      "hint": "Négation autour de aller"
-    },
-    {
-      "id": 38,
-      "prompt": "Je ___ pas pleurer. (futur proche négatif)",
-      "answer": "ne vais",
-      "hint": "Négation autour de aller"
-    },
-    {
-      "id": 39,
-      "prompt": "Je ___ pas tomber malade. (futur proche négatif)",
-      "answer": "ne vais",
-      "hint": "Négation autour de aller"
-    },
-    {
-      "id": 40,
-      "prompt": "Je ___ pas tout casser. (futur proche négatif)",
-      "answer": "ne vais",
-      "hint": "Négation autour de aller"
-    },
-    {
-      "id": 41,
-      "prompt": "Est-ce que vous allez rester à Paris cet été ? - Non, je ___ pas rester à Paris.",
-      "answer": "ne vais",
-      "hint": "Futur proche négatif"
-    },
-    {
-      "id": 42,
-      "prompt": "Est-ce que vous allez passer par les Alpes ? - Non, je ___ pas passer par les Alpes.",
-      "answer": "ne vais",
-      "hint": "Futur proche négatif"
-    },
-    {
-      "id": 43,
-      "prompt": "Est-ce que vous allez aller à Nice ? - Non, je ___ pas aller à Nice.",
-      "answer": "ne vais",
-      "hint": "Futur proche négatif"
-    },
-    {
-      "id": 44,
-      "prompt": "Est-ce que vous allez rentrer en août ? - Non, je ___ pas rentrer en août.",
-      "answer": "ne vais",
-      "hint": "Futur proche négatif"
-    },
-    {
-      "id": 45,
-      "prompt": "Le chien va te mordre ! → Non, il ___ pas me mordre.",
-      "answer": "ne va",
-      "hint": "Futur proche négatif"
-    },
-    {
-      "id": 46,
-      "prompt": "Ils vont nous abîmer ! → Non, ils ___ pas nous abîmer.",
-      "answer": "ne vont",
-      "hint": "Futur proche négatif"
-    },
-    {
-      "id": 47,
-      "prompt": "Ils vont te punir ! → Non, ils ___ pas me punir.",
-      "answer": "ne vont",
-      "hint": "Futur proche négatif"
-    },
-    {
-      "id": 48,
-      "prompt": "Elle va le perdre ! → Non, elle ___ pas le perdre.",
-      "answer": "ne va",
-      "hint": "Futur proche négatif"
-    },
-    {
-      "id": 49,
-      "prompt": "Vous allez reprendre votre appartement ? - Mais non, je ___ pas le reprendre.",
-      "answer": "ne vais",
-      "hint": "Futur proche négatif avec pronom"
-    },
-    {
-      "id": 50,
-      "prompt": "Vous allez regarder le match de boxe ce soir ? - Mais non, je ___ pas le regarder.",
-      "answer": "ne vais",
-      "hint": "Futur proche négatif avec pronom"
-    },
-    {
-      "id": 51,
-      "prompt": "Vous allez téléphoner à Paul ? - Mais non, je ___ pas lui téléphoner.",
-      "answer": "ne vais",
-      "hint": "Futur proche négatif avec pronom indirect"
-    },
-    {
-      "id": 52,
-      "prompt": "Vous allez inviter vos voisins ce soir ? - Mais non, je ___ pas les inviter.",
-      "answer": "ne vais",
-      "hint": "Futur proche négatif avec pronom"
-    },
-    {
-      "id": 53,
-      "prompt": "Voulez-vous refaire vos exercices ? - Mais non, je ___ pas les refaire.",
-      "answer": "ne vais",
-      "hint": "Futur proche négatif avec pronom"
+      "prompt": "Complétez librement, au futur proche.\nNos amis vont acheter une Peugeot. Leurs parents vont acheter une Renault.\n1. Tu vas aller au cinéma ce soir. Ton frère ___\n2. Je vais partir en vacances en août. Mes enfants ___\n3. Ma fille va partir en Angleterre. Vos enfants ___\n4. ...",
+      "answer": "Réponses libres",
+      "hint": "p.169, ex.3"
     }
   ]
 },
