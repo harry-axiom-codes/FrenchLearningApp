@@ -3249,57 +3249,225 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Écrivez la date selon le modèle.\n1. mardi 25/06 : Aujourd'hui, c'est mardi. Nous sommes le 25. Nous sommes en juin.\n2. jeudi 21/01 :\n3. dimanche 15/08 :\n4. vendredi 12/12 :",
-      "answer": "Réponse libre",
+      "prompt": "Écrivez la date selon le modèle.\n1. mardi 25/06",
+      "answer": "mardi vingt-cinq juin",
       "hint": "p.65, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Complétez le texte avec « le », « en », « au », si c'est nécessaire.\nDe bonnes nageuses\nMa mère n'est pas jeune (elle est née ___ 31 août 1950), mais c'est une excellente nageuse et, ___ été, nous passons ___ dimanche au bord de la mer. En Bretagne, ___ août, il y a beaucoup de monde, surtout ___ week-end : nous partons ___ matin et nous rentrons ___ soir après la chaleur. En revanche, ___ printemps et ___ automne, nous sommes seules sur la plage. Nous prenons le dernier bain ___ septembre ou même, parfois, début ___ octobre et nous recommençons ___ mois de mai.",
-      "answer": "le / en / le / en / le / le / le / au / en / en / en / au",
-      "hint": "p.65, ex.2"
+      "prompt": "Écrivez la date selon le modèle.\n2. jeudi 21/01",
+      "answer": "jeudi vingt et un janvier",
+      "hint": "p.65, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Écrivez en lettres, selon le modèle.\nSimone de Beauvoir (09/01/1908). Elle est née en janvier, au vingtième siècle.\n1. Marcel Proust (10/07/1871) :\n2. Marilyn Monroe (01/06/1926) :\n3. Albert Einstein (14/03/1879) :\n4. Napoléon Ier (15/08/1769) :",
-      "answer": "Réponse libre",
-      "hint": "p.65, ex.3"
+      "prompt": "Écrivez la date selon le modèle.\n3. dimanche 15/08",
+      "answer": "dimanche quinze août",
+      "hint": "p.65, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Datez les événements.\n- 1er timbre (1850) : Mille huit cent cinquante\n- 1re bicyclette (1872) :\n- 1er piano (1698) :\n- 1res lunettes (1300) :\n- 1er pistolet (1480) :\n- 1er appareil photo (1839) :",
-      "answer": "Réponse libre",
-      "hint": "p.65, ex.4"
+      "prompt": "Écrivez la date selon le modèle.\n4. vendredi 12/12",
+      "answer": "vendredi douze décembre",
+      "hint": "p.65, ex.1"
     },
     {
       "id": 5,
-      "prompt": "Répondez librement aux questions.\n- Quel jour êtes-vous né(e) ?\n- Sommes-nous au début ou à la fin du mois ?\n- Quel jour sommes-nous ?",
-      "answer": "Réponse libre",
-      "hint": "p.65, ex.5"
+      "prompt": "Complétez le texte avec le « en », « au », si c'est nécessaire.\nDe bonnes vacances !\nMa mère n'est pas jeune (elle est née ___ 1950), mais c'est une excellente nageuse et, il y a beaucoup de monde, surtout ___ dimanche ___ bord de la mer. ___ Bretagne, ___ août, nous passons le dernier week-end ___ printemps et ___ septembre ou ___ automne, nous sommes seules sur la plage. Nous prenons le dernier bain ___ 31 août. ___ revanche, nous partons ___ début ___ mois de mai.",
+      "answer": "en/le/au/En/en/au/en/le/En/au/du",
+      "hint": "p.65, ex.2"
     },
     {
       "id": 6,
-      "prompt": "Transcrivez l'heure. Donnez l'horaire usuel, puis l'horaire officiel.\n19 h 45 : Il est huit heures moins le quart. Il est dix-neuf heures quarante-cinq.\n14 h 15 :\n16 h 30 :\n19 h 10 :\n12 h 25 :\n13 h 55 :\n15 h 45 :\n20 h 50 :\n22 h :\n24 h 00 :\n10 h 15 :",
-      "answer": "Il est deux heures et quart / Il est quatorze heures quinze. Il est quatre heures et demie / Il est seize heures trente. Il est sept heures dix / Il est dix-neuf heures dix. Il est midi vingt-cinq / Il est douze heures vingt-cinq. Il est deux heures moins cinq / Il est treize heures cinquante-cinq. Il est quatre heures moins le quart / Il est quinze heures quarante-cinq. Il est neuf heures moins dix / Il est vingt heures cinquante. Il est dix heures / Il est vingt-deux heures. Il est minuit / Il est vingt-quatre heures. Il est dix heures et quart / Il est dix heures quinze.",
-      "hint": "p.67, ex.6"
+      "prompt": "Écrivez en lettres, selon le modèle.\n1. Marcel Proust (10/07/1871).",
+      "answer": "Il est né le dix juillet mille huit cent soixante et onze.",
+      "hint": "p.65, ex.3"
     },
     {
       "id": 7,
-      "prompt": "Complétez en utilisant « tard » ou « tôt », « en retard » ou « en avance ».\n1. Il est une heure et demie du matin, viens te coucher : il est ___.\n2. - Pierre n'est pas encore arrivé ? - Non, il ___.\n3. Le film commence à dix heures : c'est ___ pour les enfants.\n4. - Nous sommes en retard, Paul ? - Non, au contraire, vous ___.\n5. Le bébé se réveille toujours très ___ : à cinq heures du matin !\n6. Il est dix heures et le facteur n'est pas passé : il ___ ce matin !",
-      "answer": "tard / est en retard / tard / êtes en avance / tôt / est en retard",
-      "hint": "p.67, ex.7"
+      "prompt": "Écrivez en lettres, selon le modèle.\n2. Albert Einstein (14/03/1879).",
+      "answer": "Il est né le quatorze mars mille huit cent soixante-dix-neuf.",
+      "hint": "p.65, ex.3"
     },
     {
       "id": 8,
-      "prompt": "Complétez les phrases avec « il y a », « il fait », « il est », etc.\n1. Quand ___ 8 heures à Paris, ___ 4 heures à São Paulo.\n2. Aujourd'hui, ___ très froid et ___ du brouillard.\n3. Dans les îles grecques, en été, ___ chaud, mais ___ toujours du vent.\n4. C'est l'heure du journal télévisé : ___ huit heures.\n5. C'est le premier jour du printemps : ___ très doux.\n6. Couvrez-vous bien : dehors ___ froid et ___ du vent.",
-      "answer": "il est / il est / il fait / il y a / il fait / il y a / il est / il fait / il fait / il y a",
-      "hint": "p.67, ex.8"
+      "prompt": "Écrivez en lettres, selon le modèle.\n3. Simone de Beauvoir (09/01/1908).",
+      "answer": "Elle est née le neuf janvier mille neuf cent huit.",
+      "hint": "p.65, ex.3"
     },
     {
       "id": 9,
-      "prompt": "Répondez librement aux questions.\n1. Quelle heure est-il ?\n2. Quel temps fait-il ?\n3. Nous sommes en quelle saison ?\n4. Nous sommes en quelle année ?\n5. Il fait froid ou il fait chaud dans votre pays en janvier ?\n6. Il fait froid au Brésil, en février ?\n7. En août dans votre pays, quel temps fait-il ?\n8. Quelle est la température de la salle où vous êtes actuellement ?",
-      "answer": "Réponse libre",
-      "hint": "p.67, ex.9"
+      "prompt": "Écrivez en lettres, selon le modèle.\n4. Napoléon (15/08/1769).",
+      "answer": "Il est né le quinze août mille sept cent soixante-neuf.",
+      "hint": "p.65, ex.3"
+    },
+    {
+      "id": 10,
+      "prompt": "Datez les événements.\n1er timbre (1850)",
+      "answer": "Mille huit cent cinquante",
+      "hint": "p.65, ex.4"
+    },
+    {
+      "id": 11,
+      "prompt": "Datez les événements.\n1re bicyclette (1872)",
+      "answer": "Mille huit cent soixante-douze",
+      "hint": "p.65, ex.4"
+    },
+    {
+      "id": 12,
+      "prompt": "Datez les événements.\n1er piano (1698)",
+      "answer": "Mille six cent quatre-vingt-dix-huit",
+      "hint": "p.65, ex.4"
+    },
+    {
+      "id": 13,
+      "prompt": "Datez les événements.\n1res lunettes (1300)",
+      "answer": "Mille trois cents",
+      "hint": "p.65, ex.4"
+    },
+    {
+      "id": 14,
+      "prompt": "Datez les événements.\n1er pistolet (1480)",
+      "answer": "Mille quatre cent quatre-vingts",
+      "hint": "p.65, ex.4"
+    },
+    {
+      "id": 15,
+      "prompt": "Datez les événements.\n1er appareil photo (1839)",
+      "answer": "Mille huit cent trente-neuf",
+      "hint": "p.65, ex.4"
+    },
+    {
+      "id": 16,
+      "prompt": "Transcrivez l'heure. Donnez l'horaire usuel, puis l'horaire officiel.\n14 h 15 :",
+      "answer": "Il est deux heures et quart. / Il est quatorze heures quinze.",
+      "hint": "p.67, ex.1"
+    },
+    {
+      "id": 17,
+      "prompt": "Transcrivez l'heure.\n19 h 45 :",
+      "answer": "Il est huit heures moins le quart. / Il est dix-neuf heures quarante-cinq.",
+      "hint": "p.67, ex.1"
+    },
+    {
+      "id": 18,
+      "prompt": "Transcrivez l'heure.\n16 h 30 :",
+      "answer": "Il est quatre heures et demie. / Il est seize heures trente.",
+      "hint": "p.67, ex.1"
+    },
+    {
+      "id": 19,
+      "prompt": "Transcrivez l'heure.\n19 h 10 :",
+      "answer": "Il est sept heures dix. / Il est dix-neuf heures dix.",
+      "hint": "p.67, ex.1"
+    },
+    {
+      "id": 20,
+      "prompt": "Transcrivez l'heure.\n12 h 25 :",
+      "answer": "Il est midi vingt-cinq. / Il est douze heures vingt-cinq.",
+      "hint": "p.67, ex.1"
+    },
+    {
+      "id": 21,
+      "prompt": "Transcrivez l'heure.\n15 h 45 :",
+      "answer": "Il est quatre heures moins le quart. / Il est quinze heures quarante-cinq.",
+      "hint": "p.67, ex.1"
+    },
+    {
+      "id": 22,
+      "prompt": "Transcrivez l'heure.\n22 h :",
+      "answer": "Il est dix heures. / Il est vingt-deux heures.",
+      "hint": "p.67, ex.1"
+    },
+    {
+      "id": 23,
+      "prompt": "Transcrivez l'heure.\n20 h 30 :",
+      "answer": "Il est huit heures et demie. / Il est vingt heures trente.",
+      "hint": "p.67, ex.1"
+    },
+    {
+      "id": 24,
+      "prompt": "Transcrivez l'heure.\n24 h 00 :",
+      "answer": "Il est minuit. / Il est vingt-quatre heures.",
+      "hint": "p.67, ex.1"
+    },
+    {
+      "id": 25,
+      "prompt": "Transcrivez l'heure.\n10 h 15 :",
+      "answer": "Il est dix heures et quart. / Il est dix heures quinze.",
+      "hint": "p.67, ex.1"
+    },
+    {
+      "id": 26,
+      "prompt": "Complétez en utilisant « il est tôt » ou « il est tard », « en avance » ou « en retard ».\n1. Il est une heure et demie du matin, il est tard, pour les enfants.",
+      "answer": "tard",
+      "hint": "p.67, ex.2"
+    },
+    {
+      "id": 27,
+      "prompt": "Complétez en utilisant « tôt/tard » ou « en avance/en retard ».\n2. – Pierre n'est pas encore arrivé ? – Non, le contraire, il est ___ comme d'habitude.",
+      "answer": "en retard",
+      "hint": "p.67, ex.2"
+    },
+    {
+      "id": 28,
+      "prompt": "Complétez en utilisant « tôt/tard » ou « en avance/en retard ».\n3. – Le film commence à dix heures ; il est neuf heures. – Oui, au contraire, vous êtes ___.",
+      "answer": "en avance",
+      "hint": "p.67, ex.2"
+    },
+    {
+      "id": 29,
+      "prompt": "Complétez en utilisant « tôt/tard » ou « en avance/en retard ».\n4. – Nous sommes en retard, Paul ? – C'est ___ pour les enfants.",
+      "answer": "tard",
+      "hint": "p.67, ex.2"
+    },
+    {
+      "id": 30,
+      "prompt": "Complétez en utilisant « tôt/tard » ou « en avance/en retard ».\n5. Le bébé se réveille toujours très ___.",
+      "answer": "tôt",
+      "hint": "p.67, ex.2"
+    },
+    {
+      "id": 31,
+      "prompt": "Complétez en utilisant « tôt/tard » ou « en avance/en retard ».\n6. Il est dix heures et l'acteur n'est pas passé !",
+      "answer": "en retard",
+      "hint": "p.67, ex.2"
+    },
+    {
+      "id": 32,
+      "prompt": "Complétez les phrases avec « il y a », « il fait », « il est », etc.\n1. Quand ___ les fêtes grecques, ___ été, ___ 8 heures à Paris, ___ 4 heures à São Paulo.",
+      "answer": "il y a/en/il est/il est",
+      "hint": "p.67, ex.3"
+    },
+    {
+      "id": 33,
+      "prompt": "Complétez les phrases avec « il y a », « il fait », « il est », etc.\n2. Aujourd'hui, ___ le premier jour du printemps.",
+      "answer": "c'est",
+      "hint": "p.67, ex.3"
+    },
+    {
+      "id": 34,
+      "prompt": "Complétez les phrases avec « il y a », « il fait », « il est », etc.\n3. Dans les îles grecques, en été, ___ très chaud et ___ très beau.",
+      "answer": "il fait/il fait",
+      "hint": "p.67, ex.3"
+    },
+    {
+      "id": 35,
+      "prompt": "Complétez les phrases avec « il y a », « il fait », « il est », etc.\n4. C'est l'heure du journal télévisé : ___ 8 heures à Paris, ___ chaud, mais ___ du brouillard.",
+      "answer": "il est/il fait/il y a",
+      "hint": "p.67, ex.3"
+    },
+    {
+      "id": 36,
+      "prompt": "Complétez les phrases avec « il y a », « il fait », « il est », etc.\n5. ___ à cinq heures du matin ce matin.",
+      "answer": "il fait",
+      "hint": "p.67, ex.3"
+    },
+    {
+      "id": 37,
+      "prompt": "Complétez les phrases avec « il y a », « il fait », « il est », etc.\n6. ___ froid et ___ toujours du vent.",
+      "answer": "Il fait/il y a",
+      "hint": "p.67, ex.3"
     }
   ]
 },
@@ -3311,69 +3479,75 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Commentez le sondage en utilisant « plusieurs », « quelques », « tous » et « aucun ».\nLogement. Sur 30 étudiants :\n- habitent chez leurs parents\n- habitent à la cité universitaire\n- cohabitent avec des amis\n- habitent dans le centre\n- habitent à l'hôtel\nDans la classe, plusieurs étudiants habitent chez leurs parents.",
-      "answer": "Réponse libre",
+      "prompt": "Commentez le sondage en utilisant « plusieurs », « quelques », « tous » et « aucun ».\nSur 30 étudiants :\nLogement\n- habitent chez leurs parents : 12\n- habitent dans un studio : 4\n- habitent à la cité universitaire : 14\n- cohabitent avec des amis : 0\n- habitent dans le centre : 30\n- habitent à l'hôtel : 0",
+      "answer": "Plusieurs étudiants habitent chez leurs parents. Quelques étudiants habitent dans un studio. Plusieurs étudiants habitent à la cité universitaire. Aucun étudiant ne cohabite avec des amis. Tous les étudiants habitent dans le centre. Aucun étudiant n'habite à l'hôtel.",
       "hint": "p.69, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Distinguez des groupes en utilisant « certains » et « d'autres ».\nhabiter dans un studio / un deux-pièces\nvivre seuls / en couple\nêtre propriétaires / locataires",
-      "answer": "Réponse libre",
-      "hint": "p.69, ex.2"
+      "prompt": "Distinguez des groupes en utilisant « certains » et « d'autres ».\nhabiter dans un studio / dans des pièces, habiter seul(e) / en couple, être propriétaire/locataire.\n___ étudiants habitent dans un studio, ___ habitent dans des pièces.",
+      "answer": "Certains/d'autres",
+      "hint": "p.69, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Complétez, selon le modèle.\nJ'aime ___ les couleurs, mais surtout le bleu.\nJ'aime ___ les fruits, mais surtout les pêches.\nJ'aime ___ les légumes, mais surtout les asperges.\nJ'aime ___ les saisons, mais surtout l'automne.\nJ'aime ___ les fleurs, mais surtout les tulipes.\nJ'aime ___ les animaux, mais surtout les chiens.\nJ'aime ___ les sports, mais surtout le football.\nJ'aime ___ les musiques, mais surtout le jazz.",
-      "answer": "toutes / tous / tous / toutes / toutes / tous / tous / toutes",
-      "hint": "p.69, ex.3"
+      "prompt": "Complétez avec « chaque/tous/toutes ».\n1. Tous les jours, ___ chaque jour.\n2. Tous les temps.\n3. Tout___ les nuits.\n4. Tout___ les étudiants.\n5. Tout___ le groupe.",
+      "answer": "Tous/Toutes/Tous/Tout",
+      "hint": "p.69, ex.4"
     },
     {
       "id": 4,
-      "prompt": "Complétez avec « chaque » / « tous » / « toutes ».\n1. - Vous vous lavez les cheveux ___ jour ? - Non, ___ les deux jours.\n2. - Vous changez de voiture ___ année ? - Non, ___ les trois ans environ.\n3. - Vous allez chez le coiffeur ___ mois ? - Non, ___ les deux semaines.",
-      "answer": "chaque / tous / chaque / tous / chaque / toutes",
+      "prompt": "Complétez.\n1. Tout le temps.\n2. Tout___ les jours.\n3. Tout___ les nuits.\n4. Tout___ la vie.\n5. Tout___ le pays.\n6. Tout___ la région.\n7. Tout___ les habitants.\n8. Tout___ les villes.",
+      "answer": "Tous/Toutes/Toute/Tout/Toute/Tous/Toutes",
       "hint": "p.69, ex.4"
     },
     {
       "id": 5,
-      "prompt": "Complétez.\n___ le groupe.\n___ les étudiants.\n___ la région.\n___ les habitants.\n___ les villes.",
-      "answer": "Tout / Tous / Toute / Tous / Toutes",
-      "hint": "p.69, ex.5"
+      "prompt": "Complétez avec « chaque/tous/toutes ».\n1. ___ vous lavez les cheveux chaque jour ?\n2. ___ vous changez de voiture tous les trois ans environ, ___ chaque année ?\n3. ___ vous allez chez le coiffeur ___ les deux mois ?",
+      "answer": "Vous/Vous/tous/Vous/tous",
+      "hint": "p.69, ex.3"
     },
     {
       "id": 6,
-      "prompt": "Trouvez les indéfinis correspondants, puis continuez librement.\n- Je connais ___ acteurs américains (une dizaine) et ___ acteurs français (2 ou 3).\n- Je connais ___ chansons françaises (3 ou 4) et ___ chansons anglaises (une vingtaine).\n- Je ne connais ___ poème de Baudelaire (0) et ___ pièce de Marivaux (0).",
-      "answer": "plusieurs / quelques / quelques / plusieurs / aucun / aucune",
-      "hint": "p.69, ex.6"
+      "prompt": "Transformez avec des pronoms, selon le modèle.\nPhotos de vacances :\nplusieurs photos sont ratées,\nquelques photos sont réussies,\ncertaines photos sont originales,\nd'autres photos sont bizarres,\naucune photo n'est banale,\nchaque photo a une histoire.",
+      "answer": "plusieurs sont ratées/quelques-unes sont réussies/certaines sont originales/d'autres sont bizarres/aucune n'est banale/chacune a une histoire",
+      "hint": "p.71, ex.1"
     },
     {
       "id": 7,
-      "prompt": "Transformez avec des pronoms, selon le modèle.\nPhotos de vacances\nRegarde mes photos :\nplusieurs photos sont ratées → plusieurs sont ratées\nquelques photos sont réussies → ___\ncertaines photos sont originales → ___\nd'autres photos sont bizarres → ___\naucune photo n'est banale → ___\nchaque photo a une histoire → ___",
-      "answer": "quelques-unes sont réussies / certaines sont originales / d'autres sont bizarres / aucune n'est banale / chacune a une histoire",
-      "hint": "p.71, ex.7"
+      "prompt": "Complétez avec « quelques-uns » ou « quelques-unes », « chacun » ou « chacune ».\n1. Voilà une gamme de nouveaux produits. ___ sont révolutionnaires.\n2. ___ a un label de qualité.\n3. Vos enfants ont ___ leur chambre ?",
+      "answer": "Quelques-uns/Chacun/chacun",
+      "hint": "p.71, ex.2"
     },
     {
       "id": 8,
-      "prompt": "Complétez avec « quelques » ou « quelques-uns », « chaque » ou « chacun ».\n1. Voici ___ nouveaux produits. ___ sont révolutionnaires. ___ produit a un label de qualité.\n2. J'ai ___ livres anciens. ___ datent de 1850 !\n3. Vos enfants ont ___ leur chambre ?\n4. Attendez ! ___ son tour ! ___ passager a un ticket avec un numéro.\n5. Je ne connais pas tous les étudiants, je connais seulement ___ d'entre eux.",
-      "answer": "quelques / Quelques-uns / Chaque / quelques / Quelques-uns / chacun / Chacun / Chaque / quelques-uns",
-      "hint": "p.71, ex.8"
+      "prompt": "Complétez avec « quelque chose » ou « quelqu'un ».\n1. ___ a quelque chose d'intéressant.\n2. quelque chose ___.\n3. quelqu'un ___.\n4. quelque chose ___.\n5. ___ quelque part.",
+      "answer": "quelqu'un/quelque chose/quelqu'un/quelque chose/quelque part",
+      "hint": "p.71, ex.2"
     },
     {
       "id": 9,
-      "prompt": "Répondez en utilisant « tous » / « toutes » ou « aucun(e) ».\n1. - Tous les étudiants sont arrivés ? - Oui, ils sont tous arrivés. / - Non, aucun n'est arrivé !\n2. - Tous les dossiers sont complets ? - Oui, ___. / - Non, ___.\n3. - Toutes les salles sont occupées ? - Oui, ___. / - Non, ___.\n4. - Tous les tests sont corrigés ? - Oui, ___. / - Non, ___.",
-      "answer": "ils sont tous complets / aucun n'est complet / elles sont toutes occupées / aucune n'est occupée / ils sont tous corrigés / aucun n'est corrigé",
-      "hint": "p.71, ex.9"
+      "prompt": "Répondez en utilisant « tous » ou « toutes » ou « aucun(e) ».\n1. – Tous les dossiers sont arrivés ?\n– Oui, ___ sont ___ arrivés.\n2. – Tous les étudiants sont tous là ?\n– Oui, ___ sont tous là.\n3. – Toutes les salles sont occupées ?\n– Oui, ___ sont toutes occupées.\n4. – ___ les tests sont corrigés ?\n– Oui, ___ sont ___ corrigés.\n5. – Non, ___ n'est corrigé.",
+      "answer": "ils/tous/ils/elles/Tous/ils/tous/aucun",
+      "hint": "p.71, ex.3"
     },
     {
       "id": 10,
-      "prompt": "Complétez avec « quelqu'un », « quelque chose » ou « quelque part ».\n1. Il y a ___ à côté de vous ?\n2. - Vous avez soif ? Vous voulez boire ___ ?\n3. Si ___ appelle, dites-lui de laisser un message.\n4. Qu'est-ce que vous cherchez ? Vous avez perdu ___ ?\n5. Je ne trouve plus mes clés : j'ai dû les oublier ___.",
-      "answer": "quelqu'un / quelque chose / quelqu'un / quelque chose / quelque part",
-      "hint": "p.71, ex.10"
+      "prompt": "Complétez avec « quelqu'un », « quelque chose » ou « quelque part ».\n1. Il y a quelqu'un à côté de vous ? – 2. Vous avez soif ? Vous voulez ___ à boire ? – 3. Si je te trouve plus en ci : j'ai dû les oublier ___. – 4. Qu'est-ce que vous cherchez ? Vous avez perdu ___ ?",
+      "answer": "quelque chose/quelque part/quelque chose",
+      "hint": "p.71, ex.4"
     },
     {
       "id": 11,
-      "prompt": "Complétez avec « quelque chose de », « quelqu'un de ».\n- Un sac, c'est quelque chose d'utile.\n- Un revolver, c'est ___.\n- Charlie Chaplin, c'est ___.\n- Ma tante, c'est ___.\n- La liberté, c'est ___.\n- Un milliardaire, c'est ___.\n- Une star, c'est ___.\n- L'argent, c'est ___.",
-      "answer": "quelque chose de dangereux / quelqu'un d'amusant / quelqu'un de spécial / quelque chose de précieux / quelqu'un de riche / quelque chose de beau / quelque chose de nécessaire",
-      "hint": "p.71, ex.11"
+      "prompt": "Complétez avec « quelque chose de », « quelqu'un de ».\n– Un sac, c'est quelque chose de ___ et ___.\n– Un milliardaire, c'est quelqu'un de ___.\n– Un revolver, c'est quelque chose de ___.\n– Ma tante, c'est quelqu'un de ___.\n– Charlie Chaplin, c'est quelqu'un de ___.\n– Une star, c'est quelqu'un de ___.\n– L'argent, c'est quelque chose de ___.",
+      "answer": "pratique/utile/riche/dangereux/spécial/amusant/célèbre/important",
+      "hint": "p.71, ex.5"
+    },
+    {
+      "id": 12,
+      "prompt": "Trouvez les indéfinis correspondants.\nje connais ___ acteurs américains (une dizaine), et ___ chansons françaises (3 ou 4) et ___ pièce de Baudelaire (0) et ___ pièce de Marivaux (0).",
+      "answer": "plusieurs/quelques/aucune/aucune",
+      "hint": "p.69, ex.5"
     }
   ]
 },
@@ -3385,99 +3559,195 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Répondez personnellement aux questions, selon le modèle.\n- Vous parlez français, anglais, espagnol, grec ? - Je parle allemand.\n1. - En général, vous déjeunez à midi, à une heure, à deux heures ?\n2. - En général, vous dînez à sept heures et demie, à huit heures, à neuf heures ?\n3. - Vous habitez à Paris, à Londres, à Amsterdam ?\n4. - Vous habitez dans le centre, en banlieue, à la campagne ?\n5. - Vous étudiez le français seul, dans une école, avec un professeur particulier ?",
-      "answer": "Réponse libre",
-      "hint": "p.75, ex.1"
+      "prompt": "Complétez avec les terminaisons manquantes.\n1. Il din___ et tu travaille___. – 2. Tu fum___ et il bavard___.",
+      "answer": "e/es/es/e",
+      "hint": "p.77, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Posez les questions, selon le modèle.\n- En général, je marche beaucoup, et vous, vous marchez beaucoup ?\n1. - En général, je commence le travail à 9 heures, et vous, ___\n2. - Normalement, je termine à 18 heures, et vous, ___\n3. - En général, je dîne pendant le journal télévisé, et vous, ___\n4. - D'habitude, je mange peu le soir, et vous, ___\n5. - En général, je regarde la télévision après le dîner, et vous, ___",
-      "answer": "vous commencez le travail à 9 heures ? / vous terminez à 18 heures ? / vous dînez pendant le journal télévisé ? / vous mangez peu le soir ? / vous regardez la télévision après le dîner ?",
-      "hint": "p.75, ex.2"
+      "prompt": "Complétez avec les terminaisons manquantes.\n3. Elle étudi___ et tu chant___.",
+      "answer": "e/es",
+      "hint": "p.77, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Commentez à la forme affirmative ou négative.\n1. Les Colombiens parlent espagnol.\n2. La tour Eiffel mesure 50 mètres.\n3. Le printemps commence le 21 mars.\n4. La Terre tourne autour de la Lune.\n5. Les enfants marchent à 6 mois.\n6. Les Brésiliens parlent espagnol.",
-      "answer": "C'est vrai. Ils parlent espagnol. / C'est faux. Elle ne mesure pas 50 mètres. / C'est vrai. Il commence le 21 mars. / C'est faux. La Terre ne tourne pas autour de la Lune. / C'est faux. Les enfants ne marchent pas à 6 mois. / C'est faux. Ils ne parlent pas espagnol.",
-      "hint": "p.75, ex.3"
+      "prompt": "Complétez avec les terminaisons manquantes.\n5. On jou___ tu gagn___ et on continu___.",
+      "answer": "e/es/e",
+      "hint": "p.77, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Écrivez un blog. Dites quels sont :\n- les activités que vous aimez / les chanteurs que vous écoutez / les séries que vous regardez ;\n- les couleurs que vous portez / les plats que vous cuisinez / les aliments que vous détestez.",
-      "answer": "Réponse libre",
-      "hint": "p.75, ex.4"
+      "prompt": "Mettez le texte au pluriel.\n« Mélomane(s) »\nMon fils aime beaucoup la musique.\nIl achète plusieurs disques par mois.\nIl chante des airs d'opéra et travaille avec la radio allumée.\nIl écoute du rock dans le garage sous la douche.",
+      "answer": "Mes enfants aiment beaucoup la musique. Ils achètent plusieurs disques par mois. Ils chantent des airs d'opéra et travaillent avec la radio allumée. Ils écoutent du rock dans le garage sous la douche.",
+      "hint": "p.77, ex.2"
     },
     {
       "id": 5,
-      "prompt": "Complétez avec les terminaisons manquantes.\n1. Ils dîn___ et tu travaill___.\n2. Tu fum___ et il bavard___.\n3. Elle étudi___ et tu chant___.\n4. Elles dans___ et tu pleur___.\n5. On jou___, tu gagn___ et on continu___.",
-      "answer": "ent / es / es / e / e / es / ent / es / e / es / e",
-      "hint": "p.77, ex.5"
+      "prompt": "Remplacez « je » par « nous » et « nous » par « je ».\nJe partage un appartement. Je commence un roman. Je change d'adresse. J'espère avoir du succès.",
+      "answer": "Nous partageons un appartement. Nous commençons un roman. Nous changeons d'adresse. Nous espérons avoir du succès.",
+      "hint": "p.77, ex.3"
     },
     {
       "id": 6,
-      "prompt": "Mettez le texte au pluriel.\n« Mélomane(s) »\nMon fils aime beaucoup la musique. Il achète plusieurs disques par mois. Il mange et il travaille avec la radio allumée. Il chante des airs d'opéra sous la douche et il joue du rock dans le garage.\nMes enfants ___",
-      "answer": "aiment beaucoup la musique. Ils achètent plusieurs disques par mois. Ils mangent et ils travaillent avec la radio allumée. Ils chantent des airs d'opéra sous la douche et ils jouent du rock dans le garage.",
-      "hint": "p.77, ex.6"
+      "prompt": "Complétez avec les verbes manquants.\n1. Vous commencez le travail à 9 heures. Nous ___  aussi à 7 h 30.",
+      "answer": "commençons",
+      "hint": "p.77, ex.4"
     },
     {
       "id": 7,
-      "prompt": "Remplacez « je » par « nous » et « nous » par « je ».\n1. Je partage un appartement. Je nettoie la cuisine. J'essuie la vaisselle. Je jette les vieux papiers.\nNous ___\n2. Nous rejetons ces propositions. Nous suggérons des modifications. Nous appelons un juriste.\nJe ___\n3. Je dirige une entreprise. J'engage des employés. Je place de l'argent.\nNous ___\n4. Nous essayons un nouvel ordinateur. Nous changeons de matériel. Nous payons par chèque.\nJe ___\n5. Nous voyageons. Nous emmenons des amis. Nous envoyons des cartes postales.\nJe ___",
-      "answer": "1. Nous partageons un appartement. Nous nettoyons la cuisine. Nous essuyons la vaisselle. Nous jetons les vieux papiers. / 2. Je rejette ces propositions. Je suggère des modifications. J'appelle un juriste. / 3. Nous dirigeons une entreprise. Nous engageons des employés. Nous plaçons de l'argent. / 4. J'essaie un nouvel ordinateur. Je change de matériel. Je paie par chèque. / 5. Je voyage. J'emmène des amis. J'envoie des cartes postales.",
-      "hint": "p.77, ex.7"
+      "prompt": "Complétez avec les verbes manquants.\n2. Nous achetons souvent des roses et vous, vous ___.",
+      "answer": "achetez",
+      "hint": "p.77, ex.4"
     },
     {
       "id": 8,
-      "prompt": "Complétez avec les verbes manquants.\n1. Vous commencez le travail à 7 h 30 et nous, nous ___ à 7 h 30.\n2. Nous achetons souvent des roses et vous, vous ___ parfois des fleurs ?\n3. Ma cousine et moi, nous avons le même prénom, nous nous ___ « Éléonore ».\n4. Max change de voiture chaque année. Nous, nous ___ de voiture tous les cinq ans.",
-      "answer": "commençons / achetez / appelons / changeons",
-      "hint": "p.77, ex.8"
+      "prompt": "Complétez avec les verbes manquants.\n3. Ma cousine et moi, nous avons le même prénom. Nous nous ___  « Éléonore ».",
+      "answer": "appelons",
+      "hint": "p.77, ex.4"
     },
     {
       "id": 9,
-      "prompt": "Complétez avec les terminaisons manquantes et répondez personnellement.\n1. Je préfèr___ le thé au café. Et vous ?\n2. Les jeunes envo___ beaucoup de SMS. Et vous ?\n3. Nous chang___ de portable tous les ans. Et vous ?\n4. Je pa___ 800 € de loyer. Et vous ?\n5. Je voyage beaucoup. Et vous ?",
-      "answer": "e / ient / eons / ie",
-      "hint": "p.77, ex.9"
+      "prompt": "Complétez avec les terminaisons manquantes et répondez personnellement.\n1. Je préf___ le thé au café. Et vous ? – 2. Les jeunes env___ beaucoup de SMS. Et vous ? – 3. Nous chang___ de voiture chaque année. Et vous ? – 4. Je pa___ 800 € de loyer. Et vous ? – 5. Je voyag___ beaucoup. Et vous ?",
+      "answer": "ère/oient/eons/ie/e",
+      "hint": "p.77, ex.5"
     },
     {
       "id": 10,
-      "prompt": "Répondez aux questions selon le modèle.\n- Vous travaillez le samedi, en ce moment, Lola ? - Oui, en ce moment, je travaille le samedi.\n1. - Vous aimez la cuisine chinoise, Max ?\n2. - Vous cherchez un appartement dans le centre, Julie ?\n3. - Vous restez deux mois à Paris, Lucas ?\n4. - Vous jouez aux échecs, Antoine ?\n5. - Vous fumez beaucoup, Zoé ?\n6. - Vous étudiez le chinois, John ?\n7. - Vous parlez italien, Emma ?\n8. - Vous recopiez vos notes, Caroline ?",
-      "answer": "Oui, j'aime la cuisine chinoise. / Oui, je cherche un appartement dans le centre. / Oui, je reste deux mois à Paris. / Oui, je joue aux échecs. / Oui, je fume beaucoup. / Oui, j'étudie le chinois. / Oui, je parle italien. / Oui, je recopie mes notes.",
-      "hint": "p.78, ex.10"
+      "prompt": "Répondez aux questions, selon le modèle.\n– Vous travaillez le samedi, en ce moment, Loïc ?\n– Oui, en ce moment, je travaille le samedi.\n1. – Vous parlez français, anglais, espagnol, grec ?\n– Je ___",
+      "answer": "parle français",
+      "hint": "p.75, ex.1"
     },
     {
       "id": 11,
-      "prompt": "Ajoutez les terminaisons manquantes.\n1. Je regard___ rarement la télévision ; je préfèr___ écouter la radio.\n2. Mes enfants ador___ jouer au tennis et parfois ils jou___ tout le week-end.\n3. Tu travaill___ beaucoup trop et tu ne mang___ pas assez.\n4. Les voisins parl___ fort et ils cri___ beaucoup.\n5. À midi, nous mang___ souvent à la cantine et nous bavard___ entre amis.\n6. Mon mari fum___ le cigare et moi, je fum___ des cigarillos.\n7. Tu regard___ les petites annonces ? Tu cherch___ un appartement ?\n8. Je parl___ avec des amis français et ils me corrig___ quand je prononc___ mal.\n9. Vous pass___ vos vacances à Moscou ou vous rest___ à Paris ?\n10. Nous étudi___ la règle de grammaire et nous recommenç___ les exercices.",
-      "answer": "e / e / ent / ent / es / es / ent / ent / eons / ons / e / e / es / es / e / ent / e / ez / ez / ons / ons",
-      "hint": "p.78, ex.11"
+      "prompt": "Répondez aux questions, selon le modèle.\n2. – Vous habitez à Paris, à Londres, à Amsterdam ?\n– J'___",
+      "answer": "habite à Paris",
+      "hint": "p.75, ex.1"
     },
     {
       "id": 12,
-      "prompt": "Répondez librement aux questions.\nVie quotidienne\n- Où habitez-vous actuellement ?\n- Vous travaillez ou vous étudiez ?\n- Quelle langue parlez-vous en classe ?\n- Quel journal achetez-vous, le plus souvent ?\n- Où passez-vous vos vacances habituellement ?\n- En général, où dînez-vous le soir ?\n- Où déjeunez-vous à midi ?\n- Vous étudiez des langues étrangères ?",
-      "answer": "Réponse libre",
-      "hint": "p.78, ex.12"
+      "prompt": "Répondez aux questions, selon le modèle.\n3. – Vous dînez à sept heures et demie, à huit heures, à neuf heures ?\n– Je ___",
+      "answer": "dîne à sept heures et demie",
+      "hint": "p.75, ex.1"
     },
     {
       "id": 13,
-      "prompt": "Complétez les phrases avec les verbes manquants.\n1. Je joue mal au tennis, mais toi, tu ___ bien.\n2. Mon mari travaille dans le centre, mais moi, je ___ en banlieue.\n3. Mes amis apprécient le calme de la campagne, mais moi, j'___ l'animation de la ville.\n4. Vous étudiez le japonais ? Mon fils ___ le chinois !",
-      "answer": "joues / travaille / apprécie / étudie",
-      "hint": "p.79, ex.13"
+      "prompt": "Répondez aux questions, selon le modèle.\n4. – Vous habitez dans le centre, en banlieue, à la campagne ?\n– J'___",
+      "answer": "habite dans le centre",
+      "hint": "p.75, ex.1"
     },
     {
       "id": 14,
-      "prompt": "Complétez le texte avec les verbes manquants.\ndîner écouter téléphoner regarder jouer rentrer préférer préparer aimer enlever\nLe soir, quand je ___ à la maison, j'___ mon manteau et mes chaussures et j'___ mon répondeur téléphonique. Ensuite, je ___ à un ou deux amis, puis je ___ quelque chose pour le dîner. Mon mari et mes enfants ___ les pâtes, moi, je ___ la soupe. Nous ___ rapidement, puis nous ___ la télévision quand il y a quelque chose d'intéressant ou nous ___ au scrabble en famille.",
-      "answer": "rentre / enlève / écoute / téléphone / prépare / aiment / préfère / dînons / regardons / jouons",
-      "hint": "p.79, ex.14"
+      "prompt": "Répondez aux questions, selon le modèle.\n5. – Vous étudiez le français seul, dans une école, avec un professeur particulier ?\n– J'___",
+      "answer": "étudie le français dans une école",
+      "hint": "p.75, ex.1"
     },
     {
       "id": 15,
-      "prompt": "Répondez aux questions. Continuez le dialogue.\nPharmacie : 9 h 15 / 20 h\nBus : 6 h 15 / 23 h 45\nFilm : 20 h 30 / 22 h 15\nMusée : 10 h / 18 h 45\n1. - La pharmacie ouvre à quelle heure ? - Elle ouvre à neuf heures et quart.\n- Elle ferme à quelle heure ?",
-      "answer": "Réponse libre",
-      "hint": "p.79, ex.15"
+      "prompt": "Complétez la texte avec les verbes manquants. Faites l'élision si c'est nécessaire.\nLe soir, quand je ___ à la maison, je ___ mon manteau et mes chaussures et je ___ à un ou deux amis, puis nous ___ les pâtes, la soupe. Nous ___ la télévision quand il y a quelque chose ___ pour et dîner. Mon mari et mes enfants ___ rapidement, puis nous ___ au scrabble en famille.",
+      "answer": "rentre/enlève/téléphone/préparons/regardons/d'intéressant/dînons/jouons",
+      "hint": "p.79, ex.2"
     },
     {
       "id": 16,
-      "prompt": "Commentez ce sondage (Sofres) sur les préférences alimentaires des Français en écrivant les pourcentages.\nHommes : Côte de bœuf, Magret de canard, Moules-frites\nFemmes : Magret de canard, Blanquette de veau",
-      "answer": "Réponse libre",
-      "hint": "p.79, ex.16"
+      "prompt": "Ajoutez les terminaisons manquantes.\n1. – Je regard___ rarement la télévision, je préfèr___ jouer au tennis et parfois je jou___ tout le week-end.",
+      "answer": "e/e/e",
+      "hint": "p.79, ex.2"
+    },
+    {
+      "id": 17,
+      "prompt": "Ajoutez les terminaisons manquantes.\n2. – Tu travail___ beaucoup trop, et tu ne mang___ pas assez.",
+      "answer": "es/es",
+      "hint": "p.79, ex.2"
+    },
+    {
+      "id": 18,
+      "prompt": "Ajoutez les terminaisons manquantes.\n3. – Mes enfants ador___ fort et ils ___.",
+      "answer": "ent/ont",
+      "hint": "p.79, ex.2"
+    },
+    {
+      "id": 19,
+      "prompt": "Ajoutez les terminaisons manquantes.\n4. – Le voisin fum___ la pipe, souvent à la cantine et nous mang___ entre amis.",
+      "answer": "e/eons",
+      "hint": "p.79, ex.2"
+    },
+    {
+      "id": 20,
+      "prompt": "Ajoutez les terminaisons manquantes.\n5. – À midi, nous mang___ souvent à la cantine et nous recommand___ mal.",
+      "answer": "eons/ons",
+      "hint": "p.79, ex.2"
+    },
+    {
+      "id": 21,
+      "prompt": "Ajoutez les terminaisons manquantes.\n6. – Mon mari fum___ des cigarettes, quand je promèn___ les exercices.",
+      "answer": "e/e",
+      "hint": "p.79, ex.2"
+    },
+    {
+      "id": 22,
+      "prompt": "Ajoutez les terminaisons manquantes.\n7. – Tu regard___ le match, écoute___ la radio.",
+      "answer": "es/s",
+      "hint": "p.79, ex.2"
+    },
+    {
+      "id": 23,
+      "prompt": "Ajoutez les terminaisons manquantes.\n8. – Vous pass___ un appartement.",
+      "answer": "ez",
+      "hint": "p.79, ex.2"
+    },
+    {
+      "id": 24,
+      "prompt": "Commentez à la forme affirmative ou négative.\nQuiz\n1. Les Colombiens parlent espagnol.",
+      "answer": "C'est vrai. Ils parlent espagnol.",
+      "hint": "p.75, ex.3"
+    },
+    {
+      "id": 25,
+      "prompt": "Quiz.\n2. La tour Eiffel mesure 50 mètres.",
+      "answer": "C'est faux. Elle ne mesure pas 50 mètres.",
+      "hint": "p.75, ex.3"
+    },
+    {
+      "id": 26,
+      "prompt": "Quiz.\n3. La Terre tourne autour de la Lune.",
+      "answer": "C'est faux. Elle ne tourne pas autour de la Lune.",
+      "hint": "p.75, ex.3"
+    },
+    {
+      "id": 27,
+      "prompt": "Quiz.\n4. Les enfants marchent à 6 mois.",
+      "answer": "C'est faux. Ils ne marchent pas à 6 mois.",
+      "hint": "p.75, ex.3"
+    },
+    {
+      "id": 28,
+      "prompt": "Quiz.\n5. Le printemps commence le 21 mars.",
+      "answer": "C'est vrai. Le printemps commence le 21 mars.",
+      "hint": "p.75, ex.3"
+    },
+    {
+      "id": 29,
+      "prompt": "1. J'aime la cuisine chinoise. 2. Je joue au tennis. 3. Je cherche un appartement dans le centre. 4. J'aime beaucoup. 5. J'aime les écoles. 6. J'étudie le ___.",
+      "answer": "français",
+      "hint": "p.78, ex.6"
+    },
+    {
+      "id": 30,
+      "prompt": "Complétez.\n1. ___ , e. 2. ___ , ent, ent. 3. ___ , es, 4. ___ , ert, 5. ___ , ons, ons.\n6. e, ___ . 7. es, ___ . 8. ___ , es. 9. ert, ___ . 10. ons, ons.",
+      "answer": "e/e/ent/ent/e/es/ert/ert/ons/ons",
+      "hint": "p.78, ex.6"
+    },
+    {
+      "id": 31,
+      "prompt": "Complétez les phrases.\n1. ___ commençons. 2. ___ achetez. 3. ___ appelons. 4. ___ changeons.",
+      "answer": "Nous/Vous/Nous/Nous",
+      "hint": "p.77, ex.4"
+    },
+    {
+      "id": 32,
+      "prompt": "1. ___ aime la cuisine chinoise. 2. ___ joue du tennis. 3. ___ cherche un appartement dans le centre. 4. ___ fume beaucoup. 5. ___ étudie le français. 6. ___ j'étudie le ___.",
+      "answer": "J'/Je/Je/Je/J'/J'/français",
+      "hint": "p.78, ex.6"
     }
   ]
 },
@@ -3489,39 +3759,123 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "« Depuis » + durée. Répondez librement aux questions.\n- Vous êtes en France depuis un mois, six mois, un an ? - Je suis en France depuis trois mois.\n1. - Vous habitez à la même adresse depuis dix ans, cinq ans, trois ans ?\n2. - Vous êtes dans cette salle depuis dix minutes, deux heures, une demi-heure ?\n3. - Vous connaissez votre professeur depuis un mois, deux mois, un an ?\n4. - Vous étudiez le français depuis combien de temps ? Vous avez ce livre depuis longtemps ?",
-      "answer": "Réponse libre",
+      "prompt": "« Depuis » + durée. Répondez librement aux questions.\n1. – Vous habitez en France depuis un mois, six mois, un an, trois ans, un an ? – Je ___ en France depuis ___ mois.",
+      "answer": "suis/trois",
       "hint": "p.81, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Refaites l'exercice 1 oralement avec « Ça fait... que » / « Il y a... que ».",
+      "prompt": "« Depuis » + durée.\n2. – Vous êtes dans cette salle depuis six minutes, deux heures, cinq ans, une demi-heure ?",
       "answer": "Réponse libre",
-      "hint": "p.81, ex.2"
+      "hint": "p.81, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Complétez avec une date et une durée.\n1. La tour Eiffel existe depuis 1889, c'est-à-dire ___ ans.\n2. En France, les femmes votent depuis ___, c'est-à-dire ___ ans.\n3. Le tunnel sous la Manche existe depuis ___, c'est-à-dire ___ ans.\n4. L'euro est une monnaie européenne depuis ___, c'est-à-dire ___ ans.",
+      "prompt": "« Depuis » + durée.\n3. – Vous connaissez votre professeur depuis un mois, deux mois, cinq mois, un an ?",
       "answer": "Réponse libre",
-      "hint": "p.81, ex.3"
+      "hint": "p.81, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Choisissez l'expression de la durée.\n1. Tous les jours, les étudiants font une pause pendant / pour / en 30 minutes.\n2. « Déménageur express » vide votre appartement pendant / pour / en 3 heures.\n3. En France, le président de la République est élu pendant / pour / en 5 ans.\n4. Avec cette imprimante, on peut imprimer 300 pages pendant / pour / en 5 minutes.\n5. J'ai signé un contrat pendant / pour / en 6 mois.",
-      "answer": "pendant / en / pour / en / pour",
-      "hint": "p.81, ex.4"
+      "prompt": "« Depuis » + durée.\n4. – Vous étudiez le français depuis combien de temps ? Vous avez ce livre depuis longtemps ?",
+      "answer": "Réponse libre",
+      "hint": "p.81, ex.1"
     },
     {
       "id": 5,
-      "prompt": "Complétez avec « depuis (que) », « pour », « pendant » ou « en ».\n1. Ma mère cuisine ___ cinq heures et elle fait à manger ___ trois jours.\n2. Mon mari ne fume plus ___ trois semaines, et il a pris un abonnement à la piscine ___ un an !\n3. On fait Paris-Pékin ___ huit heures, mais on doit attendre un visa ___ six mois.\n4. Mon fils travaille comme serveur ___ huit jours et il est déjà fatigué.\n5. J'ai fait des progrès ___ que je suis en France.\n6. Le taxi a traversé tout Paris ___ vingt minutes.\n7. ___ je suis ici, il pleut !",
-      "answer": "pendant / pour / depuis / pour / en / pendant / depuis / depuis que / en / Depuis que",
-      "hint": "p.81, ex.5"
+      "prompt": "Complétez avec « depuis ».\n1. La tour Eiffel existe depuis ___.\n(1889) ___ ans.",
+      "answer": "1889",
+      "hint": "p.81, ex.2"
     },
     {
       "id": 6,
-      "prompt": "Faites des phrases en utilisant les expressions de temps étudiées.\ntrois exercices (5 minutes) - de la gymnastique (2 heures) - du rock acrobatique (2010)\nle lit (3 minutes) - du jogging (1 heure) - du piano (20 ans) - du yoga (une demi-heure)\nJe fais trois exercices en cinq minutes.",
-      "answer": "Réponse libre",
-      "hint": "p.81, ex.6"
+      "prompt": "Complétez avec « depuis ».\n2. En France, les femmes votent depuis ___.\n(1945) ___ ans.",
+      "answer": "1945",
+      "hint": "p.81, ex.2"
+    },
+    {
+      "id": 7,
+      "prompt": "Complétez avec « depuis ».\n3. Le tunnel sous la Manche existe depuis ___.\n(1994) ___ ans.",
+      "answer": "1994",
+      "hint": "p.81, ex.2"
+    },
+    {
+      "id": 8,
+      "prompt": "Complétez avec « depuis ».\n4. L'euro est une monnaie européenne depuis ___.\n(2002) ___ ans.",
+      "answer": "2002",
+      "hint": "p.81, ex.2"
+    },
+    {
+      "id": 9,
+      "prompt": "Reliez l'exercice 1 également avec « Ça fait ... que ».\n1. Tous les jours, les étudiants font une pause ___ pendant / depuis ___ 30 minutes.",
+      "answer": "pendant",
+      "hint": "p.81, ex.4"
+    },
+    {
+      "id": 10,
+      "prompt": "Choisissez l'expression de la durée.\n2. « déménager express » peut déménager votre appartement ___ pendant / pour ___ en 3 heures.",
+      "answer": "en",
+      "hint": "p.81, ex.4"
+    },
+    {
+      "id": 11,
+      "prompt": "Choisissez l'expression de la durée.\n3. Avec cette imprimante, on peut imprimer ___ pendant / pour ___ en 5 minutes.",
+      "answer": "en",
+      "hint": "p.81, ex.4"
+    },
+    {
+      "id": 12,
+      "prompt": "Choisissez l'expression de la durée.\n4. 300 pages ___ pendant / pour ___ en 5 ans.",
+      "answer": "pour",
+      "hint": "p.81, ex.4"
+    },
+    {
+      "id": 13,
+      "prompt": "Choisissez l'expression de la durée.\n5. J'ai signé un contrat ___ pendant / pour ___ en 6 mois.",
+      "answer": "pour",
+      "hint": "p.81, ex.4"
+    },
+    {
+      "id": 14,
+      "prompt": "Complétez avec « depuis (que) », « pour » ou « en ».\n1. Ma mère cuisine ___ cinq heures et elle n'a pas un abonnement à manger ___ un an.",
+      "answer": "depuis/pour",
+      "hint": "p.81, ex.5"
+    },
+    {
+      "id": 15,
+      "prompt": "Complétez avec « depuis (que) », « pour » ou « en ».\n2. Mon mari ne fume plus ___ trois jours.",
+      "answer": "depuis",
+      "hint": "p.81, ex.5"
+    },
+    {
+      "id": 16,
+      "prompt": "Complétez avec « depuis (que) », « pour » ou « en ».\n3. On fait Paris ___ trois heures, mais il est déjà fatigué.",
+      "answer": "en",
+      "hint": "p.81, ex.5"
+    },
+    {
+      "id": 17,
+      "prompt": "Complétez avec « depuis (que) », « pour » ou « en ».\n4. Mon fils travaille ___ vingt minutes.",
+      "answer": "depuis",
+      "hint": "p.81, ex.5"
+    },
+    {
+      "id": 18,
+      "prompt": "Complétez avec « depuis (que) », « pour » ou « en ».\n5. J'ai fait des progrès ___ six mois.",
+      "answer": "en",
+      "hint": "p.81, ex.5"
+    },
+    {
+      "id": 19,
+      "prompt": "Complétez.\n2. ___ , en ___ . pour ___ . 4. ___ , en ___ . 5. ___ .",
+      "answer": "depuis/pour/en/depuis/en",
+      "hint": "p.81, ex.5"
+    },
+    {
+      "id": 20,
+      "prompt": "Exemple : Nous sommes en France ___ 12/_, c'est-à-dire depuis dix ans.\n1. ___ : Nous sommes ___ depuis 1945, c'est-à-dire depuis ___ ans.\n2. ___ , en ___ , pour ___ .\n3. ___ , depuis ___ .",
+      "answer": "depuis/soixante-dix-huit",
+      "hint": "p.81, ex.3"
     }
   ]
 },
@@ -3533,57 +3887,159 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Complétez avec « bon », « mauvais », « bien » ou « mal ».\n1. J'ai envie d'aller voir un ___ film et de dîner dans un ___ restaurant.\n2. Gérard est un ___ ami, mais il a ___ caractère.\n3. Max danse ___ : attention à vos pieds, mademoiselle !\n4. - Jean est un ___ plombier ? - Oui : il travaille ___.\n5. J'ai passé une ___ soirée au théâtre : la pièce était horrible et les acteurs jouaient ___.",
-      "answer": "bon / bon / bon / mauvais / mal / bon / bien / mauvaise / mal",
+      "prompt": "Complétez avec « bon », « mauvais », « bien » ou « mal ».\n1. J'ai envie d'aller voir un ___ film et de dîner dans un ___ restaurant.",
+      "answer": "bon/bon",
       "hint": "p.83, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Répondez avec « c'est bon » ou « c'est bien ».\n1. - Vous aimez le tiramisu ? - Oh oui, ___ ! C'est délicieux avec le café.\n2. - Je vous félicite pour vos résultats. Continuez, ___ ! Vous avez bien travaillé.\n3. - Tu aimes ma coiffure ? - Oui, ___ : ça te rajeunit.\n4. - Que penses-tu de ma recette de tajine aux abricots ? - Mmmm : ___.\n5. - Vous avez vos billets : alors, ___, vous pouvez entrer.",
-      "answer": "c'est bon / c'est bien / c'est bien / c'est bon / c'est bon",
-      "hint": "p.83, ex.2"
+      "prompt": "Complétez avec « bon », « mauvais », « bien » ou « mal ».\n2. Gérard est un ___ plombier. – Oui ! Il travaille ___.",
+      "answer": "bon/bien",
+      "hint": "p.83, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Complétez avec « vite », « rapide », « lent » ou « lentement ».\n1. Ce journaliste parle trop ___, je ne le comprends pas.\n2. Dans une partie de ping-pong, les joueurs sont très ___.\n3. Il ne faut pas conduire ___ en ville.\n4. Épelez ___ votre nom, s'il vous plaît : je vais le noter.\n5. Les trains de campagne sont très ___.\n6. Communiquer par mail, c'est plus ___ que par la poste : ça va beaucoup plus ___.",
-      "answer": "vite / rapides / vite / lentement / lents / rapide / vite",
-      "hint": "p.83, ex.3"
+      "prompt": "Complétez avec « bon », « mauvais », « bien » ou « mal ».\n3. Max danse ___ : attention à vos pieds !",
+      "answer": "mal",
+      "hint": "p.83, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Complétez le dialogue du médecin et de la patiente avec « beaucoup » ou « très ».\nFatiguée\n- Vous êtes ___ nerveuse en ce moment, vous travaillez ___.\n- Oui, je commence ___ tôt le matin et je voyage ___ à l'étranger.\n- Vous vous couchez ___ tard, le soir ?\n- Oui, mais la nuit, je rêve ___ et le matin, je suis ___ fatiguée.",
-      "answer": "très / beaucoup / très / beaucoup / très / beaucoup / très",
-      "hint": "p.83, ex.4"
+      "prompt": "Complétez avec « bon », « mauvais », « bien » ou « mal ».\n4. – Jean est un ___ caractère : la pièce était horrible et les acteurs jouaient ___.",
+      "answer": "mauvais/mal",
+      "hint": "p.83, ex.1"
     },
     {
       "id": 5,
-      "prompt": "Transformez les adjectifs en adverbes, selon le modèle.\nDoux → doucement\n1. Chaud ___\n2. Sec ___\n3. Rare ___\n4. Régulier ___\n5. Gentil ___",
-      "answer": "chaudement / sèchement / rarement / régulièrement / gentiment",
-      "hint": "p.85, ex.5"
+      "prompt": "Complétez avec « bon », « mauvais », « bien » ou « mal ».\n5. – J'ai passe une ___ soirée au théâtre : la pièce était ___ et les acteurs jouaient ___.",
+      "answer": "bonne/bonne/bien",
+      "hint": "p.83, ex.1"
     },
     {
       "id": 6,
-      "prompt": "Complétez les phrases selon le modèle.\nCe camion est lent. Il roule lentement.\n1. Cet enfant est bruyant. Il joue ___.\n2. Cet élève est attentif. Il écoute ___.\n3. Cette femme est patiente. Elle attend ___.\n4. Ce garçon est sérieux. Il travaille ___.\n5. Ce chauffeur est prudent. Il conduit ___.",
-      "answer": "bruyamment / attentivement / patiemment / sérieusement / prudemment",
-      "hint": "p.85, ex.6"
+      "prompt": "Répondez avec « c'est bon » ou « c'est bien ».\n1. – Vous aimez le tramway ? – Oui, ___.",
+      "answer": "c'est bien",
+      "hint": "p.83, ex.2"
     },
     {
       "id": 7,
-      "prompt": "Transformez selon le modèle.\nParlez-lui avec sincérité → Parlez-lui sincèrement.\n1. avec douceur → ___\n2. avec franchise → ___\n3. avec gentillesse → ___\n4. avec fermeté → ___",
-      "answer": "doucement / franchement / gentiment / fermement",
-      "hint": "p.85, ex.7"
+      "prompt": "Répondez avec « c'est bon » ou « c'est bien ».\n2. – Je vous félicite pour vos résultats. Continuez. ___",
+      "answer": "C'est bien",
+      "hint": "p.83, ex.2"
     },
     {
       "id": 8,
-      "prompt": "Donnez les adverbes, puis complétez librement chaque phrase.\nrare → rarement : Nous sortons rarement le soir.\n1. énorme → ___ : J'aime ___\n2. fréquent → ___ : Je téléphone ___\n3. lent → ___ : Parlez ___\n4. régulier → ___ : Je vais ___",
-      "answer": "énormément / fréquemment / lentement / régulièrement",
-      "hint": "p.85, ex.8"
+      "prompt": "Répondez avec « c'est bon » ou « c'est bien ».\n3. – Tu aimes ma recette de tajine aux abricots ? – Oui, ___",
+      "answer": "c'est bon",
+      "hint": "p.83, ex.2"
     },
     {
       "id": 9,
-      "prompt": "Répondez librement aux questions.\n1. - Vous dînez tard le soir ? - Non, je dîne tôt. (Oui, je dîne tard.)\n2. - Vous dansez souvent ?\n3. - Vous regardez souvent la télévision ?\n4. - Vous parlez de temps en temps français ?\n5. - Vous regardez parfois la BBC ?",
-      "answer": "Réponse libre",
-      "hint": "p.85, ex.9"
+      "prompt": "Répondez avec « c'est bon » ou « c'est bien ».\n4. – Que penses-tu de ma recette de tajine aux abricots ? – Mmm, ___ ça te réjouit.",
+      "answer": "c'est bon",
+      "hint": "p.83, ex.2"
+    },
+    {
+      "id": 10,
+      "prompt": "Répondez avec « c'est bon » ou « c'est bien ».\n5. – Vous avez vos billets ? alors, ___, vous pouvez entrer.",
+      "answer": "c'est bon",
+      "hint": "p.83, ex.2"
+    },
+    {
+      "id": 11,
+      "prompt": "Complétez le dialogue du médecin et la patiente avec « beaucoup » ou « très ».\nCe journaliste parle trop vite, je ne le comprends pas. – 2. Dans une partie de ping-pong, les joueurs sont ___ rapides. – 3. Il ne faut pas conduire ___ vite. – 4. Les trains de campagne sont ___ lents.",
+      "answer": "très/très/très",
+      "hint": "p.83, ex.3"
+    },
+    {
+      "id": 12,
+      "prompt": "Complétez avec « bon », « bien », « mal », « vite », « lent ».\n– Vous êtes ___ nerveuse en ce moment. ___ le matin,\n– Oui, ___ le matin et le ___, je suis ___.\n– Vous dormez ___ ?\n– Oui, mal la nuit, je ___, ___ le soir ?\n– Oui, je commence ___ tard, le soir ?",
+      "answer": "très/Vous/mal/soir/fatiguée/beaucoup/rêve/très",
+      "hint": "p.83, ex.4"
+    },
+    {
+      "id": 13,
+      "prompt": "Exemples : je fais trois fois exercices en 5 minutes, je fais de la gymnastique ___\n2. ___ . pour ___ . 3. ___ . en ___ . pendant ___ . 4. ___ . depuis ___. 5. ___ depuis que ___.",
+      "answer": "depuis/pour/en/pendant/depuis/depuis que",
+      "hint": "p.83, ex.5"
+    },
+    {
+      "id": 14,
+      "prompt": "Complétez.\n1. ___ bon. 2. ___ . rapide. 3. ___ . c'est bon. 4. ___ lentement. 5. c'est bon. ___ . rapide. vite.",
+      "answer": "bon/rapide/c'est bon/lentement/c'est bon/rapide/vite",
+      "hint": "p.83, ex.6"
+    },
+    {
+      "id": 15,
+      "prompt": "Transformez les adjectifs en adverbes, selon le modèle.\nDoux → doucement\nChaud → ___\nSec → ___\nRare → ___\nRégulier → ___\nGentil → ___",
+      "answer": "chaudement/sèchement/rarement/régulièrement/gentiment",
+      "hint": "p.85, ex.1"
+    },
+    {
+      "id": 16,
+      "prompt": "Transformez les adjectifs en adverbes.\nLong → ___\nSincère → ___\nMou → ___\nVrai → ___\nÉnorme → ___",
+      "answer": "longuement/sincèrement/mollement/vraiment/énormément",
+      "hint": "p.85, ex.1"
+    },
+    {
+      "id": 17,
+      "prompt": "Transformez les adjectifs en adverbes.\nFranc → ___\nSimple → ___\nDiscret → ___",
+      "answer": "franchement/simplement/discrètement",
+      "hint": "p.85, ex.1"
+    },
+    {
+      "id": 18,
+      "prompt": "Transformez les adjectifs en adverbes.\nLéger → ___\nPassif → ___\nSuffisant → ___\nSecret → ___\nFréquent → ___",
+      "answer": "légèrement/passivement/suffisamment/secrètement/fréquemment",
+      "hint": "p.85, ex.1"
+    },
+    {
+      "id": 19,
+      "prompt": "Transformez les adjectifs en adverbes.\nFou → ___\nAbsolu → ___\nMéchant → ___\nRécent → ___\nRapide → ___",
+      "answer": "follement/absolument/méchamment/récemment/rapidement",
+      "hint": "p.85, ex.1"
+    },
+    {
+      "id": 20,
+      "prompt": "Complétez les phrases selon le modèle.\nCet enfant est bruyant. Il joue bruyamment.\n1. Cette élève est attentive. Il écoute ___.",
+      "answer": "attentivement",
+      "hint": "p.85, ex.2"
+    },
+    {
+      "id": 21,
+      "prompt": "Complétez les phrases selon le modèle.\n2. Cette femme est patiente. Elle attend ___.",
+      "answer": "patiemment",
+      "hint": "p.85, ex.2"
+    },
+    {
+      "id": 22,
+      "prompt": "Complétez les phrases selon le modèle.\n3. Ce garçon est sérieux et prudent. Il travaille ___ et conduit ___.",
+      "answer": "sérieusement/prudemment",
+      "hint": "p.85, ex.2"
+    },
+    {
+      "id": 23,
+      "prompt": "Complétez les phrases selon le modèle.\nCe camion est lent. Il roule ___.",
+      "answer": "lentement",
+      "hint": "p.85, ex.2"
+    },
+    {
+      "id": 24,
+      "prompt": "Transformez selon le modèle.\nParlez-lui : avec sincérité → sincèrement\navec douceur → ___\navec franchise → ___\navec gentillesse → ___\navec fermeté → ___",
+      "answer": "doucement/franchement/gentiment/fermement",
+      "hint": "p.85, ex.3"
+    },
+    {
+      "id": 25,
+      "prompt": "Donnez les adverbes, puis complétez librement chaque phrase.\nTendrement\nRespectueusement\nCordialement\nMaritalement\nAmicalement :\nAmicalement proche :",
+      "answer": "Tendrement/Respectueusement/Cordialement/Maritalement/Amicalement",
+      "hint": "p.85, ex.5"
+    },
+    {
+      "id": 26,
+      "prompt": "Comment terminons-vous votre mail ?\nSupérieur plus âgé : ___\nRelations professionnelles complètes : ___\nNous sortons rarement le soir.",
+      "answer": "Respectueusement/Cordialement",
+      "hint": "p.85, ex.5"
     }
   ]
 },
@@ -3595,51 +4051,123 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Complétez le texte avec les partitifs manquants.\nLe matin, je mange ___ pain avec ___ beurre et ___ confiture. Mon mari boit ___ café et mange ___ fromage ! Ma fille mange ___ biscuits et boit ___ Coca. Le soir, nous mangeons ___ pâtes ou ___ soupe. Ma fille mange ___ frites avec ___ ketchup, ou ___ crêpes avec ___ chocolat et ___ bananes.",
-      "answer": "du / du / de la / du / du / des / du / des / de la / des / du / des / du / des",
+      "prompt": "Complétez le texte avec les partitifs manquants.\nLe matin, je mange ___ pain avec ___ beurre et ___ confiture. Mon mari boit ___ café et ___ crêpes avec ___ riz.",
+      "answer": "du/du/de la/du/des/du",
       "hint": "p.87, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Faites des dialogues, selon le modèle.\nMENU\nEntrées : Potage / Salade\nPlats : Thon grillé / Poulet basquaise\nDesserts : Crème caramel / Salade de fruits\n- Qu'est-ce que vous avez comme entrées ?\n- Nous avons du potage ou de la salade.",
-      "answer": "Réponse libre",
-      "hint": "p.87, ex.2"
+      "prompt": "Complétez le texte avec les partitifs manquants.\nMa fille mange ___ fromage. ___ Ma fille mange ___ biscuits et ___ Coca. Le soir, nous mangeons ___ soupe. Ma fille mange ___ pâtes ou ___ frites avec ___ ketchup.",
+      "answer": "du/Ma/des/du/de la/des/des/du",
+      "hint": "p.87, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Complétez les phrases, selon le modèle.\n1. Dans le biberon, il y a du lait.\n2. Dans le ballon, il y a ___.\n3. Dans l'aquarium, il y a ___.\n4. Dans le réservoir, il y a ___.",
-      "answer": "de l'air / de l'eau / de l'essence",
-      "hint": "p.87, ex.3"
+      "prompt": "Complétez le texte avec les partitifs manquants.\nD'après elle, il y a ___ calcium dans le chocolat, ___ potassium dans les bananes. Ça donne ___ force et ___ énergie.",
+      "answer": "du/du/de la/de l'",
+      "hint": "p.87, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Transformez avec des partitifs.\nIl est ambitieux. Il a de l'ambition.\n1. Il est riche. Il a ___.\n2. Il est élégant. Il a ___.\n3. Il est dynamique. Il a ___.",
-      "answer": "de l'argent / de l'élégance / de l'énergie",
-      "hint": "p.87, ex.4"
+      "prompt": "Faites des dialogues selon le modèle. Imaginez la composition des plats.\n– Qu'est-ce que vous avez choisi comme entrées ?\n– Nous aurons ___ potage et ___ salade.",
+      "answer": "du/de la",
+      "hint": "p.87, ex.2"
     },
     {
       "id": 5,
-      "prompt": "Complétez avec « du », « de la » ou « de ».\n1. Le panaché, c'est ___ bière, avec un peu ___ limonade. Le café liégeois, c'est ___ glace au café et un peu ___ chantilly. La mauresque, c'est ___ sirop d'orgeat et beaucoup ___ eau.\n2. Dans la soupe au pistou, il y a un demi-kilo ___ courgettes, quatre cents grammes ___ haricots verts, trois cents grammes ___ haricots blancs et rouges, deux cents grammes ___ carottes, six cuillerées ___ huile d'olive, ___ poivre, ___ basilic et quatre gousses ___ ail ; dans ma recette, il n'y a pas ___ pommes de terre.",
-      "answer": "de la / de / de la / de / du / d' / de / de / de / de / d' / du / du / d' / de",
-      "hint": "p.89, ex.5"
+      "prompt": "Complétez les phrases, selon le modèle.\n1. Dans le biberon, il y a ___ lait.",
+      "answer": "du",
+      "hint": "p.87, ex.3"
     },
     {
       "id": 6,
-      "prompt": "Répondez avec « beaucoup de » (+++), « un peu de » (+) ou « pas de » (0).\n1. Vous avez du travail ? (+++) - Oui, j'ai beaucoup de travail.\n2. Vous avez ___ argent de côté ? (+)\n3. Vous avez ___ chance au jeu ? (0)\n4. Vous avez fait ___ progrès en français ? (+)\n5. Votre professeur a ___ patience ? (+++)",
-      "answer": "un peu d' / pas de / un peu de / beaucoup de",
-      "hint": "p.89, ex.6"
+      "prompt": "Complétez les phrases.\n2. Dans le lavabo, il y a ___ eau.",
+      "answer": "de l'",
+      "hint": "p.87, ex.3"
     },
     {
       "id": 7,
-      "prompt": "Quels sont les ingrédients des salades ?\n- Salade « Niçoise » : Tomates, thon, olives, huile d'olive\n- Qu'est-ce qu'il y a dans la salade « Niçoise » ?\n- Il y a de la mayonnaise dans la « Niçoise » ?",
-      "answer": "Réponse libre",
-      "hint": "p.89, ex.7"
+      "prompt": "Complétez les phrases.\n3. Dans le réservoir, il y a ___ essence.",
+      "answer": "de l'",
+      "hint": "p.87, ex.3"
     },
     {
       "id": 8,
-      "prompt": "Complétez avec « beaucoup de » / « peu de ».\nUn bon régime, c'est ___ légumes, ___ fruits et ___ graisses.\nUne ville agréable, c'est ___ pollution et ___ espaces verts.\nUn bon couple, c'est ___ complicité et ___ amour, ___ agressivité.",
-      "answer": "beaucoup de / beaucoup de / peu de / peu de / beaucoup d' / beaucoup de / beaucoup d' / peu d'",
-      "hint": "p.89, ex.8"
+      "prompt": "Complétez les phrases.\n4. Dans le réservoir, il y a ___ vent.",
+      "answer": "du",
+      "hint": "p.87, ex.3"
+    },
+    {
+      "id": 9,
+      "prompt": "Transformez avec des partitifs.\nIl est ambitieux. Il a ___ ambition.\nIl est élégant. Il a ___ élégance.\nIl a ___ énergie.",
+      "answer": "de l'/de l'/de l'",
+      "hint": "p.87, ex.4"
+    },
+    {
+      "id": 10,
+      "prompt": "Complétez les informations météo.\nIl fait froid, il y a ___ neige.\nIl fait chaud.\nLe temps est gris.\nIl est dynamique.\nIl est élégant.",
+      "answer": "de la",
+      "hint": "p.87, ex.5"
+    },
+    {
+      "id": 11,
+      "prompt": "Complétez avec « du », « de la », « de l' », « un peu de », « de » ou « des ».\n1. Le panaché, c'est ___ bière avec ___ limonade. Le café liégeois, c'est ___ café avec un peu ___ Chantilly.",
+      "answer": "de la/de la/du/de",
+      "hint": "p.89, ex.1"
+    },
+    {
+      "id": 12,
+      "prompt": "Complétez avec « du », « de la », « des », etc.\n2. Dans la soupe au pistou, il y a un demi-kilo ___ haricots blancs et rouges, quatre cents grammes ___ courgettes, trois cents grammes ___ pommes de terre, ___ basilic, et quatre gousses ___ ail dans ma recette, il n'y a pas ___ sel, ___ poivre.",
+      "answer": "de/de/de/du/d'/de/de",
+      "hint": "p.89, ex.1"
+    },
+    {
+      "id": 13,
+      "prompt": "Complétez avec « du », « de la », « de », « beaucoup de (+++) » ou « pas de ».\n1. Vous avez ___ du travail ?\n(+++) Oui, j'ai beaucoup de travail.",
+      "answer": "du/beaucoup de",
+      "hint": "p.89, ex.2"
+    },
+    {
+      "id": 14,
+      "prompt": "Complétez avec « du », « de la », etc.\n2. Vous avez ___ argent de côté ?\n(0) Non, je n'ai pas ___ d'argent de côté.",
+      "answer": "de l'/pas",
+      "hint": "p.89, ex.2"
+    },
+    {
+      "id": 15,
+      "prompt": "Complétez.\n3. Vous avez ___ chance au jeu ?\n(+) Oui, je crois que j'ai fait ___ progrès.",
+      "answer": "de la/des",
+      "hint": "p.89, ex.2"
+    },
+    {
+      "id": 16,
+      "prompt": "Complétez.\n4. Vous avez fait ___ progrès en français ?\n(+++) Oui, j'ai beaucoup ___ travail.",
+      "answer": "des/de",
+      "hint": "p.89, ex.2"
+    },
+    {
+      "id": 17,
+      "prompt": "Complétez.\n5. Votre professeur a ___ patience ?\n(+++) Oui, il ___ beaucoup ___ patience.",
+      "answer": "de la/a/de",
+      "hint": "p.89, ex.2"
+    },
+    {
+      "id": 18,
+      "prompt": "Quels sont les ingrédients des salades ? Continuez les dialogues, selon le modèle.\n– Est-ce qu'il y a de la mayonnaise dans la Niçoise ?\n– Non, il n'y en a pas.\n– Est-ce qu'il y a ___ fromage dans la Niçoise ? – ___",
+      "answer": "du/Non, il n'y en a pas",
+      "hint": "p.89, ex.5"
+    },
+    {
+      "id": 19,
+      "prompt": "Complétez et précisez, selon le modèle.\nAcheter : ___ moutarde\n___ dentifrice\n___ petits pois\n___ biscuits",
+      "answer": "de la/du/des/des",
+      "hint": "p.89, ex.4"
+    },
+    {
+      "id": 20,
+      "prompt": "1. ___ de l'huile d'olive. 2. ___ de/du ___ . 3. ___ de/du ___ . 4. ___ des ___ . 5. ___ de la ___.",
+      "answer": "de l'/du/de la/des/de la",
+      "hint": "p.89, ex.4"
     }
   ]
 },
@@ -3651,51 +4179,129 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Répondez aux questions.\n- Vous mangez de la viande ? - Oui, j'en mange. Et vous, vous en mangez ?\n1. - Vous achetez des surgelés ?\n2. - Vous mangez des produits bio ?\n3. - Vous portez des fibres synthétiques ?\n4. - Vous consommez de l'alcool ?\n5. - Vous avez du cholestérol ?",
-      "answer": "Oui, j'en achète. Et vous, vous en achetez ? / Oui, j'en mange. Et vous, vous en mangez ? / Oui, j'en porte. Et vous, vous en portez ? / Oui, j'en consomme. Et vous, vous en consommez ? / Oui, j'en ai. Et vous, vous en avez ?",
+      "prompt": "Répondez aux questions.\n– Vous mangez des surgelés ? –",
+      "answer": "Oui, j'en mange. Et vous, vous en mangez ?",
       "hint": "p.91, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Répondez aux questions, selon le modèle.\nAbondance\n- Votre mari a neuf sœurs ? - Non, il en a dix !\n1. - Vos parents ont deux télés ?\n2. - Vos enfants ont un ordinateur ?\n3. - Vous avez trois chats ?\n4. - Vous avez une carte de crédit ?",
-      "answer": "Réponse libre",
-      "hint": "p.91, ex.2"
+      "prompt": "Répondez aux questions.\n– Vous mangez de la viande ? –",
+      "answer": "Oui, j'en mange.",
+      "hint": "p.91, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Posez la question et répondez selon le modèle.\ntomates (2) - eau (1 bouteille) - viande (100 grammes) - glaçons (beaucoup) - yaourts (quelques-uns) - lait (0) - beurre (un peu) - coca (0)\n- Dans le frigo, il y a des tomates ? - Oui, il y en a deux.",
-      "answer": "Oui, il y en a une bouteille. / Oui, il y en a cent grammes. / Oui, il y en a beaucoup. / Oui, il y en a quelques-uns. / Non, il n'y en a pas. / Oui, il y en a un peu. / Non, il n'y en a pas.",
-      "hint": "p.91, ex.3"
+      "prompt": "Répondez aux questions.\n– Vous achetez des produits bio ? –",
+      "answer": "Oui, j'en achète.",
+      "hint": "p.91, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Complétez à la forme négative.\nIl y a du pétrole en Norvège, mais en France, il n'y en a pas.\n1. J'ai des lunettes, mais ma fille ___.\n2. Léa a une voiture, mais son mari ___.\n3. Max a de la chance au jeu. Moi, je ___.\n4. Il y a de l'eau sur la Terre, mais sur Mars, ___.\n5. Je mange de la viande, mais mes amis ___.\n6. J'ai des cheveux blancs, mais vous ___.",
-      "answer": "n'en a pas / n'en a pas / n'en ai pas / il n'y en a pas / n'en mangent pas / n'en avez pas",
-      "hint": "p.91, ex.4"
+      "prompt": "Répondez aux questions.\n– Vous portez des fibres synthétiques ? –",
+      "answer": "Oui, j'en porte.",
+      "hint": "p.91, ex.1"
     },
     {
       "id": 5,
-      "prompt": "Devinez de quoi il s'agit.\n1. J'en bois le matin. ___\n2. J'en mets sur mes chaussures. ___\n3. J'en mets sur les frites. ___\n4. J'en prends à la banque. ___\n5. J'en mets sur mes tartines. ___\n6. J'en prends à la station-service. ___",
-      "answer": "Du thé (ou Du café) / Du cirage / Du ketchup (ou De la moutarde) / De l'argent / Du beurre (ou De la confiture) / De l'essence",
-      "hint": "p.91, ex.5"
+      "prompt": "Répondez aux questions.\n– Vous consommez de l'alcool ? –",
+      "answer": "Oui, j'en consomme.",
+      "hint": "p.91, ex.1"
     },
     {
       "id": 6,
-      "prompt": "Faites des dialogues, selon le modèle.\n- Vous parlez souvent de l'école ? - Oui, j'en parle avec mon fils.\n1. travail / collègues\n2. passé / psychanalyste\n3. avenir / astrologue",
-      "answer": "Oui, j'en parle avec mes collègues. / Oui, j'en parle avec mon psychanalyste. / Oui, j'en parle avec mon astrologue.",
-      "hint": "p.93, ex.6"
+      "prompt": "Répondez aux questions, selon le modèle.\n– Votre mari parle de son travail ? – Oui, il en parle souvent.\n– Il parle de son projet ? –",
+      "answer": "Oui, il en parle souvent.",
+      "hint": "p.93, ex.1"
     },
     {
       "id": 7,
-      "prompt": "Complétez les phrases, selon le modèle.\n1. - Je me souviens de mon premier amour, et toi ? - Oh oui, je m'en souviens bien.\n2. - Mes enfants ___ avoir un chien !... - Tous les enfants ___, je crois !\n3. - Tu ___ chômage ? - Bien sûr, je ___, comme tout le monde !\n4. - Vous ___ la photocopieuse ? - Oui, je ___, je n'ai pas terminé.\n5. - Paul ___ ses résultats ? - Oui, il ___, je crois.",
-      "answer": "ont envie d' / en ont envie / as peur du / en ai peur / avez besoin de / en ai besoin / est content de / en est content",
-      "hint": "p.93, ex.7"
+      "prompt": "Répondez.\n– Il est content du produit ? –",
+      "answer": "Oui, il en est content.",
+      "hint": "p.93, ex.1"
     },
     {
       "id": 8,
-      "prompt": "Répondez librement.\n- Est-ce que vous avez une voiture ?\n- Avez-vous un garage ?\n- Avez-vous une carte de transport ?\n- Avez-vous une carte de crédit ?\n- Est-ce que votre professeur a des lunettes ?\n- Mangez-vous beaucoup de pâtes ?\n- Mettez-vous du parfum ?\n- Est-ce que vos voisins ont un chien ?\n- Avez-vous un piano ?\n- Portez-vous une montre ?",
-      "answer": "Réponse libre",
-      "hint": "p.93, ex.8"
+      "prompt": "Répondez.\n– Il rêve de son travail ? –",
+      "answer": "Oui, il en rêve la nuit.",
+      "hint": "p.93, ex.1"
+    },
+    {
+      "id": 9,
+      "prompt": "Répondez.\n– Il s'occupe de la gestion ? –",
+      "answer": "Oui, il s'en occupe.",
+      "hint": "p.93, ex.1"
+    },
+    {
+      "id": 10,
+      "prompt": "Répondez.\n– Il a besoin de repos ? –",
+      "answer": "Oui, il en a besoin.",
+      "hint": "p.93, ex.1"
+    },
+    {
+      "id": 11,
+      "prompt": "Répondez.\n– Il a envie de partir ? –",
+      "answer": "Oui, il en a envie.",
+      "hint": "p.93, ex.1"
+    },
+    {
+      "id": 12,
+      "prompt": "Répondez aux questions, selon le modèle.\n– Vous parlez souvent de l'école ? – Oui, j'en parle souvent avec mon/ma fils/fille.\n1. école/fils",
+      "answer": "Oui, j'en parle souvent.",
+      "hint": "p.93, ex.1"
+    },
+    {
+      "id": 13,
+      "prompt": "Complétez les phrases, selon le modèle. Faites l'élision si c'est nécessaire.\n– Vous parlez souvent de l'école ? – Oui, j'en parle souvent avec mon/ma fille.\n1. travail/collègues\n2. passé/psychanalyste\n3. avenir/astrologue",
+      "answer": "j'en parle/j'en parle/j'en parle",
+      "hint": "p.93, ex.1"
+    },
+    {
+      "id": 14,
+      "prompt": "Complétez les dialogues, selon le modèle.\n– Vous buvez du vin à midi ? – Oui, j'en bois. / Non, je n'en bois pas à midi.\n1. Boire du vin (à midi)\n2. Manger (tous les jours) viande\n3. Boire (régulièrement) café\n4. Faire (le soir) sport\n5. Acheter (souvent) bonbons revues",
+      "answer": "j'en bois/j'en mange/j'en bois/j'en fais/j'en achète",
+      "hint": "p.93, ex.3"
+    },
+    {
+      "id": 15,
+      "prompt": "Posez la question et répondez selon le modèle.\n– Dans le frigo, il y a des tomates (2), des surgelés (100 grammes), eau (1 bouteille), glaçons (beaucoup), yaourts (quelques-uns), beurre (un peu), lait (0), coca (0).\n– Oui, il y en a deux.",
+      "answer": "Oui, il y en a deux./Oui, il y en a cent grammes./Oui, il y en a une bouteille./Oui, il y en a beaucoup./Oui, il y en a quelques-uns./Oui, il y en a un peu./Non, il n'y en a pas./Non, il n'y en a pas.",
+      "hint": "p.91, ex.3"
+    },
+    {
+      "id": 16,
+      "prompt": "Complétez à la forme négative.\n1. J'ai des lunettes, mais mon mari ___ .\n2. Léa a une voiture, mais son fils ___ .\n3. Max de la chance au jeu, ___ .",
+      "answer": "n'en a pas/n'en a pas/n'en a pas",
+      "hint": "p.91, ex.4"
+    },
+    {
+      "id": 17,
+      "prompt": "Complétez à la forme négative.\n4. Il y a de l'eau sur la Terre, mais sur Mars, ___ .\n5. Il mange de la viande en France, mais mes amis ___ .\n6. Je fais des cheveux blancs, mais vous ___.",
+      "answer": "il n'y en a pas/n'en mangent pas/n'en faites pas",
+      "hint": "p.91, ex.4"
+    },
+    {
+      "id": 18,
+      "prompt": "Devinez de quoi il s'agit. Trouvez d'autres devinettes.\n1. J'en bois le matin. Du thé.\n2. J'en mets sur mes chaussures. ___\n3. J'en mets sur mes tartines. ___",
+      "answer": "Du cirage./Du beurre.",
+      "hint": "p.91, ex.5"
+    },
+    {
+      "id": 19,
+      "prompt": "Devinez de quoi il s'agit.\n4. J'en prends à la banque. ___\n5. J'en prends à la station-service. ___\n6. J'en mets sur mes frites. ___",
+      "answer": "De l'argent./De l'essence./Du ketchup.",
+      "hint": "p.91, ex.5"
+    },
+    {
+      "id": 20,
+      "prompt": "Répondez aux questions, selon le modèle.\n– Vos enfants ont un ordinateur ? – Abondance\n– Oui, ils en ont deux !\n– Votre mari a une télé ? – ___\n– Vous avez trois chats ? – ___\n– Vous avez une carte de crédit ? – ___",
+      "answer": "Oui, il en a deux./Oui, nous en avons trois./Oui, j'en ai une.",
+      "hint": "p.91, ex.2"
+    },
+    {
+      "id": 21,
+      "prompt": "Complétez les phrases, selon le modèle.\n– Je me souviens de mon premier amour, et toi ?\n– Oh oui, je m'en souviens bien. Il s'appelait Steve.\n1. – Tous les enfants ___ , comme tout le monde !\n2. – Mes enfants ___ son nouveau ordinateur ?\n3. – Bien sûr, je ___ .\n4. – ___ , je n'ai pas terminé.\n5. – Paul ___ , je crois.",
+      "answer": "s'en souviennent/en ont besoin/m'en occupe/J'en ai besoin/s'en occupe",
+      "hint": "p.93, ex.2"
     }
   ]
 },
@@ -3707,32 +4313,62 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Complétez avec « en », « dans le », « dans les ».\n1. Beaucoup d'Anglais ont des résidences secondaires ___ Normandie, ___ Dordogne ou ___ Périgord. Les Américains préfèrent s'installer ___ Bourgogne ou ___ Bretagne. Les Belges, eux, vont ___ Provence, ___ Var ou ___ Bouches-du-Rhône.\n2. Les coureurs du Tour de France sont aujourd'hui ___ Cévennes ; ils vont aller aussi ___ Alpes, ___ Massif central, ___ Vosges et ___ Alsace.\n3. Le Mont-Saint-Michel est ___ Bretagne ou ___ Normandie ?",
-      "answer": "en / en / dans le / en / en / en / dans le / dans les / dans les / dans les / dans le / dans les / en / en / en",
+      "prompt": "Complétez avec « en », « dans le », « dans les ».\n1. Beaucoup d'Anglais ont des résidences secondaires ___ Normandie, ___ Dordogne ou ___ Bretagne. Les Belges, eux, vont ___ Bouches-du-Rhône ou ___ Normandie.",
+      "answer": "en/en/en/dans les/en",
       "hint": "p.95, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Répondez selon le modèle.\n- Vos parents sont suédois ? - Oui, ils viennent de Suède.\n1. - Panait est roumain ? - Oui, il vient ___.\n2. - Votre cousin est espagnol ? - Oui, il vient ___.\n3. - Vos amis sont brésiliens ? - Oui, ils viennent ___.\n4. - Michael est australien ? - Oui, il vient ___.",
-      "answer": "de Roumanie / d'Espagne / du Brésil / d'Australie",
-      "hint": "p.95, ex.2"
+      "prompt": "Complétez avec « en », « dans le », « dans les ».\n2. Les Américains préfèrent s'installer ___ Bourgogne ou ___ Périgord. Les coureurs du Tour de France sont aujourd'hui ___ Var ou ___ Provence.",
+      "answer": "en/dans le/dans le/en",
+      "hint": "p.95, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Indiquez l'origine du produit.\nPoires (Provence) → Ce sont des poires de Provence.\n1. Café (Colombie)\n2. Morue (Portugal)\n3. Avocats (Israël)\n4. Oranges (Maroc)\n5. Riz (Thaïlande)\n6. Beurre (Normandie)\n7. Tulipes (Hollande)\n8. Tabac (Hongrie)",
-      "answer": "C'est du café de Colombie. / C'est de la morue du Portugal. / Ce sont des avocats d'Israël. / Ce sont des oranges du Maroc. / C'est du riz de Thaïlande. / C'est du beurre de Normandie. / Ce sont des tulipes de Hollande. / C'est du tabac de Hongrie.",
-      "hint": "p.95, ex.3"
+      "prompt": "Complétez avec « en », « dans le », « dans les ».\n___ Alpes, ___ Massif central, ___ Vosges et ___ Bretagne ou ___ Alsace ; ils vont aller aussi ___ Cévennes ; ils vont ___ aussi.",
+      "answer": "dans les/dans le/dans les/en/en/dans les",
+      "hint": "p.95, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Complétez avec « du », « de la », « de l' », « d' » ou « des ».\n1. Notre société exploite le gaz ___ Norvège, ___ Nigeria et ___ Italie.\n2. L'ambassade ___ Allemagne se trouve près du consulat ___ Brésil.\n3. Les oranges ___ Maroc coûtent moins cher que les oranges ___ Espagne.\n4. D'après moi, les mangues ___ Antilles et ___ Brésil sont les meilleures.",
-      "answer": "de / du / d' / d' / du / du / d' / des / du",
-      "hint": "p.95, ex.4"
+      "prompt": "Répondez selon le modèle.\n– Paraît-il, votre cousin est roumain ?\n– Oui, il vient ___ Roumanie.\n– Votre cousin est espagnol ?\n– Oui, il vient ___.\n– Vos parents viennent ___ États-Unis ?",
+      "answer": "de/d'Espagne/des",
+      "hint": "p.95, ex.2"
     },
     {
       "id": 5,
-      "prompt": "Complétez avec « du », « de », « d' », « des », « à », « en », « au ».\n1. Je cherche des tapis anciens d'Afghanistan, ___ Turquie et ___ Iran.\n2. L'équipe ___ Hongrie doit rencontrer l'équipe ___ États-Unis.\n3. Albert est un médecin anglais qui a soigné les Indiens ___ Amazonie, les Esquimaux ___ Groenland et les Aborigènes ___ Australie avant de se retirer ___ Californie.\n4. Mes amies japonaises visitent l'Europe : elles sont aujourd'hui ___ Angleterre, elles viennent ___ Portugal et elles vont aller ___ Belgique et ___ Danemark.\n5. L'ambassadeur ___ Russie a rencontré l'ambassadeur ___ États-Unis ___ Helsinki.",
-      "answer": "de / d' / de / des / d' / du / d' / en / en / du / en / en / au / de / des / à",
+      "prompt": "Indiquez l'origine du produit.\nCafé (Colombie) → Le café vient ___ Colombie.\nAvocats (Israël) → ___\nRiz (Hollande) → ___\nTabac (Hongrie) → ___\nBeurre (Normandie) → ___\nOranges (Maroc) → ___\nMorue (Portugal) → ___",
+      "answer": "de/d'Israël/de Hollande/de Hongrie/de Normandie/du Maroc/du Portugal",
+      "hint": "p.95, ex.3"
+    },
+    {
+      "id": 6,
+      "prompt": "Complétez avec « du », « de la », « de l' », « d' » ou « des ».\n1. Notre société exploite le gaz ___ Norvège.\n2. L'ambassade se trouve près ___ consulat.",
+      "answer": "de/du",
+      "hint": "p.95, ex.4"
+    },
+    {
+      "id": 7,
+      "prompt": "Complétez.\n3. – Tu préfères le café ___ Colombie ou le café ___ Brésil ?\n4. – Oui, ils sont ___ Australie.\n– Oui, Michael est australien.",
+      "answer": "de/du/d'",
+      "hint": "p.95, ex.4"
+    },
+    {
+      "id": 8,
+      "prompt": "Complétez avec « du », « de la », « d' », « des », « a », « en » ou « dans les ».\n1. Je cherche des tapis anciens ___ Afghanistan.\n2. L'équipe ___ Hongrie doit rencontrer l'équipe ___ Australie avant de se retirer.\n3. Les oranges, les mangues ___ Antilles.",
+      "answer": "d'/de/d'/des",
+      "hint": "p.95, ex.5"
+    },
+    {
+      "id": 9,
+      "prompt": "Complétez.\n4. D'après moi, les meilleurs ___ Brésil.\n5. L'ambassadeur ___ Danemark ___ Russie.\n___ Groenland et les Aborigènes ___ Australie, ___ Californie, ___ Helsinki.",
+      "answer": "du/du/de/du/d'/en/à",
+      "hint": "p.95, ex.5"
+    },
+    {
+      "id": 10,
+      "prompt": "Complétez.\nMes amis japonaises visitent l'Europe : elles sont aujourd'hui ___ Belgique et elles vont aller ___ Portugal et ___ États-Unis.",
+      "answer": "en/au/aux",
       "hint": "p.95, ex.5"
     }
   ]
@@ -3745,69 +4381,135 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Complétez avec « plus... que » / « moins... que » / « aussi... que ».\n1. Chinois / Français (nombreux) : Les Chinois sont plus nombreux que les Français.\n2. femmes / hommes (musclé) :\n3. garçons / filles (intelligent) :\n4. Lune / Terre (petit) :\n5. janvier / juillet (long) :\n6. voiture / train (rapide) :\n7. 1 kg de plumes / 1 kg de plomb (lourd) :",
-      "answer": "Les femmes sont moins musclées que les hommes. / Les garçons sont aussi intelligents que les filles. / La Lune est plus petite que la Terre. / Janvier est aussi long que juillet. / La voiture est moins rapide que le train. / 1 kg de plumes est aussi lourd qu'1 kg de plomb.",
+      "prompt": "Complétez avec « plus... que » ou « moins... que ».\n1. Chinois/Français (nombreux) → Les Chinois sont plus nombreux que les Français.",
+      "answer": "plus nombreux que",
       "hint": "p.97, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Comparez avec « plus/moins... que » et en utilisant des pronoms toniques.\n- Jo est un peu fou... - Oui, et sa femme est encore plus folle que lui.\n1. - Ton frère est très beau. - Oui, et ma sœur est encore plus belle que ___.\n2. - La voisine d'à côté est bruyante. - Oui, et le voisin du dessus est encore plus bruyant qu'___.\n3. - Le concierge n'est pas gentil. - Oui, et sa femme est encore moins gentille que ___.\n4. - Tes enfants sont désordonnés ! - Oui, et mon mari est encore plus désordonné qu'___.\n5. - Ton père n'est pas banal... - Oui, c'est vrai, et ma mère est encore moins banale que ___.",
-      "answer": "lui / elle / lui / eux / lui",
-      "hint": "p.97, ex.2"
+      "prompt": "Complétez avec « plus... que » ou « moins... que ».\n2. femmes/hommes (musclé)",
+      "answer": "Les femmes sont moins musclées que les hommes.",
+      "hint": "p.97, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Complétez avec « plus/moins/aussi... (que)/(de) ».\nAvant et maintenant\nNous vivons ___ longtemps qu'avant, grâce aux progrès de la médecine, mais la terre est beaucoup ___ peuplée et elle offre ___ ressources énergétiques.",
-      "answer": "plus / plus / moins de",
-      "hint": "p.97, ex.3"
+      "prompt": "Complétez avec « plus... que » ou « moins... que ».\n3. garçons/filles (intelligent)",
+      "answer": "Les garçons sont aussi intelligents que les filles.",
+      "hint": "p.97, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Complétez avec « aussi » ou « autant de ».\nModerato !\n- Ne cours pas ___ vite !\n- Ne mange pas ___ bonbons !\n- Ne fais pas ___ bruit !\n- Ne parle pas ___ fort !\n- Ne pose pas ___ questions !\n- Ne te couche pas ___ tard !",
-      "answer": "aussi / autant de / autant de / aussi / autant de / aussi",
-      "hint": "p.98, ex.4"
+      "prompt": "Complétez avec « plus... que » ou « moins... que ».\n4. lune/terre (petit)",
+      "answer": "La lune est plus petite que la Terre.",
+      "hint": "p.97, ex.1"
     },
     {
       "id": 5,
-      "prompt": "Faites des phrases en utilisant « aussi » et « autant (de) ».\nsociable / amis : Léo est aussi sociable que Léa. Il a autant d'amis qu'elle.\n1. beau / charme\n2. vêtements / élégant\n3. cultivé / livres\n4. argent / riche",
-      "answer": "Il est aussi beau que Léa. Il a autant de charme qu'elle. / Il a autant de vêtements que Léa. Il est aussi élégant qu'elle. / Il est aussi cultivé que Léa. Il a autant de livres qu'elle. / Il a autant d'argent que Léa. Il est aussi riche qu'elle.",
-      "hint": "p.98, ex.5"
+      "prompt": "Complétez avec « plus... que » ou « moins... que ».\n5. janvier/juillet (long)",
+      "answer": "Janvier est aussi long que juillet.",
+      "hint": "p.97, ex.1"
     },
     {
       "id": 6,
-      "prompt": "La ville et la campagne. Comparez.\nBruit, Stress, Cinémas/théâtres/musées, Promiscuité, Solidarité entre voisins, Pollution, Variété d'emplois, Taille des logements, Possibilités de rencontres, Balades dans la nature, Nombre de boutiques, Prix des fruits et légumes, Transports en commun, Convivialité\nÀ la campagne, il y a moins de bruit et on peut faire plus de balades dans la nature, mais...",
-      "answer": "Réponse libre",
-      "hint": "p.99, ex.6"
+      "prompt": "Complétez avec « plus... que » ou « moins... que ».\n6. voiture/train (rapide)",
+      "answer": "La voiture est moins rapide que le train.",
+      "hint": "p.97, ex.1"
     },
     {
       "id": 7,
-      "prompt": "Superlatifs. Répondez librement.\n1. chanteur belge connu : À mon avis, Jacques Brel est le chanteur belge le plus connu !\n2. grand pays :\n3. animal fidèle :\n4. homme politique célèbre :\n5. profession intéressante :\n6. sport difficile :\n7. beau prénom de fille :\n8. beau prénom de garçon :",
-      "answer": "Réponse libre",
-      "hint": "p.99, ex.7"
+      "prompt": "Complétez avec « plus... que » ou « moins... que ».\n7. 1 kg de plomb/1 kg de plume (lourd)",
+      "answer": "Un kilo de plomb est aussi lourd qu'un kilo de plume.",
+      "hint": "p.97, ex.1"
     },
     {
       "id": 8,
-      "prompt": "Répondez librement.\n1. Passez-vous plus de temps en famille qu'avec des amis ?\n2. Avez-vous plus d'amies filles que d'amis garçons ?\n3. Dormez-vous autant en semaine que pendant le week-end ?\n4. Regardez-vous plus de films que de séries télé ?\n5. Mangez-vous plus, moins, autant à midi que le soir ?",
-      "answer": "Réponse libre",
-      "hint": "p.99, ex.8"
+      "prompt": "Comparez avec « plus », « moins », que et en utilisant des pronoms toniques (voir p. 132).\n– Jo est très beau. – Oui, et ma sœur est encore plus belle que lui.\n1. – Ton frère a côté est très bruyante. – Oui, et ma femme est encore plus bruyante que ___.",
+      "answer": "lui",
+      "hint": "p.97, ex.2"
     },
     {
       "id": 9,
-      "prompt": "Complétez avec « c'est bon », « c'est bien », « c'est mieux » ou « c'est meilleur ».\n1. Le poisson surgelé, ___, mais le poisson frais, ___.\n2. Visiter Paris en bus, ___, mais visiter Paris à pied, ___.\n3. Le vin blanc, ___, mais le champagne, ___.\n4. Les crêpes au sucre, ___, mais les crêpes au chocolat, ___.\n5. Parler deux langues, ___, mais parler trois langues, ___.",
-      "answer": "c'est bon / c'est meilleur / c'est bien / c'est mieux / c'est bon / c'est meilleur / c'est bon / c'est meilleur / c'est bien / c'est mieux",
-      "hint": "p.101, ex.9"
+      "prompt": "Comparez.\n2. – La concierge n'est pas banale. – Oui, c'est vrai, ni ma mère ___.",
+      "answer": "non plus",
+      "hint": "p.97, ex.2"
     },
     {
       "id": 10,
-      "prompt": "Complétez avec « mieux » / « le mieux », « meilleur(e)(s) » / « le meilleur », « la meilleure ».\n1. On mange ___ à la cafétéria qu'au restaurant : le steak est ___ et les frites sont ___.\n2. Mon père danse ___ que moi : de toute la famille, c'est lui qui danse ___.\n3. Pierre travaille ___ que Paul et ses résultats sont ___.\n4. Votre gâteau est ___ que le mien, vous cuisinez ___ que moi !\n5. De tous les étudiants, c'est John qui parle ___ et qui a ___ accent.\n6. La pizza de « Pietro » est vraiment ___ de Paris, d'après Federico.",
-      "answer": "mieux / meilleur / meilleures / mieux / le mieux / mieux / meilleurs / meilleur / mieux / le mieux / le meilleur / la meilleure",
-      "hint": "p.101, ex.10"
+      "prompt": "Comparez.\n3. – Tes enfants sont gentils ! – Oui, c'est vrai, et ma nièce est ___.",
+      "answer": "aussi gentille qu'eux",
+      "hint": "p.97, ex.2"
     },
     {
       "id": 11,
-      "prompt": "Complétez les phrases avec « il vaut mieux », selon le modèle.\n- Partir quinze jours, c'est bien, mais partir un mois, c'est mieux. - Oui, il vaut mieux partir un mois.\n1. Dormir six heures par nuit, c'est bien, mais dormir huit heures, c'est mieux.\n2. Faire une heure de gymnastique, c'est bien, mais faire deux heures, c'est mieux.\n3. Partir en week-end le samedi, c'est bien, mais partir le vendredi, c'est mieux.\n4. Travailler seul, c'est bien, mais travailler en équipe, c'est mieux.",
-      "answer": "Oui, il vaut mieux dormir huit heures. / Oui, il vaut mieux faire deux heures de gymnastique. / Oui, il vaut mieux partir le vendredi. / Oui, il vaut mieux travailler en équipe.",
-      "hint": "p.101, ex.11"
+      "prompt": "Comparez.\n4. – Ton père n'est pas vieux. – ___.",
+      "answer": "Non, il n'est pas si vieux que ça.",
+      "hint": "p.97, ex.2"
+    },
+    {
+      "id": 12,
+      "prompt": "Comparez.\n5. – Ton père n'est pas banal. – Oui, ___.",
+      "answer": "c'est vrai",
+      "hint": "p.97, ex.2"
+    },
+    {
+      "id": 13,
+      "prompt": "Complétez avec « aussi » ou « autant de ».\n– Ne cours pas ___ vite !\n– Ne mange pas ___ bonbons !\n– Ne parle pas ___ fort !",
+      "answer": "aussi/autant de/aussi",
+      "hint": "p.99, ex.1"
+    },
+    {
+      "id": 14,
+      "prompt": "Faites des phrases en utilisant « aussi » et « autant (de) ».\nLéa est ___ sociable ___ Léa. Il a ___ beauté/charme.\nvêtements/élégant. Il est ___.\nculturel/livres. Il a ___.\nargent/dépense. Il a ___.",
+      "answer": "aussi/que/autant de/aussi/autant de/autant d'",
+      "hint": "p.99, ex.2"
+    },
+    {
+      "id": 15,
+      "prompt": "Comparez avec « aussi » ou « autant de ».\nLes enfants jouent beaucoup. Les enfants sont beaux.\nLes enfants bougent beaucoup. Les enfants sont confiants.\nLes enfants pleurent beaucoup. Les enfants sont amusants.\nLes adultes ne jouent pas ___ . Les adultes ne sont pas ___ beaux.",
+      "answer": "autant/aussi",
+      "hint": "p.99, ex.3"
+    },
+    {
+      "id": 16,
+      "prompt": "Complétez avec « c'est bon », « c'est bien », « c'est mieux » ou « c'est meilleur ».\n1. La crème caramel, ___ !\n___ , mais le poisson frais, ___.\n___ , mais visiter Paris à pied, ___.\n___ , mais les crêpes au chocolat, ___.\n___ , mais parler trois langues, ___.",
+      "answer": "c'est bon/c'est bon/c'est meilleur/c'est bien/c'est mieux/c'est bon/c'est meilleur/c'est bien/c'est mieux",
+      "hint": "p.101, ex.1"
+    },
+    {
+      "id": 17,
+      "prompt": "Trouvez les superlatifs, selon le modèle.\nUn Oscar est attribué, chaque année, au meilleur acteur.\nmeilleur(s)/le meilleur(s), la meilleure.\nmise en scène ___\neffets spéciaux ___\nseconds rôles ___",
+      "answer": "la meilleure/les meilleurs/les meilleurs",
+      "hint": "p.101, ex.2"
+    },
+    {
+      "id": 18,
+      "prompt": "Complétez avec « mieux » ou « meilleur(e)(s) ».\n1. – On mange ___ à la cafétéria ou au restaurant : le steak est ___ , c'est lui qui danse ___ , et les frites sont ___.",
+      "answer": "mieux/meilleur/le mieux/meilleures",
+      "hint": "p.101, ex.3"
+    },
+    {
+      "id": 19,
+      "prompt": "Complétez avec « mieux » ou « meilleur(e)(s) ».\n2. Mon père danse ___ que Paul ; de moi : de toute la famille, c'est lui qui parle ___ , c'est John qui parle ___ .",
+      "answer": "mieux/le mieux/le mieux",
+      "hint": "p.101, ex.3"
+    },
+    {
+      "id": 20,
+      "prompt": "Complétez les phrases avec « il vaut mieux », selon le modèle.\n– Partir quinze jours, c'est ___ mieux, partir un mois, c'est ___ mieux.\n1. – Dormir six heures par nuit : Oui, c'est ___ mieux ___ .\n2. – Faire une heure de gymnastique : ___.\n3. – Partir en week-end le vendredi soir : ___.\n4. – Travailler seul : ___.",
+      "answer": "bien/encore/bien/encore mieux/Oui, c'est bien, mais travailler en équipe, c'est encore mieux",
+      "hint": "p.101, ex.4"
+    },
+    {
+      "id": 21,
+      "prompt": "« Plus ». Soulignez le « s » sonore. Barrez le « s » muet. Marquez les liaisons.\nCompare à son ami Jim. Magda parle plus, elle est plus avancée et progresse plus vite. Elle est plus sérieuse, mais elle fait plus d'exercices. Elle est plus communicative et plus ouverte. Elle parle plus et elle fait plus de fautes. Magda travaille plus que lui. Elle est plus aussi plus douce.",
+      "answer": "Réponse libre (exercice de prononciation)",
+      "hint": "p.97, ex.4"
+    },
+    {
+      "id": 22,
+      "prompt": "Les garçons sont aussi intelligents ___ les filles. 4. La Lune est plus petite ___ le Terre. 5. ___ est encore plus bruyant que toi. 6. ___ est aussi long ___ juillet. 7. Un kilo de plomb est ___ lourd ___ un kilo de plume.",
+      "answer": "que/que/Il/Janvier/que/aussi/qu'",
+      "hint": "p.97, ex.1"
     }
   ]
 },
@@ -3819,32 +4521,56 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Répondez aux questions, selon le modèle.\n1. Vous allez à la mer ou à la montagne en été ? - Je vais à la mer.\n2. Vous allez au restaurant ou à la cantine à midi ?\n3. Vous allez à la piscine ou au bureau le matin ?\n4. Vous allez chez l'épicier ou au supermarché ?\n5. Vous allez dans une école de langue ou chez un professeur ?",
-      "answer": "Réponse libre",
+      "prompt": "Répondez aux questions, selon le modèle.\n1. Vous allez à la mer ou à la montagne en été ? – Je vais à la mer.",
+      "answer": "Je vais à la mer.",
       "hint": "p.103, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Faites des phrases en utilisant « avoir mal à » et « aller », selon le modèle.\nQuand j'ai mal à la gorge, je vais chez le médecin.\n1. gorge → médecin\n2. dents → dentiste\n3. yeux → ophtalmo(logue)\n4. dos → kiné(sithérapeute)",
-      "answer": "Quand j'ai mal aux dents, je vais chez le dentiste. / Quand j'ai mal aux yeux, je vais chez l'ophtalmologue. / Quand j'ai mal au dos, je vais chez le kinésithérapeute.",
-      "hint": "p.103, ex.2"
+      "prompt": "Répondez.\n2. Vous allez au restaurant ou à la cantine à midi ? –",
+      "answer": "Je vais au restaurant.",
+      "hint": "p.103, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Complétez les phrases, selon le modèle.\n1. Ils vont en Corse en ferry.\n2. Vous ___ Belgique ___ voiture.\n3. Il ___ Angola ___ avion.\n4. Elles ___ Mexique ___ bus.\n5. Tu ___ Hollande ___ train.\n6. Nous ___ Portugal ___ bateau.",
-      "answer": "allez en / en / va en / en / vont au / en / vas en / en / allons au / en",
-      "hint": "p.103, ex.3"
+      "prompt": "Répondez.\n3. Vous allez à l'épicier ou au supermarché le matin ? –",
+      "answer": "Je vais au supermarché.",
+      "hint": "p.103, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Complétez le texte avec « aller », les prépositions et les articles manquants.\n1. Ma femme et moi, nous ___ au bureau ___ bus et ma fille ___ à l'école ___ pied.\n2. Quand nous ___ à Santorin ___ Grèce, nous ___ d'Athènes à Héraklion ___ avion, d'Héraklion ___ port ___ bateau et ___ port ___ village ___ dos d'âne.\n3. L'hiver, les enfants ___ ___ montagne, ___ Alpes. Au printemps, ils ___ ___ Provence ou ___ Cévennes.",
-      "answer": "allons / en / va / à / allons / en / allons / en / du / en / du / au / à / vont / à la / dans les / vont / en / dans les",
-      "hint": "p.103, ex.4"
+      "prompt": "Répondez.\n4. Vous allez chez le médecin ou chez un professeur ? –",
+      "answer": "Je vais chez le médecin.",
+      "hint": "p.103, ex.1"
     },
     {
       "id": 5,
-      "prompt": "Décrivez vos déplacements habituels (destinations et moyens de transport).\n- dans la journée : À huit heures, je vais à l'université en métro. À midi, ...\n- dans l'année : En juillet, ...",
-      "answer": "Réponse libre",
+      "prompt": "Répondez.\n5. Vous allez dans une école de langue ou chez un professeur ? –",
+      "answer": "Je vais dans une école de langue.",
+      "hint": "p.103, ex.1"
+    },
+    {
+      "id": 6,
+      "prompt": "Faites des phrases en utilisant « avoir mal à » et « aller », selon le modèle.\nQuand j'ai mal à la gorge, je vais chez le médecin.\nyeux → ___ (ophtalmologue)\ndents → ___ (dentiste)\nkinésithérapeute → ___",
+      "answer": "Quand j'ai mal aux yeux, je vais chez l'ophtalmologue./Quand j'ai mal aux dents, je vais chez le dentiste./Quand j'ai mal au dos, je vais chez le kinésithérapeute.",
+      "hint": "p.103, ex.2"
+    },
+    {
+      "id": 7,
+      "prompt": "Complétez les phrases, selon le modèle.\n1. Ils ___ en Corse en ferry.\n2. Vous ___ en Belgique en ___.\n3. Il ___ en Angola en ___.\n4. Elles ___ en Hollande en ___.\n5. Tu ___ au Mexique en ___.\n6. Nous ___ au Portugal en ___.",
+      "answer": "vont/allez/train/va/avion/vont/bateau/vas/car/allons/voiture",
+      "hint": "p.103, ex.3"
+    },
+    {
+      "id": 8,
+      "prompt": "Complétez le texte « aller », les prépositions et les articles manquants.\n1. Ma femme et moi, nous allons ___ bureau ___ voiture, mon ___ fille ___ à l'école ___ pied.\n2. Quand nous ___ Émilie, nous circulons dans ___ île ___ port.\n3. L'hiver, les enfants ___ campagne.\n___ Provence ou ___ montagne ___ Cévennes. ___ printemps, ils ___ Alpes. Au printemps, ils ___.",
+      "answer": "au/en/va/à/allons/l'/au/vont/à la/en/à la/dans les/Au/dans les",
+      "hint": "p.103, ex.5"
+    },
+    {
+      "id": 9,
+      "prompt": "Complétez le texte.\nÀ Santorin, ___ bateau et nous ___ dans l'île ___ Grèce, nous ___ des d'Athènes ___ Héraklion ___ bicyclette ___ village.\n___ cheval ou plutôt ___ pied.",
+      "answer": "en/circulons/en/allons/à/à/en/à/à",
       "hint": "p.103, ex.5"
     }
   ]
@@ -3857,26 +4583,56 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Répondez aux questions, au choix.\n- Vous restez à Genève deux ou trois jours ? - J'y reste deux jours.\n1. - Vous êtes à Paris pour un ou deux ans ?\n2. - Vous allez à Madrid jeudi ou vendredi ?\n3. - Vous retournez à Londres en mars ou en avril ?\n4. - Vous allez à l'aéroport en bus ou en taxi ?\n5. - Vous êtes chez vous jusqu'à 8 h ou jusqu'à 9 h ?",
-      "answer": "J'y suis pour un an. / J'y vais jeudi. / J'y retourne en avril. / J'y vais en taxi. / J'y suis jusqu'à 9 h.",
+      "prompt": "Répondez aux questions, au choix.\n– Vous allez à Rome en train ? – Non, j'y vais en avion.\n1. – Vous êtes à Paris pour un ou deux ans ? –",
+      "answer": "J'y reste deux ans.",
       "hint": "p.105, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Répondez en utilisant « y », selon le modèle.\n- Je vais à la piscine à 16 h. Et vous ? - J'y vais aussi à 16 h.\n1. - Nous allons au théâtre jeudi soir. Et vous ?\n2. - Mon frère va en Grèce en juin. Et vos amis ?\n3. - Max va aux États-Unis à Noël. Et Paula ?\n4. - Nous allons au cinéma samedi. Et vous ?",
-      "answer": "Nous y allons aussi jeudi soir. / Mes amis y vont aussi en juin. / Elle y va aussi à Noël. / J'y vais aussi samedi.",
-      "hint": "p.105, ex.2"
+      "prompt": "Répondez.\n2. – Vous allez à Madrid en mars ou en avril ? –",
+      "answer": "J'y vais en mars.",
+      "hint": "p.105, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Répondez aux questions à partir du texte en utilisant « y ».\nArts et Sciences\nAujourd'hui, Antoine va au Louvre avec son amie Isabelle. Ils s'intéressent tous les deux à la peinture et ils vont toujours ensemble voir les expositions. Il fait beau. Antoine et Isabelle vont jusqu'au Louvre à pied en marchant le long de la Seine. La femme d'Antoine, Gloria, ne s'intéresse pas à l'art. Elle s'intéresse plutôt à la science et aux techniques. Ce soir, Gloria va à La Villette à bicyclette avec François, le mari d'Isabelle. Puis les deux couples se retrouvent dans une brasserie vers 22 h.\n1. Antoine va au Louvre avec qui ?\n2. Est-ce que Gloria s'intéresse à la science ?\n3. Est-ce qu'elle s'intéresse à la peinture ?\n4. Antoine va au Louvre en voiture ?\n5. Gloria et François vont à la Villette en métro ?",
-      "answer": "Il y va avec Isabelle. / Oui, elle s'y intéresse. / Non, elle ne s'y intéresse pas. / Non, il y va à pied. / Non, ils y vont à bicyclette.",
-      "hint": "p.105, ex.3"
+      "prompt": "Répondez.\n3. – Vous retournez à Londres en bus ou en taxi ? –",
+      "answer": "J'y retourne en bus.",
+      "hint": "p.105, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Répondez à la forme négative et imaginez des explications.\n1. Vous allez à la piscine le samedi ? - Non, je n'y vais pas le samedi parce qu'il y a trop de monde.\n2. Vous allez au bureau à pied ?\n3. Vous allez au cinéma en semaine ?\n4. Vous allez à la plage à midi ?",
-      "answer": "Non, je n'y vais pas à pied parce que c'est trop loin. / Non, je n'y vais pas en semaine parce que je n'ai pas le temps. / Non, je n'y vais pas à midi parce qu'il fait trop chaud à cette heure-là.",
+      "prompt": "Répondez.\n4. – Vous allez à l'aéroport jusqu'à 8 h ou jusqu'à 9 h ? –",
+      "answer": "J'y vais jusqu'à 9 h.",
+      "hint": "p.105, ex.1"
+    },
+    {
+      "id": 5,
+      "prompt": "Répondez.\n5. – Vous êtes chez vous jusqu'à 16 h ? Et vos amis ? –",
+      "answer": "J'y reste aussi jusqu'à 16 h.",
+      "hint": "p.105, ex.1"
+    },
+    {
+      "id": 6,
+      "prompt": "Répondez en utilisant « y », selon le modèle.\nJe vais à la piscine à 16 h. Et vous ?\n– Mon frère ___ .\n– Mes amis ___ .\n– Il ___ .\n– Nous ___ .\n– Elle ___ .",
+      "answer": "y va/y vont/y va/y allons/y va",
+      "hint": "p.105, ex.2"
+    },
+    {
+      "id": 7,
+      "prompt": "Répondez aux questions à partir du texte en utilisant « y ».\nAujourd'hui, Antoine va au Louvre avec son amie Gloria, ne s'intéresse pas à l'art. Elle habite, ils s'intéressent tous les deux aux explorations. Il fait beau. Antoine s'intéresse aussi à la peinture et il va beau. la science, à bicyclette avec François, le mari de Gloria, va à la brasserie. La femme et François, le mari de brasserie vers 22 h.\n1. Antoine va au Louvre ? –\n2. Gloria s'intéresse à l'art ? –\n3. Est-ce que Gloria s'intéresse à la science ? –\n4. Antoine va au Louvre à la voiture ? –\n5. Gloria et François vont à la Villette en métro ? –",
+      "answer": "Oui, il y va./Non, elle ne s'y intéresse pas./Oui, elle s'y intéresse./Non, il y va à bicyclette./Non, ils y vont en métro.",
+      "hint": "p.105, ex.3"
+    },
+    {
+      "id": 8,
+      "prompt": "Répondez à la forme négative et imaginez des explications.\n1. Vous allez à la piscine le samedi ? – Non, je n'y vais pas le samedi, ___.\n2. Vous allez au cinéma en semaine ? – ___\n3. Vous allez au bureau le dimanche ? – ___\n4. Vous allez à la plage à midi ? – ___",
+      "answer": "Non, je n'y vais pas le samedi, parce qu'il y a trop de monde./Non, je n'y vais pas en semaine./Non, je n'y vais pas le dimanche./Non, je n'y vais pas à midi, il fait trop chaud à cette heure-là.",
+      "hint": "p.105, ex.4"
+    },
+    {
+      "id": 9,
+      "prompt": "Réponses possibles.\n1. Il y vais pour découvrir. 2. J'y vais assez peu. 3. Non, elle ne s'y intéresse pas. 4. Il y avait beaucoup 5. Il y avait ___ Jadis ___.",
+      "answer": "Réponse libre",
       "hint": "p.105, ex.4"
     }
   ]
@@ -3889,33 +4645,81 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "« À », « de », « à partir de/du », « jusqu'à/au ». Complétez.\n1. L'école est obligatoire jusqu'à seize ans.\n2. J'ai rendez-vous ___ cinq heures ___ la gare de Lyon.\n3. Il y a 1 000 kilomètres ___ Paris ___ Nice.\n4. Je commence à travailler ___ 9 heures et je travaille ___ 18 heures sans m'arrêter.\n5. Les soldes d'hiver commencent en général ___ 15 janvier et durent ___ quatre semaines.\n6. En France, on peut conduire ___ dix-huit ans.\n7. Le métro fonctionne ___ 5 heures ___ minuit.",
-      "answer": "à / à / de / à / à / jusqu'à / à partir du / pendant / à partir de / de / à",
+      "prompt": "Complétez avec « à », « de », « à partir de(du) », « jusqu'à(au) ». Complétez.\n1. L'école est obligatoire ___ seize ans.",
+      "answer": "jusqu'à",
       "hint": "p.107, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Complétez avec « environ » ou « vers ».\n- Vous travaillez combien d'heures par jour ?\n- Je travaille ___ dix heures. J'arrive au bureau ___ huit heures et je termine ___ dix-huit heures.\n- Il est quelle heure quand vous rentrez ?\n- Il est ___ sept heures du soir.\n- Vous dormez combien de temps ?\n- Je dors ___ sept heures. Je me couche ___ onze heures et je me lève ___ six heures.\n- Votre bureau est loin de chez vous ?\n- Il est à ___ six kilomètres. Je mets ___ vingt minutes à vélo.",
-      "answer": "environ / vers / vers / environ / environ / vers / vers / environ / environ",
-      "hint": "p.107, ex.2"
+      "prompt": "Complétez.\n2. J'ai un rendez-vous ___ cinq heures.",
+      "answer": "à",
+      "hint": "p.107, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Complétez avec « à », « de », « environ », « vers » et les articles (contractés), si nécessaire.\nLongs week-ends\nJ'habite ___ Paris et je travaille ___ Orly, ___ aéroport, ___ premier étage, ___ guichet n° 7. Tous les jours, je commence ___ 5 heures pile et je termine ___ midi, midi et quart. Parfois, je travaille 24 heures sans interruption : ___ 7 heures du soir le lundi ___ 7 heures du soir le mardi. Je pars en week-end le vendredi matin : il faut ___ une heure de vol pour arriver en Provence. J'y reste ___ vendredi ___ lundi. Je rentre le lundi ___ trois heures.",
-      "answer": "à / à / à l' / au / au / à / vers / de / à / environ / du / au / vers",
-      "hint": "p.107, ex.3"
+      "prompt": "Complétez.\n3. Il y a 1 000 kilomètres ___ Lyon ___ Paris.",
+      "answer": "de/à",
+      "hint": "p.107, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Complétez les phrases avec « parmi » ou « entre ».\n1. Est-ce qu'il y a un médecin, ___ les spectateurs ?\n2. Choisissez au hasard ___ ces cartes.\n3. Des bateaux-mouches circulent en permanence ___ la tour Eiffel et Notre-Dame.\n4. S'il faut choisir ___ la ville et la campagne, je préfère la ville.\n5. À Paris, le métro ne circule plus ___ 1 h 15 et 5 h 30 du matin.\n6. Des voleurs sont cachés ___ les invités.",
-      "answer": "parmi / parmi / entre / entre / entre / parmi",
-      "hint": "p.107, ex.4"
+      "prompt": "Complétez.\n4. J'ai rendez-vous ___ 18 heures ___ Nice.",
+      "answer": "à/à",
+      "hint": "p.107, ex.1"
     },
     {
       "id": 5,
-      "prompt": "Complétez avec « à », « au », « environ », « jusqu'à », « entre », « parmi ».\nIl est ___ seize heures. Éric est ___ cinéma. Il est assis ___ deuxième rang, ___ une dame rousse et un monsieur barbu. En attendant le film, il prépare son programme de la soirée. Il hésite ___ un concert de jazz et une pièce de théâtre. Éric est ___ Paris seulement ___ mardi prochain et, ___ tous les spectacles qui passent actuellement, il a du mal à faire son choix.",
-      "answer": "environ / au / au / entre / entre / à / jusqu'à / parmi",
+      "prompt": "Complétez.\n5. Le bus est payant pour les enfants ___ cinq heures.",
+      "answer": "à partir de",
+      "hint": "p.107, ex.1"
+    },
+    {
+      "id": 6,
+      "prompt": "Complétez.\n6. Le commerce d'hiver commence en général ___ 15 janvier.",
+      "answer": "le",
+      "hint": "p.107, ex.1"
+    },
+    {
+      "id": 7,
+      "prompt": "Complétez.\n7. Le métro fonctionne ___ cinq heures ___ minuit.",
+      "answer": "de/à",
+      "hint": "p.107, ex.1"
+    },
+    {
+      "id": 8,
+      "prompt": "Complétez avec « à », « de », « environ » ou « vers ».\n– Je travaille combien d'heures par jour ?\n– Je dors ___ huit heures.\n– Votre bureau est loin de chez vous ?\n– Il est ___ onze heures et je me lève ___\n– Il est ___ six kilomètres.\n– Vous dormez combien de temps ?\n– Je dors ___ sept heures. Je me couche ___ minuit.",
+      "answer": "environ/à/vers/à/environ/vers",
+      "hint": "p.107, ex.2"
+    },
+    {
+      "id": 9,
+      "prompt": "Complétez avec « à », « vers » et les articles (contractés), si nécessaire.\nj'arrive ___ bureau\nje travaille ___ bureau\nje termine ___ sept heures du soir\n– il est ___ quelle heure quand vous rentrez chez vous ?\n– Il est ___ .",
+      "answer": "au/au/vers/à/environ",
+      "hint": "p.107, ex.2"
+    },
+    {
+      "id": 10,
+      "prompt": "Complétez les phrases avec « parmi » ou « entre ».\n1. – Est-ce qu'il y a un médecin ___ les spectateurs ? – 2. Choisissez au hasard ___ la tour Eiffel et Notre-Dame. – 3. ___ Des bateaux-mouches circulent en permanence ___ la ville et la campagne, je préfère la ville.",
+      "answer": "parmi/entre/entre",
+      "hint": "p.107, ex.4"
+    },
+    {
+      "id": 11,
+      "prompt": "Complétez les phrases avec « parmi » ou « entre ».\n4. Si ___ voleurs sont cachés. – 5. ___ Paris, il y est assis ___ deux femmes. Il est ___ deuxième rang.",
+      "answer": "parmi/À/entre/au",
+      "hint": "p.107, ex.4"
+    },
+    {
+      "id": 12,
+      "prompt": "Complétez avec « à », « au », « environ », « jusqu'à », « entre » et « parmi ».\n___ 15 h 15 et 5 h 30 du matin – 6. Des voleurs sont cachés ___ les invités\nIl est ___ seize heures. Eric est ___ cinéma. Il est assis ___ deuxième rang.\n___ une dame rousse et un monsieur barbu. En attendant le film, il est ___ .",
+      "answer": "entre/parmi/environ/au/au/entre/assis",
       "hint": "p.107, ex.5"
+    },
+    {
+      "id": 13,
+      "prompt": "Complétez avec « à », « de », « vers », « environ », « entre », « parmi ».\nJ'habite ___ Paris et je travaille 7. Tous les jours de la semaine sans interruption : ___ lundi ___ vendredi.\nParfois, je travaille 24 heures.\nSoir ___ mardi, je pars ___ le mardi ___ la semaine prochaine.\n5 heures puis je termine ___ une heure ___ soir le lundi.\n7 heures du soir ___ trois heures.\naéroport.\nLongs week-ends : ___ premier étage.",
+      "answer": "à/du/au/le/vers/vers/au/de/au",
+      "hint": "p.107, ex.4"
     }
   ]
 },
@@ -3927,81 +4731,147 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Complétez les phrases avec les verbes ci-dessous.\nguérir choisir grossir vieillir salir rougir applaudir réfléchir s'évanouir\n1. Vous ___ toujours très bien vos cravates.\n2. Attention les enfants : vous ___ la moquette avec vos chaussures.\n3. Certaines plantes ___ parfaitement les douleurs d'estomac.\n4. Les vins rouges ___ mieux que les vins blancs.\n5. Quand tu joues aux échecs, tu ___ vraiment trop longtemps.\n6. Nous ___ toujours quand nous passons une semaine chez ta mère.\n7. Quand les comédiens saluent, les gens ___.\n8. Les jeunes filles d'aujourd'hui ne ___ plus comme avant, elles sont beaucoup moins timides et elles sont plus fortes : elles ne ___ pas à la moindre émotion !",
-      "answer": "choisissez / salissez / guérissent / vieillissent / réfléchis / grossissons / applaudissent / rougissent / s'évanouissent",
+      "prompt": "Complétez les phrases avec les verbes ci-dessous, selon le modèle.\ndésobéir, grossir, vieillir, salir, rougir, applaudir, réfléchir, (s')évanouir\n1. Vous ___ toujours très bien vos chaussures.",
+      "answer": "salissez",
       "hint": "p.109, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Complétez les dialogues.\nFaçons de vivre\n1. - Vous vivez seul ? - Non, je vis avec mon chien.\n2. - Vous ___ en vacances en août ? - Non, je ___ en septembre.\n3. - Vous ___ le samedi soir ? - Non, je ___ le jeudi soir.\n4. - Vous ___ des cours d'anglais ? - Non, je ___ des cours de français.\n5. - Vous ___ en pyjama ? - Non, je ___ tout nu !",
-      "answer": "partez / pars / sortez / sors / suivez / suis / dormez / dors",
-      "hint": "p.109, ex.2"
+      "prompt": "Complétez avec les verbes.\n2. Attention les enfants : vous ___ parfaitement les douleurs.",
+      "answer": "réfléchissez",
+      "hint": "p.109, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Complétez avec les verbes manquants.\n1. Le matin, je pars à neuf heures, mais Marie et les enfants ___ à huit heures.\n2. Je vis en France depuis cinq ans, mais mes parents ___ aux États-Unis.\n3. Nous sortons peu ; tous nos amis ___ plus que nous.\n4. Je suis un cours de yoga et mes enfants ___ un cours de karaté.\n5. En Chine, on se sert de baguettes pour manger, mais les Thaïlandais se ___ d'une cuillère.",
-      "answer": "partent / vivent / sortent / suivent / servent",
-      "hint": "p.109, ex.3"
+      "prompt": "Complétez.\n3. Certaines ___ rouges, ___ blancs, ___ plus fortes.",
+      "answer": "plaintes/que les vins/toujours",
+      "hint": "p.109, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Complétez avec les verbes manquants.\n1. - Vous attendez depuis longtemps ? - J'attends depuis un quart d'heure.\n2. - Mes enfants me battent aux échecs, mais je les ___ au scrabble.\n3. - Vous entendez bien au fond de la salle ? - Non, on ___ très mal.\n4. - Vous mettez du beurre dans vos pâtes, moi je ___ seulement du fromage.\n5. - Vous vendez votre vieil ordinateur ? - Non, je ___ le nouveau !",
-      "answer": "bats / entend / mets / vends",
-      "hint": "p.111, ex.4"
+      "prompt": "Complétez.\n4. Les vins rouges ___ vraiment trop longtemps.",
+      "answer": "vieillissent",
+      "hint": "p.109, ex.1"
     },
     {
       "id": 5,
-      "prompt": "Complétez les phrases.\n1. mettre/conduire : Tu mets toujours la ceinture de sécurité quand tu ___ ?\n2. grossir/maigrir : Je ___ en été et vous, vous ___ en hiver ?\n3. sortir/éteindre : Quand vos enfants ___ de leur chambre, ils ___ la lumière ?\n4. reconnaître/entendre : Vous ___ la voix de vos amis quand vous les ___ au téléphone ?\n5. voir/ralentir : Quand les automobilistes ___ la police, ils ___.\n6. choisir/offrir : Vos amis ___ des objets sympathiques quand ils vous ___ un cadeau ?",
-      "answer": "conduis / grossis / maigrissez / sortent / éteignent / reconnaissez / entendez / voient / ralentissent / choisissent / offrent",
-      "hint": "p.111, ex.5"
+      "prompt": "Complétez.\n5. Quand tu joues aux ___ , les gens sont plus timides et ___ .",
+      "answer": "jeux/rougissent",
+      "hint": "p.109, ex.1"
     },
     {
       "id": 6,
-      "prompt": "Répondez et posez des questions selon le modèle.\n1. - Qu'est-ce que vous buvez, le matin ? - Je bois du jus d'orange, et vous, qu'est-ce que vous buvez ?\n2. - Qu'est-ce que vous prenez, à dix heures ? (chocolat)\n3. - Qu'est-ce que vous buvez pendant le repas ? (eau)\n4. - Qu'est-ce que vous faites le soir ? (exercices)",
-      "answer": "Je prends un chocolat, et vous, qu'est-ce que vous prenez ? / Je bois de l'eau, et vous, qu'est-ce que vous buvez ? / Je fais des exercices, et vous, qu'est-ce que vous faites ?",
-      "hint": "p.113, ex.6"
+      "prompt": "Complétez.\n6. Nous ___ une semaine chez ta mère, ___ ne ___ pas la moindre émotion !",
+      "answer": "passons/elles/font",
+      "hint": "p.109, ex.1"
     },
     {
       "id": 7,
-      "prompt": "Complétez avec « prendre », « vouloir », « pouvoir ».\nAu restaurant\nLe serveur : - Vous ___ un apéritif, messieurs-dames ?\nM. Duteil : - Pas pour moi, et toi, chérie ? Tu ___ quelque chose ?\nMme Duteil : - Est-ce que je ___ avoir un verre de sauternes ?\nLe serveur : - Sans problème. Vous ___ la carte des vins ?\nM. Duteil : - Oui, merci. Mais qu'est-ce que nous ___, Danièle ?\nMme Duteil : - J'ai envie d'une côte de bœuf, mais c'est pour deux : tu ___ partager avec moi ?\nM. Duteil : - D'accord, mais est-ce que je ___ avoir des légumes verts à la place des frites ?\nLe serveur : - Qu'est-ce que vous ___ : des haricots verts ou des épinards ?",
-      "answer": "voulez / veux / peux / prenez / prenons / peux / peux / voulez",
-      "hint": "p.113, ex.7"
+      "prompt": "Complétez.\n7. Quand les confettis ___ , les ___ , elles sont beaucoup moins timides et ___ .",
+      "answer": "tombent/gens/s'évanouissent",
+      "hint": "p.109, ex.1"
     },
     {
       "id": 8,
-      "prompt": "Complétez avec les verbes « prendre », « apprendre », « comprendre ».\n1. - Qu'est-ce que vous ___ comme dessert ?\n2. Mes amis ___ le train de cinq heures.\n3. Marie ___ un poème par cœur.\n4. Mes amies ___ à conduire.\n5. Nous ne ___ pas bien cette phrase.",
-      "answer": "prenez / prennent / apprend / apprennent / comprenons",
-      "hint": "p.115, ex.8"
+      "prompt": "Complétez.\n8. ___ , les jeunes filles d'aujourd'hui ne ___ plus comme avant, elles sont beaucoup moins timides.",
+      "answer": "Aujourd'hui/rougissent",
+      "hint": "p.109, ex.1"
     },
     {
       "id": 9,
-      "prompt": "Répondez selon le modèle.\n- Quand vous sortez, vous prenez votre portable ? - Oui, quand je sors, je prends mon portable.\n1. - Quand vous allez au bureau, vous partez à huit heures ?\n2. - Quand vous montez au 5e étage, vous prenez l'ascenseur ?\n3. - Quand vous prenez des notes, vous écrivez en français ?\n4. - Quand vous lisez, vous mettez des lunettes ?\n5. - Quand vous buvez du café le soir, vous prenez du décaféiné ?\n6. - Quand vous recevez un message, vous répondez toujours ?\n7. - Quand vous allez au théâtre, vous applaudissez longtemps les acteurs ?",
-      "answer": "Oui, quand je vais au bureau, je pars à huit heures. / Oui, quand je monte au 5e étage, je prends l'ascenseur. / Oui, quand je prends des notes, j'écris en français. / Oui, quand je lis, je mets des lunettes. / Oui, quand je bois du café le soir, je prends du décaféiné. / Oui, quand je reçois un message, je réponds toujours. / Oui, quand je vais au théâtre, j'applaudis longtemps les acteurs.",
-      "hint": "p.115, ex.9"
+      "prompt": "Complétez les dialogues.\n– Façons de vivre\n1. – Vous ___ en vacances en août ? – Non, je ___.\n2. – Vous ___ le samedi soir ? – Non, je ___.\n3. – Vous ___ des cours d'anglais ? – Non, je ___.\n4. – Vous ___ le pied soir ? – Non, je ___.\n5. – Vous ___ tout, tu ! – Non, je ___.",
+      "answer": "sortez/ne sors pas/sortez/ne sors pas/suivez/ne suis pas/dormez/ne dors pas/vis/ne vis pas",
+      "hint": "p.109, ex.2"
     },
     {
       "id": 10,
-      "prompt": "Écrivez les finales des verbes.\n1. Je sor___ peu.\n2. Je vi___ seul.\n3. J'enten___ mal !\n4. Je per___ mes cheveux.\n5. Tu par___ en vacances.\n6. Tu pren___ ton sac.\n7. Tu descen___ l'escalier.\n8. Tu atten___ le train.\n9. Elle per___ tout.\n10. Il me___ un pull.\n11. Ils ven___ des fruits.\n12. Elles atten___ le bus.",
-      "answer": "s / s / ds / ds / s / ds / ds / ds / d / t / dent / dent",
-      "hint": "p.115, ex.10"
+      "prompt": "Complétez avec les verbes manquants.\nMarie et la terre ___ le soleil pendant huit heures, mais Marie et les enfants ___ la fenêtre ouverte ___ plus que nous ___ de yoga et ___ en France.\n___ de karaté.",
+      "answer": "tournent/dorment/avec/faisons/vivons/aux États-Unis",
+      "hint": "p.109, ex.3"
     },
     {
       "id": 11,
-      "prompt": "Complétez avec « savoir » ou « connaître ».\nJe sais parler anglais et je connais un peu l'Angleterre.\n1. Maria ___ beaucoup de recettes et elle ___ bien cuisiner.\n2. - Vous ___ les parents de François ? - Non, je ___ seulement sa sœur.\n3. Ma fille ne ___ pas conduire. Elle ne ___ pas le code de la route.\n4. Mon fils ___ nager sous l'eau et il ___ tous les poissons.\n5. - Vous ___ ce que veut dire « avoir la pêche » ? - Non, je ne ___ pas cette expression.\n6. Je ___ que le train arrive à trois heures, mais je ne ___ pas le numéro du quai.\n7. - Vos parents ___ que vous êtes ici ? - Oui, ma mère ___ que je suis là.",
-      "answer": "connaît / sait / connaissez / connais / sait / connaît / sait / connaît / savez / connais / sais / connais / savent / sait",
-      "hint": "p.121, ex.11"
+      "prompt": "Complétez avec les verbes manquants. Faites l'élision si c'est nécessaire.\n1. – Vous attendez depuis longtemps ? – J'___ depuis un quart d'heure.",
+      "answer": "attends",
+      "hint": "p.111, ex.1"
     },
     {
       "id": 12,
-      "prompt": "Répondez à la forme affirmative ou négative.\n- Est-ce que vous pouvez lire sans lunettes ? - Oui, je peux lire sans lunettes. / Non, je ne peux pas lire sans lunettes.\n1. - Est-ce que vous pouvez courir très longtemps ?\n2. - Est-ce que vous pouvez travailler dans le bruit ?\n3. - Est-ce que vous pouvez faire vos calculs sans calculatrice ?\n4. - Est-ce que vous pouvez toucher le plafond de la main ?\n5. - Est-ce que vous pouvez fumer en classe ?",
-      "answer": "Oui, je peux courir très longtemps. / Non, je ne peux pas courir très longtemps. / Oui, je peux travailler dans le bruit. / Non, je ne peux pas travailler dans le bruit. / Oui, je peux faire mes calculs sans calculatrice. / Non, je ne peux pas faire mes calculs sans calculatrice. / Non, je ne peux pas toucher le plafond de la main. / Non, je ne peux pas fumer en classe.",
-      "hint": "p.119, ex.12"
+      "prompt": "Complétez.\n2. – Mes enfants me battent au fond de la salle, mais je les ___ très mal.",
+      "answer": "entends",
+      "hint": "p.111, ex.1"
     },
     {
       "id": 13,
-      "prompt": "Complétez avec « on doit » ou « on peut ».\nQuand on prend l'avion :\nOn doit se présenter 1 heure avant le départ.\n1. ___ faire le check-in.\n2. ___ avoir plus de 20 kg de bagages.\n3. ___ passer les contrôles de sécurité.\n4. ___ transporter des objets dangereux.\n5. ___ fumer dans l'avion.\n6. ___ attacher sa ceinture au décollage.\n7. ___ écouter de la musique.\n8. ___ s'allonger complètement.\n9. ___ acheter des produits hors taxes.",
-      "answer": "On doit / On ne peut pas / On doit / On ne peut pas / On ne peut pas / On doit / On peut / On ne peut pas / On peut",
-      "hint": "p.119, ex.13"
+      "prompt": "Complétez.\n3. – Vous mettez du beurre dans vos pâtes ? – moi, je ___.",
+      "answer": "n'en mets pas",
+      "hint": "p.111, ex.1"
+    },
+    {
+      "id": 14,
+      "prompt": "Complétez.\n4. – Vous vendez votre vieil ordinateur ? – Non, on ___.",
+      "answer": "ne le vend pas",
+      "hint": "p.111, ex.1"
+    },
+    {
+      "id": 15,
+      "prompt": "Complétez.\n5. – Vous ___ la ceinture de sécurité quand du ___ , seulement du fromage.",
+      "answer": "mettez/en tête/le",
+      "hint": "p.111, ex.1"
+    },
+    {
+      "id": 16,
+      "prompt": "Complétez les phrases.\n1. mettre/conduire – Vous ___\n2. grossir/maigrir – Tu ___\n3. écrire/entendre – Vos amis ___\n4. reconnaître/entendre – Quand les automobilistes ___ la voix de vos amis quand vous ___ la police, ils ___\n5. voir/ralentir – ___ des objets sympathiques quand vous ___ , la lumière ___ .\n6. obéir/finir – au téléphone ? ___ un cadeau ?",
+      "answer": "mettez/maigris/écrivent/reconnaissent/entendez/voient/ralentissent/obéissent/finissent",
+      "hint": "p.111, ex.2"
+    },
+    {
+      "id": 17,
+      "prompt": "Trouvez les verbes.\nLes lecteurs ___ .\nLes écrivains ___ .\nLes vendeurs ___ .\nLes peintres ___ .\nLes traducteurs ___ .\nLes coureurs ___ .",
+      "answer": "lisent/écrivent/vendent/peignent/traduisent/courent",
+      "hint": "p.111, ex.3"
+    },
+    {
+      "id": 18,
+      "prompt": "Trouvez les contraires.\nIls gagnent ___ .\nIls achètent ___ .\nIls montent ___ .\nIls allument ___ .\nIls grossissent ___ .\nIls détruisent ___ .",
+      "answer": "Ils perdent./Ils vendent./Ils descendent./Ils éteignent./Ils maigrissent./Ils construisent.",
+      "hint": "p.111, ex.4"
+    },
+    {
+      "id": 19,
+      "prompt": "Complétez avec les verbes « prendre », « apprendre », « comprendre ».\n1. – Qu'est-ce que vous ___ comme dessert ?\n2. – Mes amis ___ le train de cinq heures.\n3. – Marie ___ un poème par cœur.\n4. – Vous ___ pas bien cette phrase.\n5. – Vous vous ___.\n6. – Paul ___ chez nous ce soir.\n7. – Tu ___ .\n8. – Attendez-moi, je ___.\n9. – Vous vous ___.\n10. – Je me ___.",
+      "answer": "prenez/prennent/apprend/ne comprenez/souvenez/vient/apprends/reviens/souvenez/souviens",
+      "hint": "p.115, ex.1"
+    },
+    {
+      "id": 20,
+      "prompt": "Répondez selon le modèle.\n– Quand vous sortez, vous prenez votre portable ?\n– Oui, quand je sors, je prends mon portable.\n1. – Quand vous allez au 5e étage, vous prenez l'ascenseur ? –\n2. – Quand vous montez au bureau, vous prenez à huit heures ? –",
+      "answer": "Oui, quand je vais au 5e étage, je prends l'ascenseur./Oui, quand je monte au bureau, je prends à huit heures.",
+      "hint": "p.115, ex.2"
+    },
+    {
+      "id": 21,
+      "prompt": "Complétez avec « mettre » ou « prendre ».\n1. Il pleut et il fait très froid : je ___ un manteau et je ___ un parapluie.",
+      "answer": "mets/prends",
+      "hint": "p.117, ex.1"
+    },
+    {
+      "id": 22,
+      "prompt": "Complétez avec « mettre » ou « prendre ».\nUne journée ordinaire\nje ___ le bus, mais il y a beaucoup de circulation et je ___ une heure pour arriver au bureau. À midi, je ne déjeune pas : je ___ un bain, je ___ un plat surgé.",
+      "answer": "prends/mets/prends/mets",
+      "hint": "p.117, ex.1"
+    },
+    {
+      "id": 23,
+      "prompt": "Complétez avec « faire » ou « jouer ».\nEn été, toute la famille ___ du sport. Amon mari et mes fils ___ au volley ou ___ au foot ou ___ du golf. Quand il fait froid, mon fils Julien ___ du piano, nous ___ aux échecs.",
+      "answer": "fait/jouent/jouent/jouent/joue/jouons",
+      "hint": "p.117, ex.2"
+    },
+    {
+      "id": 24,
+      "prompt": "Qu'est-ce que vous buvez, le matin ?\n– Je ___ du thé, du jus d'orange, et vous, qu'est-ce que vous ___ ?\n1. – Qu'est-ce que vous buvez, le matin ?\n2. – Qu'est-ce que vous prenez, pendant le repas ?\n3. – Qu'est-ce que vous faites le soir ?",
+      "answer": "bois/buvez",
+      "hint": "p.113, ex.1"
     }
   ]
 },
