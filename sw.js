@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mon-francais-v6';
+const CACHE_NAME = 'mon-francais-v7';
 const ASSETS = ['/', '/FrenchLearningApp/', '/FrenchLearningApp/index.html', '/FrenchLearningApp/grammar-data.js'];
 
 self.addEventListener('install', e => {
