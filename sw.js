@@ -1,5 +1,5 @@
-const CACHE_NAME = 'mon-francais-v7';
-const ASSETS = ['/', '/FrenchLearningApp/', '/FrenchLearningApp/index.html', '/FrenchLearningApp/grammar-data.js'];
+const CACHE_NAME = 'mon-francais-v9';
+const ASSETS = ['/', '/FrenchLearningApp/', '/FrenchLearningApp/index.html', '/FrenchLearningApp/grammar-data.js', '/FrenchLearningApp/grammar-exercises-patch.js'];
 
 self.addEventListener('install', e => {
     e.waitUntil(caches.open(CACHE_NAME).then(c => c.addAll(ASSETS)));
