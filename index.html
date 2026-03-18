@@ -1612,6 +1612,18 @@
 
         .inline-exercise:last-child { border-bottom: none; }
 
+        .exercise-group-header {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--marine);
+            padding: 0.5rem 0 0.25rem;
+            margin-top: 0.75rem;
+            border-top: 1px solid var(--gris-200);
+        }
+        .exercise-group-header:first-child {
+            margin-top: 0;
+            border-top: none;
+        }
         .inline-exercise-num {
             color: var(--gris-400);
             min-width: 1.5rem;
@@ -3748,8 +3760,22 @@
             html += '<h3 style="font-size:0.95rem; color:var(--gris-600); margin-bottom:0.5rem;">Exercises (' + ch.exercises.length + ')</h3>';
             if (hasExercises) {
                 html += '<div class="inline-exercises-container" id="inlineExercises">';
-                ch.exercises.forEach(function(ex, i) {
-                    html += renderInlineExercise(ex, i);
+                var prevGroup = '';
+                var groupIdx = 0;
+                ch.exercises.forEach(function(ex) {
+                    var group = ex.hint || '';
+                    if (group !== prevGroup) {
+                        var exNum = '';
+                        var m = group.match(/ex\.?\s*(\d+)/i);
+                        if (m) exNum = m[1];
+                        if (exNum) {
+                            html += '<div class="exercise-group-header">Exercise ' + exNum + '</div>';
+                        }
+                        prevGroup = group;
+                        groupIdx = 0;
+                    }
+                    html += renderInlineExercise(ex, groupIdx);
+                    groupIdx++;
                 });
                 html += '</div>';
                 html += '<div class="inline-exercises-footer" id="exercisesFooter">';
