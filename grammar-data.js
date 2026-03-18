@@ -5221,639 +5221,507 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "D'habitude, vous déjeunez à la cafétéria ou chez vous ? - En général, je ___ à la cafétéria, mais hier, j'ai déjeuné chez moi.",
-      "answer": "déjeune",
-      "hint": "Présent de déjeuner avec je"
+      "prompt": "D'habitude, vous mangez de la viande ou du poisson ? – En général, je mange de la viande, mais hier, j'___ du poisson.",
+      "answer": "ai mangé",
+      "hint": "p.175, ex.1"
     },
     {
       "id": 2,
-      "prompt": "D'habitude, vous mangez de la viande ou du poisson à midi ? - En général, je mange de la viande, mais hier, j'___ du poisson.",
-      "answer": "ai mangé",
-      "hint": "Passé composé de manger"
+      "prompt": "D'habitude, vous travaillez sept heures par jour ? – D'habitude, je travaille sept heures par jour, mais hier, j'___ huit heures.",
+      "answer": "ai travaillé",
+      "hint": "p.175, ex.1"
     },
     {
       "id": 3,
-      "prompt": "D'habitude, vous travaillez chez vous ou au restaurant ? - En général, je travaille sept heures par jour, mais hier, j'___ huit heures.",
-      "answer": "ai travaillé",
-      "hint": "Passé composé de travailler"
+      "prompt": "En général, je commence à 8 heures, mais hier, j'___ à 9 heures.",
+      "answer": "ai commencé",
+      "hint": "p.175, ex.1"
     },
     {
       "id": 4,
-      "prompt": "D'habitude, vous commencez à six heures ou à sept heures ? - En général, je commence à 6 heures, mais hier, j'___ à 7 heures.",
-      "answer": "ai commencé",
-      "hint": "Passé composé de commencer"
+      "prompt": "D'habitude, je termine à 6 heures, mais hier, j'___ à 7 heures.",
+      "answer": "ai terminé",
+      "hint": "p.175, ex.1"
     },
     {
       "id": 5,
-      "prompt": "D'habitude, vous terminez à 8 heures ou à 9 heures ? - En général, je termine à 8 heures, mais hier, j'___ à 9 heures.",
-      "answer": "ai terminé",
-      "hint": "Passé composé de terminer"
+      "prompt": "Vous avez visité l'Andalousie ? – Oui, j'___ l'Andalousie.",
+      "answer": "ai visité",
+      "hint": "p.175, ex.2"
     },
     {
       "id": 6,
-      "prompt": "Vous avez passé vos vacances en Espagne ? - Oui, j'___ mes vacances en Espagne.",
-      "answer": "ai passé",
-      "hint": "Passé composé de passer"
+      "prompt": "Vous avez écouté du flamenco ? – Oui, j'___ du flamenco.",
+      "answer": "ai écouté",
+      "hint": "p.175, ex.2"
     },
     {
       "id": 7,
-      "prompt": "Vous avez visité l'Andalousie ? - Oui, j'___ l'Andalousie.",
-      "answer": "ai visité",
-      "hint": "Passé composé de visiter"
+      "prompt": "Vous avez filmé une corrida ? – Oui, j'___ une corrida.",
+      "answer": "ai filmé",
+      "hint": "p.175, ex.2"
     },
     {
       "id": 8,
-      "prompt": "Vous avez écouté du flamenco ? - Oui, j'___ du flamenco.",
-      "answer": "ai écouté",
-      "hint": "Passé composé de écouter"
+      "prompt": "Vous avez mangé des « tapas » ? – Oui, j'___ des « tapas ».",
+      "answer": "ai mangé",
+      "hint": "p.175, ex.2"
     },
     {
       "id": 9,
-      "prompt": "Vous avez filmé une corrida ? - Oui, j'___ une corrida.",
-      "answer": "ai filmé",
-      "hint": "Passé composé de filmer"
+      "prompt": "Vous avez rapporté des souvenirs ? – Oui, j'___ des souvenirs.",
+      "answer": "ai rapporté",
+      "hint": "p.175, ex.2"
     },
     {
       "id": 10,
-      "prompt": "Vous avez mangé des « tapas » ? - Oui, j'___ des « tapas ».",
-      "answer": "ai mangé",
-      "hint": "Passé composé de manger"
+      "prompt": "Ne refusez pas votre offre ! – Trop tard : ___",
+      "answer": "j'ai refusé",
+      "hint": "p.175, ex.3"
     },
     {
       "id": 11,
-      "prompt": "Vous avez rapporté des souvenirs ? - Oui, j'___ des souvenirs.",
-      "answer": "ai rapporté",
-      "hint": "Passé composé de rapporter"
+      "prompt": "Ne signez pas ! – Trop tard : ___",
+      "answer": "j'ai signé",
+      "hint": "p.175, ex.3"
     },
     {
       "id": 12,
-      "prompt": "Ne refusez pas leur proposition ! - Trop tard : j'___ !",
-      "answer": "ai accepté",
-      "hint": "Le contraire de refuser est accepter"
+      "prompt": "Ne démissionnez pas ! – Trop tard : ___",
+      "answer": "j'ai démissionné",
+      "hint": "p.175, ex.3"
     },
     {
       "id": 13,
-      "prompt": "Ne signez pas ! - Trop tard : j'___ !",
-      "answer": "ai signé",
-      "hint": "Passé composé de signer"
+      "prompt": "Ce soir, un journaliste interviewe le président de la République. → Hier soir, un journaliste ___ le président de la République.",
+      "answer": "a interviewé",
+      "hint": "p.176, ex.1"
     },
     {
       "id": 14,
-      "prompt": "Ne refusez pas votre offre ! - Trop tard : j'___ !",
-      "answer": "ai refusé",
-      "hint": "Passé composé de refuser"
+      "prompt": "Cette année, la consommation d'énergie augmente. → L'année dernière, la consommation d'énergie ___.",
+      "answer": "a augmenté",
+      "hint": "p.176, ex.1"
     },
     {
       "id": 15,
-      "prompt": "Ne démissionnez pas ! - Trop tard : j'___ !",
-      "answer": "ai démissionné",
-      "hint": "Passé composé de démissionner"
+      "prompt": "Cette semaine, « l'Express » publie un reportage intéressant. → La semaine dernière, « l'Express » ___ un reportage intéressant.",
+      "answer": "a publié",
+      "hint": "p.176, ex.1"
     },
     {
       "id": 16,
-      "prompt": "Dites dans l'ordre chronologique : payer / acheter des légumes / préparer le repas / dîner / retirer de l'argent / laver la vaisselle. Hier, j'___ de l'argent.",
-      "answer": "ai retiré",
-      "hint": "Passé composé de retirer"
+      "prompt": "Tous les mardis, nous mangeons du poisson frais. → Mardi dernier, nous ___ du poisson frais.",
+      "answer": "avons mangé",
+      "hint": "p.176, ex.1"
     },
     {
       "id": 17,
-      "prompt": "Aujourd'hui, il neige sur toute la France. Hier, il ___ sur toute la France.",
-      "answer": "a neigé",
-      "hint": "Passé composé de neiger"
+      "prompt": "Chaque mois, mon mari arrête de fumer (pendant deux jours...). → Le mois dernier, mon mari ___ de fumer (pendant deux jours...).",
+      "answer": "a arrêté",
+      "hint": "p.176, ex.1"
     },
     {
       "id": 18,
-      "prompt": "Ce soir, un journaliste interviewe le président de la République. Hier soir, un journaliste ___ le président.",
-      "answer": "a interviewé",
-      "hint": "Passé composé de interviewer"
+      "prompt": "Chaque année, je joue au casino et je gagne un peu d'argent. → L'année dernière, j'___ au casino et j'___ un peu d'argent.",
+      "answer": "ai joué/ai gagné",
+      "hint": "p.176, ex.1"
     },
     {
       "id": 19,
-      "prompt": "Hier matin, j'___ la radio. (écouter)",
-      "answer": "ai écouté",
-      "hint": "Passé composé de écouter"
+      "prompt": "Tous les soirs, nous regardons le journal télévisé et nous parlons de politique. → Hier soir, nous ___ le journal télévisé et nous ___ de politique.",
+      "answer": "avons regardé/avons parlé",
+      "hint": "p.176, ex.1"
     },
     {
       "id": 20,
-      "prompt": "À midi, j'___ un sandwich. (manger)",
-      "answer": "ai mangé",
-      "hint": "Passé composé de manger"
+      "prompt": "Tous les mercredis, Daniel et Mina préparent un plat exotique et invitent des amis. → Mercredi dernier, Daniel et Mina ___ un plat exotique et ___ des amis.",
+      "answer": "ont préparé/ont invité",
+      "hint": "p.176, ex.1"
     },
     {
       "id": 21,
-      "prompt": "La semaine dernière, je ___ mes impôts. (payer)",
-      "answer": "ai payé",
-      "hint": "Passé composé de payer"
+      "prompt": "1. Hier matin, j'___ la radio.",
+      "answer": "ai écouté",
+      "hint": "p.176, ex.2"
     },
     {
       "id": 22,
-      "prompt": "Avant-hier, j'___ le Louvre. (visiter)",
-      "answer": "ai visité",
-      "hint": "Passé composé de visiter"
+      "prompt": "2. À midi, vous ___ un sandwich.",
+      "answer": "avez mangé",
+      "hint": "p.176, ex.2"
     },
     {
       "id": 23,
-      "prompt": "Demain, je vais acheter du poisson. Hier, j'___ du poulet.",
-      "answer": "ai acheté",
-      "hint": "Passé composé de acheter"
+      "prompt": "3. La semaine dernière, je ___ mes impôts.",
+      "answer": "ai payé",
+      "hint": "p.176, ex.2"
     },
     {
       "id": 24,
-      "prompt": "Mettez au passé composé : « je mange des fraises ». Hier, j'___ des fraises.",
-      "answer": "ai mangé",
-      "hint": "Passé composé de manger"
+      "prompt": "4. Paul ___ le Louvre.",
+      "answer": "a visité",
+      "hint": "p.176, ex.2"
     },
     {
       "id": 25,
-      "prompt": "Je mange un croissant et je bois un café. → J'___ un croissant et j'___ un café.",
-      "answer": "ai mangé/ai bu",
-      "hint": "Participes passés de manger et boire"
+      "prompt": "5. ___ 1 000 € au Loto.",
+      "answer": "J'ai gagné",
+      "hint": "p.176, ex.2"
     },
     {
       "id": 26,
-      "prompt": "George achète le journal et il prend l'autobus. → George ___ le journal et il ___ l'autobus.",
-      "answer": "a acheté/a pris",
-      "hint": "Participes passés de acheter et prendre"
+      "prompt": "6. Hier, tu ___ la télévision ?",
+      "answer": "as regardé",
+      "hint": "p.176, ex.2"
     },
     {
       "id": 27,
-      "prompt": "Maria met un imperméable et elle prend un parapluie. → Maria ___ un imperméable et elle ___ un parapluie.",
-      "answer": "a mis/a pris",
-      "hint": "Participes passés de mettre et prendre"
+      "prompt": "7. Mardi dernier, nous ___ de la musique.",
+      "answer": "avons écouté",
+      "hint": "p.176, ex.2"
     },
     {
       "id": 28,
-      "prompt": "Nous buvons un café et nous mangeons un croissant. → Nous ___ un café et nous ___ un croissant.",
-      "answer": "avons bu/avons mangé",
-      "hint": "Participes passés de boire et manger"
+      "prompt": "8. Hier soir, on ___ des amis.",
+      "answer": "a invité",
+      "hint": "p.176, ex.2"
     },
     {
       "id": 29,
-      "prompt": "Chaque mois, je reçois une ou deux cartes postales, mais le mois dernier, j'___ huit lettres !",
-      "answer": "ai reçu",
-      "hint": "Participe passé de recevoir"
+      "prompt": "9. Pour ma fête, je ___ des légumes au marché.",
+      "answer": "ai acheté",
+      "hint": "p.176, ex.2"
     },
     {
       "id": 30,
-      "prompt": "D'habitude, je bois deux cafés par jour, mais hier, j'___ au moins cinq cafés.",
-      "answer": "ai bu",
-      "hint": "Participe passé de boire"
+      "prompt": "10. Tu ___ la télévision ?",
+      "answer": "as regardé",
+      "hint": "p.176, ex.2"
     },
     {
       "id": 31,
-      "prompt": "D'habitude, je lis un roman par mois, mais la semaine dernière, j'___ trois romans.",
-      "answer": "ai lu",
-      "hint": "Participe passé de lire"
+      "prompt": "Georges achète le journal et il prend l'autobus. → Georges ___ le journal et il ___ l'autobus.",
+      "answer": "a acheté/a pris",
+      "hint": "p.179, ex.1"
     },
     {
       "id": 32,
-      "prompt": "En général, j'attends le bus cinq minutes environ, mais hier matin, j'___ au moins de trente minutes.",
-      "answer": "ai attendu",
-      "hint": "Participe passé de attendre"
+      "prompt": "Maria met un imperméable et elle prend un parapluie. → Maria ___ un imperméable et elle ___ un parapluie.",
+      "answer": "a mis/a pris",
+      "hint": "p.179, ex.1"
     },
     {
       "id": 33,
-      "prompt": "En général, je perds trois parapluies par hiver, mais l'hiver dernier, j'___ plus de cinq parapluies.",
-      "answer": "ai perdu",
-      "hint": "Participe passé de perdre"
+      "prompt": "Nous buvons un café et nous mangeons un croissant. → Nous ___ un café et nous ___ un croissant.",
+      "answer": "avons bu/avons mangé",
+      "hint": "p.179, ex.1"
     },
     {
       "id": 34,
-      "prompt": "Vos parents ont ___ à leurs lettres ? Vous avez ___ ! Il a ___ !",
-      "answer": "répondu/grandi/traduit",
-      "hint": "Participes passés de répondre, grandir, traduire"
+      "prompt": "Vous avez écrit à un ami et vous ___ une annonce intéressante.",
+      "answer": "avez envoyé",
+      "hint": "p.179, ex.1"
     },
     {
       "id": 35,
-      "prompt": "Charles est un grand traducteur : il a presque tout ___ de Shakespeare.",
-      "answer": "traduit",
-      "hint": "Participe passé de traduire"
+      "prompt": "Suzie a écrit à sa mère et elle ___ la lettre à ses amis.",
+      "answer": "a posté",
+      "hint": "p.179, ex.1"
     },
     {
       "id": 36,
-      "prompt": "Christophe Colomb a ___ l'Amérique en 1492.",
-      "answer": "découvert",
-      "hint": "Participe passé de découvrir"
+      "prompt": "Tu lis le journal et vous voyez une annonce intéressante. → Tu ___ le journal et tu ___ une annonce intéressante.",
+      "answer": "as lu/as vu",
+      "hint": "p.179, ex.1"
     },
     {
       "id": 37,
-      "prompt": "La campagne est belle entre la robe rouge et la robe bleue, et finalement il a ___.",
-      "answer": "choisi",
-      "hint": "Participe passé de choisir"
+      "prompt": "Chaque mois, je reçois une ou deux cartes postales, mais le mois dernier, j'___ huit lettres !",
+      "answer": "ai reçu",
+      "hint": "p.179, ex.2"
     },
     {
       "id": 38,
-      "prompt": "Je vois le temps par la fenêtre. → J'___ le temps par la fenêtre.",
-      "answer": "ai vu",
-      "hint": "Participe passé de voir"
+      "prompt": "D'habitude, je bois deux cafés par jour, mais hier, j'___ au moins cinq cafés.",
+      "answer": "ai bu",
+      "hint": "p.179, ex.2"
     },
     {
       "id": 39,
-      "prompt": "Un ciel gris m'a levé. → Un ciel gris ___ levé.",
-      "answer": "m'a",
-      "hint": "Pronom réfléchi + auxiliaire"
+      "prompt": "En général, je lis un roman par mois, mais le mois dernier, j'___ trois romans et deux pièces de théâtre.",
+      "answer": "ai lu",
+      "hint": "p.179, ex.2"
     },
     {
       "id": 40,
-      "prompt": "J'___ un gros pull. (mettre, passé composé)",
-      "answer": "ai mis",
-      "hint": "Participe passé de mettre"
+      "prompt": "D'habitude, j'attends le bus cinq minutes environ, mais hier matin, j'___ plus de trente minutes.",
+      "answer": "ai attendu",
+      "hint": "p.179, ex.2"
     },
     {
       "id": 41,
-      "prompt": "Dans la même soirée, j'___ un film anglais et un film japonais.",
-      "answer": "ai vu",
-      "hint": "Participe passé de voir"
+      "prompt": "En général, je perds trois parapluies par hiver, mais l'hiver dernier, j'___ au moins cinq parapluies.",
+      "answer": "ai perdu",
+      "hint": "p.179, ex.2"
     },
     {
       "id": 42,
-      "prompt": "Trente-cinq pour cent des Français ont mangé du caviar au moins une fois dans leur vie. Transformez : J'___ du caviar.",
-      "answer": "ai mangé",
-      "hint": "Passé composé de manger"
+      "prompt": "1. Vos parents vous ont écrit. Vous avez ___ à leurs lettres ?",
+      "answer": "répondu",
+      "hint": "p.180, ex.1"
     },
     {
       "id": 43,
-      "prompt": "Vous êtes venu(e) en taxi, la première fois ? - Oui, hier, je suis venu(e) ___ et en métro.",
-      "answer": "à pied",
-      "hint": "Modes de transport"
+      "prompt": "2. Tous les pantalons de mon fils sont trop courts : il ___ de 10 centimètres en 2 mois.",
+      "answer": "a grandi",
+      "hint": "p.180, ex.1"
     },
     {
       "id": 44,
-      "prompt": "Vous êtes allé(e) à l'hôtel à pied, hier soir ? - Oui, hier soir, je ___ allé(e) à l'hôtel à pied.",
-      "answer": "suis",
-      "hint": "Auxiliaire être avec je"
+      "prompt": "3. Charles est un grand traducteur : il ___ presque tout Shakespeare.",
+      "answer": "a traduit",
+      "hint": "p.180, ex.1"
     },
     {
       "id": 45,
-      "prompt": "Vous êtes passé(e) par le centre-ville ? - Oui, je ___ passé(e) par le centre-ville.",
-      "answer": "suis",
-      "hint": "Auxiliaire être avec je"
+      "prompt": "4. Christophe Colomb ___ l'Amérique en 1492.",
+      "answer": "a découvert",
+      "hint": "p.180, ex.1"
     },
     {
       "id": 46,
-      "prompt": "Vous êtes arrivé(e) avant six heures ? - Oui, je ___ arrivé(e) avant six heures.",
-      "answer": "suis",
-      "hint": "Auxiliaire être avec je"
+      "prompt": "5. La campagne est très belle cette année : il ___ trois mois sans interruption !",
+      "answer": "a plu",
+      "hint": "p.180, ex.1"
     },
     {
       "id": 47,
-      "prompt": "Vous êtes ressorti(e) une heure plus tard ? - Oui, je ___ ressorti(e) une heure plus tard.",
-      "answer": "suis",
-      "hint": "Auxiliaire être avec je"
+      "prompt": "J'___ un gros pull.",
+      "answer": "ai mis",
+      "hint": "p.181, ex.1"
     },
     {
       "id": 48,
-      "prompt": "L'avion est arrivé à 15 heures et il est ___ au 6e étage. (monter)",
-      "answer": "monté",
-      "hint": "Participe passé de monter"
+      "prompt": "Une sorte bon marché, mon parapluie et le Coca en marchant et quatre minutes pour dîner et deux films, un film anglais et un film japonais. À minuit, une bonne soirée, très chère... Dans la même soirée, dix minutes pour dîner et seulement huit euros. Finalement, ___",
+      "answer": "j'ai dépensé",
+      "hint": "p.181, ex.1"
     },
     {
       "id": 49,
-      "prompt": "Les étudiants sont venus, sont entrés dans la classe et ils ___.",
-      "answer": "sont sortis",
-      "hint": "Passé composé de sortir avec être"
+      "prompt": "1. Il ___ à 16 heures.",
+      "answer": "est parti",
+      "hint": "p.182, ex.1"
     },
     {
       "id": 50,
-      "prompt": "Un avion ___ à Orly. (arriver, passé composé)",
-      "answer": "est arrivé",
-      "hint": "Passé composé de arriver avec être"
+      "prompt": "2. Ils ___ à pied.",
+      "answer": "sont descendus",
+      "hint": "p.182, ex.1"
     },
     {
       "id": 51,
-      "prompt": "Un bébé ___ dans une maternité. (naître, passé composé)",
-      "answer": "est né",
-      "hint": "Passé composé de naître avec être"
+      "prompt": "3. Ils ___ allés dans un restaurant.",
+      "answer": "sont",
+      "hint": "p.182, ex.1"
     },
     {
       "id": 52,
-      "prompt": "Un homme ___ dans son lit. (mourir, passé composé)",
-      "answer": "est mort",
-      "hint": "Passé composé de mourir avec être"
+      "prompt": "4. Oui, je suis arrivé(e) avant six heures. Oui, je ___ à l'hôtel à pied.",
+      "answer": "suis allé(e)",
+      "hint": "p.182, ex.1"
     },
     {
       "id": 53,
-      "prompt": "John F. Kennedy ___ en 1917 et il ___. (naître / mourir)",
-      "answer": "est né/est mort",
-      "hint": "Passé composé avec être"
+      "prompt": "5. Oui, je suis parti(e) tôt. J'___ à la gare.",
+      "answer": "ai consulté",
+      "hint": "p.182, ex.1"
     },
     {
       "id": 54,
-      "prompt": "Mon grand-père ___ en Provence et il ___ toute sa vie en Provence. (naître/vivre)",
-      "answer": "est né/a vécu",
-      "hint": "Naître avec être, vivre avec avoir"
+      "prompt": "... est descendu à la cave, puis il est allé dans la cour, il est monté sur le toit et il est ___ par la fenêtre.",
+      "answer": "passé",
+      "hint": "p.184, ex.1"
     },
     {
       "id": 55,
-      "prompt": "Vous vous êtes couché(e) tard hier soir ? - Oui, je me ___ couché(e) tard hier soir.",
-      "answer": "suis",
-      "hint": "Auxiliaire être avec pronom réfléchi"
+      "prompt": "C'est la deuxième fois que nous venons à Paris. La première fois, nous ___ en 1975.",
+      "answer": "sommes venus",
+      "hint": "p.185, ex.2"
     },
     {
       "id": 56,
-      "prompt": "Vous vous êtes levé(e) tôt ce matin ? - Oui, je me ___ levé(e) tôt ce matin.",
-      "answer": "suis",
-      "hint": "Auxiliaire être"
+      "prompt": "– Vous vous êtes levé(e) tôt ce matin ? – Oui, je ___ tôt ce matin.",
+      "answer": "me suis levé(e)",
+      "hint": "p.186, ex.1"
     },
     {
       "id": 57,
-      "prompt": "Vous vous êtes promené(e) dimanche dernier ? - Oui, je me ___ promené(e) dimanche dernier.",
-      "answer": "suis",
-      "hint": "Auxiliaire être"
+      "prompt": "– Vous vous êtes promené(e) dimanche dernier ? – Oui, je ___ dimanche dernier.",
+      "answer": "me suis promené(e)",
+      "hint": "p.186, ex.1"
     },
     {
       "id": 58,
-      "prompt": "Vous vous êtes arrêté(e) devant les vitrines ? - Oui, je me ___ arrêté(e) devant les vitrines.",
-      "answer": "suis",
-      "hint": "Auxiliaire être"
+      "prompt": "– Vous vous êtes arrêté(e) devant les vitrines ? – Oui, je ___ devant les vitrines.",
+      "answer": "me suis arrêté(e)",
+      "hint": "p.186, ex.1"
     },
     {
       "id": 59,
-      "prompt": "Mon fils s'est bien amusé au cirque. - Ma fille ___ est bien ___ au midi. (s'amuser)",
-      "answer": "s'/amusée",
-      "hint": "Accord féminin avec être"
+      "prompt": "– Vous vous êtes assis(e) dans les jardins ? – Oui, je ___ dans les jardins.",
+      "answer": "me suis assis(e)",
+      "hint": "p.186, ex.1"
     },
     {
       "id": 60,
-      "prompt": "Nos enfants se sont ennuyés au théâtre. - Nos enfants se ___ ennuyés aussi.",
-      "answer": "sont",
-      "hint": "Auxiliaire être avec ils"
+      "prompt": "1. Oui, je me suis couché(e) tard hier soir. 2. Oui, je me suis ___ dimanche dernier.",
+      "answer": "reposé(e)",
+      "hint": "p.187, ex.1"
     },
     {
       "id": 61,
-      "prompt": "Hier matin, Paula ___ levée très tôt.",
-      "answer": "s'est",
-      "hint": "Verbe pronominal avec être"
+      "prompt": "3. ... me suis dépêché(e). 4. Oui, je me suis essuyé(e), je me suis ___ les dents, je me suis habillé(e).",
+      "answer": "brossé",
+      "hint": "p.187, ex.1"
     },
     {
       "id": 62,
-      "prompt": "Elle ___ sorti(e) en vitesse. (sortir)",
-      "answer": "est",
-      "hint": "Verbe de déplacement avec être"
+      "prompt": "1. – Nous nous sommes rencontrés sur la plage de Saint-Tropez, en hiver. 2. – Oui, je me suis ___, elle aussi.",
+      "answer": "bien amusée",
+      "hint": "p.187, ex.2"
     },
     {
       "id": 63,
-      "prompt": "Elle ___ pris un café au bar du coin. (prendre)",
-      "answer": "a",
-      "hint": "Auxiliaire avoir"
+      "prompt": "... d'une voiture blanche. Ils sont entrés dans l'immeuble d'en face. Ils sont ___ au sixième.",
+      "answer": "montés",
+      "hint": "p.188, ex.1"
     },
     {
       "id": 64,
-      "prompt": "À Lisbonne, nous ___ arrivés le jour de la fête de la Saint-Jean.",
-      "answer": "sommes",
-      "hint": "Auxiliaire être avec nous"
+      "prompt": "En 1973, la première crise pétrolière a eu lieu. → En 1973, la première crise pétrolière ___.",
+      "answer": "a eu lieu",
+      "hint": "p.189, ex.5"
     },
     {
       "id": 65,
-      "prompt": "Nous nous ___ promenés dans le quartier de l'Alfama.",
-      "answer": "sommes",
-      "hint": "Verbe pronominal avec être"
+      "prompt": "1. ___ é(s/e/es) : elles sont allé___",
+      "answer": "es",
+      "hint": "p.190, ex.1"
     },
     {
       "id": 66,
-      "prompt": "Nous ___ mangé des sardines grillées.",
-      "answer": "avons",
-      "hint": "Auxiliaire avoir"
+      "prompt": "2. ___ é(s/e/es) : elles sont entré___",
+      "answer": "es",
+      "hint": "p.190, ex.1"
     },
     {
       "id": 67,
-      "prompt": "Nous ___ devenus amis.",
-      "answer": "sommes",
-      "hint": "Devenir avec être"
+      "prompt": "1. ___, ___, ___",
+      "answer": "és, é, és",
+      "hint": "p.191, ex.1"
     },
     {
       "id": 68,
-      "prompt": "En 1960, John Kennedy ___ devenu président des États-Unis.",
-      "answer": "est",
-      "hint": "Devenir avec être"
+      "prompt": "Vous êtes allé(e) en Bourgogne ? – Oui, ___",
+      "answer": "j'y suis allé(e)",
+      "hint": "p.193, ex.1"
     },
     {
       "id": 69,
-      "prompt": "En 1961, le Mur de Berlin ___ été construit.",
-      "answer": "a",
-      "hint": "Passif au passé composé"
+      "prompt": "Vous avez acheté du vin ? – Oui, ___",
+      "answer": "j'en ai acheté",
+      "hint": "p.193, ex.1"
     },
     {
       "id": 70,
-      "prompt": "En 1969, Neil Armstrong ___ marché sur la Lune.",
-      "answer": "a",
-      "hint": "Auxiliaire avoir"
+      "prompt": "Êtes-vous allé(e) au cinéma samedi dernier ? – Non, ___",
+      "answer": "je ne suis pas allé(e) au cinéma",
+      "hint": "p.194, ex.1"
     },
     {
       "id": 71,
-      "prompt": "Confidences : Julie ___ sort___ le soir. Mort___, elles sont enferm___ dans leur chambre.",
-      "answer": "est/ie/es/ées",
-      "hint": "Accord féminin singulier et pluriel avec être"
+      "prompt": "Êtes-vous monté(e) sur la tour Eiffel ? – Non, ___",
+      "answer": "je ne suis pas monté(e) sur la tour Eiffel",
+      "hint": "p.194, ex.1"
     },
     {
       "id": 72,
-      "prompt": "Paul et Marie se sont rencontr___ dans la queue du cinéma.",
-      "answer": "és",
-      "hint": "Accord masculin pluriel"
+      "prompt": "Avez-vous dîné au restaurant ? – Non, ___",
+      "answer": "je n'ai pas dîné au restaurant",
+      "hint": "p.194, ex.1"
     },
     {
       "id": 73,
-      "prompt": "Paul et Marie se sont rencontré___. Ils se sont regardé___.",
-      "answer": "s/s",
-      "hint": "Accord masculin pluriel"
+      "prompt": "Avez-vous invité vos amis ? – Non, ___",
+      "answer": "je n'ai pas invité mes amis",
+      "hint": "p.194, ex.1"
     },
     {
       "id": 74,
-      "prompt": "Ils se sont retrouvé___ toute la soirée.",
-      "answer": "s",
-      "hint": "Accord masculin pluriel"
+      "prompt": "Avez-vous révisé vos leçons ? – Non, ___",
+      "answer": "je n'ai pas révisé mes leçons",
+      "hint": "p.194, ex.1"
     },
     {
       "id": 75,
-      "prompt": "Vous avez acheté des pêches ? - Oui, je les ___ achetées. Et je les ai ___.",
-      "answer": "ai/mangées",
-      "hint": "Pronom COD + auxiliaire, accord"
+      "prompt": "1. Non, je ne suis pas allé(e) à la campagne. – Moi, je ___ monté(e) sur la tour Eiffel.",
+      "answer": "ne suis pas",
+      "hint": "p.195, ex.1"
     },
     {
       "id": 76,
-      "prompt": "Vous avez téléphoné à Pierre ? - Oui, je ___ ai téléphoné.",
-      "answer": "lui",
-      "hint": "Pronom COI"
+      "prompt": "2. Non, je n'ai pas crié. – Moi, je n'ai ___ pleuré.",
+      "answer": "pas",
+      "hint": "p.195, ex.1"
     },
     {
       "id": 77,
-      "prompt": "J'ai acheté des fleurs et je les ai ___.",
-      "answer": "offertes",
-      "hint": "Accord avec les (féminin pluriel)"
+      "prompt": "3. Non, je ne l'ai pas fait. – Non, je ne les ___ pas payés.",
+      "answer": "ai",
+      "hint": "p.195, ex.1"
     },
     {
       "id": 78,
-      "prompt": "J'ai cherché mes lunettes et je les ai ___.",
-      "answer": "trouvées",
-      "hint": "Accord avec les (féminin pluriel)"
+      "prompt": "4. Non, je ne l'ai pas reçue. – Non, je n'ai ___ plu.",
+      "answer": "pas",
+      "hint": "p.195, ex.1"
     },
     {
       "id": 79,
-      "prompt": "Il joue bien aux cartes. → Hier soir, il ___ bien ___.",
-      "answer": "a/joué",
-      "hint": "L'adverbe se place entre auxiliaire et participe"
+      "prompt": "5. Non, je ne l'ai ___ Moi, je n'ai pas tempêté.",
+      "answer": "pas fait.",
+      "hint": "p.195, ex.1"
     },
     {
       "id": 80,
-      "prompt": "Il mange peu. → Hier soir, il ___ peu ___.",
-      "answer": "a/mangé",
-      "hint": "L'adverbe se place entre auxiliaire et participe"
+      "prompt": "2. Oui, il s'est bien passé. – Moi, je n'ai pas plu. – Moi non plus, je n'ai ___ pleuré.",
+      "answer": "pas",
+      "hint": "p.195, ex.3"
     },
     {
       "id": 81,
-      "prompt": "Êtes-vous allé au cinéma samedi dernier ? - Non, je ne ___ pas allé au cinéma.",
-      "answer": "suis",
-      "hint": "Négation avec être"
+      "prompt": "1. – Ah bon, elle ne t'a pas ___",
+      "answer": "répondu",
+      "hint": "p.196, ex.1"
     },
     {
       "id": 82,
-      "prompt": "Êtes-vous monté sur la tour Eiffel ? - Non, je ne ___ pas monté sur la tour Eiffel.",
-      "answer": "suis",
-      "hint": "Négation avec être"
+      "prompt": "2. ___ elle a dit bonjour au bureau.",
+      "answer": "Ah bon, elle ne t'a pas reconnue (ou Ah bon, elle a dit bonjour au bureau)",
+      "hint": "p.196, ex.1"
     },
     {
       "id": 83,
-      "prompt": "Avez-vous invité vos amis ? - Non, je n'___ pas invité mes amis.",
-      "answer": "ai",
-      "hint": "Négation avec avoir"
+      "prompt": "1. ___ a été, ___ se sont trompé(e)s.",
+      "answer": "ça/ils",
+      "hint": "p.197, ex.1"
     },
     {
       "id": 84,
-      "prompt": "Avez-vous dîné au restaurant ? - Non, je n'___ pas dîné au restaurant.",
-      "answer": "ai",
-      "hint": "Négation avec avoir"
-    },
-    {
-      "id": 85,
-      "prompt": "Elle a pleuré. → Au théâtre : elle n'a ___ pleuré.",
-      "answer": "pas",
-      "hint": "Deuxième partie de la négation"
-    },
-    {
-      "id": 86,
-      "prompt": "Elle a applaudi. → Au théâtre : elle n'a ___ applaudi.",
-      "answer": "pas",
-      "hint": "Deuxième partie de la négation"
-    },
-    {
-      "id": 87,
-      "prompt": "Vous avez retrouvé vos clés ? - Non, je ne les ai ___ retrouvées.",
-      "answer": "pas",
-      "hint": "Négation avec pronom COD"
-    },
-    {
-      "id": 88,
-      "prompt": "Vous avez fini vos exercices ? - Non, je ne les ai ___ finis.",
-      "answer": "pas",
-      "hint": "Négation avec pronom COD"
-    },
-    {
-      "id": 89,
-      "prompt": "Vous avez fait votre valise ? - Non, je ne l'ai ___ faite.",
-      "answer": "pas",
-      "hint": "Négation avec pronom COD"
-    },
-    {
-      "id": 90,
-      "prompt": "Vous avez payé vos impôts ? - Non, je ne les ai ___ payés.",
-      "answer": "pas",
-      "hint": "Négation avec pronom COD"
-    },
-    {
-      "id": 91,
-      "prompt": "Non, je n'ai pas reconnu Julien dans la rue. → Je ne l'___ pas ___.",
-      "answer": "ai/reconnu",
-      "hint": "Pronom COD + négation"
-    },
-    {
-      "id": 92,
-      "prompt": "Non, je n'ai pas vu le dernier film de Li'l Wayne. → Je ne l'___ pas ___.",
-      "answer": "ai/vu",
-      "hint": "Pronom COD + négation"
-    },
-    {
-      "id": 93,
-      "prompt": "Ce matin, je ne mange qu'un croissant, mais hier, j'___ mangé deux.",
-      "answer": "en ai",
-      "hint": "Pronom en + auxiliaire avoir"
-    },
-    {
-      "id": 94,
-      "prompt": "Marie met trop de vinaigre dans la salade, hier encore, elle ___ trop mis.",
-      "answer": "en a",
-      "hint": "Pronom en + auxiliaire avoir"
-    },
-    {
-      "id": 95,
-      "prompt": "Tu parles trop à ta mère et, hier encore, tu ___ trop parlé.",
-      "answer": "lui as",
-      "hint": "Pronom COI + auxiliaire avoir"
-    },
-    {
-      "id": 96,
-      "prompt": "Non, je n'ai pas fait la cuisine. → Non, je ne l'___ pas ___.",
-      "answer": "ai/faite",
-      "hint": "Accord du participe avec le COD"
-    },
-    {
-      "id": 97,
-      "prompt": "Non, je ne me suis pas allé(e) à la campagne. → Non, je n'___ pas allé(e) à la campagne.",
-      "answer": "y suis",
-      "hint": "Pronom y + auxiliaire être"
-    },
-    {
-      "id": 98,
-      "prompt": "Non, je n'ai pas pris mon petit déjeuner. Non, je n'ai ___ fait.",
-      "answer": "rien",
-      "hint": "Ne...rien"
-    },
-    {
-      "id": 99,
-      "prompt": "Non, je n'ai rien mangé. Non, je n'ai vu ___.",
-      "answer": "personne",
-      "hint": "Ne...personne"
-    },
-    {
-      "id": 100,
-      "prompt": "Combien de temps y êtes-vous resté(e) ? Quand êtes-vous rentré(e) ? Ce sont des questions au ___ composé.",
-      "answer": "passé",
-      "hint": "Le temps verbal utilisé"
-    },
-    {
-      "id": 101,
-      "prompt": "Mettez les auxiliaires : Il ___ rou... , elle ___ resté..., il ___ dit...",
-      "answer": "a/est/a",
-      "hint": "Rouler avec avoir, rester avec être, dire avec avoir"
-    },
-    {
-      "id": 102,
-      "prompt": "Ils se ___ trompé(e)s.",
-      "answer": "sont",
-      "hint": "Verbe pronominal avec être"
-    },
-    {
-      "id": 103,
-      "prompt": "Mettez les terminaisons : Marta ___ malade et elle ___ dans mon lit.",
-      "answer": "est/s'est couchée",
-      "hint": "Être au passé composé + pronominal"
-    },
-    {
-      "id": 104,
-      "prompt": "Les randonneurs sont parti___ dans la forêt.",
-      "answer": "s",
-      "hint": "Accord masculin pluriel avec être"
-    },
-    {
-      "id": 105,
-      "prompt": "Prendre : l'eau quand elle ___ commencé à tomber, malades.",
-      "answer": "a",
-      "hint": "Auxiliaire avoir avec commencer"
-    },
-    {
-      "id": 106,
-      "prompt": "Le chien ___ renversé la poubelle. Nous l'___ promené et nous ___ rentrés.",
-      "answer": "a/avons/sommes",
-      "hint": "Auxiliaires avoir et être"
+      "prompt": "2. ___ tu as mal interprété ?",
+      "answer": "elle",
+      "hint": "p.197, ex.1"
     }
   ]
 },
@@ -5865,153 +5733,177 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Les semaines ont commencé ___ deux semaines.",
+      "prompt": "Les examens ont commencé ___ deux semaines.",
       "answer": "il y a",
-      "hint": "Moment passé"
+      "hint": "p.199, ex.1"
     },
     {
       "id": 2,
-      "prompt": "J'ai passé mon permis ___ longtemps.",
+      "prompt": "J'ai garé ma voiture ___ 4 ans.",
       "answer": "il y a",
-      "hint": "Moment passé"
+      "hint": "p.199, ex.1"
     },
     {
       "id": 3,
-      "prompt": "J'ai arrêté ma voiture ___ deux mois.",
+      "prompt": "J'ai arrêté ma voiture ___ un an.",
       "answer": "il y a",
-      "hint": "Moment passé"
+      "hint": "p.199, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Max travaille ici ___ vingt-huit ans.",
-      "answer": "depuis",
-      "hint": "Action qui continue"
+      "prompt": "J'ai passé mon permis ___ deux mois.",
+      "answer": "il y a",
+      "hint": "p.199, ex.1"
     },
     {
       "id": 5,
-      "prompt": "Complétez avec « depuis » ou « il y a » : Je suis en France ___ deux ans.",
-      "answer": "depuis",
-      "hint": "Action qui continue"
+      "prompt": "– Oui, j'ai connu ma femme ___ vingt-huit ans.",
+      "answer": "il y a",
+      "hint": "p.199, ex.2"
     },
     {
       "id": 6,
-      "prompt": "J'ai arrêté ma voiture ___ 15 minutes.",
-      "answer": "il y a",
-      "hint": "Moment passé"
+      "prompt": "– Vous êtes marié ___ longtemps ?",
+      "answer": "depuis",
+      "hint": "p.199, ex.2"
     },
     {
       "id": 7,
-      "prompt": "J'ai connu ma femme ___ 2 ans et 2 mois.",
-      "answer": "il y a",
-      "hint": "Moment passé"
+      "prompt": "Max travaille ici ___ 8 ans.",
+      "answer": "depuis",
+      "hint": "p.199, ex.2"
     },
     {
       "id": 8,
-      "prompt": "J'ai appelé ma voiture ___ un an.",
-      "answer": "il y a",
-      "hint": "Moment passé"
+      "prompt": "1. J'irai préparer la revanche. ___ deux mois là.",
+      "answer": "dans",
+      "hint": "p.199, ex.3"
     },
     {
       "id": 9,
-      "prompt": "La pièce a commencé ___ un quart d'heure.",
-      "answer": "depuis",
-      "hint": "Action qui continue"
+      "prompt": "2. J'ai passé le permis ___ 2 ans.",
+      "answer": "en",
+      "hint": "p.199, ex.3"
     },
     {
       "id": 10,
-      "prompt": "Complétez avec « dans » ou « en » : Je départ ___ six minutes.",
+      "prompt": "L'avion part ___ six minutes.",
       "answer": "dans",
-      "hint": "Moment futur"
+      "hint": "p.199, ex.4"
     },
     {
       "id": 11,
-      "prompt": "Le film finira ___ une heure.",
-      "answer": "dans",
-      "hint": "Moment futur"
+      "prompt": "J'ai attendu ___ une semaine.",
+      "answer": "pendant",
+      "hint": "p.199, ex.4"
     },
     {
       "id": 12,
-      "prompt": "J'ai travaillé à Bruxelles ___ un mois.",
+      "prompt": "1. J'ai travaillé à Bruxelles ___ un mois.",
       "answer": "pendant",
-      "hint": "Durée définie"
+      "hint": "p.199, ex.5"
     },
     {
       "id": 13,
-      "prompt": "J'ai étudié le latin ___ trois ans, de 2005 à 2008.",
-      "answer": "pendant",
-      "hint": "Durée définie"
+      "prompt": "2. ___ trois ans, je suis allé à Rome.",
+      "answer": "Il y a",
+      "hint": "p.199, ex.5"
     },
     {
       "id": 14,
-      "prompt": "Je suis allée à Rome ___ deux ans.",
-      "answer": "il y a",
-      "hint": "Moment passé"
+      "prompt": "3. J'ai étudié le latin ___ trois mois, de septembre à décembre.",
+      "answer": "pendant",
+      "hint": "p.199, ex.5"
     },
     {
       "id": 15,
-      "prompt": "J'ai fait 20 pages ___ trois mois, soit sept pages par mois.",
-      "answer": "en",
-      "hint": "Temps nécessaire"
+      "prompt": "4. Le docteur m'a donné un traitement homéopathique ___ un an.",
+      "answer": "pour",
+      "hint": "p.199, ex.5"
     },
     {
       "id": 16,
-      "prompt": "Max a dit : « Attendez-moi ici, ___ dix minutes. »",
-      "answer": "dans",
-      "hint": "Moment futur"
+      "prompt": "5. J'ai lu ce livre ___ quatre heures.",
+      "answer": "en",
+      "hint": "p.199, ex.5"
     },
     {
       "id": 17,
-      "prompt": "Aujourd'hui, les enfants peuvent se coucher tard. Hier, il n'y ___ pas d'école.",
-      "answer": "avait",
-      "hint": "Imparfait de avoir"
+      "prompt": "6. Je ne l'ai pas vu ___ des ans, donc je ne sais pas.",
+      "answer": "depuis",
+      "hint": "p.199, ex.5"
     },
     {
       "id": 18,
-      "prompt": "Nous sommes partis en Grèce, ___ le printemps.",
-      "answer": "c'était",
-      "hint": "C'était + saison"
+      "prompt": "1. Aujourd'hui, les enfants peuvent se coucher tard. Il n'y a pas d'école ___.",
+      "answer": "demain",
+      "hint": "p.201, ex.1"
     },
     {
       "id": 19,
-      "prompt": "Complétez la chronologie en utilisant « le matin » et « l'année » : Louise Dernier, j'___ visité la bibliothèque.",
-      "answer": "ai",
-      "hint": "Auxiliaire avoir"
+      "prompt": "2. Nous sommes le 20 mars et ___",
+      "answer": "hier",
+      "hint": "p.201, ex.1"
     },
     {
       "id": 20,
-      "prompt": "Chère Alice, j'ai trouvé un sous-documentaire ___ trois mois.",
-      "answer": "depuis",
-      "hint": "Action qui continue"
+      "prompt": "3. Le jour suivant, nous sommes partis en Grèce, c'est le ___.",
+      "answer": "le 14 (le printemps)",
+      "hint": "p.201, ex.1"
     },
     {
       "id": 21,
-      "prompt": "Rentré chez moi, j'___ commencé à faire la cuisine. Après, j'ai mis le poisson dans une marinade.",
-      "answer": "ai",
-      "hint": "Auxiliaire avoir"
+      "prompt": "4. Ce soir, je reste à la maison, mais ___ nous sommes partis à la campagne.",
+      "answer": "hier",
+      "hint": "p.201, ex.1"
     },
     {
       "id": 22,
-      "prompt": "Après avoir coupé les légumes, je les ai mis dans le four. → j'___ coupé les légumes.",
-      "answer": "ai",
-      "hint": "Infinitif passé : après avoir + participe passé"
+      "prompt": "5. Je me couche tôt. ___ tout le monde dormait dans la rue.",
+      "answer": "Hier",
+      "hint": "p.201, ex.1"
     },
     {
       "id": 23,
-      "prompt": "Christophe Colomb est parti des Canaries. → Après ___ parti des Canaries, il a découvert San Salvador.",
-      "answer": "être",
-      "hint": "Infinitif passé avec être"
+      "prompt": "L'année dernière, j'ai allé à la bibliothèque chez moi. ___, j'irai travaillé chez moi.",
+      "answer": "Cette année",
+      "hint": "p.201, ex.2"
     },
     {
       "id": 24,
-      "prompt": "Il a fini son travail. Il a bu un porto. → Après ___ son travail, il a bu un porto.",
-      "answer": "avoir fini",
-      "hint": "Infinitif passé avec avoir"
+      "prompt": "J'ai trouvé un sous-directeur ___ trois jours.",
+      "answer": "il y a",
+      "hint": "p.201, ex.3"
     },
     {
       "id": 25,
-      "prompt": "Il s'est douché. Il s'est changé. → Après s'___ douché, il s'est changé.",
-      "answer": "être",
-      "hint": "Infinitif passé avec être (pronominal)"
+      "prompt": "___ de trois mois, j'ai eu du mal à trouver.",
+      "answer": "Pendant",
+      "hint": "p.201, ex.3"
+    },
+    {
+      "id": 26,
+      "prompt": "Et puis ___ cinq mois, il a réussi à trouver un poste.",
+      "answer": "il y a",
+      "hint": "p.201, ex.3"
+    },
+    {
+      "id": 27,
+      "prompt": "___ rentré chez moi, j'ai commencé à faire la cuisine. Après ___ mis le poisson dans le four, j'___",
+      "answer": "Après être/avoir/ai",
+      "hint": "p.203, ex.1"
+    },
+    {
+      "id": 28,
+      "prompt": "Il est arrivé à Cuba et il a colonisé l'île. → ___ à Cuba, il a colonisé l'île.",
+      "answer": "Après être arrivé",
+      "hint": "p.203, ex.2"
+    },
+    {
+      "id": 29,
+      "prompt": "Il est reparti en Espagne et il a découvert les Petites Antilles. → ___ en Espagne, il a organisé une troisième expédition.",
+      "answer": "Après être retourné",
+      "hint": "p.203, ex.2"
     }
   ]
 },
@@ -6023,81 +5915,111 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Graham Bell a inventé le téléphone. → Le téléphone ___ par Graham Bell.",
-      "answer": "a été inventé",
-      "hint": "Passif au passé composé"
+      "prompt": "Fleming ___ la pénicilline. → La pénicilline ___ par Fleming.",
+      "answer": "a découvert/a été découverte",
+      "hint": "p.205, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Fleming a découvert la pénicilline. → La pénicilline ___ par Fleming.",
-      "answer": "a été découverte",
-      "hint": "Passif, accord féminin"
+      "prompt": "James Cameron ___ le film Titanic. → Le film Titanic ___ par James Cameron.",
+      "answer": "a réalisé/a été réalisé",
+      "hint": "p.205, ex.1"
     },
     {
       "id": 3,
-      "prompt": "James Cameron a réalisé le film Titanic. → Le film Titanic ___ par James Cameron.",
-      "answer": "a été réalisé",
-      "hint": "Passif au passé composé"
+      "prompt": "Gutenberg ___ l'imprimerie. → L'imprimerie ___ par Gutenberg.",
+      "answer": "a inventé/a été inventée",
+      "hint": "p.205, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Gutenberg a inventé l'imprimerie. → L'imprimerie ___ par Gutenberg.",
-      "answer": "a été inventée",
-      "hint": "Passif, accord féminin"
+      "prompt": "Saint-Exupéry ___ Le Petit Prince. → Le Petit Prince ___ par Saint-Exupéry.",
+      "answer": "a écrit/a été écrit",
+      "hint": "p.205, ex.1"
     },
     {
       "id": 5,
-      "prompt": "Saint-Exupéry a écrit Le Petit Prince. → Le Petit Prince ___ par Saint-Exupéry.",
-      "answer": "a été écrit",
-      "hint": "Passif au passé composé"
+      "prompt": "Qui a découvert la pénicilline ? → La pénicilline ___.",
+      "answer": "a été découverte par Fleming",
+      "hint": "p.205, ex.1"
     },
     {
       "id": 6,
-      "prompt": "La Bastille ___ été prise en 1789.",
-      "answer": "a",
-      "hint": "Auxiliaire avoir au passé composé du passif"
+      "prompt": "Des arbres ___ (couper).",
+      "answer": "ont été coupés",
+      "hint": "p.205, ex.3"
     },
     {
       "id": 7,
-      "prompt": "L'ONU ___ été créée en 1945.",
-      "answer": "a",
-      "hint": "Auxiliaire avoir au passé composé du passif"
+      "prompt": "Des maisons ___ (inonder).",
+      "answer": "ont été inondées",
+      "hint": "p.205, ex.3"
     },
     {
       "id": 8,
-      "prompt": "Des maisons ___ été construites. (construire)",
-      "answer": "ont",
-      "hint": "Auxiliaire avoir, pluriel"
+      "prompt": "Des familles ___ (évacuer).",
+      "answer": "ont été évacuées",
+      "hint": "p.205, ex.3"
     },
     {
       "id": 9,
-      "prompt": "Des arbres ___ été arrachés. (arracher)",
-      "answer": "ont",
-      "hint": "Auxiliaire avoir, pluriel"
+      "prompt": "L'électricité ___ (couper).",
+      "answer": "a été coupée",
+      "hint": "p.205, ex.3"
     },
     {
       "id": 10,
-      "prompt": "Des familles ___ été inondées. (inonder)",
-      "answer": "ont",
-      "hint": "Auxiliaire avoir, pluriel"
+      "prompt": "un courtier ___ (arrêter)",
+      "answer": "a été arrêté",
+      "hint": "p.205, ex.4"
     },
     {
       "id": 11,
-      "prompt": "L'émotion a été ___ par les médias. (rapporter)",
-      "answer": "rapportée",
-      "hint": "Participe passé féminin"
+      "prompt": "l'émission ___ (reporter)",
+      "answer": "a été reportée",
+      "hint": "p.205, ex.4"
     },
     {
       "id": 12,
-      "prompt": "La réunion a été ___ par le directeur. (organiser)",
-      "answer": "organisée",
-      "hint": "Participe passé féminin"
+      "prompt": "Les chiffres arabes ___ en Occident en 1202.",
+      "answer": "ont été introduits",
+      "hint": "p.205, ex.5"
     },
     {
       "id": 13,
-      "prompt": "Le Président français a reçu le Premier ministre anglais. → Le Premier ministre anglais ___ par le Président français.",
-      "answer": "a été reçu",
-      "hint": "Passif au passé composé"
+      "prompt": "La Bastille ___ en 1789.",
+      "answer": "a été prise",
+      "hint": "p.205, ex.5"
+    },
+    {
+      "id": 14,
+      "prompt": "L'imprimerie ___ par Gutenberg.",
+      "answer": "a été découverte",
+      "hint": "p.205, ex.5"
+    },
+    {
+      "id": 15,
+      "prompt": "La peine de mort ___ en France en 1981.",
+      "answer": "a été abolie",
+      "hint": "p.205, ex.5"
+    },
+    {
+      "id": 16,
+      "prompt": "L'ONU ___ en 1945.",
+      "answer": "a été créée",
+      "hint": "p.205, ex.5"
+    },
+    {
+      "id": 17,
+      "prompt": "Le mur de Berlin ___ en 1989.",
+      "answer": "a été détruit",
+      "hint": "p.205, ex.2"
+    },
+    {
+      "id": 18,
+      "prompt": "La Sorbonne ___ en 1253.",
+      "answer": "a été fondée",
+      "hint": "p.205, ex.2"
     }
   ]
 },
@@ -6109,183 +6031,207 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Maintenant, je parle beaucoup, mais avant, je ___ très peu.",
-      "answer": "parlais",
-      "hint": "Imparfait de parler"
+      "prompt": "Maintenant, je comprends presque tout à la télévision, mais au début de mon séjour, je ne ___ presque rien.",
+      "answer": "comprenais",
+      "hint": "p.207, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Maintenant, je marche très peu, mais avant, je ___ beaucoup.",
-      "answer": "marchais",
-      "hint": "Imparfait de marcher"
+      "prompt": "Maintenant, je mange très peu, mais avant, je ___ beaucoup.",
+      "answer": "mangeais",
+      "hint": "p.207, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Maintenant, je conduis lentement, mais avant, je ___ mal.",
+      "prompt": "Maintenant, je conduis lentement, mais avant, je ___ vite.",
       "answer": "conduisais",
-      "hint": "Imparfait de conduire"
+      "hint": "p.207, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Maintenant, je dors bien, mais avant, je ___ mal.",
-      "answer": "dormais",
-      "hint": "Imparfait de dormir"
+      "prompt": "Maintenant, je ne fais plus de sport, mais avant, je ___ beaucoup de sport.",
+      "answer": "faisais",
+      "hint": "p.207, ex.1"
     },
     {
       "id": 5,
-      "prompt": "Maintenant, je ne fais plus de sport, mais avant, je ___ beaucoup de sport.",
-      "answer": "faisais",
-      "hint": "Imparfait de faire"
+      "prompt": "Maintenant, je dors mal, mais avant, je ___ bien.",
+      "answer": "dormais",
+      "hint": "p.207, ex.1"
     },
     {
       "id": 6,
-      "prompt": "Quand vous étiez petit(e), où habitiez-vous ? - J'___ à Bordeaux.",
-      "answer": "habitais",
-      "hint": "Imparfait de habiter"
+      "prompt": "Maintenant, les enfants portent des casquettes de base-ball, mais avant, ils ___ des bérets.",
+      "answer": "portaient",
+      "hint": "p.207, ex.2"
     },
     {
       "id": 7,
-      "prompt": "Quand j'étais petit, j'avais ___ chien, Albert.",
-      "answer": "un",
-      "hint": "Article indéfini"
+      "prompt": "Maintenant, les femmes portent des robes courtes, mais avant, elles ___ des robes très longues.",
+      "answer": "portaient",
+      "hint": "p.207, ex.2"
     },
     {
       "id": 8,
-      "prompt": "Maintenant, je comprends presque tout à la télévision, mais au début, je ne ___ presque rien.",
-      "answer": "comprenais",
-      "hint": "Imparfait de comprendre"
+      "prompt": "Maintenant, on travaille trente-cinq heures par semaine, mais avant, on ___ soixante heures.",
+      "answer": "travaillait",
+      "hint": "p.207, ex.2"
     },
     {
       "id": 9,
-      "prompt": "Maintenant, j'habite dans un grand appartement, mais au début, j'___ dans un petit studio.",
+      "prompt": "Maintenant, j'habite dans une tour de trente étages, mais avant, j'___ dans une tour de trente étages.",
       "answer": "habitais",
-      "hint": "Imparfait de habiter"
+      "hint": "p.208, ex.1"
     },
     {
       "id": 10,
-      "prompt": "Maintenant, je lis les journaux, mais avant, je ne ___ pas les journaux.",
-      "answer": "lisais",
-      "hint": "Imparfait de lire"
+      "prompt": "Je ne connais pas mes voisins, mais avant, je ___ pas mes voisins non plus.",
+      "answer": "ne connaissais",
+      "hint": "p.208, ex.1"
     },
     {
       "id": 11,
-      "prompt": "Maintenant, je bois du vin, mais avant, je ne ___ pas de vin.",
-      "answer": "buvais",
-      "hint": "Imparfait de boire"
+      "prompt": "Je mange de la viande surgelée, mais avant, je ne ___ pas de viande surgelée.",
+      "answer": "mangeais",
+      "hint": "p.208, ex.1"
     },
     {
       "id": 12,
-      "prompt": "Maintenant, je vais souvent au cinéma, mais avant, je n'___ pas souvent au cinéma.",
+      "prompt": "Je vais au marché en voiture, mais avant, je n'___ pas au marché en voiture.",
       "answer": "allais",
-      "hint": "Imparfait de aller"
+      "hint": "p.208, ex.1"
     },
     {
       "id": 13,
-      "prompt": "Maintenant, la société Peugeot fabrique des voitures. Avant, elle ___ des machines à coudre.",
-      "answer": "fabriquait",
-      "hint": "Imparfait de fabriquer"
+      "prompt": "Les hommes préhistoriques ___ nomades : ils ___ des peaux de bêtes.",
+      "answer": "étaient/portaient",
+      "hint": "p.208, ex.2"
     },
     {
       "id": 14,
-      "prompt": "Maintenant, les enfants portent des casquettes de base-ball. Avant, ils ___ des bérets.",
-      "answer": "portaient",
-      "hint": "Imparfait de porter"
+      "prompt": "Pour se nourrir, ils ___ le gibier avec des flèches en pierre.",
+      "answer": "chassaient",
+      "hint": "p.208, ex.2"
     },
     {
       "id": 15,
-      "prompt": "Maintenant, les femmes portent des robes courtes. Avant, elles ___ des robes très longues.",
-      "answer": "portaient",
-      "hint": "Imparfait de porter"
+      "prompt": "Ils ___ le poisson dans les rivières et les lacs.",
+      "answer": "pêchaient",
+      "hint": "p.208, ex.2"
     },
     {
       "id": 16,
-      "prompt": "Maintenant, on travaille trente-cinq heures par semaine. Avant, on ___ soixante heures.",
-      "answer": "travaillait",
-      "hint": "Imparfait de travailler"
+      "prompt": "Ils ___ dans des grottes.",
+      "answer": "dormaient",
+      "hint": "p.208, ex.2"
     },
     {
       "id": 17,
-      "prompt": "Les hommes préhistoriques ___ nomades : ils ___ des peaux de bêtes. (être, porter)",
-      "answer": "étaient/portaient",
-      "hint": "Imparfait de être et porter"
+      "prompt": "Au XIXe siècle, les jeunes filles ___ pour trouver un bon parti.",
+      "answer": "cherchaient",
+      "hint": "p.209, ex.1"
     },
     {
       "id": 18,
-      "prompt": "Pour se nourrir, ils ___ avec des flèches en pierre. (chasser)",
-      "answer": "chassaient",
-      "hint": "Imparfait de chasser"
+      "prompt": "Il ___ trouver un mariage religieux.",
+      "answer": "fallait",
+      "hint": "p.209, ex.1"
     },
     {
       "id": 19,
-      "prompt": "Au Moyen Âge, on ___ surtout par la parole. (communiquer)",
-      "answer": "communiquait",
-      "hint": "Imparfait de communiquer"
+      "prompt": "Elles ___ avec beaucoup de monde.",
+      "answer": "mangeaient",
+      "hint": "p.209, ex.1"
     },
     {
       "id": 20,
-      "prompt": "Il ___ environ dix heures, trois hommes ont attaqué le caissier. (être, imparfait)",
-      "answer": "était",
-      "hint": "Imparfait pour la description/situation"
+      "prompt": "Les jeunes filles ___ régulièrement.",
+      "answer": "participaient",
+      "hint": "p.209, ex.1"
     },
     {
       "id": 21,
-      "prompt": "La banque ___ pleine de monde. (être, imparfait)",
-      "answer": "était",
-      "hint": "Imparfait pour la description"
+      "prompt": "Il ___ environ dix heures. → imparfait ou passé composé ?",
+      "answer": "était (imparfait)",
+      "hint": "p.211, ex.1"
     },
     {
       "id": 22,
-      "prompt": "Soudain, trois hommes ___ attaqué le caissier. (avoir, passé composé)",
-      "answer": "ont",
-      "hint": "Passé composé pour l'événement soudain"
+      "prompt": "Trois hommes ___ attaqué la banque. → imparfait ou passé composé ?",
+      "answer": "ont (passé composé)",
+      "hint": "p.211, ex.1"
     },
     {
       "id": 23,
-      "prompt": "Je (descendais/ai descendu) l'escalier quand tout à coup je ___ (dormais/ai dormi) tranquillement.",
-      "answer": "descendais/dormais",
-      "hint": "Imparfait pour les descriptions, PC pour les événements"
+      "prompt": "Je descendais l'escalier quand tout à coup ___",
+      "answer": "je suis tombé(e)",
+      "hint": "p.211, ex.2"
     },
     {
       "id": 24,
-      "prompt": "Hier soir, je suis sorti à 18 heures. Il ___ et il ___ beaucoup de monde. (description/situation)",
-      "answer": "pleuvait/y avait",
-      "hint": "Imparfait pour la description"
+      "prompt": "Je dormais tranquillement ___ depuis le matin.",
+      "answer": "quand le téléphone a sonné",
+      "hint": "p.211, ex.2"
     },
     {
       "id": 25,
-      "prompt": "Le film ___ et il ___ chaud. (description)",
-      "answer": "commençait/faisait",
-      "hint": "Imparfait pour la description"
+      "prompt": "Hier soir, je suis sorti à 18 heures. Il ___. (description)",
+      "answer": "pleuvait",
+      "hint": "p.211, ex.3"
     },
     {
       "id": 26,
-      "prompt": "Ce matin, mon fils se lève à sept heures. → Ce matin, mon fils ___ à sept heures. (se lever)",
-      "answer": "s'est levé",
-      "hint": "Passé composé, verbe pronominal"
+      "prompt": "Il ___ et il ___ beaucoup de monde. (description)",
+      "answer": "faisait froid/y avait",
+      "hint": "p.211, ex.3"
     },
     {
       "id": 27,
-      "prompt": "Quand j'(rencontrer) Paul, j'(admirer) encore Max. → Quand j'___ Paul, j'___ encore Max.",
-      "answer": "ai rencontré/admirais",
-      "hint": "PC pour l'événement, imparfait pour la situation"
+      "prompt": "Le film ___ et il ___ trop long. (description)",
+      "answer": "commençait/était",
+      "hint": "p.211, ex.3"
     },
     {
       "id": 28,
-      "prompt": "J'___ dans un petit appartement et je ne ___ pas de français. (habiter, parler)",
-      "answer": "habitais/parlais",
-      "hint": "Imparfait pour les situations"
+      "prompt": "Ce matin, mon fils se lève à sept heures. → Ce matin, mon fils ___ à sept heures.",
+      "answer": "se levait",
+      "hint": "p.212, ex.1"
     },
     {
       "id": 29,
-      "prompt": "Je ne ___ pas les gens et je ne ___ pas prendre les transports. (connaître, savoir)",
-      "answer": "connaissais/savais",
-      "hint": "Imparfait pour les situations"
+      "prompt": "1. Quand j'___ (rencontrer) Paul, j'___ (admirer) encore Max.",
+      "answer": "ai rencontré/admirais",
+      "hint": "p.212, ex.2"
     },
     {
       "id": 30,
-      "prompt": "Madame Élise ___ une vieille dame qui ___ seule sur la colline. (être, vivre)",
-      "answer": "était/vivait",
-      "hint": "Imparfait pour la description"
+      "prompt": "2. Quand j'___ (connaître) Paul, j'___ (dormir) mal.",
+      "answer": "ai connu/dormais",
+      "hint": "p.212, ex.2"
+    },
+    {
+      "id": 31,
+      "prompt": "3. Quand Paul ___ (ouvrir) la cage, son canard ___ (s'échapper).",
+      "answer": "a ouvert/s'est échappé",
+      "hint": "p.212, ex.2"
+    },
+    {
+      "id": 32,
+      "prompt": "4. Quand j'___ (téléphoner), le téléphone ___ (sonner).",
+      "answer": "ai téléphoné/sonnait",
+      "hint": "p.212, ex.2"
+    },
+    {
+      "id": 33,
+      "prompt": "J'___ une amie et ma tante ___ arrivée.",
+      "answer": "attendais/est",
+      "hint": "p.213, ex.1"
+    },
+    {
+      "id": 34,
+      "prompt": "Elle ___ les livres qui ___ sur le tapis.",
+      "answer": "contrôle/sortent (or a contrôlé/sortaient)",
+      "hint": "p.213, ex.1"
     }
   ]
 },
@@ -6297,63 +6243,93 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Quand votre mari est arrivé, vous aviez déjà ___. (dîner)",
-      "answer": "dîné",
-      "hint": "Plus-que-parfait : avoir à l'imparfait + participe passé"
+      "prompt": "– Quand vous avez trouvé du travail, vous aviez déjà terminé vos études ? – Oui, quand j'___ du travail, j'___ déjà terminé mes études.",
+      "answer": "ai trouvé/avais",
+      "hint": "p.215, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Quand vous avez trouvé du travail, vous ___ déjà terminé vos études. (avoir)",
-      "answer": "aviez",
-      "hint": "Avoir à l'imparfait avec vous"
+      "prompt": "– Quand vous avez passé le test, vous aviez déjà étudié le français ? – Oui, quand j'___ le test, j'___ déjà étudié le français.",
+      "answer": "ai passé/avais",
+      "hint": "p.215, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Quand vous avez rencontré le professeur, vous aviez déjà ___ le français. (étudier)",
-      "answer": "étudié",
-      "hint": "Participe passé de étudier"
+      "prompt": "– Quand le cours a commencé, vous aviez déjà acheté vos livres ? – Oui, quand le cours ___, j'___ déjà acheté mes livres.",
+      "answer": "a commencé/avais",
+      "hint": "p.215, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Quand le cours a commencé, vous aviez déjà ___ vos livres. (acheter)",
-      "answer": "acheté",
-      "hint": "Participe passé de acheter"
+      "prompt": "– Quand vous avez rencontré le professeur, vous aviez déjà lu la consigne ? – Oui, quand j'___ le professeur, j'___ déjà lu la consigne.",
+      "answer": "ai rencontré/avais",
+      "hint": "p.215, ex.1"
     },
     {
       "id": 5,
-      "prompt": "J'ai revu les amis que nous ___ invités. (avoir)",
-      "answer": "avions",
-      "hint": "Avoir à l'imparfait avec nous"
+      "prompt": "J'ai relu les amis que nous ___ en Grèce.",
+      "answer": "avions rencontrés",
+      "hint": "p.215, ex.2"
     },
     {
       "id": 6,
-      "prompt": "Les voyageurs ont récupéré les bagages qu'ils ___ laissés à la consigne. (avoir)",
-      "answer": "avaient",
-      "hint": "Avoir à l'imparfait avec ils"
+      "prompt": "Bernard a répondu en juin à la lettre que je lui ___ en février.",
+      "answer": "avais écrite",
+      "hint": "p.215, ex.2"
     },
     {
       "id": 7,
-      "prompt": "Quand je suis monté dans sa chambre, mon fils ___ fini ses devoirs. (avoir)",
-      "answer": "avait",
-      "hint": "Plus-que-parfait avec avoir"
+      "prompt": "Annie a retrouvé l'agenda qu'elle ___ l'année dernière.",
+      "answer": "avait perdu",
+      "hint": "p.215, ex.2"
     },
     {
       "id": 8,
-      "prompt": "Quand il m'a vu, il ___ son bain. (prendre, imparfait)",
-      "answer": "prenait",
-      "hint": "Imparfait pour l'action en cours"
+      "prompt": "Hier soir, je n'ai plus retrouvé l'endroit où j'___ ma voiture.",
+      "answer": "avais garé",
+      "hint": "p.215, ex.2"
     },
     {
       "id": 9,
-      "prompt": "Hier soir, je n'ai plus retrouvé l'endroit où j'___ garé la voiture. (avoir)",
-      "answer": "avais",
-      "hint": "Plus-que-parfait avec avoir"
+      "prompt": "Quand je suis arrivé, mon fils ___ ses devoirs. (finir)",
+      "answer": "avait fini",
+      "hint": "p.215, ex.3"
     },
     {
       "id": 10,
-      "prompt": "Quand je suis rentrée, la femme de ménage ___ arrosé les plantes. (avoir)",
-      "answer": "avait",
-      "hint": "Plus-que-parfait avec avoir"
+      "prompt": "Quand je suis monté dans sa chambre, il ___ son bain. (prendre)",
+      "answer": "avait pris",
+      "hint": "p.215, ex.3"
+    },
+    {
+      "id": 11,
+      "prompt": "Quand il m'a vu, il ___ son lit et il m'___ lu un dessin.",
+      "answer": "avait fait/a",
+      "hint": "p.215, ex.3"
+    },
+    {
+      "id": 12,
+      "prompt": "Quand je suis rentré(e), la femme de ménage ___ la moquette.",
+      "answer": "avait nettoyé",
+      "hint": "p.215, ex.4"
+    },
+    {
+      "id": 13,
+      "prompt": "Elle ___ les plantes qui ___ un peu partout...",
+      "answer": "avait arrosé/traînaient",
+      "hint": "p.215, ex.4"
+    },
+    {
+      "id": 14,
+      "prompt": "Elle ___ les vitres.",
+      "answer": "avait lavé",
+      "hint": "p.215, ex.4"
+    },
+    {
+      "id": 15,
+      "prompt": "Elle ___ le linge.",
+      "answer": "avait repassé",
+      "hint": "p.215, ex.4"
     }
   ]
 },
@@ -6365,111 +6341,111 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "L'enseignant est malade, on vous l'a dit ? → Oui, on m'a dit qu'il ___ malade.",
-      "answer": "était",
-      "hint": "Présent → imparfait"
+      "prompt": "– L'exergue est en panne, on vous l'a dit ? – Oui, on m'a dit ___",
+      "answer": "qu'il était en panne",
+      "hint": "p.217, ex.1"
     },
     {
       "id": 2,
-      "prompt": "À midi, il y a du couscous à la cantine, on vous l'a dit ? → Oui, on m'a dit qu'il y ___ du couscous.",
-      "answer": "avait",
-      "hint": "Présent → imparfait"
+      "prompt": "– À midi, il y a du couscous à la cantine, on vous l'a dit ? – Oui, on m'a dit ___",
+      "answer": "qu'il y avait du couscous à la cantine",
+      "hint": "p.217, ex.1"
     },
     {
       "id": 3,
-      "prompt": "On a volé du vélo du professeur, on vous l'a dit ? → Oui, on m'a dit qu'on ___ volé le vélo.",
-      "answer": "avait",
-      "hint": "Passé composé → plus-que-parfait"
+      "prompt": "– On a volé le vélo du professeur, on vous l'a dit ? – Oui, on m'a dit ___",
+      "answer": "qu'on avait volé le vélo du professeur",
+      "hint": "p.217, ex.1"
     },
     {
       "id": 4,
-      "prompt": "La secrétaire a démissionné, vous le saviez ? → Oui, on m'a dit qu'elle ___ démissionné.",
-      "answer": "avait",
-      "hint": "Passé composé → plus-que-parfait"
+      "prompt": "– La secrétaire a démissionné, vous le saviez ? – Oui, on m'a dit ___",
+      "answer": "qu'elle avait démissionné",
+      "hint": "p.217, ex.1"
     },
     {
       "id": 5,
-      "prompt": "« Allô, Georges ? C'est Thérèse. Je suis dans le train. » → Thérèse a téléphoné. Elle a dit qu'elle ___ dans le train.",
-      "answer": "était",
-      "hint": "Présent → imparfait"
+      "prompt": "– Monsieur Blois va prendre sa retraite, vous le saviez ? – Oui, on m'a dit ___",
+      "answer": "qu'il allait prendre sa retraite",
+      "hint": "p.217, ex.1"
     },
     {
       "id": 6,
-      "prompt": "« Je vais à Nice. » → Elle a dit qu'elle ___ à Nice.",
-      "answer": "allait",
-      "hint": "Présent → imparfait"
+      "prompt": "– L'école va fermer cet été, on vous l'a dit ? – Oui, on m'a dit ___",
+      "answer": "qu'elle allait fermer cet été",
+      "hint": "p.217, ex.1"
     },
     {
       "id": 7,
-      "prompt": "« Je ne connais pas tous les coins. » → Elle a dit qu'elle ne ___ pas tous les coins.",
-      "answer": "connaissait",
-      "hint": "Présent → imparfait"
+      "prompt": "– Nous ferons une fête de fin d'année, vous le saviez ? – Oui, on m'a dit ___",
+      "answer": "qu'on ferait une fête de fin d'année",
+      "hint": "p.217, ex.1"
     },
     {
       "id": 8,
-      "prompt": "« Je reviendrai mardi prochain. » → Elle a dit qu'elle ___ mardi prochain.",
-      "answer": "reviendrait",
-      "hint": "Futur → conditionnel"
+      "prompt": "– Il y aura un orchestre cubain et on dansera, on vous l'a dit ? – Oui, on m'a dit ___",
+      "answer": "qu'il y aurait un orchestre cubain et qu'on danserait",
+      "hint": "p.217, ex.1"
     },
     {
       "id": 9,
-      "prompt": "Jean-Luc a gagné à la loterie, tu le savais ? → Non, je ne savais pas qu'il ___ gagné à la loterie.",
-      "answer": "avait",
-      "hint": "Passé composé → plus-que-parfait"
+      "prompt": "– Allô, Georges ? C'est Thérèse. Je suis dans le train, je vais à Nice. → Thérèse a téléphoné. Elle a dit ___",
+      "answer": "qu'elle était dans le train et qu'elle allait à Nice",
+      "hint": "p.217, ex.2"
     },
     {
       "id": 10,
-      "prompt": "Il est parti en croisière en Égypte, on te l'a dit ? → Non, on ne m'a pas dit qu'il ___ parti en croisière.",
-      "answer": "était",
-      "hint": "Passé composé → plus-que-parfait (avec être)"
+      "prompt": "– Allô, Isabelle ? C'est Arnaud. Je viens de rentrer. → Il a dit ___",
+      "answer": "qu'il venait de rentrer",
+      "hint": "p.217, ex.2"
     },
     {
       "id": 11,
-      "prompt": "Il est tombé malade pendant le voyage, tu ne le savais pas ? → Non, je ne savais pas qu'il ___ tombé malade.",
-      "answer": "était",
-      "hint": "Passé composé → PQP avec être"
+      "prompt": "– Il est parti en croisière en Égypte, on te l'a dit ? – Non, je ne savais pas ___",
+      "answer": "qu'il était parti en croisière en Égypte",
+      "hint": "p.218, ex.1"
     },
     {
       "id": 12,
-      "prompt": "Un docteur chinois l'a guéri avec des algues, tu ne le savais pas ? → Non, je ne savais pas qu'un docteur chinois l'___ guéri.",
-      "answer": "avait",
-      "hint": "Passé composé → plus-que-parfait"
+      "prompt": "– Il est tombé malade pendant le voyage, tu ne le savais pas ? – Non, je ne savais pas ___",
+      "answer": "qu'il était tombé malade pendant le voyage",
+      "hint": "p.218, ex.1"
     },
     {
       "id": 13,
-      "prompt": "Il va épouser une princesse arabe, on ne te l'a pas dit ? → Non, on ne m'a pas dit qu'il ___ épouser une princesse.",
-      "answer": "allait",
-      "hint": "Futur proche → aller à l'imparfait"
+      "prompt": "– Un docteur chinois l'a guéri avec des algues, tu ne savais pas ? – Non, je ne savais pas ___",
+      "answer": "qu'un docteur chinois l'avait guéri avec des algues",
+      "hint": "p.218, ex.1"
     },
     {
       "id": 14,
-      "prompt": "Je lis dans un magazine qu'un garçon de douze ans a réussi le bac. → J'___ dans un magazine qu'un garçon de douze ans ___ réussi le bac.",
-      "answer": "ai lu/avait",
-      "hint": "PC pour l'action principale, PQP pour le contenu rapporté"
+      "prompt": "– Il est devenu l'associé d'un grand armateur, tu ne savais pas ? – Non, je ne savais pas ___",
+      "answer": "qu'il était devenu l'associé d'un grand armateur",
+      "hint": "p.218, ex.1"
     },
     {
       "id": 15,
-      "prompt": "Mon mari m'a dit : « J'ai besoin d'être un peu seul. » → Mon mari m'a dit qu'il ___ besoin d'être un peu seul.",
-      "answer": "avait",
-      "hint": "Présent → imparfait"
+      "prompt": "– Il va épouser une princesse arabe, on ne te l'a pas dit ? – Non, je ne savais pas ___",
+      "answer": "qu'il allait épouser une princesse arabe",
+      "hint": "p.218, ex.1"
     },
     {
       "id": 16,
-      "prompt": "« Je vais louer un petit studio. » → Il a dit qu'il ___ louer un petit studio.",
-      "answer": "allait",
-      "hint": "Futur proche → aller à l'imparfait"
+      "prompt": "Je lis dans une revue que les chiens voient seulement en noir et blanc. → J'ai lu dans une revue que les chiens ___ seulement en noir et blanc.",
+      "answer": "voyaient",
+      "hint": "p.218, ex.2"
     },
     {
       "id": 17,
-      "prompt": "« Je t'appellerai tous les soirs. » → Il a dit qu'il m'___ tous les soirs.",
-      "answer": "appellerait",
-      "hint": "Futur → conditionnel"
+      "prompt": "Je lis dans un magazine que les petites filles sont plus douées pour les langues. → J'ai lu dans un magazine que les petites filles ___ plus douées pour les langues.",
+      "answer": "étaient",
+      "hint": "p.218, ex.2"
     },
     {
       "id": 18,
-      "prompt": "« On se verra le week-end. » → Il a dit qu'on ___ le week-end.",
-      "answer": "se verrait",
-      "hint": "Futur → conditionnel"
+      "prompt": "Je lis dans le journal que beaucoup d'animaux et de plantes disparaîtront d'ici vingt ans. → J'ai lu dans le journal que beaucoup d'animaux et de plantes ___ d'ici vingt ans.",
+      "answer": "disparaîtraient",
+      "hint": "p.218, ex.2"
     }
   ]
 },
@@ -6481,111 +6457,111 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "N'entrez pas dans la chambre, Paul fait la sieste. → Paul ___ faire la sieste.",
-      "answer": "est en train de",
-      "hint": "Action en cours"
+      "prompt": "– N'entrez pas dans la chambre, Paul fait la sieste. → N'entrez pas dans la chambre, Paul ___ la sieste.",
+      "answer": "est en train de faire",
+      "hint": "p.223, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Ne dérangez pas Marie : elle fait des calculs compliqués. → Elle ___ faire des calculs.",
-      "answer": "est en train de",
-      "hint": "Action en cours"
+      "prompt": "– Ne dérangez pas Marie : elle fait des calculs compliqués. → Ne dérangez pas Marie : elle ___ des calculs compliqués.",
+      "answer": "est en train de faire",
+      "hint": "p.223, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Ne parlez pas, s'il vous plaît, nous enregistrons la conférence. → Nous ___ enregistrer la conférence.",
-      "answer": "sommes en train d'",
-      "hint": "Action en cours avec nous"
+      "prompt": "– Ne parlez pas, s'il vous plaît, nous enregistrons la conférence. → Ne parlez pas, s'il vous plaît, nous ___ la conférence.",
+      "answer": "sommes en train d'enregistrer",
+      "hint": "p.223, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Approche la lampe, s'il te plaît, je retire une épine de mon pouce. → Je ___ retirer une épine.",
-      "answer": "suis en train de",
-      "hint": "Action en cours avec je"
+      "prompt": "– Approche la lampe, s'il te plaît, je retire une épine de mon pouce. → Approche la lampe, s'il te plaît, je ___ une épine de mon pouce.",
+      "answer": "suis en train de retirer",
+      "hint": "p.223, ex.1"
     },
     {
       "id": 5,
-      "prompt": "Il y a longtemps que tu es rentré ? - Non, je ___ de rentrer.",
-      "answer": "viens",
-      "hint": "Passé récent avec venir"
+      "prompt": "– Il y a longtemps que tu es rentré ? – Non, je ___ rentrer.",
+      "answer": "viens de",
+      "hint": "p.223, ex.2"
     },
     {
       "id": 6,
-      "prompt": "Le match a commencé depuis longtemps ? - Non, il ___ de commencer.",
-      "answer": "vient",
-      "hint": "Passé récent avec venir"
+      "prompt": "– Le match a commencé depuis longtemps ? – Non, il ___ commencer.",
+      "answer": "vient de",
+      "hint": "p.223, ex.2"
     },
     {
       "id": 7,
-      "prompt": "Ma femme n'a pas appelé ? - Si, elle ___ d'appeler.",
-      "answer": "vient",
-      "hint": "Passé récent avec venir"
+      "prompt": "– Ma femme n'a pas appelé ? – Si, elle ___ appeler.",
+      "answer": "vient d'",
+      "hint": "p.223, ex.2"
     },
     {
       "id": 8,
-      "prompt": "Il y a longtemps que les enfants sont couchés ? - Non, ils ___ de se coucher.",
-      "answer": "viennent",
-      "hint": "Passé récent avec venir, pluriel"
+      "prompt": "– Il y a longtemps que les enfants sont couchés ? – Non, ils ___ se coucher.",
+      "answer": "viennent de",
+      "hint": "p.223, ex.2"
     },
     {
       "id": 9,
-      "prompt": "Tu as acheté ce canapé récemment ? - Oui, je ___ de l'acheter.",
-      "answer": "viens",
-      "hint": "Passé récent avec venir"
+      "prompt": "– Tu as acheté ce canapé récemment ? – Oui, je ___ l'acheter.",
+      "answer": "viens de",
+      "hint": "p.223, ex.2"
     },
     {
       "id": 10,
-      "prompt": "L'oiseau va s'envoler. → L'oiseau ___ sur le point de s'envoler.",
-      "answer": "est",
-      "hint": "Futur imminent"
+      "prompt": "La nuit va tomber. → La nuit ___.",
+      "answer": "est sur le point de tomber",
+      "hint": "p.223, ex.3"
     },
     {
       "id": 11,
-      "prompt": "La nuit va tomber. → La nuit ___ sur le point de tomber.",
-      "answer": "est",
-      "hint": "Futur imminent"
+      "prompt": "Les magasins vont fermer. → Les magasins ___.",
+      "answer": "sont sur le point de fermer",
+      "hint": "p.223, ex.3"
     },
     {
       "id": 12,
-      "prompt": "Les magasins vont fermer. → Les magasins ___ sur le point de fermer.",
-      "answer": "sont",
-      "hint": "Futur imminent, pluriel"
+      "prompt": "Les lumières vont s'allumer. → Les lumières ___.",
+      "answer": "sont sur le point de s'allumer",
+      "hint": "p.223, ex.3"
     },
     {
       "id": 13,
-      "prompt": "Les lumières vont s'allumer. → Les lumières ___ sur le point de s'allumer.",
-      "answer": "sont",
-      "hint": "Futur imminent, pluriel"
+      "prompt": "1. – Allô, Marie, je ne te dérange pas ? – Rappelle-moi plus tard, je ___ sortir.",
+      "answer": "suis sur le point de",
+      "hint": "p.223, ex.4"
     },
     {
       "id": 14,
-      "prompt": "Allô, Marie, je ne te dérange pas ? - Rappelle-moi plus tard, je ___ de sortir. (être sur le point)",
-      "answer": "suis sur le point",
-      "hint": "Futur imminent"
+      "prompt": "2. – Qu'est-ce qu'Antoine ___ ? – Il dessine un mouton !",
+      "answer": "est en train de faire",
+      "hint": "p.223, ex.4"
     },
     {
       "id": 15,
-      "prompt": "Qu'est-ce qu'Antoine écoute ? La Truite de Schubert. Ainsi s'achève notre programme musical. → Il ___ d'écouter La Truite. (venir)",
-      "answer": "vient",
-      "hint": "Passé récent"
+      "prompt": "3. – Vous ___ les enfants ? – Ils ___ la télévision.",
+      "answer": "cherchez/sont en train de regarder",
+      "hint": "p.223, ex.4"
     },
     {
       "id": 16,
-      "prompt": "Vous ___ les enfants ? - Ils ___ regarder la télévision. (chercher / être en train de)",
-      "answer": "cherchez/sont en train de",
-      "hint": "Action en cours"
+      "prompt": "4. – Où sont les enfants ? – Ils ___ regarder la télévision.",
+      "answer": "sont en train de",
+      "hint": "p.223, ex.4"
     },
     {
       "id": 17,
-      "prompt": "Il faut arroser les fleurs ? - Non, je ___ de les arroser. (venir)",
-      "answer": "viens",
-      "hint": "Passé récent"
+      "prompt": "5. – Il faut arroser les fleurs ? – Non, je ___ arroser. Regarde. La terre est trempée.",
+      "answer": "viens d'",
+      "hint": "p.223, ex.4"
     },
     {
       "id": 18,
-      "prompt": "Ne vous appuyez pas contre le mur : on ___ de le repeindre l'entrée. (être en train)",
-      "answer": "est en train",
-      "hint": "Action en cours"
+      "prompt": "6. – Ne vous appuyez pas contre le mur : on ___ repeindre l'entrée.",
+      "answer": "est en train de",
+      "hint": "p.223, ex.4"
     }
   ]
 },
@@ -6597,81 +6573,99 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Maintenant, j'habite dans un petit studio, mais un jour, j'___ à la campagne. (habiter)",
-      "answer": "habiterai",
-      "hint": "Futur simple de habiter"
+      "prompt": "Samedi prochain, il ___ du brouillard.",
+      "answer": "y aura",
+      "hint": "p.225, ex.2"
     },
     {
       "id": 2,
-      "prompt": "Actuellement, je n'ai pas beaucoup d'argent, mais plus tard, j'___. (avoir)",
-      "answer": "aurai",
-      "hint": "Futur simple irrégulier de avoir"
+      "prompt": "Il ___ froid et il ___ du brouillard en week-end.",
+      "answer": "fera/y aura",
+      "hint": "p.225, ex.2"
     },
     {
       "id": 3,
-      "prompt": "En ce moment, je vais à l'université en bus, mais plus tard, j'___ en voiture. (aller)",
-      "answer": "irai",
-      "hint": "Futur simple irrégulier de aller"
+      "prompt": "Il ___ attention sur la route quand vous ___ en week-end.",
+      "answer": "faudra/conduirez",
+      "hint": "p.225, ex.2"
     },
     {
       "id": 4,
-      "prompt": "Maintenant, je fais beaucoup de fautes de français, mais un jour, je n'en ___ plus. (faire)",
-      "answer": "ferai",
-      "hint": "Futur simple irrégulier de faire"
+      "prompt": "Les magasins ___ ouverts la veille de Noël et nous ___ des achats.",
+      "answer": "seront/ferons",
+      "hint": "p.225, ex.2"
     },
     {
       "id": 5,
-      "prompt": "Actuellement, je ne suis pas bilingue, mais un jour, je le ___. (être)",
-      "answer": "serai",
-      "hint": "Futur simple irrégulier de être"
+      "prompt": "Le 1er janvier, nous ___ de la dinde et du saumon et nous ___ du champagne.",
+      "answer": "mangerons/boirons",
+      "hint": "p.225, ex.2"
     },
     {
       "id": 6,
-      "prompt": "Samedi prochain, il ___ , il ___ froid et il y ___ du brouillard. (pleuvoir, faire, avoir)",
-      "answer": "pleuvra/fera/aura",
-      "hint": "Futurs irréguliers"
+      "prompt": "Quand nous ___ en vacances, nous ___ des cartes postales à nos grands-parents.",
+      "answer": "serons/enverrons",
+      "hint": "p.225, ex.2"
     },
     {
       "id": 7,
-      "prompt": "Les magasins ___ ouverts la veille de Noël et nous ___ des achats. (être, faire)",
-      "answer": "seront/ferons",
-      "hint": "Futurs irréguliers de être et faire"
+      "prompt": "– C'est gentil : ça leur ___ plaisir.",
+      "answer": "fera",
+      "hint": "p.225, ex.2"
     },
     {
       "id": 8,
-      "prompt": "Nous ___ de la dinde et du saumon et nous ___ du champagne. (manger, boire)",
-      "answer": "mangerons/boirons",
-      "hint": "Futur simple de manger et boire"
+      "prompt": "1. Déménager/envoyer sa nouvelle adresse à ses amis. → Je ___ et j'___ ma nouvelle adresse à mes amis.",
+      "answer": "vais déménager/enverrai",
+      "hint": "p.227, ex.1"
     },
     {
       "id": 9,
-      "prompt": "Quand nous ___ en vacances, nous ___ des cartes postales à nos grands-parents. (être, envoyer)",
-      "answer": "serons/enverrons",
-      "hint": "Futur simple de être et envoyer"
+      "prompt": "2. Aménager la terrasse/pouvoir dîner dehors. → Nous ___ la terrasse et nous ___ dîner dehors.",
+      "answer": "allons aménager/pourrons",
+      "hint": "p.227, ex.1"
     },
     {
       "id": 10,
-      "prompt": "Je ___ déménager et j'___ ma nouvelle adresse à mes amis. (aller/envoyer, futur simple)",
-      "answer": "vais/enverrai",
-      "hint": "Futur proche + futur simple"
+      "prompt": "3. Changer de quartier/aller au lycée à pied. → On ___ de quartier et on ___ au lycée à pied.",
+      "answer": "va changer/ira",
+      "hint": "p.227, ex.1"
     },
     {
       "id": 11,
-      "prompt": "Nous ___ aménager la terrasse et nous ___ dîner dehors. (aller/pouvoir, futur simple)",
-      "answer": "allons/pourrons",
-      "hint": "Futur proche + futur simple"
+      "prompt": "4. Prendre une aspirine/se sentir mieux. → Tu ___ une aspirine et tu ___ mieux.",
+      "answer": "vas prendre/te sentiras",
+      "hint": "p.227, ex.1"
     },
     {
       "id": 12,
-      "prompt": "Un jour, tu ___ (voir), on se ___ (rencontrer).",
-      "answer": "verras/rencontrera",
-      "hint": "Futur simple de voir et rencontrer"
+      "prompt": "Samedi matin, pendant que Jean ___ le petit déjeuner, Marie ___ le lit.",
+      "answer": "préparera/fera",
+      "hint": "p.227, ex.3"
     },
     {
       "id": 13,
-      "prompt": "Nous ___ (se regarder) et nous ___ (se reconnaître).",
-      "answer": "nous regarderons/nous reconnaîtrons",
-      "hint": "Futur simple des verbes pronominaux"
+      "prompt": "Un jour, tu ___",
+      "answer": "verras",
+      "hint": "p.227, ex.4"
+    },
+    {
+      "id": 14,
+      "prompt": "On ___ se rencontrer",
+      "answer": "va",
+      "hint": "p.227, ex.4"
+    },
+    {
+      "id": 15,
+      "prompt": "Nous nous ___ et nous nous ___",
+      "answer": "regarderons/reconnaîtrons",
+      "hint": "p.227, ex.4"
+    },
+    {
+      "id": 16,
+      "prompt": "Et la main dans la main, dans les rues, nous ___",
+      "answer": "irons",
+      "hint": "p.227, ex.4"
     }
   ]
 },
@@ -6683,75 +6677,75 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Terminer le pot-au-feu / faire des crêpes : Je ___ des crêpes, quand j'___ terminé le pot-au-feu.",
-      "answer": "ferai/aurai",
-      "hint": "Futur simple + futur antérieur"
+      "prompt": "1. Terminer le pot-au-feu / faire des crêpes → Je ___ des crêpes, quand j'___ le pot-au-feu.",
+      "answer": "ferai/aurai terminé",
+      "hint": "p.229, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Télécharger le premier épisode / télécharger le deuxième : Tu ___ le deuxième épisode quand tu ___ téléchargé le premier.",
-      "answer": "téléchargeras/auras",
-      "hint": "Futur simple + futur antérieur"
+      "prompt": "2. Télécharger le premier épisode / télécharger le deuxième épisode de la série → Tu ___ le deuxième épisode quand tu ___ le premier.",
+      "answer": "téléchargeras/auras téléchargé",
+      "hint": "p.229, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Passer le permis / acheter une voiture : Anne ___ une voiture quand elle ___ passé le permis.",
-      "answer": "achètera/aura",
-      "hint": "Futur simple + futur antérieur"
+      "prompt": "3. Passer le permis / acheter une voiture → Anne ___ une voiture quand elle ___ le permis.",
+      "answer": "achètera/aura passé",
+      "hint": "p.229, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Faire l'exercice n° 2 / faire l'exercice n° 3 : Nous ___ l'exercice n° 3 quand nous ___ fait l'exercice n° 2.",
-      "answer": "ferons/aurons",
-      "hint": "Futur simple + futur antérieur"
+      "prompt": "4. Faire l'exercice n° 2 / faire l'exercice n° 3 → Nous ___ l'exercice n° 3 quand nous ___ l'exercice n° 2.",
+      "answer": "ferons/aurons fait",
+      "hint": "p.229, ex.1"
     },
     {
       "id": 5,
-      "prompt": "Finir le stage / passer un examen : Ils ___ un examen quand ils ___ fini le stage.",
-      "answer": "passeront/auront",
-      "hint": "Futur simple + futur antérieur"
+      "prompt": "5. Finir le stage / passer un examen → Ils ___ un examen quand ils ___ le stage.",
+      "answer": "passeront/auront fini",
+      "hint": "p.229, ex.1"
     },
     {
       "id": 6,
-      "prompt": "Terminez votre traitement et revenez me voir. → Revenez me voir quand vous ___ terminé votre traitement.",
-      "answer": "aurez",
-      "hint": "Futur antérieur de avoir"
+      "prompt": "1. – Réfléchissez à ma proposition et téléphonez-moi. → Téléphonez-moi quand vous ___ à ma proposition.",
+      "answer": "aurez réfléchi",
+      "hint": "p.229, ex.2"
     },
     {
       "id": 7,
-      "prompt": "Réfléchissez à ma proposition et téléphonez-moi. → Téléphonez-moi quand vous ___ réfléchi.",
-      "answer": "aurez",
-      "hint": "Futur antérieur de avoir"
+      "prompt": "2. – Parlez à votre banquier et tenez-moi au courant. → Tenez-moi au courant quand vous ___ à votre banquier.",
+      "answer": "aurez parlé",
+      "hint": "p.229, ex.2"
     },
     {
       "id": 8,
-      "prompt": "Parlez à votre banquier et tenez-moi au courant. → Tenez-moi au courant quand vous ___ parlé à votre banquier.",
-      "answer": "aurez",
-      "hint": "Futur antérieur de avoir"
+      "prompt": "3. – Terminez votre travail et venez dans mon bureau. → Venez dans mon bureau quand vous ___ votre travail.",
+      "answer": "aurez terminé",
+      "hint": "p.229, ex.2"
     },
     {
       "id": 9,
-      "prompt": "Terminez votre travail et venez dans mon bureau. → Venez quand vous ___ terminé votre travail.",
-      "answer": "aurez",
-      "hint": "Futur antérieur de avoir"
+      "prompt": "4. – Enregistrez les données et éteignez l'ordinateur. → Éteignez l'ordinateur quand vous ___ les données.",
+      "answer": "aurez enregistré",
+      "hint": "p.229, ex.2"
     },
     {
       "id": 10,
-      "prompt": "Enregistrez les données et éteignez l'ordinateur. → Éteignez l'ordinateur quand vous ___ enregistré les données.",
-      "answer": "aurez",
-      "hint": "Futur antérieur de avoir"
+      "prompt": "5. – Prenez une décision et écrivez-moi. → Écrivez-moi quand vous ___ une décision.",
+      "answer": "aurez pris",
+      "hint": "p.229, ex.2"
     },
     {
       "id": 11,
-      "prompt": "Prenez une décision et écrivez-moi. → Écrivez-moi quand vous ___ pris une décision.",
-      "answer": "aurez",
-      "hint": "Futur antérieur de avoir"
+      "prompt": "On supprimera les frontières et on voyagera sans visa. → Quand on ___ les frontières, on ___ sans visa.",
+      "answer": "aura supprimé/voyagera",
+      "hint": "p.229, ex.3"
     },
     {
       "id": 12,
-      "prompt": "On supprimera les frontières et on voyagera sans visa. → Quand on ___ supprimé les frontières, on ___ sans visa.",
-      "answer": "aura/voyagera",
-      "hint": "Futur antérieur + futur simple"
+      "prompt": "On remplacera le pétrole par l'énergie solaire et la couche d'ozone se reconstituera. → Quand on ___ le pétrole, la couche d'ozone ___.",
+      "answer": "aura remplacé/se reconstituera",
+      "hint": "p.229, ex.3"
     }
   ]
 },
@@ -6763,27 +6757,63 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Mettez au conditionnel, pour reconstituer le texte de Georges Perec (extrait d'Espèces d'Espaces).\nL'utopie villageoise\nBien sûr on connaît tout le monde et les histoires de tout le monde. Tous les mercredis, le charcutier de Dampierre devant chez vous pour vous apporter les andouillettes.\nTous les lundis madame Blaise vient laver. On va avec les enfants cueillir des mûres...\nContinuez.\nBien sûr, on ___ tout le monde...",
-      "answer": "Réponse libre",
-      "hint": "p.231, ex.1 — mettez tout au conditionnel"
+      "prompt": "1. Avertissez-moi si vous quittez votre appartement. → Avertissez-moi au cas où vous ___ votre appartement.",
+      "answer": "quitteriez",
+      "hint": "p.231, ex.2"
     },
     {
       "id": 2,
-      "prompt": "Transformez avec « au cas où », selon le modèle.\nAppelez-moi si vous avez un problème. → Appelez-moi au cas où vous auriez un problème.\n1. Avertissez-moi si vous quittez votre appartement.\n2. Achetez une pizza. Il y aura peut-être des invités.\n3. Prenez un gros pull : il fera peut-être froid.\n4. Racontez tout à Pierre, s'il demande des explications.\n5. Regardez la règle de grammaire, si vous avez des doutes.",
-      "answer": "1. Avertissez-moi au cas où vous quitteriez votre appartement. 2. Achetez une pizza au cas où il y aurait des invités. 3. Prenez un gros pull au cas où il ferait froid. 4. Racontez tout à Pierre au cas où il demanderait des explications. 5. Regardez la règle de grammaire au cas où vous auriez des doutes.",
-      "hint": "p.231, ex.2 — au cas où + conditionnel"
+      "prompt": "2. Achetez une pizza. Il y aura peut-être des invités. → Achetez une pizza au cas où il y ___ des invités.",
+      "answer": "aurait",
+      "hint": "p.231, ex.2"
     },
     {
       "id": 3,
-      "prompt": "Complétez avec un conditionnel passé et un ou plusieurs pronoms compléments.\nJ'ai perdu votre numéro de téléphone, sinon je vous aurais appelé.\n1. Je ne savais pas qu'il y avait une fête dans le quartier, sinon ___\n2. Heureusement que le train avait un peu de retard, sinon ___\n3. J'ai oublié que c'était l'anniversaire de Marie, sinon ___\n4. Je ne savais pas que vous n'aimiez pas le fromage, sinon ___\n5. Heureusement que le chauffeur a évité mon chien, sinon ___",
-      "answer": "Réponses possibles : 1. j'y serais allé(e). 2. je l'aurais raté. 3. je lui aurais souhaité. 4. je ne vous en aurais pas servi. 5. il l'aurait écrasé.",
-      "hint": "p.231, ex.3 — conditionnel passé + pronoms"
+      "prompt": "3. Prenez un gros pull : il fera peut-être froid. → Prenez un gros pull au cas où il ___ froid.",
+      "answer": "ferait",
+      "hint": "p.231, ex.2"
     },
     {
       "id": 4,
-      "prompt": "Monsieur Dupond est vieux et il a des regrets. Exprimez-les. Continuez librement.\nvoyager – parler plusieurs langues – être un artiste – acheter une maison – profiter davantage de la vie – avoir des enfants – faire des économies – être plus tolérant\nJ'aurais aimé / J'aurais voulu ___\nJ'aurais dû ___",
-      "answer": "Réponse libre",
-      "hint": "p.231, ex.4 — exprimer des regrets au conditionnel passé"
+      "prompt": "4. Racontez tout à Pierre, s'il demande des explications. → Racontez tout à Pierre au cas où il ___ des explications.",
+      "answer": "demanderait",
+      "hint": "p.231, ex.2"
+    },
+    {
+      "id": 5,
+      "prompt": "5. Regardez la règle de grammaire, si vous avez des doutes. → Regardez la règle de grammaire au cas où vous ___ des doutes.",
+      "answer": "auriez",
+      "hint": "p.231, ex.2"
+    },
+    {
+      "id": 6,
+      "prompt": "1. Je ne savais pas qu'il y avait une fête dans le quartier, sinon ___",
+      "answer": "je vous aurais appelé",
+      "hint": "p.231, ex.3"
+    },
+    {
+      "id": 7,
+      "prompt": "2. Heureusement que le train avait un peu de retard, sinon ___",
+      "answer": "je l'aurais raté",
+      "hint": "p.231, ex.3"
+    },
+    {
+      "id": 8,
+      "prompt": "3. J'ai oublié que c'était l'anniversaire de Marie, sinon ___",
+      "answer": "je lui aurais offert quelque chose",
+      "hint": "p.231, ex.3"
+    },
+    {
+      "id": 9,
+      "prompt": "4. Je ne savais pas que vous n'aimiez pas le fromage, sinon ___",
+      "answer": "je ne vous en aurais pas servi",
+      "hint": "p.231, ex.3"
+    },
+    {
+      "id": 10,
+      "prompt": "5. Heureusement que le chauffeur a évité mon chien, sinon ___",
+      "answer": "il l'aurait écrasé",
+      "hint": "p.231, ex.3"
     }
   ]
 },
@@ -6795,105 +6825,261 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Répondez, selon le modèle.\n– Quand vous reviendrez à Paris, où habiterez-vous ?\n– Si je reviens à Paris, j'habiterai à l'hôtel.\n1. – Quand vous changerez de voiture, quelle voiture achèterez-vous ?\n2. – Quand vous inviterez Alice à dîner, où l'emmènerez-vous ?\n3. – Quand vous ferez une fête, ce sera un samedi ou un dimanche ?\n4. – Quand vous partirez en vacances, où irez-vous ?",
-      "answer": "Réponse libre",
-      "hint": "p.233, ex.1 — si + présent, futur"
+      "prompt": "– Quand vous changerez de voiture, quelle voiture achèterez-vous ? – Si je ___ de voiture, j'___",
+      "answer": "change/achèterai",
+      "hint": "p.233, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Faites des phrases avec des conséquences « en chaîne », selon le modèle.\nSuite logique :\nSortir sans parapluie → Se mouiller → Prendre froid → Tomber malade → Manquer l'école → Rater ses examens → Étudier pendant l'été → Ne pas partir en vacances !\nSi tu sors sans parapluie, tu te mouilleras, si tu te mouilles, ___",
-      "answer": "tu prendras froid, si tu prends froid, tu tomberas malade, si tu tombes malade, tu manqueras l'école, si tu manques l'école, tu rateras tes examens, si tu rates tes examens, tu étudieras pendant l'été, si tu étudies pendant l'été, tu ne partiras pas en vacances !",
-      "hint": "p.233, ex.2 — conséquences en chaîne"
+      "prompt": "– Quand vous inviterez Alice à dîner, où l'emmènerez-vous ? – Si je ___ Alice à dîner, je ___",
+      "answer": "invite/l'emmènerai",
+      "hint": "p.233, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Transformez, selon le modèle.\n– Pour mieux dormir, mangez peu le soir ! → Si vous mangez peu le soir, vous dormirez mieux !\n1. – Pour recevoir un catalogue, remplissez le formulaire !\n2. – Pour être efficace, réorganisez vos services !\n3. – Pour éviter les embouteillages, partez tôt !\n4. – Pour faire moins d'erreurs, parlez plus lentement !\n5. – Pour être plus en forme, prenez des vitamines !",
-      "answer": "1. Si vous remplissez le formulaire, vous recevrez un catalogue. 2. Si vous réorganisez vos services, vous serez plus efficace(s). 3. Si vous partez tôt, vous éviterez les embouteillages. 4. Si vous parlez plus lentement, vous ferez moins d'erreurs. 5. Si vous prenez des vitamines, vous serez plus en forme.",
-      "hint": "p.233, ex.3 — si + présent → futur"
+      "prompt": "– Quand vous ferez une fête, ce sera un samedi ou un dimanche ? – Si je ___ une fête, ce ___ un samedi.",
+      "answer": "fais/sera",
+      "hint": "p.233, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Complétez librement les phrases.\n1. Demain, s'il fait beau, nous ___ à la plage, mais si ___ au cinéma. Clara ___ Gabriel et si ___  à Moscou. ___ l'avion.\n2. J'attends un enfant, si c'est un garçon, je ___ mais si ___\n3. Si je vais à Lyon, je ___ le train, mais si ___\n4. Si je vais au restaurant chinois, ___ mais si ___\n5. Si j'ai deux jours de congé, ___",
-      "answer": "Réponse libre",
-      "hint": "p.233, ex.4 — complétez librement"
+      "prompt": "– Quand vous partirez en vacances, où irez-vous ? – Si je ___ en vacances, j'___",
+      "answer": "pars/irai",
+      "hint": "p.233, ex.1"
     },
     {
       "id": 5,
-      "prompt": "Répondez, selon le modèle.\n– Si vous aviez mal aux dents, que feriez-vous ?\n– Si j'avais mal aux dents, j'irais chez le dentiste.\n1. – Si vous aviez un an de congé, où iriez-vous ?\n2. – Si vous aviez un perroquet, comment l'appelleriez-vous ?\n3. – Si vous changiez de ville un jour, où iriez-vous ?\n4. – Si vous ne faisiez pas de grammaire en ce moment, que feriez-vous ?",
-      "answer": "Réponse libre",
-      "hint": "p.235, ex.1 — si + imparfait → conditionnel"
+      "prompt": "Sortir sans parapluie → Se mouiller → Prendre froid → Tomber malade → Manquer l'école → Rater ses examens → Étudier pendant l'été → Ne pas partir en vacances ! Si tu ___ sans parapluie, tu ___",
+      "answer": "sors/te mouilleras",
+      "hint": "p.233, ex.2"
     },
     {
       "id": 6,
-      "prompt": "Imaginez d'autres réalités.\n1. Je suis anglais. Je parle anglais. Si j'étais français, je parlerais français.\n2. On est en hiver. Il fait froid. Si on ___\n3. J'habite en ville. Je n'ai pas de chien. Si j'___\n4. Tu ne fais pas d'efforts. Tu ne fais pas de progrès. Si tu ___\n5. Je n'ai pas le permis. Je ne conduis pas. Si j'___",
-      "answer": "2. Si on était en été, il ferait chaud. 3. Si j'habitais à la campagne, j'aurais un chien. 4. Si tu faisais des efforts, tu ferais des progrès. 5. Si j'avais le permis, je conduirais.",
-      "hint": "p.235, ex.2 — imaginez d'autres réalités"
+      "prompt": "– Pour recevoir un catalogue, remplissez le formulaire ! → Si vous ___ le formulaire, vous ___ un catalogue !",
+      "answer": "remplissez/recevrez",
+      "hint": "p.233, ex.3"
     },
     {
       "id": 7,
-      "prompt": "Transformez avec une hypothèse sur le présent.\n– Vous avez besoin d'argent liquide, qu'est-ce que vous faites ?\n– Si j'avais besoin d'argent liquide, j'irais à la banque.\n1. – Vous trouvez un dossier dans un taxi, que faites-vous ?\n2. – Il y a une fuite dans votre cuisine, qu'est-ce que vous faites ?\n3. – Nous sommes bloqués dans l'ascenseur, que faites-vous ?\n4. – Un voisin appelle au secours, qu'est-ce que vous faites ?",
-      "answer": "Réponse libre",
-      "hint": "p.235, ex.3 — hypothèse sur le présent"
+      "prompt": "– Pour être efficace, réorganisez vos services ! → Si vous ___ vos services, vous ___ plus efficace !",
+      "answer": "réorganisez/serez",
+      "hint": "p.233, ex.3"
     },
     {
       "id": 8,
-      "prompt": "Propositions pour améliorer les grandes villes. Faites des hypothèses.\nmultiplier les passages souterrains pour les voitures – interdire le stationnement dans le centre – multiplier les transports en commun – doubler le nombre de taxis – planter des arbres – utiliser les fleuves pour les transports – etc.\nSi j'étais maire de ma ville, ___",
-      "answer": "Réponse libre",
-      "hint": "p.235, ex.4 — si j'étais maire"
+      "prompt": "– Pour éviter les embouteillages, partez tôt ! → Si vous ___ tôt, vous ___ les embouteillages !",
+      "answer": "partez/éviterez",
+      "hint": "p.233, ex.3"
     },
     {
       "id": 9,
-      "prompt": "Imaginez votre vie en commençant par « si j'étais »...\nun chat – la reine d'Angleterre – un professeur de français – une star de football – un petit enfant\nSi j'étais un chat, ___",
-      "answer": "Réponse libre",
-      "hint": "p.235, ex.5 — si j'étais..."
+      "prompt": "– Pour faire moins d'erreurs, parlez plus lentement ! → Si vous ___ plus lentement, vous ___ moins d'erreurs !",
+      "answer": "parlez/ferez",
+      "hint": "p.233, ex.3"
     },
     {
       "id": 10,
-      "prompt": "Transformez, selon le modèle. Complétez selon le modèle.\nMa meilleure amie : Elle mange des gâteaux à tous les repas et elle ne grossit pas !\nMoi, si je mangeais des gâteaux à tous les repas, je grossirais.\n1. Elle met des talons de 20 centimètres, et elle ne se tord pas la cheville.\nMoi, si ___\n2. Elle s'habille comme une gamine, et elle n'est pas ridicule.\nMoi, si ___\n3. Elle sort sous la pluie sans parapluie et elle ne s'enrhume jamais.\nMoi, si ___\n4. Elle fait ses vêtements elle-même et elle ressemble à une star.\nMoi, si ___",
-      "answer": "Réponse libre",
-      "hint": "p.236, ex.1 — moi, si je..."
+      "prompt": "– Pour être plus en forme, prenez des vitamines ! → Si vous ___ des vitamines, vous ___ plus en forme !",
+      "answer": "prenez/serez",
+      "hint": "p.233, ex.3"
     },
     {
       "id": 11,
-      "prompt": "Complétez selon le modèle.\nMon meilleur ami : Il mange des frites à tous les repas et il n'a pas de cholestérol !\nMoi, si je mangeais des frites à tous les repas, j'aurais du cholestérol.\n1. Il met du poivre et du piment dans tous les plats et il n'a pas mal à l'estomac.\nMoi, si ___\n2. Il est beau, riche et intelligent et il n'est pas content.\nMoi, si ___\n3. Il boit un litre d'alcool par jour et il est en super forme.\nMoi, si ___\n4. Il a deux femmes, six enfants et trois chiens, et il tient le coup.\nMoi, si ___",
-      "answer": "Réponse libre",
-      "hint": "p.236, ex.2 — moi, si je..."
+      "prompt": "1. – Si vous aviez un an de congé, où iriez-vous ? – Si j'___ un an de congé, j'___",
+      "answer": "avais/irais",
+      "hint": "p.235, ex.1"
     },
     {
       "id": 12,
-      "prompt": "Faites des propositions, selon le modèle.\n– Je suis fatigué(e) ! Si on faisait une pause ?\n– Il y a de bons films en ce moment : ___\n– On a 3 jours de congé, ___\n– J'ai faim ! – Moi aussi : ___",
-      "answer": "Réponse libre",
-      "hint": "p.236, ex.3 — suggestion avec si + imparfait"
+      "prompt": "2. – Si vous aviez un perroquet, comment l'appelleriez-vous ? – Si j'___ un perroquet, je ___",
+      "answer": "avais/l'appellerais",
+      "hint": "p.235, ex.1"
     },
     {
       "id": 13,
-      "prompt": "Au jeu des portraits chinois, décrivez oralement un ami, votre professeur...\nune fleur – un légume – une couleur – une ville – un acteur/une actrice – une voiture\nSi c'était une fleur, ce serait une violette.",
-      "answer": "Réponse libre",
-      "hint": "p.236, ex.4 — portraits chinois"
+      "prompt": "3. – Si vous changiez de ville un jour, où iriez-vous ? – Si je ___ de ville, j'___",
+      "answer": "changeais/irais",
+      "hint": "p.235, ex.1"
     },
     {
       "id": 14,
-      "prompt": "Complétez avec une hypothèse sur le passé.\nJ'ai gagné 1 000 euros à la Loterie. J'ai acheté une télévision.\n→ Si j'avais gagné 100 000 euros, ___\n1. Je suis allé dans un restaurant indien. J'ai mangé du poulet au curry.\n2. Je suis rentré chez moi en métro. J'ai mis une heure.\n3. J'ai eu 19 sur 20 à mon devoir. J'ai été deuxième.",
-      "answer": "Réponse libre",
-      "hint": "p.237, ex.1 — hypothèse sur le passé"
+      "prompt": "4. – Si vous ne faisiez pas de grammaire en ce moment, que feriez-vous ? – Si je ne ___ pas de grammaire, je ___",
+      "answer": "faisais/ferais",
+      "hint": "p.235, ex.1"
     },
     {
       "id": 15,
-      "prompt": "Transformez avec une hypothèse sur le passé.\nPaul n'a pas pu venir au cocktail parce qu'il avait trop de travail.\n→ S'il avait eu moins de travail, il serait venu au cocktail.\n1. Je ne suis pas allé(e) à la plage parce qu'il y avait trop de vent.\n2. Marie n'a pas pris son vélo parce qu'il y avait trop de circulation.\n3. Je ne suis pas allé(e) à la piscine parce qu'il y avait trop de monde.\n4. Tu as eu mal à la tête parce que tu as bu trop de vin.",
-      "answer": "1. S'il n'y avait pas eu de vent, je serais allé(e) à la plage. 2. S'il n'y avait pas eu de circulation, Marie aurait pris son vélo. 3. S'il n'y avait pas eu de monde, je serais allé(e) à la piscine. 4. Si tu n'avais pas bu trop de vin, tu n'aurais pas eu mal à la tête.",
-      "hint": "p.237, ex.2 — si + plus-que-parfait → conditionnel passé"
+      "prompt": "On est en hiver. Il fait froid. Si on ___ en été, ___",
+      "answer": "était/il ferait chaud",
+      "hint": "p.235, ex.2"
     },
     {
       "id": 16,
-      "prompt": "Complétez avec une hypothèse sur le passé.\n– Avez-vous acheté un journal, ce matin ?\n– Non, mais si j'avais acheté un journal, j'aurais acheté le Times !\n1. – Vous avez regardé la télévision, hier soir ? – Non, mais ___ un film.\n2. – Vous avez pris un apéritif à midi ? – Non, mais ___ un porto.\n3. – Avez-vous mangé des fruits au déjeuner ? – Non, mais ___ du melon.\n4. – Êtes-vous parti(e) en week-end, la semaine dernière ? – Non, mais ___ en Bretagne.",
-      "answer": "1. si j'avais regardé la télévision, j'aurais regardé un film. 2. si j'avais pris un apéritif, j'aurais pris un porto. 3. si j'avais mangé des fruits, j'aurais mangé du melon. 4. si j'étais parti(e) en week-end, je serais parti(e) en Bretagne.",
-      "hint": "p.237, ex.3 — hypothèse sur le passé"
+      "prompt": "J'habite en ville. Je n'ai pas de chien. Si j'___ à la campagne, ___",
+      "answer": "habitais/j'aurais un chien",
+      "hint": "p.235, ex.2"
     },
     {
       "id": 17,
-      "prompt": "Complétez avec une hypothèse sur le passé.\n1. André a perdu les livres que je lui avais confiés. Si j'avais su, je ne les lui aurais pas confiés.\n2. Marta a jeté le beau dessin que je lui avais donné. ___\n3. Mes voisins ont répété tout ce que je leur avais dit. ___\n4. Mes amis ont détesté le restaurant que je leur avais conseillé. ___\n5. Je me suis ennuyé(e) à la conférence de M. Boudet. ___",
-      "answer": "2. Si j'avais su, je ne le lui aurais pas donné. 3. Si j'avais su, je ne le leur aurais pas dit. 4. Si j'avais su, je ne le leur aurais pas conseillé. 5. Si j'avais su, je n'y serais pas allé(e).",
-      "hint": "p.237, ex.4 — si j'avais su + pronoms"
+      "prompt": "Tu ne fais pas d'efforts. Tu ne fais pas de progrès. Si tu ___, tu ___ des progrès.",
+      "answer": "faisais des efforts/ferais",
+      "hint": "p.235, ex.2"
+    },
+    {
+      "id": 18,
+      "prompt": "Je n'ai pas le permis. Je ne conduis pas. Si j'___ le permis, je ___",
+      "answer": "avais/conduirais",
+      "hint": "p.235, ex.2"
+    },
+    {
+      "id": 19,
+      "prompt": "1. – Vous trouvez un dossier dans un taxi, que faites-vous ? – Si je ___ un dossier dans un taxi, ___",
+      "answer": "trouvais/je le rapporterais",
+      "hint": "p.235, ex.3"
+    },
+    {
+      "id": 20,
+      "prompt": "2. – Il y a une fuite dans votre cuisine, qu'est-ce que vous faites ? – Si il y ___ une fuite, ___",
+      "answer": "avait/j'appellerais un plombier",
+      "hint": "p.235, ex.3"
+    },
+    {
+      "id": 21,
+      "prompt": "3. – Nous sommes bloqués dans l'ascenseur, que faites-vous ? – Si nous ___ bloqués, ___",
+      "answer": "étions/nous appellerions au secours",
+      "hint": "p.235, ex.3"
+    },
+    {
+      "id": 22,
+      "prompt": "4. – Un voisin appelle au secours, qu'est-ce que vous faites ? – Si un voisin ___ au secours, ___",
+      "answer": "appelait/j'irais l'aider",
+      "hint": "p.235, ex.3"
+    },
+    {
+      "id": 23,
+      "prompt": "1. Elle met des talons de 20 centimètres, et elle ne se tord pas la cheville. Moi, si je ___ des talons de 20 centimètres, je ___ la cheville.",
+      "answer": "mettais/me tordrais",
+      "hint": "p.236, ex.1"
+    },
+    {
+      "id": 24,
+      "prompt": "2. Elle s'habille comme une gamine, et elle n'est pas ridicule. Moi, si je ___ comme une gamine, je ___ ridicule.",
+      "answer": "m'habillais/serais",
+      "hint": "p.236, ex.1"
+    },
+    {
+      "id": 25,
+      "prompt": "3. Elle sort sous la pluie sans parapluie et elle ne s'enrhume jamais. Moi, si je ___ sans parapluie, je ___.",
+      "answer": "sortais/m'enrhumerais",
+      "hint": "p.236, ex.1"
+    },
+    {
+      "id": 26,
+      "prompt": "4. Elle fait ses vêtements elle-même et elle ressemble à une star. Moi, si je ___ mes vêtements moi-même, je ne ___ pas à une star.",
+      "answer": "faisais/ressemblerais",
+      "hint": "p.236, ex.1"
+    },
+    {
+      "id": 27,
+      "prompt": "J'ai gagné 1 000 euros à la Loterie. J'ai acheté une télévision. → Si j'avais gagné 100 000 euros, ___",
+      "answer": "j'aurais acheté une maison",
+      "hint": "p.237, ex.1"
+    },
+    {
+      "id": 28,
+      "prompt": "Je suis allé dans un restaurant indien. J'ai mangé du poulet au curry. → Si j'___ dans un restaurant chinois, ___",
+      "answer": "étais allé/j'aurais mangé du canard laqué",
+      "hint": "p.237, ex.1"
+    },
+    {
+      "id": 29,
+      "prompt": "Je suis rentré chez moi en métro. J'ai mis une heure. → Si j'___ en taxi, ___",
+      "answer": "étais rentré/j'aurais mis vingt minutes",
+      "hint": "p.237, ex.1"
+    },
+    {
+      "id": 30,
+      "prompt": "J'ai eu 19 sur 20 à mon devoir. J'ai été deuxième. → Si j'___ eu 20, ___",
+      "answer": "avais/j'aurais été premier",
+      "hint": "p.237, ex.1"
+    },
+    {
+      "id": 31,
+      "prompt": "1. Je ne suis pas allé(e) à la plage parce qu'il y avait trop de vent. → Si ___",
+      "answer": "il n'y avait pas eu de vent, je serais allé(e) à la plage",
+      "hint": "p.237, ex.2"
+    },
+    {
+      "id": 32,
+      "prompt": "2. Marie n'a pas pris son vélo parce qu'il y avait trop de circulation. → Si ___",
+      "answer": "il n'y avait pas eu de circulation, Marie aurait pris son vélo",
+      "hint": "p.237, ex.2"
+    },
+    {
+      "id": 33,
+      "prompt": "3. Je ne suis pas allé(e) à la piscine parce qu'il y avait trop de monde. → Si ___",
+      "answer": "il n'y avait pas eu de monde, je serais allé(e) à la piscine",
+      "hint": "p.237, ex.2"
+    },
+    {
+      "id": 34,
+      "prompt": "4. Tu as eu mal à la tête parce que tu as bu trop de vin. → Si ___",
+      "answer": "tu n'avais pas bu trop de vin, tu n'aurais pas eu mal à la tête",
+      "hint": "p.237, ex.2"
+    },
+    {
+      "id": 35,
+      "prompt": "1. – Vous avez regardé la télévision, hier soir ? – Non, mais ___ un film.",
+      "answer": "si j'avais regardé la télévision, j'aurais regardé",
+      "hint": "p.237, ex.3"
+    },
+    {
+      "id": 36,
+      "prompt": "2. – Vous avez pris un apéritif à midi ? – Non, mais ___ un porto.",
+      "answer": "si j'avais pris un apéritif, j'aurais pris",
+      "hint": "p.237, ex.3"
+    },
+    {
+      "id": 37,
+      "prompt": "3. – Avez-vous mangé des fruits au déjeuner ? – Non, mais ___ du melon.",
+      "answer": "si j'avais mangé des fruits, j'aurais mangé",
+      "hint": "p.237, ex.3"
+    },
+    {
+      "id": 38,
+      "prompt": "4. – Êtes-vous parti(e) en week-end, la semaine dernière ? – Non, mais ___ en Bretagne.",
+      "answer": "si j'étais parti(e), je serais allé(e)",
+      "hint": "p.237, ex.3"
+    },
+    {
+      "id": 39,
+      "prompt": "1. André a perdu les livres que je lui avais confiés. Si j'avais su, ___",
+      "answer": "je ne les lui aurais pas confiés",
+      "hint": "p.237, ex.4"
+    },
+    {
+      "id": 40,
+      "prompt": "2. Marta a jeté le beau dessin que je lui avais donné. Si j'avais su, ___",
+      "answer": "je ne le lui aurais pas donné",
+      "hint": "p.237, ex.4"
+    },
+    {
+      "id": 41,
+      "prompt": "3. Mes voisins ont répété tout ce que je leur avais dit. Si j'avais su, ___",
+      "answer": "je ne le leur aurais pas dit",
+      "hint": "p.237, ex.4"
+    },
+    {
+      "id": 42,
+      "prompt": "4. Mes amis ont détesté le restaurant que je leur avais conseillé. Si j'avais su, ___",
+      "answer": "je ne le leur aurais pas conseillé",
+      "hint": "p.237, ex.4"
+    },
+    {
+      "id": 43,
+      "prompt": "5. Je me suis ennuyé(e) à la conférence de M. Boudet. Si j'avais su, ___",
+      "answer": "je n'y serais pas allé(e)",
+      "hint": "p.237, ex.4"
     }
   ]
 },
@@ -6905,177 +7091,405 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "Transformez en utilisant « il faut que », selon le modèle.\nVous devez parler français. → Il faut que vous parliez français.\n1. Vous devez répéter souvent les mêmes structures.\n2. Vous devez écouter les exercices enregistrés.\n3. Vous devez corriger votre accent.\n4. Vous devez noter du vocabulaire.\n5. Vous devez regarder des films français.",
-      "answer": "1. Il faut que vous répétiez souvent les mêmes structures. 2. Il faut que vous écoutiez les exercices enregistrés. 3. Il faut que vous corrigiez votre accent. 4. Il faut que vous notiez du vocabulaire. 5. Il faut que vous regardiez des films français.",
-      "hint": "p.239, ex.1 — il faut que + subjonctif"
+      "prompt": "1. Vous devez répéter souvent les mêmes structures. → Il faut que vous ___ souvent les mêmes structures.",
+      "answer": "répétiez",
+      "hint": "p.239, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Transformez avec « il faut que ».\nAvant la randonnée.\nAvant de partir, il faut que nous contrôlions le matériel.\n– contrôler le matériel\n– regarder la météo\n– étudier la carte\n– préparer des sandwichs\n– emporter des pulls chauds\n– manger légèrement",
-      "answer": "Il faut que nous regardions la météo, il faut que nous étudiions la carte, il faut que nous préparions des sandwichs, il faut que nous emportions des pulls chauds, il faut que nous mangions légèrement.",
-      "hint": "p.239, ex.2 — il faut que nous..."
+      "prompt": "2. Vous devez écouter les exercices enregistrés. → Il faut que vous ___ les exercices enregistrés.",
+      "answer": "écoutiez",
+      "hint": "p.239, ex.1"
     },
     {
       "id": 3,
-      "prompt": "Décrivez les opérations nécessaires pour retirer de l'argent d'un distributeur.\ninsérer votre carte – composer votre code secret – sélectionner une opération – indiquer le montant – retirer les billets – ne pas oublier votre carte\nPour retirer de l'argent, il faut que vous ___",
-      "answer": "il faut que vous insériez votre carte, que vous composiez votre code secret, que vous sélectionniez une opération, que vous indiquiez le montant, que vous retiriez les billets et que vous n'oubliiez pas votre carte.",
-      "hint": "p.239, ex.3 — opérations au distributeur"
+      "prompt": "3. Vous devez corriger votre accent. → Il faut que vous ___ votre accent.",
+      "answer": "corrigiez",
+      "hint": "p.239, ex.1"
     },
     {
       "id": 4,
-      "prompt": "Conjuguez les « résolutions » du bon étudiant.\nJe dois étudier la grammaire. Je dois pratiquer la langue. Je dois recopier mes notes. Je dois accepter les « bizarreries » d'une autre langue. Je dois participer en cours.\nIl faut que j'étudie la grammaire. Il faut que tu ___",
-      "answer": "Il faut que tu pratiques la langue. Il faut qu'il recopie ses notes. Il faut que nous acceptions les « bizarreries » d'une autre langue. Il faut que vous participiez en cours.",
-      "hint": "p.239, ex.4 — conjuguer les résolutions"
+      "prompt": "4. Vous devez noter du vocabulaire. → Il faut que vous ___ du vocabulaire.",
+      "answer": "notiez",
+      "hint": "p.239, ex.1"
     },
     {
       "id": 5,
-      "prompt": "Donnez vos propres résolutions.",
-      "answer": "Réponse libre",
-      "hint": "p.239, ex.5"
+      "prompt": "5. Vous devez regarder des films français. → Il faut que vous ___ des films français.",
+      "answer": "regardiez",
+      "hint": "p.239, ex.1"
     },
     {
       "id": 6,
-      "prompt": "Complétez les dialogues avec « il faut que ». Les hommes d'affaires.\nTous mes collègues mettent une cravate, écrivent de gros rapports, lisent des journaux étrangers, sortent tard du bureau, font des heures supplémentaires.\nMoi aussi, il faut que je ___ une cravate !",
-      "answer": "il faut que je mette une cravate, il faut que j'écrive de gros rapports, il faut que je lise des journaux étrangers, il faut que je sorte tard du bureau, il faut que je fasse des heures supplémentaires.",
-      "hint": "p.241, ex.1 — il faut que je + subjonctif irrégulier"
+      "prompt": "Il faut regarder la météo. → Avant de partir, il faut que nous ___ la météo.",
+      "answer": "regardions",
+      "hint": "p.239, ex.2"
     },
     {
       "id": 7,
-      "prompt": "Complétez les dialogues avec « il faut que ».\n1. – Vous devez prendre ces antibiotiques.\n– Il faut vraiment que je les ___ ?\n– Oui, il faut que vous les ___.\n2. – Vous devez recevoir ces clients.\n3. – Vous devez jeter ces vieilles revues.\n4. – Vous devez apprendre ces règles.",
-      "answer": "1. prenne / preniez. 2. Il faut vraiment que je les reçoive ? – Oui, il faut que vous les receviez. 3. ...que je les jette ? ...que vous les jetiez. 4. ...que je les apprenne ? ...que vous les appreniez.",
-      "hint": "p.241, ex.2 — il faut que + verbes irréguliers"
+      "prompt": "Il faut étudier la carte. → Avant de partir, il faut que nous ___ la carte.",
+      "answer": "étudiions",
+      "hint": "p.239, ex.2"
     },
     {
       "id": 8,
-      "prompt": "Complétez les phrases avec les verbes manquants.\n1. Marie a très mal à la tête : il faut qu'elle prenne une aspirine.\n2. Tout est très sale : il faut que je ___ le ménage et la vaisselle.\n3. Vous êtes trop tendue : il faut que vous ___ moins de café.\n4. Les invités arrivent : il faut que je ___ le rôti dans le four.\n5. Mon rendez-vous est à neuf heures : il faut que je ___ de chez moi à huit heures.",
-      "answer": "2. fasse. 3. buviez (ou preniez). 4. mette. 5. parte.",
-      "hint": "p.241, ex.3 — verbes manquants au subjonctif"
+      "prompt": "Il faut préparer des sandwichs. → Avant de partir, il faut que nous ___ des sandwichs.",
+      "answer": "préparions",
+      "hint": "p.239, ex.2"
     },
     {
       "id": 9,
-      "prompt": "Transposez oralement avec « il faut ».\nCher Jules,\nJe dois partir pour New York avec Nicolas. Nous devons obtenir des crédits supplémentaires. La direction doit comprendre que le marché européen a changé. Elle doit nous suivre et nous faire confiance. Mais nous devons être très convaincants.\nPendant notre absence, tu dois faire patienter les clients. Tu dois leur dire que tout sera prêt à Noël, comme prévu. Naturellement, ils ne doivent pas savoir que nous avons des problèmes...\nBon courage ! Laurent\nIl faut que je ___",
-      "answer": "Il faut que je parte pour New York avec Nicolas. Il faut que nous obtenions des crédits supplémentaires. Il faut que la direction comprenne que le marché européen a changé. Il faut qu'elle nous suive et nous fasse confiance. Mais il faut que nous soyons très convaincants.",
-      "hint": "p.241, ex.4 — transposer avec il faut que"
+      "prompt": "Il faut emporter des pulls chauds. → Avant de partir, il faut que nous ___ des pulls chauds.",
+      "answer": "emportions",
+      "hint": "p.239, ex.2"
     },
     {
       "id": 10,
-      "prompt": "Donner la liste de tout ce que vous devez faire avant de partir en voyage.",
-      "answer": "Réponse libre",
-      "hint": "p.241, ex.5"
+      "prompt": "Il faut manger légèrement. → Avant de partir, il faut que nous ___ légèrement.",
+      "answer": "mangions",
+      "hint": "p.239, ex.2"
     },
     {
       "id": 11,
-      "prompt": "Notez les verbes suivis de l'indicatif et les verbes suivis du subjonctif.\nÀ propos d'un homme politique :\nJe pense qu'il est intelligent.\nJe trouve qu'il a du charisme.\nJ'aimerais qu'il réussisse.\nJe souhaite qu'il fasse des réformes.\nJ'ai peur qu'il ne fasse de mauvaises alliances.\nJe crains qu'il ne soit mal conseillé.\nJ'espère qu'il prendra de bonnes décisions.\nJe crois qu'il est compétent.\nJe trouve normal qu'il soit bien payé.\nJe suppose qu'il est cultivé.\n\n+ indicatif : ___\n+ subjonctif : ___",
-      "answer": "+ indicatif : Je pense, Je trouve, J'espère, Je crois, Je suppose. + subjonctif : J'aimerais, Je souhaite, J'ai peur, Je crains, Je trouve normal.",
-      "hint": "p.243, ex.1 — indicatif ou subjonctif"
+      "prompt": "Je dois étudier la grammaire. → Il faut que j'___ la grammaire.",
+      "answer": "étudie",
+      "hint": "p.239, ex.4"
     },
     {
       "id": 12,
-      "prompt": "Répondez selon le modèle.\n– Vous pensez que Paul prendra ses vacances en février ?\n– Je ne sais pas, mais j'aimerais bien qu'il prenne ses vacances en février.\n1. – Vous croyez que Marie viendra avec nous ?\n2. – Vous pensez que Julien réussira ses examens ?\n3. – Vous croyez que les enfants partiront ensemble ?\n4. – Vous pensez qu'ils prendront le train ?\n5. – Vous pensez qu'ils iront voir leur grand-mère ?",
-      "answer": "1. Je ne sais pas, mais j'aimerais bien qu'elle vienne avec nous. 2. ...qu'il réussisse ses examens. 3. ...qu'ils partent ensemble. 4. ...qu'ils prennent le train. 5. ...qu'ils aillent voir leur grand-mère.",
-      "hint": "p.243, ex.2 — j'aimerais bien que + subjonctif"
+      "prompt": "Je dois pratiquer la langue. → Il faut que je ___ la langue.",
+      "answer": "pratique",
+      "hint": "p.239, ex.4"
     },
     {
       "id": 13,
-      "prompt": "Complétez en exprimant vos opinions, vos désirs, vos craintes.\nLes produits bio sont plus chers que les autres. – Les criminels sont de plus en plus jeunes. – Il y a de la vie sur Mars. – Le monde politique est corrompu. – Il y a de plus en plus de cataclysmes. – On ne prend plus le temps de vivre. – Les hommes sont trop individualistes.\n\nJe trouve ___\nJe ne crois pas ___\nJ'aimerais ___\nJe regrette ___\nJe suis choqué(e) ___\nJe trouve inquiétant ___",
-      "answer": "Réponse libre",
-      "hint": "p.243, ex.3 — exprimer opinions avec indicatif/subjonctif"
+      "prompt": "Je dois recopier mes notes. → Il faut que je ___ mes notes.",
+      "answer": "recopie",
+      "hint": "p.239, ex.4"
     },
     {
       "id": 14,
-      "prompt": "Transformez pour utiliser des subjonctifs.\nSouhaits :\nJe trouve que mon bureau est trop petit et qu'il n'y a pas assez de lumière.\nJe trouve que la moquette est trop vieille et que la couleur des murs est trop triste.\nJe constate qu'il n'y a toujours pas de stores et qu'il n'y a pas de placard personnel.\nJe pense que nous faisons trop d'heures supplémentaires et que nous n'avons pas assez de temps pour déjeuner.\n→ Je voudrais que mon bureau soit plus grand...",
-      "answer": "Je voudrais que mon bureau soit plus grand et qu'il y ait plus de lumière. Je voudrais que la moquette soit moins vieille et que la couleur des murs soit moins triste. Je voudrais qu'il y ait des stores et qu'il y ait un placard personnel. Je voudrais que nous fassions moins d'heures supplémentaires et que nous ayons plus de temps pour déjeuner.",
-      "hint": "p.244, ex.1 — souhaits au subjonctif"
+      "prompt": "Je dois participer en cours. → Il faut que je ___ en cours.",
+      "answer": "participe",
+      "hint": "p.239, ex.4"
     },
     {
       "id": 15,
-      "prompt": "Transformez avec un indicatif ou un subjonctif.\nSentimentale :\nQuand tu es là, je suis contente. → Je suis contente que tu sois là.\nQuand tu pars, je suis triste.\nQuand tu m'écris, je suis ravie.\nQuand tu reviens, je suis heureuse.\nQuand tu me mens, je suis furieuse.",
-      "answer": "Je suis triste que tu partes. Je suis ravie que tu m'écrives. Je suis heureuse que tu reviennes. Je suis furieuse que tu me mentes.",
-      "hint": "p.244, ex.2 — sentiments + subjonctif"
+      "prompt": "Tous mes collègues mettent une cravate. → Moi aussi, il faut que je ___ une cravate !",
+      "answer": "mette",
+      "hint": "p.241, ex.1"
     },
     {
       "id": 16,
-      "prompt": "Répondez avec une forme négative, selon le modèle.\n– Vous pensez que la piscine est ouverte le soir ? → Non, je ne pense pas qu'elle soit ouverte.\n1. Vous croyez que les musées sont fermés le lundi ?\n2. Vous pensez qu'il y a un bus direct pour l'Opéra ?\n3. Vous croyez que nous sommes en retard ?\n4. Vous pensez qu'on peut entrer sans faire la queue ?\n5. Vous pensez qu'il fait froid, dehors ?",
-      "answer": "1. Non, je ne crois pas qu'ils soient fermés le lundi. 2. Non, je ne pense pas qu'il y ait un bus direct. 3. Non, je ne crois pas que nous soyons en retard. 4. Non, je ne pense pas qu'on puisse entrer sans faire la queue. 5. Non, je ne pense pas qu'il fasse froid.",
-      "hint": "p.244, ex.3 — ne pas penser/croire que + subjonctif"
+      "prompt": "Ils écrivent de gros rapports. → Il faut que j'___ de gros rapports.",
+      "answer": "écrive",
+      "hint": "p.241, ex.1"
     },
     {
       "id": 17,
-      "prompt": "Décrivez votre chambre sur le modèle de l'exercice 1 et dites ce que vous aimeriez modifier.",
-      "answer": "Réponse libre",
-      "hint": "p.244, ex.4"
+      "prompt": "Ils lisent des journaux étrangers. → Il faut que je ___ des journaux étrangers.",
+      "answer": "lise",
+      "hint": "p.241, ex.1"
     },
     {
       "id": 18,
-      "prompt": "Transformez pour utiliser des subjonctifs.\nSoucis :\nJe trouve que mon fils ne sort pas assez.\nIl n'a pas d'amis, il est trop seul.\nJe pense qu'il n'est pas assez sociable et qu'en général il ne fait pas assez d'efforts.\nJe remarque qu'il n'est pas très costaud.\nIl ne fait pas du tout de sport.\nIl ne va même plus à la piscine.\nJ'espère qu'il reprendra ses cours de guitare et qu'il ira de nouveau au concert le jeudi.\n→ J'aimerais que mon fils ___",
-      "answer": "J'aimerais que mon fils sorte plus. J'aimerais qu'il ait des amis, qu'il ne soit pas si seul. J'aimerais qu'il soit plus sociable et qu'il fasse plus d'efforts. J'aimerais qu'il soit plus costaud. J'aimerais qu'il fasse du sport. J'aimerais qu'il aille à la piscine.",
-      "hint": "p.245, ex.1 — soucis au subjonctif"
+      "prompt": "Ils sortent tard du bureau. → Il faut que je ___ tard du bureau.",
+      "answer": "sorte",
+      "hint": "p.241, ex.1"
     },
     {
       "id": 19,
-      "prompt": "Répondez en utilisant un subjonctif ou un indicatif.\n1. – Notre entreprise va déménager, je crois. – Moi aussi, je pense qu'elle va déménager.\n2. – Les employés seront mécontents, je le crains. – ___\n3. – Les clients vont faire des réclamations, j'en ai peur. – ___\n4. – Le directeur fera une réunion, j'imagine. – ___\n5. – Les actionnaires seront présents, je suppose. – ___",
-      "answer": "2. Moi aussi, je crains qu'ils soient mécontents. 3. Moi aussi, j'ai peur qu'ils fassent des réclamations. 4. Moi aussi, j'imagine qu'il fera une réunion. 5. Moi aussi, je suppose qu'ils seront présents.",
-      "hint": "p.245, ex.2 — indicatif ou subjonctif selon le verbe"
+      "prompt": "Ils font des heures supplémentaires. → Il faut que je ___ des heures supplémentaires.",
+      "answer": "fasse",
+      "hint": "p.241, ex.1"
     },
     {
       "id": 20,
-      "prompt": "Transformez selon le modèle.\nMatch de boxe :\nMax : La match va être difficile. / Paul : Je le pense aussi.\nMax : Le combat sera retransmis ? / Paul : Je le suppose.\nMax : L'arbitre est un ancien boxeur ? / Paul : J'imagine.\nMax : Jim va faire un beau match. / Paul : Je le souhaite !\nMax : Il y a plus de femmes que d'hommes. / Paul : Oui, je suis surpris !\n→ Paul pense que le match va être difficile. Il ne croit pas ___",
-      "answer": "Paul pense que le match va être difficile. Il suppose que le combat sera retransmis. Il imagine que l'arbitre est un ancien boxeur. Il souhaite que Jim fasse un beau match. Il est surpris qu'il y ait plus de femmes que d'hommes.",
-      "hint": "p.245, ex.3 — transformer avec indicatif/subjonctif"
+      "prompt": "1. – Vous devez prendre ces antibiotiques. – Il faut vraiment que je les ___ ?",
+      "answer": "prenne",
+      "hint": "p.241, ex.2"
     },
     {
       "id": 21,
-      "prompt": "Trouvez les verbes, selon le modèle.\n1. Je ne ___ pas que cette table soit très ancienne. 2. ___ qu'il ne pleuve pendant le week-end. 3. ___ qu'il y ait autant de monde dans la rue. 4. ___ que cette couleur te va bien. 5. ___ que tu viennes à ma fête. 6. ___ que vous soyez obligés de partir. 7. ___ que Paul n'ait la grippe. 8. ___ que les infirmières soient si mal payées.",
-      "answer": "1. Je ne pense pas. 2. J'espère (indicatif would need « il ne pleuvra pas », but « je souhaite/je crains » + subjonctif). 3. Je suis surpris(e). 4. Je trouve. 5. Je souhaite / J'aimerais. 6. Je regrette. 7. Je crains. 8. Je trouve injuste / scandaleux.",
-      "hint": "p.245, ex.4 — trouvez les verbes introducteurs"
+      "prompt": "2. – Vous devez recevoir ces clients. → Il faut que je les ___.",
+      "answer": "reçoive",
+      "hint": "p.241, ex.2"
     },
     {
       "id": 22,
-      "prompt": "Transformez selon le modèle.\n– Il y a parfois des perles dans les huîtres, mais c'est rare.\n– Oui, il est rare qu'il y ait des perles dans les huîtres.\n1. – Un footballeur est mieux payé qu'un ministre. C'est choquant.\n– Oui, ___\n2. – On meurt encore de faim au XXIe siècle. C'est insupportable.\n– Oui, ___\n3. – Paul B. n'écrit plus de romans. C'est dommage.\n– Oui, ___\n4. – La pollution est responsable de perturbations climatiques. C'est évident.\n– Oui, ___",
-      "answer": "1. Oui, il est choquant qu'un footballeur soit mieux payé qu'un ministre. 2. Oui, il est insupportable qu'on meure encore de faim au XXIe siècle. 3. Oui, il est dommage qu'il n'écrive plus de romans. 4. Oui, il est évident que la pollution est responsable de perturbations climatiques.",
-      "hint": "p.247, ex.1 — constructions impersonnelles"
+      "prompt": "3. – Vous devez jeter ces vieilles revues. → Il faut que je les ___.",
+      "answer": "jette",
+      "hint": "p.241, ex.2"
     },
     {
       "id": 23,
-      "prompt": "Reprenez les phrases avec « il vaudrait mieux que ».\n– Je suis en retard. Je vais prendre le métro. → Il vaudrait mieux que tu prennes un taxi !\n1. – J'ai une grosse migraine. Je vais prendre un whisky. – ___\n2. – J'ai invité ma belle-mère. Je vais faire une pizza surgelée. – ___\n3. – J'ai deux mois de vacances. Je vais aller en Sibérie. – ___\n4. – J'ai des économies. Je vais les mettre sous mon matelas. – ___\n5. – Je suis déprimé. Je vais aller chez une voyante. – ___",
-      "answer": "Réponse libre",
-      "hint": "p.247, ex.2 — il vaudrait mieux que + subjonctif"
+      "prompt": "4. – Vous devez apprendre ces règles. → Il faut que je les ___.",
+      "answer": "apprenne",
+      "hint": "p.241, ex.2"
     },
     {
       "id": 24,
-      "prompt": "Répondez en utilisant un subjonctif ou un indicatif.\n1. Il est souhaitable que vous ___ ces exercices et que vous ___ des livres en français. 2. Il faut que notre entreprise ___ des travaux. Il est important que les employés ___ de bonnes conditions de travail. 3. Il est certain que la situation économique ___ délicate et il est évident que l'avenir ___. 4. Je suppose que le directeur ___ assez sombre dans son bureau. Je vois qu'il y ___ encore de la lumière. 5. Il est possible qu'il y ___ une grève demain et j'imagine qu'il y ___ des embouteillages. 6. Il est dommage qu'il ne ___ pas beau, nous aurions pu dîner en terrasse. 7. Je cherche une baby-sitter qui ___ libre de 4 heures à 6 heures. Ça tombe bien, je crois que ma petite voisine ___ libre tous les après-midi ! 8. Il est fort probable qu'il ___ froid cet hiver.",
-      "answer": "1. fassiez / lisiez. 2. fasse / aient. 3. est / est (indicatif after il est certain/évident). 4. est (suppose → indicatif) / a. 5. ait / aura. 6. fasse. 7. soit / est. 8. fera (il est probable → indicatif).",
-      "hint": "p.247, ex.3 — subjonctif ou indicatif"
+      "prompt": "1. Marie a très mal à la tête : il faut qu'elle ___ une aspirine.",
+      "answer": "prenne",
+      "hint": "p.241, ex.3"
     },
     {
       "id": 25,
-      "prompt": "Faites des phrases selon le modèle en utilisant un subjonctif passé.\n1. Pierre est guéri. Je suis content. → Je suis content que Pierre soit guéri.\n2. Paul n'a pas fait son travail. Je suis furieux. ___\n3. Nous sommes arrivés en retard. Je suis désolé. ___",
-      "answer": "2. Je suis furieux que Paul n'ait pas fait son travail. 3. Je suis désolé que nous soyons arrivés en retard.",
-      "hint": "p.247, ex.4 — subjonctif passé"
+      "prompt": "2. Tout est très sale : il faut que je ___ le ménage et la vaisselle.",
+      "answer": "fasse",
+      "hint": "p.241, ex.3"
     },
     {
       "id": 26,
-      "prompt": "Complétez le texte avec les verbes manquants.\nJe n'accepterai pas, à moins que vous ne ___ tous d'accord.\n1. Jean et Thérèse ont économisé pour que leurs enfants ___ des études. 2. Il vaut mieux que nous abandonnions ce projet avant qu'il ___ trop tard. 3. Les enfants peuvent rester dans la salle à condition qu'ils ne ___ pas de bruit. 4. Bien que ce restaurant ___ très cher, il y a toujours beaucoup de monde. 5. Pour que nous ___ à l'heure à la gare, il faut partir maintenant. 6. Nous ne prendrons pas de décisions avant que tout le monde ___ la. 7. Voulez-vous prendre un café, en attendant que ma fille ___ prête ? 8. Nous travaillerons jusqu'à ce que tout ___ terminé.",
-      "answer": "1. fassent. 2. soit. 3. fassent. 4. soit. 5. soyons. 6. soit. 7. soit. 8. soit.",
-      "hint": "p.249, ex.1 — conjonctions + subjonctif"
+      "prompt": "3. Vous êtes trop tendue : il faut que vous ___ moins de café.",
+      "answer": "buviez",
+      "hint": "p.241, ex.3"
     },
     {
       "id": 27,
-      "prompt": "Complétez avec les subjonctifs manquants.\nLe stage d'informatique portera sur plusieurs semaines : les enfants seront pris en charge jusqu'à ce qu'ils ___ capables de se débrouiller tout seuls. Pour que la méthode ___ efficace, il faut que les enfants ___ travailler en équipe. Le programme débutera fin octobre, à moins que l'aménagement des salles ne ___ pas terminé. Pour que tous les enfants ___ le même matériel, il est important que les parents ___ rapidement par soumettre une liste de choses à acheter. Tous les enfants seront admis, à condition qu'ils ___ au minimum 12 ans et qu'ils ___ accompagnés le premier jour par une personne de leur famille.",
-      "answer": "soient / soit / puissent (ou sachent) / soit / aient / reçoivent / aient / soient.",
-      "hint": "p.249, ex.2 — subjonctifs manquants"
+      "prompt": "4. Les invités arrivent : il faut que je ___ le rôti dans le four.",
+      "answer": "mette",
+      "hint": "p.241, ex.3"
     },
     {
       "id": 28,
-      "prompt": "Transformez les phrases avec « pour que » et « il faut que », selon le modèle.\n– Le docteur pourra-t-il opérer si le patient n'est pas à jeun ?\n– Non, pour que le médecin puisse opérer, il faut que le patient soit à jeun.\n1. – Les médicaments seront-ils remboursés si le médecin n'est pas conventionné ?\n– Non, ___\n2. – Le patient pourra-t-il quitter l'hôpital s'il ne remplit pas une feuille de sortie ?\n– Non, ___\n3. – Le malade comprendra-t-il les instructions si on ne les traduit pas dans sa langue ?\n– Non, ___",
-      "answer": "1. Non, pour que les médicaments soient remboursés, il faut que le médecin soit conventionné. 2. Non, pour que le patient puisse quitter l'hôpital, il faut qu'il remplisse une feuille de sortie. 3. Non, pour que le malade comprenne les instructions, il faut qu'on les traduise dans sa langue.",
-      "hint": "p.249, ex.3 — pour que + subjonctif"
+      "prompt": "5. Mon rendez-vous est à neuf heures : il faut que je ___ de chez moi à huit heures.",
+      "answer": "parte",
+      "hint": "p.241, ex.3"
     },
     {
       "id": 29,
-      "prompt": "Faites des phrases selon le modèle.\n1. Si vous n'avez pas de ticket de caisse, nous ne pourrons pas échanger vos achats. → Pour que nous puissions échanger vos achats, il faut que ___\n2. Si les enfants n'ont pas d'autorisation, ils ne pourront pas sortir.\n3. Si vous restez moins de trois jours, vous n'aurez pas de réduction sur les vols.\n4. Si vous faites une grosse commande, vous aurez une remise.",
-      "answer": "1. Pour que nous puissions échanger vos achats, il faut que vous ayez un ticket de caisse. 2. Pour que les enfants puissent sortir, il faut qu'ils aient une autorisation. 3. Pour que vous ayez une réduction sur les vols, il faut que vous restiez au moins trois jours. 4. Pour que vous ayez une remise, il faut que vous fassiez une grosse commande.",
-      "hint": "p.249, ex.4 — pour que + il faut que"
+      "prompt": "Je pense qu'il est intelligent. → indicatif ou subjonctif ?",
+      "answer": "indicatif",
+      "hint": "p.243, ex.1"
+    },
+    {
+      "id": 30,
+      "prompt": "J'ai peur qu'il ne fasse de mauvaises alliances. → indicatif ou subjonctif ?",
+      "answer": "subjonctif",
+      "hint": "p.243, ex.1"
+    },
+    {
+      "id": 31,
+      "prompt": "1. – Vous croyez que Marie viendra avec nous ? – Je ne sais pas, mais j'aimerais bien qu'elle ___.",
+      "answer": "vienne",
+      "hint": "p.243, ex.2"
+    },
+    {
+      "id": 32,
+      "prompt": "2. – Vous pensez que Julien réussira ses examens ? – Je ne sais pas, mais j'aimerais bien qu'il ___.",
+      "answer": "réussisse",
+      "hint": "p.243, ex.2"
+    },
+    {
+      "id": 33,
+      "prompt": "3. – Vous croyez que les enfants partiront ensemble ? – Je ne sais pas, mais j'aimerais bien qu'ils ___.",
+      "answer": "partent",
+      "hint": "p.243, ex.2"
+    },
+    {
+      "id": 34,
+      "prompt": "4. – Vous pensez qu'ils prendront le train ? – Je ne sais pas, mais j'aimerais bien qu'ils ___.",
+      "answer": "prennent",
+      "hint": "p.243, ex.2"
+    },
+    {
+      "id": 35,
+      "prompt": "5. – Vous pensez qu'ils iront voir leur grand-mère ? – Je ne sais pas, mais j'aimerais bien qu'ils ___.",
+      "answer": "aillent",
+      "hint": "p.243, ex.2"
+    },
+    {
+      "id": 36,
+      "prompt": "Quand tu pars, je suis triste. → Je suis triste que tu ___.",
+      "answer": "partes",
+      "hint": "p.244, ex.2"
+    },
+    {
+      "id": 37,
+      "prompt": "Quand tu m'écris, je suis ravie. → Je suis ravie que tu m'___.",
+      "answer": "écrives",
+      "hint": "p.244, ex.2"
+    },
+    {
+      "id": 38,
+      "prompt": "Quand tu reviens, je suis heureuse. → Je suis heureuse que tu ___.",
+      "answer": "reviennes",
+      "hint": "p.244, ex.2"
+    },
+    {
+      "id": 39,
+      "prompt": "Quand tu me mens, je suis furieuse. → Je suis furieuse que tu me ___.",
+      "answer": "mentes",
+      "hint": "p.244, ex.2"
+    },
+    {
+      "id": 40,
+      "prompt": "1. Vous croyez que les musées sont fermés le lundi ? – Non, je ne crois pas qu'ils ___ fermés.",
+      "answer": "soient",
+      "hint": "p.244, ex.3"
+    },
+    {
+      "id": 41,
+      "prompt": "2. Vous pensez qu'il y a un bus direct pour l'Opéra ? – Non, je ne pense pas qu'il y ___ un bus direct.",
+      "answer": "ait",
+      "hint": "p.244, ex.3"
+    },
+    {
+      "id": 42,
+      "prompt": "3. Vous croyez que nous sommes en retard ? – Non, je ne crois pas que nous ___ en retard.",
+      "answer": "soyons",
+      "hint": "p.244, ex.3"
+    },
+    {
+      "id": 43,
+      "prompt": "4. Vous pensez qu'on peut entrer sans faire la queue ? – Non, je ne pense pas qu'on ___ entrer sans faire la queue.",
+      "answer": "puisse",
+      "hint": "p.244, ex.3"
+    },
+    {
+      "id": 44,
+      "prompt": "5. Vous pensez qu'il fait froid, dehors ? – Non, je ne pense pas qu'il ___ froid.",
+      "answer": "fasse",
+      "hint": "p.244, ex.3"
+    },
+    {
+      "id": 45,
+      "prompt": "1. – Notre entreprise va déménager, je crois. – Moi aussi, je pense ___.",
+      "answer": "qu'elle va déménager",
+      "hint": "p.245, ex.2"
+    },
+    {
+      "id": 46,
+      "prompt": "2. – Les employés seront mécontents, je le crains. – Moi aussi, je crains ___.",
+      "answer": "qu'ils ne soient mécontents",
+      "hint": "p.245, ex.2"
+    },
+    {
+      "id": 47,
+      "prompt": "3. – Les clients vont faire des réclamations, j'en ai peur. – Moi aussi, j'ai peur ___.",
+      "answer": "qu'ils ne fassent des réclamations",
+      "hint": "p.245, ex.2"
+    },
+    {
+      "id": 48,
+      "prompt": "4. – Le directeur fera une réunion, j'imagine. – Moi aussi, j'imagine ___.",
+      "answer": "qu'il fera une réunion",
+      "hint": "p.245, ex.2"
+    },
+    {
+      "id": 49,
+      "prompt": "5. – Les actionnaires seront présents, je suppose. – Moi aussi, je suppose ___.",
+      "answer": "qu'ils seront présents",
+      "hint": "p.245, ex.2"
+    },
+    {
+      "id": 50,
+      "prompt": "1. Je ne pense pas ___ que cette table soit très ancienne.",
+      "answer": "je ne pense pas",
+      "hint": "p.245, ex.4"
+    },
+    {
+      "id": 51,
+      "prompt": "2. ___ qu'il ne pleuve pendant le week-end.",
+      "answer": "J'ai peur",
+      "hint": "p.245, ex.4"
+    },
+    {
+      "id": 52,
+      "prompt": "3. ___ qu'il y ait autant de monde dans la rue.",
+      "answer": "Je m'étonne",
+      "hint": "p.245, ex.4"
+    },
+    {
+      "id": 53,
+      "prompt": "4. ___ que cette couleur te va bien.",
+      "answer": "Je trouve",
+      "hint": "p.245, ex.4"
+    },
+    {
+      "id": 54,
+      "prompt": "1. – Un footballeur est mieux payé qu'un ministre. C'est choquant. – Oui, ___",
+      "answer": "il est choquant qu'un footballeur soit mieux payé qu'un ministre",
+      "hint": "p.247, ex.1"
+    },
+    {
+      "id": 55,
+      "prompt": "2. – On meurt encore de faim au XXIe siècle. C'est insupportable. – Oui, ___",
+      "answer": "il est insupportable qu'on meure encore de faim au XXIe siècle",
+      "hint": "p.247, ex.1"
+    },
+    {
+      "id": 56,
+      "prompt": "3. – Paul B. n'écrit plus de romans. C'est dommage. – Oui, ___",
+      "answer": "il est dommage que Paul B. n'écrive plus de romans",
+      "hint": "p.247, ex.1"
+    },
+    {
+      "id": 57,
+      "prompt": "4. – La pollution est responsable de perturbations climatiques. C'est évident. – Oui, ___",
+      "answer": "il est évident que la pollution est responsable de perturbations climatiques",
+      "hint": "p.247, ex.1"
+    },
+    {
+      "id": 58,
+      "prompt": "1. Il est souhaitable que vous ___ des exercices et que vous ___ des livres en français.",
+      "answer": "fassiez/lisiez",
+      "hint": "p.247, ex.3"
+    },
+    {
+      "id": 59,
+      "prompt": "2. Il faut que notre entreprise ___ des travaux.",
+      "answer": "fasse",
+      "hint": "p.247, ex.3"
+    },
+    {
+      "id": 60,
+      "prompt": "3. Il est important que les employés ___ de bonnes conditions de travail.",
+      "answer": "aient",
+      "hint": "p.247, ex.3"
+    },
+    {
+      "id": 61,
+      "prompt": "Je n'accepterai pas, à moins que vous ne ___ tous d'accord.",
+      "answer": "soyez",
+      "hint": "p.249, ex.1"
+    },
+    {
+      "id": 62,
+      "prompt": "1. Jean et Thérèse ont économisé pour que leurs enfants ___ des études.",
+      "answer": "fassent",
+      "hint": "p.249, ex.1"
+    },
+    {
+      "id": 63,
+      "prompt": "3. Les enfants peuvent rester dans la salle à condition qu'ils ne ___ pas de bruit.",
+      "answer": "fassent",
+      "hint": "p.249, ex.1"
+    },
+    {
+      "id": 64,
+      "prompt": "5. Pour que nous ___ à l'heure à la gare, il faut partir maintenant.",
+      "answer": "soyons",
+      "hint": "p.249, ex.1"
+    },
+    {
+      "id": 65,
+      "prompt": "1. – Les médicaments seront-ils remboursés si le médecin n'est pas conventionné ? – Non, pour que les médicaments ___ remboursés, il faut que le médecin ___ conventionné.",
+      "answer": "soient/soit",
+      "hint": "p.249, ex.3"
+    },
+    {
+      "id": 66,
+      "prompt": "2. – Le patient pourra-t-il quitter l'hôpital s'il ne remplit pas une feuille de sortie ? – Non, pour que le patient ___ quitter l'hôpital, il faut qu'il ___ une feuille de sortie.",
+      "answer": "puisse/remplisse",
+      "hint": "p.249, ex.3"
+    },
+    {
+      "id": 67,
+      "prompt": "3. – Le malade comprendra-t-il les instructions si on ne les traduit pas dans sa langue ? – Non, pour que le malade ___ les instructions, il faut qu'on les ___ dans sa langue.",
+      "answer": "comprenne/traduise",
+      "hint": "p.249, ex.3"
     }
   ]
 },
@@ -7087,99 +7501,243 @@ const GRAMMAR_CHAPTERS = [
   "exercises": [
     {
       "id": 1,
-      "prompt": "« Parce que ». Donnez la cause.\nJean est absent. Pourquoi ? → Il est absent parce qu'il est malade.\nêtre malade – rater ses examens – être en panne – faire la grève – avoir faim – il y avait beaucoup de monde\n1. – Le bébé pleure. Pourquoi ? – ___\n2. – Marie est triste. Pourquoi ? – ___\n3. – L'ascenseur ne descend pas. Pourquoi ? – ___\n4. – Les employés ne sont pas là. Pourquoi ? – ___\n5. – Jean a attendu longtemps à la station. Pourquoi ? – ___",
-      "answer": "1. Le bébé pleure parce qu'il a faim. 2. Marie est triste parce qu'elle a raté ses examens. 3. L'ascenseur ne descend pas parce qu'il est en panne. 4. Les employés ne sont pas là parce qu'ils font la grève. 5. Jean a attendu longtemps à la station parce qu'il y avait beaucoup de monde.",
-      "hint": "p.251, ex.1 — parce que"
+      "prompt": "Jean est absent. Pourquoi ? – Il est absent ___ il est malade.",
+      "answer": "parce qu'",
+      "hint": "p.251, ex.1"
     },
     {
       "id": 2,
-      "prompt": "Utilisez « comme » ou « parce que ».\nSamedi soir :\nje n'ai pas pu t'appeler, ___ j'avais beaucoup de monde\nton numéro, ___ dans l'annuaire, j'ai cherché longtemps\nla station, ___ de fleurs, le magasin ___ fermé.\nj'étais en retard, ___ j'ai attendu longtemps\nje t'ai apporté des bonbons",
-      "answer": "Réponse libre (use comme at beginning of clause, parce que at end)",
-      "hint": "p.251, ex.2 — comme ou parce que"
+      "prompt": "Le bébé pleure. Pourquoi ? – Il pleure ___ il a faim.",
+      "answer": "parce qu'",
+      "hint": "p.251, ex.1"
     },
     {
       "id": 3,
-      "prompt": "« Puisque ». Imaginez un dialogue.\n1. – Il pleut... Puisqu'il pleut, restons à la maison !\n2. – J'ai mal à la tête. – Puisque ___\n3. – Le frigo est vide. – ___\n4. – Pas... ___",
-      "answer": "Réponse libre",
-      "hint": "p.251, ex.3 — puisque"
+      "prompt": "Marie est triste. Pourquoi ? – Elle est triste ___ elle a raté ses examens.",
+      "answer": "parce qu'",
+      "hint": "p.251, ex.1"
     },
     {
       "id": 4,
-      "prompt": "« Comme », « parce que », « puisque ». Complétez.\nHier, il y a eu de l'agitation dans mon quartier. La postière a appelé la police ___ on a fait un hold-up à la banque. ___ l'attaque a eu lieu en pleine journée, il y avait beaucoup de témoins. ___ l'alarme était dissimulatrice sous le bureau, la police est arrivée très vite. ___ tout le quartier était là, les gendarmes ont pu recueillir beaucoup de témoignages. ___ le bandit a été identifié : c'est un homme très connu qui est déjà en prison.",
-      "answer": "parce qu' / Comme / Comme (ou Puisque) / Puisque / Réponse possible",
-      "hint": "p.251, ex.4 — comme, parce que, puisque"
+      "prompt": "Les employés ne descendent pas. Pourquoi ? – Ils ne descendent pas ___ l'ascenseur est en panne.",
+      "answer": "parce que",
+      "hint": "p.251, ex.1"
     },
     {
       "id": 5,
-      "prompt": "Créez des publicités avec « à cause de » et « grâce à » et « grâce à » selon le modèle.\n1. Vos chaussures sont abîmées à cause de la pluie. ___\n2. Votre peau est sèche ___\n3. Vous dormez mal ___",
-      "answer": "Réponse libre",
-      "hint": "p.251, ex.5 — à cause de / grâce à"
+      "prompt": "Il y avait beaucoup de monde à la station. ___ c'était samedi soir.",
+      "answer": "Parce que",
+      "hint": "p.251, ex.1"
     },
     {
       "id": 6,
-      "prompt": "Trouvez les conséquences.\nTu as dix-huit ans. Tu peux maintenant voter !\n\nLa tête est en panne ___\nNos frais ont augmenté ___\nPaul ment tout le temps ___",
-      "answer": "Réponse libre",
-      "hint": "p.253, ex.1 — conséquences"
+      "prompt": "Je n'ai pas pu t'appeler, ___ j'avais perdu ton numéro.",
+      "answer": "parce que",
+      "hint": "p.251, ex.2"
     },
     {
       "id": 7,
-      "prompt": "Complétez les conséquences sur le modèle de l'exercice 1.\n« A » égale « B » et « B » égale « C », donc « C » égale « A ».\n\n1. ___ il fait froid, ___\nalors on a au chauffage.\n2. Le chauffage n'était pas libre samedi soir, ___\nj'ai invité Bernadette.\n3. Votre dossier a été remis après la date limite, ___\nnous ne pouvons l'accepter.\n4. ___ tu es majeur, ___\ntu peux voter !",
-      "answer": "Réponse possible: 1. a. Il fait froid / par conséquent, résultat est faux. 2. donc / alors... 3. par conséquent... 4. ...donc...",
-      "hint": "p.253, ex.2 — donc, par conséquent, alors"
+      "prompt": "___ il y a beaucoup de monde, je ne suis pas descendu(e).",
+      "answer": "Comme",
+      "hint": "p.251, ex.2"
     },
     {
       "id": 8,
-      "prompt": "Complétez avec des expressions de cause et de conséquence.\n1. Maintenant tu as dix-huit ans, tu peux ___ voter !\n2. ___ il n'y avait plus de pain, nous avons mangé des biscottes.\n3. ___ l'intervention des pompiers, le feu a été maîtrisé.\n4. ___ tu es majeur, ___ tu peux voter.",
-      "answer": "Réponse possible: 1. donc. 2. Comme. 3. Grâce à. 4. Puisque / donc.",
-      "hint": "p.253, ex.3 — cause et conséquence"
+      "prompt": "J'ai pris un taxi ___ j'étais en retard.",
+      "answer": "parce que",
+      "hint": "p.251, ex.2"
     },
     {
       "id": 9,
-      "prompt": "Complétez avec une expression de but.\n1. Le professeur a répété son explication ___ tout le monde comprenne les explications.\n2. J'ai corrigé les erreurs ___\n3. Le feu a été maîtrisé ___ les pompiers sont intervenus rapidement.\n4. ___\n5. Imaginez la suite en variant les expressions de conséquence.",
-      "answer": "1. pour que. 2. pour que / afin que. 3. grâce au fait que (cause, not but). Réponse libre for the rest.",
-      "hint": "p.253, ex.4 — expressions de but"
+      "prompt": "___ Duval n'était pas dans l'annuaire, j'ai cherché longtemps.",
+      "answer": "Comme",
+      "hint": "p.251, ex.2"
     },
     {
       "id": 10,
-      "prompt": "Imaginez la suite en variant les expressions de conséquence.\nNos frais ont augmenté, par conséquent, nous devons ajuster nos prix.\n1. Le n'ai pas assez dormi, ___\n2. Ils ont été majeur, ___\n3. Nous avons ___\n4. On a raté l'avion, ___",
-      "answer": "Réponse libre",
-      "hint": "p.253, ex.5 — expressions de conséquence"
+      "prompt": "J'ai apporté des bonbons, ___ le magasin de fleurs était fermé.",
+      "answer": "parce que",
+      "hint": "p.251, ex.2"
     },
     {
       "id": 11,
-      "prompt": "Établissez des parallèles en utilisant « tandis que » (ou « alors que »).\nrouge : température ambiante – le vin rouge se boit à température ambiante tandis que le vin blanc se boit frais.\nJapon : baguettes / France : couteau et fourchette\nLa Grande-Bretagne : monarchie / La France : république\nLes gens du Nord : beurre / Les gens du Sud : huile d'olive",
-      "answer": "Au Japon, on mange avec des baguettes tandis qu'en France on mange avec un couteau et une fourchette. La Grande-Bretagne est une monarchie tandis que la France est une république. Les gens du Nord consomment du beurre tandis que les gens du Sud consomment de l'huile d'olive.",
-      "hint": "p.255, ex.1 — tandis que"
+      "prompt": "1. – Il pleut. – ___ il pleut, reste à la maison !",
+      "answer": "Puisqu'",
+      "hint": "p.251, ex.3"
     },
     {
       "id": 12,
-      "prompt": "Transformez. Imaginez la suite.\n1. Notre équipe a perdu. Pourtant elle avait bien joué.\n2. Max a mis ses baskets. ___\n3. Je ne retrouve plus ma lettre. ___\n4. Tu n'as pas retrouvé ma voiture. ___\n5. Il fait froid. ___",
-      "answer": "Réponse libre",
-      "hint": "p.255, ex.2 — pourtant"
+      "prompt": "2. – J'ai mal à la tête. – ___ tu as mal à la tête, tu sais pourquoi tu n'es pas bien.",
+      "answer": "Puisque",
+      "hint": "p.251, ex.3"
     },
     {
       "id": 13,
-      "prompt": "Complétez librement avec « pourtant ».\n1. Je continue à grossir, pourtant je fais un régime.\n2. Je suis fatigué(e), pourtant ___\n3. J'étudie la grammaire, ___\n4. Je fais du ménage, ___\n5. Je dépense peu, ___",
-      "answer": "Réponse libre",
-      "hint": "p.255, ex.3 — pourtant, continuez librement"
+      "prompt": "3. – Le frigo est vide. – ___ le frigo est vide, allons au restaurant.",
+      "answer": "Puisque",
+      "hint": "p.251, ex.3"
     },
     {
       "id": 14,
-      "prompt": "Transformez avec des expressions de concession, selon le modèle.\n– Oui, il pleut, mais nous sortons quand même ! → Malgré la pluie, nous sortons. / Bien qu'il pleuve, nous sortons.\n1. – Il pleut, nous sortons quand même.\n2. – Oui, il y a du bruit. Le bébé dort. → ___\n3. – Paul a la migraine. Il travaille. → ___\n4. – Clio a des défauts. Ses amis l'aiment. → ___",
-      "answer": "1. Malgré la pluie, nous sortons. / Bien qu'il pleuve, nous sortons. 2. Malgré le bruit, le bébé dort. 3. Malgré sa migraine, il travaille. 4. Malgré ses défauts, ses amis l'aiment.",
-      "hint": "p.255, ex.4 — malgré / bien que"
+      "prompt": "4. – Pas ___. Tu sais, ___ je suis malade, je suis resté chez moi.",
+      "answer": "Puisque",
+      "hint": "p.251, ex.3"
     },
     {
       "id": 15,
-      "prompt": "Transformez avec « pourtant » et « avoir beau ». Continuez librement.\nJ'ai beau faire un régime, je continue à grossir.\n1. Je suis fatigué(e), pourtant ___. J'ai beau ___\n2. J'étudie la grammaire, ___\n3. Je fais du ménage, ___\n4. Je dépense peu, ___\n5. Je me couche tôt, ___",
-      "answer": "Réponse libre",
-      "hint": "p.255, ex.5 — avoir beau + infinitif"
+      "prompt": "1. – Je me dépêche, ___ je suis en retard.",
+      "answer": "parce que",
+      "hint": "p.251, ex.4"
     },
     {
       "id": 16,
-      "prompt": "Il est toujours à l'heure. Il ne dit rien. Il dort quand même.\nMais il déteste les légumes.\nIl travaille quand même.\nIl adore ça.\n\n1. ___ quand même. 2. ___ le bruit, mais ___\n3. ___ quand même. 4. ___ malgré ___\n5. ___ bien que ___\n6. ___ pourtant ___",
-      "answer": "Réponse libre",
-      "hint": "p.255, ex.6 — concession variée"
+      "prompt": "2. – ___ tu le savais, pourquoi tu ne m'as rien dit ?",
+      "answer": "Puisque",
+      "hint": "p.251, ex.4"
+    },
+    {
+      "id": 17,
+      "prompt": "3. ___ j'étais pressé(e), j'ai pris un taxi.",
+      "answer": "Comme",
+      "hint": "p.251, ex.4"
+    },
+    {
+      "id": 18,
+      "prompt": "La postière a été ___ en retard ___ l'attaque a eu lieu en pleine journée.",
+      "answer": "attaquée/parce que",
+      "hint": "p.251, ex.5"
+    },
+    {
+      "id": 19,
+      "prompt": "___ la banque a été cambriolée, la police est arrivée.",
+      "answer": "Comme",
+      "hint": "p.251, ex.5"
+    },
+    {
+      "id": 20,
+      "prompt": "Tu as fait une erreur de calcul, ___ le résultat est faux.",
+      "answer": "donc",
+      "hint": "p.253, ex.1"
+    },
+    {
+      "id": 21,
+      "prompt": "Nos frais ont augmenté, ___ on a dû ajuster nos prix.",
+      "answer": "par conséquent",
+      "hint": "p.253, ex.1"
+    },
+    {
+      "id": 22,
+      "prompt": "La télé est en panne, ___ on ne pourra pas regarder le match.",
+      "answer": "donc",
+      "hint": "p.253, ex.1"
+    },
+    {
+      "id": 23,
+      "prompt": "Paul ment tout le temps, ___ on ne le croit plus.",
+      "answer": "c'est pour ça qu'",
+      "hint": "p.253, ex.1"
+    },
+    {
+      "id": 24,
+      "prompt": "A = Il fait froid. B = ___. C = ___",
+      "answer": "alors/donc",
+      "hint": "p.253, ex.2"
+    },
+    {
+      "id": 25,
+      "prompt": "1. Tu as dix-huit ans, ___ tu peux voter maintenant !",
+      "answer": "donc",
+      "hint": "p.253, ex.3"
+    },
+    {
+      "id": 26,
+      "prompt": "2. Maintenant tu as dix-huit ans, tu peux voter. ___, tu es majeur !",
+      "answer": "Par conséquent",
+      "hint": "p.253, ex.3"
+    },
+    {
+      "id": 27,
+      "prompt": "3. Le chauffage n'était pas allumé, ___ nous avons mangé des biscuits.",
+      "answer": "alors",
+      "hint": "p.253, ex.3"
+    },
+    {
+      "id": 28,
+      "prompt": "1. Le professeur a répété son explication ___ tout le monde comprenne les explications.",
+      "answer": "pour que",
+      "hint": "p.253, ex.4"
+    },
+    {
+      "id": 29,
+      "prompt": "2. J'ai corrigé les enfants ___ chaque phrase soit correcte.",
+      "answer": "pour que",
+      "hint": "p.253, ex.4"
+    },
+    {
+      "id": 30,
+      "prompt": "3. Le feu a été maîtrisé ___ l'intervention des pompiers.",
+      "answer": "grâce à",
+      "hint": "p.253, ex.4"
+    },
+    {
+      "id": 31,
+      "prompt": "La France : baguettes. Le Japon : riz. → En France, on mange des baguettes ___ au Japon, on mange du riz.",
+      "answer": "tandis qu'",
+      "hint": "p.255, ex.1"
+    },
+    {
+      "id": 32,
+      "prompt": "Nord : beurre. Sud : huile d'olive. → Les gens du Nord consomment du beurre ___ les gens du Sud consomment de l'huile d'olive.",
+      "answer": "tandis que",
+      "hint": "p.255, ex.1"
+    },
+    {
+      "id": 33,
+      "prompt": "1. Notre équipe a perdu. ___ elle avait bien joué.",
+      "answer": "Pourtant",
+      "hint": "p.255, ex.3"
+    },
+    {
+      "id": 34,
+      "prompt": "2. Max a raté ses examens. ___ il avait bien révisé.",
+      "answer": "Pourtant",
+      "hint": "p.255, ex.3"
+    },
+    {
+      "id": 35,
+      "prompt": "3. Je ne retrouve plus ma voiture. ___ je l'avais garée ici.",
+      "answer": "Pourtant",
+      "hint": "p.255, ex.3"
+    },
+    {
+      "id": 36,
+      "prompt": "1. Il pleut. Vous sortez ___ ? → Oui, il pleut, mais je sors quand même !",
+      "answer": "malgré la pluie",
+      "hint": "p.255, ex.4"
+    },
+    {
+      "id": 37,
+      "prompt": "2. Il y a du bruit. Le bébé dort. → Le bébé dort ___ le bruit.",
+      "answer": "malgré",
+      "hint": "p.255, ex.4"
+    },
+    {
+      "id": 38,
+      "prompt": "1. Je continue à grossir, ___ je fais un régime.",
+      "answer": "pourtant",
+      "hint": "p.255, ex.5"
+    },
+    {
+      "id": 39,
+      "prompt": "2. J'étudie la grammaire, ___ je fais un régime.",
+      "answer": "pourtant",
+      "hint": "p.255, ex.5"
+    },
+    {
+      "id": 40,
+      "prompt": "3. Je fais du ménage, ___ je dépense peu.",
+      "answer": "pourtant",
+      "hint": "p.255, ex.5"
     }
   ]
 },
